@@ -1,0 +1,23 @@
+<div class="interests-container">
+  {% for content in data[1] %}
+    <div class="interest-item">
+      <div class="interest-content">
+        <div class="interest-title-row">
+          {% if content.icon %}
+            <i class="{{ content.icon }} interest-icon"></i>
+          {% else %}
+            <i class="fa-solid fa-heart interest-icon"></i>
+          {% endif %}
+          <h5 class="interest-title">{{ content.name }}</h5>
+        </div>
+        {% if content.keywords.size > 0 %}
+          <div class="interest-keywords">
+            {% for item in content.keywords %}
+              <span class="interest-keyword">{{ item }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

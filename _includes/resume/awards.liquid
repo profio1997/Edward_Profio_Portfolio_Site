@@ -1,0 +1,31 @@
+<div class="awards-container">
+  {% for content in data[1] %}
+    <div class="award-item">
+      <div class="award-content">
+        <div class="award-title-row">
+          <i class="fa-solid fa-trophy award-icon"></i>
+          <h5 class="award-title">
+            {% if content.url %}
+              <a href="{{ content.url }}">{{ content.title }}</a>
+            {% else %}
+              {{ content.title }}
+            {% endif %}
+          </h5>
+        </div>
+        <div class="award-details">
+          <p class="award-awarder">
+            <i class="fa-solid fa-building award-detail-icon"></i>
+            {{ content.awarder }}
+          </p>
+          {% if content.date %}
+            {% assign date = content.date | split: '-' | join: '.' %}
+            <p class="award-date">{{ date }}</p>
+          {% endif %}
+          {% if content.summary %}
+            <p class="award-summary">{{ content.summary }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

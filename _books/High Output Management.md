@@ -1,0 +1,12 @@
+---
+layout: book-review
+title: "High Output Management"
+author: "Andrew S. Grove"
+isbn: "9780679762881"
+categories: management leadership
+status: Finished
+shelf_group: more
+shelf_rank: 7
+---
+
+Intel's former CEO on how to raise the output of a team, covering leverage, meetings, performance reviews, and the ideas behind OKRs.

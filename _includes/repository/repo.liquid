@@ -1,0 +1,26 @@
+{% comment %}
+  Repository card. Rendered natively (no third-party image service) so it can't
+  show a broken image. assets/js/github-repos.js fills in the description, language,
+  stars and forks from the public GitHub API; if that call fails the card still
+  shows the repository name as a working link.
+{% endcomment %}
+{% assign repo_url = include.repository | split: '/' %}
+{% if site.data.repositories.github_users contains repo_url.first %}
+  {% assign show_owner = false %}
+{% else %}
+  {% assign show_owner = true %}
+{% endif %}
+
+<div class="repo-card" data-repo="{{ include.repository }}">
+  <a class="repo-card__link" href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer">
+    <div class="repo-card__header">
+      <i class="fa-solid fa-book-bookmark repo-card__icon"></i>
+      <span class="repo-card__name">
+        {%- if show_owner -%}{{ repo_url[0] }}/{%- endif -%}
+        {{- repo_url[1] -}}
+      </span>
+    </div>
+    <p class="repo-card__desc" hidden></p>
+    <div class="repo-card__meta" hidden></div>
+  </a>
+</div>

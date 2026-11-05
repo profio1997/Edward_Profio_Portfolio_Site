@@ -1,0 +1,18 @@
+github_users:
+  - profio1997
+
+repo_description_lines_max: 2
+
+# The repositories listed here are the ones shown on the page (public repos only: GitHub's
+# public API cannot read private ones). Add a line to show a new repo.
+github_repos:
+  - profio1997/Gallify_App
+  - profio1997/Gallify_Website
+  - profio1997/UWCS_Alumni_Website
+  - profio1997/Veritas_Website
+  - profio1997/LLM_Application
+  - profio1997/LOS_Prediction
+  - profio1997/MIMIC_ML_DL
+  - profio1997/MIMIC_NLP
+  - profio1997/MIMIC_SQL
+  - profio1997/MIMIC_Visualization

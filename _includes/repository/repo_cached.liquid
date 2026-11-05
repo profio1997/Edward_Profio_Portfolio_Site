@@ -1,0 +1,34 @@
+{% comment %}
+  Repository card rendered on the server from _data/github_cache.json (written by bin/refresh_site_data.py),
+  so it shows real details even where the browser cannot call the GitHub API. assets/js/github-repos.js
+  replaces these with live data when it can.
+{% endcomment %}
+{% assign r = include.repo %}
+{% case r.language %}
+  {% when 'Python' %}{% assign lc = '#3572A5' %}
+  {% when 'JavaScript' %}{% assign lc = '#f1e05a' %}
+  {% when 'TypeScript' %}{% assign lc = '#3178c6' %}
+  {% when 'HTML' %}{% assign lc = '#e34c26' %}
+  {% when 'CSS' %}{% assign lc = '#563d7c' %}
+  {% when 'Swift' %}{% assign lc = '#F05138' %}
+  {% when 'Jupyter Notebook' %}{% assign lc = '#DA5B0B' %}
+  {% when 'Solidity' %}{% assign lc = '#AA6746' %}
+  {% when 'Java' %}{% assign lc = '#b07219' %}
+  {% when 'SCSS' %}{% assign lc = '#c6538c' %}
+  {% when 'Shell' %}{% assign lc = '#89e051' %}
+  {% else %}{% assign lc = '#8b949e' %}
+{% endcase %}
+<div class="repo-card" data-repo="{{ r.full_name }}" data-rendered="true">
+  <a class="repo-card__link" href="{{ r.html_url }}" target="_blank" rel="noopener noreferrer">
+    <div class="repo-card__header">
+      <i class="fa-solid fa-book-bookmark repo-card__icon"></i>
+      <span class="repo-card__name">{{ r.name }}</span>
+    </div>
+    {% if r.description and r.description != '' %}<p class="repo-card__desc">{{ r.description | escape }}</p>{% endif %}
+    <div class="repo-card__meta">
+      {% if r.language %}<span class="gh-stat"><span class="gh-lang-dot" style="background-color: {{ lc }}"></span> {{ r.language }}</span>{% endif %}
+      <span class="gh-stat" title="Stars"><i class="fa-solid fa-star"></i> {{ r.stargazers_count }}</span>
+      <span class="gh-stat" title="Forks"><i class="fa-solid fa-code-fork"></i> {{ r.forks_count }}</span>
+    </div>
+  </a>
+</div>

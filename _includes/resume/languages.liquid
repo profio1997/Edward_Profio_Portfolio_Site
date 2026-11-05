@@ -1,0 +1,22 @@
+<div class="languages-container">
+  {% for content in data[1] %}
+    <div class="language-item">
+      <div class="language-content">
+        <div class="language-title-row">
+          {% if content.icon %}
+            <i class="{{ content.icon }} language-icon"></i>
+          {% else %}
+            <i class="fa-solid fa-language language-icon"></i>
+          {% endif %}
+          <h5 class="language-title">{{ content.language }}</h5>
+        </div>
+        <div class="language-details">
+          <p class="language-fluency">
+            <i class="fa-solid fa-check-circle language-detail-icon"></i>
+            {{ content.fluency }}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

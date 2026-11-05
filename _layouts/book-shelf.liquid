@@ -1,0 +1,108 @@
+---
+layout: page
+---
+{{ content }}
+
+<script>
+  // Cover chain: Open Library (in the <img>) -> Google Books -> local fallback image -> plain title tile.
+  window.bookCoverFallback = function (img) {
+    var stage = parseInt(img.getAttribute('data-stage') || '0', 10);
+    var isbn = img.getAttribute('data-isbn');
+    var fb = img.getAttribute('data-fallback');
+    if (stage === 0 && isbn) {
+      img.setAttribute('data-stage', '1');
+      img.src = 'https://books.google.com/books/content?vid=ISBN' + isbn + '&printsec=frontcover&img=1&zoom=1';
+      return;
+    }
+    if (stage <= 1 && fb) {
+      img.setAttribute('data-stage', '2');
+      img.src = fb;
+      return;
+    }
+    img.onerror = null;
+    var tile = document.createElement('div');
+    tile.className = 'cover-fallback';
+    tile.textContent = img.getAttribute('data-title') || '';
+    img.replaceWith(tile);
+  };
+</script>
+
+{% if page.collection and page.collection.size > 0 %}
+  {% assign collection = site[page.collection] %}
+  {% if collection and collection.size > 0 %}
+    {%- comment -%} Order: in-progress ("reading") first, then the original books, then the "more" group by shelf_rank. {%- endcomment -%}
+    {% assign ordered = '' | split: '' %}
+    {% for item in collection reversed %}
+      {% assign item_status = item.status | downcase | strip %}
+      {% if item_status == 'reading' %}{% assign ordered = ordered | push: item %}{% endif %}
+    {% endfor %}
+    {% for item in collection reversed %}
+      {% assign item_status = item.status | downcase | strip %}
+      {% if item_status != 'reading' and item.shelf_group != 'more' %}{% assign ordered = ordered | push: item %}{% endif %}
+    {% endfor %}
+    {% assign more_books = collection | where: 'shelf_group', 'more' | sort: 'shelf_rank' %}
+    {% for item in more_books %}
+      {% assign item_status = item.status | downcase | strip %}
+      {% if item_status != 'reading' %}{% assign ordered = ordered | push: item %}{% endif %}
+    {% endfor %}
+    {% for item in ordered %}
+      {% assign current_year = item.date | date: '%Y' %}
+      {% if current_year != year %}
+        {% unless forloop.first %}
+          </ul>
+        {% endunless %}
+        <h1 id="y{{item.date | date: "%Y"}}">
+          <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
+        </h1>
+        <ul>
+          {% assign year = current_year %}
+      {% endif %}
+
+      {%- comment -%} Prefer the downloaded local cover (assets/img/book_covers/isbn-<ISBN>.jpg); otherwise Open Library. {%- endcomment -%}
+      {% assign isbn_src = '' %}
+      {% if item.isbn %}
+        {% capture has_local_cover %}{% file_exists assets/img/book_covers/isbn-{{ item.isbn }}.jpg %}{% endcapture %}
+        {% if has_local_cover == 'true' %}
+          {% capture isbn_src %}{{ '/assets/img/book_covers/isbn-' | append: item.isbn | append: '.jpg' | relative_url }}{% endcapture %}
+        {% else %}
+          {% capture isbn_src %}https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false{% endcapture %}
+        {% endif %}
+      {% endif %}
+      <figure class="cover">
+        <a class="cover-link" href="{{ item.url | relative_url }}">
+          {% if item.cover %}
+            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}">
+          {% elsif item.olid %}
+            <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false">
+          {% elsif item.isbn %}
+            <img
+              alt="{{ item.title }} cover"
+              src="{{ isbn_src }}"
+              data-isbn="{{ item.isbn }}"
+              data-title="{{ item.title | escape }}"
+              {% if item.cover_fallback %}data-fallback="{{ item.cover_fallback | relative_url }}"{% endif %}
+              loading="lazy"
+              onerror="bookCoverFallback(this)"
+            >
+          {% endif %}
+          {% if item.status %}
+            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+            {% assign status = item.status | downcase | strip %}
+            {% if statuses contains status %}
+              <figcaption class="{{ status | downcase }}">
+                {%- if status == 'reading' -%}IN PROGRESS{%- else -%}{{ status | upcase }}{%- endif -%}
+              </figcaption>
+            {% else %}
+              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+            {% endif %}
+          {% else %}
+            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+          {% endif %}
+        </a>
+      </figure>
+      {% if forloop.last %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}

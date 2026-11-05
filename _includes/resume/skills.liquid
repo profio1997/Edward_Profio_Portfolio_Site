@@ -1,0 +1,23 @@
+<div class="skills-container">
+  {% for content in data[1] %}
+    <div class="skill-item">
+      <div class="skill-content">
+        <div class="skill-title-row">
+          {% if content.icon %}
+            <i class="{{ content.icon }} skill-icon"></i>
+          {% else %}
+            <i class="fa-solid fa-code skill-icon"></i>
+          {% endif %}
+          <h5 class="skill-title">{{ content.name }}</h5>
+        </div>
+        {% if content.keywords.size > 0 %}
+          <div class="skill-keywords">
+            {% for item in content.keywords %}
+              <span class="skill-keyword">{{ item }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,114 @@
+{
+  "generated": "2026-11-05T16:45:03Z",
+  "user": {
+    "login": "profio1997",
+    "name": "Edward Profio",
+    "bio": null,
+    "html_url": "https://github.com/profio1997",
+    "public_repos": 13,
+    "followers": 1,
+    "following": 1
+  },
+  "repos": [
+    {
+      "name": "Veritas_Website",
+      "full_name": "profio1997/Veritas_Website",
+      "html_url": "https://github.com/profio1997/Veritas_Website",
+      "description": "Pre-release site for Veritas: Master what you read.",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "pushed_at": "2026-11-04T22:10:47Z"
+    },
+    {
+      "name": "LLM_Application",
+      "full_name": "profio1997/LLM_Application",
+      "html_url": "https://github.com/profio1997/LLM_Application",
+      "description": "Explores how to apply large language models (LLMs) to healthcare using prompt engineering techniques like in-context learning and reasoning chains. Uses synthetic medical datasets to generate predictions, simplify medical text, and evaluate summarization. Delivered as a Python notebook and slides.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-11T02:10:12Z"
+    },
+    {
+      "name": "MIMIC_Visualization",
+      "full_name": "profio1997/MIMIC_Visualization",
+      "html_url": "https://github.com/profio1997/MIMIC_Visualization",
+      "description": "A visual storytelling project using MIMIC-III/IV EHR data. Includes five Python-generated figures created with Matplotlib and Seaborn to explore trends in patient, admission, and diagnosis data. Accompanied by slides that explain each visualization with code, insights, and reproducible methods.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T15:03:12Z"
+    },
+    {
+      "name": "MIMIC_SQL",
+      "full_name": "profio1997/MIMIC_SQL",
+      "html_url": "https://github.com/profio1997/MIMIC_SQL",
+      "description": "SQL-based exploration of MIMIC-III/IV EHR data, featuring 10 queries with JOINs, GROUP BY, and nested SELECTs. Highlights meaningful healthcare stats (e.g., medications, length of stay, readmission). Includes slide deck with query explanations, results, and interpretations for clinical data analysis.",
+      "language": null,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T15:01:38Z"
+    },
+    {
+      "name": "MIMIC_NLP",
+      "full_name": "profio1997/MIMIC_NLP",
+      "html_url": "https://github.com/profio1997/MIMIC_NLP",
+      "description": "A tutorial applying modern NLP tools (Spacy, SciSpacy) to MIMIC-III medical notes for clinical concept extraction. Includes entity recognition, word embeddings, and t-SNE visualizations. Additional exploration of advanced models like BERT. Fully documented in a Jupyter notebook with teaching slides.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T14:59:44Z"
+    },
+    {
+      "name": "LOS_Prediction",
+      "full_name": "profio1997/LOS_Prediction",
+      "html_url": "https://github.com/profio1997/LOS_Prediction",
+      "description": "A self-guided ML tutorial using MIMIC-III EHR data to predict patient length of stay. Includes data preprocessing, model training, and evaluation, with fully commented Python code and step-by-step slides for teaching. Designed to build and communicate healthcare ML workflows effectively.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T14:52:56Z"
+    },
+    {
+      "name": "MIMIC_ML_DL",
+      "full_name": "profio1997/MIMIC_ML_DL",
+      "html_url": "https://github.com/profio1997/MIMIC_ML_DL",
+      "description": "Applies machine learning and deep learning to MIMIC EHR data for healthcare prediction tasks. Includes feature extraction, model fitting, and evaluation across various ML/DL methods beyond standard tutorials. Delivered with a Jupyter notebook and slides detailing methods, results, and insights.",
+      "language": "Jupyter Notebook",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T14:47:58Z"
+    },
+    {
+      "name": "Gallify_Website",
+      "full_name": "profio1997/Gallify_Website",
+      "html_url": "https://github.com/profio1997/Gallify_Website",
+      "description": "Launch website for Gallify, an AR/VR marketplace, built with HTML, CSS & JavaScript. Features include sign-up and a responsive UI/UX.",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T14:20:41Z"
+    },
+    {
+      "name": "UWCS_Alumni_Website",
+      "full_name": "profio1997/UWCS_Alumni_Website",
+      "html_url": "https://github.com/profio1997/UWCS_Alumni_Website",
+      "description": "Alumni website for University of Wisconsin–Madison, built with HTML, CSS & JavaScript. Features include sign-up, events, and a responsive UI/UX.",
+      "language": "HTML",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T14:19:30Z"
+    },
+    {
+      "name": "Gallify_App",
+      "full_name": "profio1997/Gallify_App",
+      "html_url": "https://github.com/profio1997/Gallify_App",
+      "description": "Gallify is an immersive AR/VR marketplace platform designed for digital artists and collectors. Built with a focus on user experience and spatial interaction, it enables creators to showcase, sell, and explore virtual art in 3D environments—bridging the gap between technology, design, and digital curation.",
+      "language": "Swift",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "pushed_at": "2025-08-10T14:16:30Z"
+    }
+  ]
+}

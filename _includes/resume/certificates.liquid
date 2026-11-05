@@ -1,0 +1,29 @@
+<div class="certificates-container">
+  {% assign certificates = data[1] | sort: 'date' | reverse %}
+  {% for content in certificates %}
+    <div class="certificate-item">
+      <div class="certificate-content">
+        <div class="certificate-title-row">
+          <i class="fa-solid fa-certificate certificate-icon"></i>
+          <h5 class="certificate-title">
+            {% if content.url %}
+              <a href="{{ content.url }}">{{ content.name }}</a>
+            {% else %}
+              {{ content.name }}
+            {% endif %}
+          </h5>
+        </div>
+        <div class="certificate-details">
+          <p class="certificate-issuer">
+            <i class="fa-solid fa-building certificate-detail-icon"></i>
+            {{ content.issuer }}
+          </p>
+          {% if content.date %}
+            {% assign date = content.date | split: '-' | join: '.' %}
+            <p class="certificate-date">{{ date }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
