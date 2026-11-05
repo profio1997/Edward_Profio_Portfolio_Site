@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://edwardprofio.com/Edward_Profio_Portfolio_Site/sitemap.xml
