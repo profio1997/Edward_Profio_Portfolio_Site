@@ -686,3 +686,7 @@ article > .clearfix ~ .social { margin-top: 7rem; margin-bottom: 4rem; }
   article > .clearfix ~ h2 { margin-top: 5.5rem; }
   article > .clearfix ~ .social { margin-top: 5rem; }
 }
+
+/* top of every case study: everything centred, including the back link */
+.cs-page .cs-back { display: flex; width: fit-content; margin: 0 auto 1.75rem; justify-content: center; }
+.cs-page .cs-kicker, .cs-page .cs-readtime { text-align: center; }
