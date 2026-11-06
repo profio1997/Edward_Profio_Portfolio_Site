@@ -38,13 +38,13 @@
 {%- when 'insights' -%}
 <div class="cs-insights">{% for it in b.items %}<div class="cs-insight"><span class="cs-insight__n">{{ forloop.index }}</span><h4>{{ it.h }}</h4><p>{% include case_study/md.liquid t=it.t %}</p></div>{% endfor %}</div>
 {%- when 'flow' -%}
-<ol class="cs-flow">{% for s in b.steps %}<li class="cs-step"><span class="cs-step__tag">{{ s.tag }}</span><strong>{{ s.t }}</strong><span class="cs-step__d">{{ s.d }}</span>{% if s.r %}<span class="cs-step__r">{{ s.r }}</span>{% endif %}</li>{% endfor %}</ol>
+<ol class="cs-flow" style="--n:{{ b.steps.size }}">{% for s in b.steps %}<li class="cs-step"><span class="cs-step__tag">{{ s.tag }}</span><strong>{{ s.t }}</strong><span class="cs-step__d">{{ s.d }}</span>{% if s.r %}<span class="cs-step__r">{{ s.r }}</span>{% endif %}</li>{% endfor %}</ol>
 {%- when 'system' -%}
 <div class="cs-system">{% if b.title %}<div class="cs-system__title">{{ b.title }}</div>{% endif %}<ol class="cs-system__row">{% for s in b.steps %}<li class="cs-system__step"><span class="cs-system__h">{{ s.h }}</span><span class="cs-system__t">{% include case_study/md.liquid t=s.t %}</span></li>{% endfor %}</ol>{% if b.guard %}<p class="cs-system__guard">{{ b.guard }}</p>{% endif %}</div>
 {%- when 'funnel' -%}
 <div class="cs-funnel">{% for r in b.rows %}<div class="cs-funnel__row cs-funnel__row--{{ forloop.index }}"><span class="cs-funnel__n">{{ r.n }}</span><span><strong>{{ r.t }}</strong><span class="cs-funnel__s">{{ r.s }}</span></span></div>{% endfor %}</div>
 {%- when 'domains' -%}
-<div class="cs-domains">{% for d in b.items %}<div class="cs-domain"><div class="cs-domain__h">{{ d.h }}</div><p class="cs-domain__job">{{ d.job }}</p><p class="cs-domain__who">{{ d.who }}</p><div class="cs-domain__v">{% for v in d.vendors %}<span>{{ v }}</span>{% endfor %}</div></div>{% endfor %}</div>{% if b.note %}<p class="cs-cap" style="margin-top:-.6rem;margin-bottom:1.2rem">{{ b.note }}</p>{% endif %}
+<div class="cs-domains">{% for d in b.items %}<div class="cs-domain"><div class="cs-domain__h">{{ d.h }}</div><p class="cs-domain__job">{{ d.job }}</p><p class="cs-domain__who">{{ d.who }}</p><div class="cs-domain__v">{% for v in d.vendors %}<span>{{ v }}</span>{% endfor %}</div></div>{% endfor %}</div>{% if b.note %}<p class="cs-cap" >{{ b.note }}</p>{% endif %}
 {%- when 'table' -%}
 <div class="cs-table-wrap{% if b.center %} cs-table-wrap--matrix{% endif %}"><table class="cs-table{% if b.center %} cs-table--center{% endif %}"><thead><tr>{% for h in b.head %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>
 {%- for row in b.rows -%}<tr>{%- for c in row -%}{%- assign ci = forloop.index0 -%}<td data-label="{{ b.head[ci] | escape }}" class="{% if b.emph and ci == b.emph %}{% if c.size < 34 %}cs-em{% else %}cs-em-soft{% endif %}{% endif %}{% if b.center %}{% if c == 'Yes' %} cs-yes{% elsif ci > 0 %} cs-no{% endif %}{% endif %}">{% include case_study/md.liquid t=c %}</td>{%- endfor -%}</tr>{%- endfor -%}

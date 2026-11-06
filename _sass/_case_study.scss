@@ -581,3 +581,108 @@ img[data-zoomable] { cursor: zoom-in; }
 .cs-page .cs-section > .cs-cap { margin-top: 1.25rem; text-align: center; max-width: 46rem; }
 .cs-page .cs-section > :is(.cs-fig, .cs-media, .cs-browsers, .cs-gallery, .cs-phones) + :is(.cs-prose, .cs-list) { margin-top: 3rem; }
 .cs-page .cs-section > :is(.cs-prose, .cs-list) + :is(.cs-table-wrap, .cs-fig, .cs-media, .cs-system, .cs-funnel, .cs-flow, .cs-roadmap, .cs-decisions, .cs-insights, .cs-domains, .cs-rai, .cs-gallery, .cs-browsers) { margin-top: 2.25rem; }
+
+/* ======================================================================
+   v4: one size per artifact type, uniform cards, bigger section spacing
+   ====================================================================== */
+.cs-page { --tile: calc((var(--frame) - 2 * var(--g)) / 3); --phone-w: 16rem; --sec: clamp(6rem, 10vw, 9rem); --sub: 6.5rem; --block: 3rem; --prose: 46rem; }
+@media (max-width: 767px) { .cs-page { --sec: 5rem; --sub: 4rem; --block: 2.25rem; } }
+
+/* spacing scale */
+.cs-page .cs-toc { margin-top: 3.5rem; }
+.cs-page .cs-metrics { margin-top: 3.5rem; }
+.cs-page .cs-section, .cs-page .cs-learn, .cs-page .cs-pager { margin-top: var(--sec); }
+.cs-page .cs-section::before { content: ""; display: block; width: 12rem; max-width: 50%; height: 1px; background: var(--cs-line); margin: 0 auto 3rem; }
+.cs-page .cs-h2 { margin-bottom: 3.5rem; }
+.cs-page .cs-section > * + * { margin-top: var(--block); }
+.cs-page .cs-section > .cs-h2 + * { margin-top: 0; }
+.cs-page .cs-section > .cs-h3 { margin-top: var(--sub); }
+.cs-page .cs-section > .cs-h2 + .cs-h3 { margin-top: 0; }
+.cs-page .cs-section > .cs-h3 + * { margin-top: 2rem; }
+.cs-page .cs-section > .cs-cap { margin-top: 1.25rem; }
+.cs-page .cs-section > :is(.cs-fig, .cs-media, .cs-browsers, .cs-gallery, .cs-phones, .cs-table-wrap, .cs-system, .cs-flow, .cs-roadmap, .cs-decisions, .cs-insights, .cs-domains, .cs-rai, .cs-funnel, .cs-split) + :is(.cs-prose, .cs-list) { margin-top: 3.5rem; }
+.cs-page .cs-section > :is(.cs-prose, .cs-list) + :is(.cs-table-wrap, .cs-fig, .cs-media, .cs-system, .cs-funnel, .cs-flow, .cs-roadmap, .cs-decisions, .cs-insights, .cs-domains, .cs-rai, .cs-gallery, .cs-browsers, .cs-split) { margin-top: var(--block); }
+.cs-page .cs-prose p { margin-bottom: 1.4rem; max-width: none; }
+.cs-page .cs-foot-pdf { margin: 3rem 0 5rem; }
+@media (max-width: 767px) { .cs-page .cs-toc, .cs-page .cs-metrics { margin-top: 2.5rem; } .cs-page .cs-h2 { margin-bottom: 2.5rem; } }
+
+/* text column: lists and quotes line up with the paragraphs */
+.cs-page .cs-list { padding-left: 0; list-style: none; }
+.cs-page .cs-list li { position: relative; }
+.cs-page .cs-list li::before { content: ""; position: absolute; left: -1.1rem; top: .8em; width: .4rem; height: .4rem; border-radius: 50%; background: var(--cs-accent); }
+.cs-page .cs-quote { border-top: 0; border-bottom: 0; }
+.cs-page .cs-mocknote { display: block; width: fit-content; max-width: 46rem; margin-left: auto; margin-right: auto; text-align: center; }
+
+/* ---- card grids: one tile size ---- */
+@media (min-width: 900px) {
+  .cs-page :is(.cs-insights, .cs-roadmap, .cs-phones, .cs-gallery) > * { flex: 0 0 var(--tile); max-width: var(--tile); }
+  .cs-page .cs-gallery:is(:has(> :nth-child(2):last-child), :has(> :nth-child(4):last-child)) { max-width: calc(2 * var(--tile) + var(--g)); margin-left: auto; margin-right: auto; }
+}
+@media (max-width: 899px) {
+  .cs-page :is(.cs-insights, .cs-roadmap, .cs-phones) > * { flex: 0 0 100%; max-width: 100%; }
+  .cs-page .cs-phones > * { max-width: 100%; }
+  .cs-page .cs-gallery > * { flex: 0 0 calc((100% - var(--g)) / 2); max-width: calc((100% - var(--g)) / 2); }
+}
+@media (max-width: 599px) { .cs-page .cs-gallery > * { flex: 0 0 100%; max-width: 100%; } }
+
+/* card titles share a two-line slot so bodies start level */
+.cs-page :is(.cs-insight) h4 { min-height: 2.7em; display: flex; align-items: center; justify-content: center; text-align: center; }
+
+/* decisions: full-width ledger, title | decision | set aside, any count */
+.cs-page .cs-decisions { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }
+.cs-page .cs-decisions > .cs-dec { flex: none; width: 100%; max-width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr) minmax(0, 1fr); column-gap: 2.25rem; align-items: center; padding: 1.6rem 1.9rem; min-height: 9rem; }
+.cs-page .cs-dec h4 { margin: 0; text-align: left; font-size: 1.12rem; }
+.cs-page .cs-dec p, .cs-page .cs-dec p:first-of-type, .cs-page .cs-dec p + p { margin: 0; }
+.cs-page .cs-dec__rej { margin: 0; padding: 0 0 0 2rem; border-top: 0; border-left: 1px solid var(--cs-line); align-self: stretch; display: flex; align-items: center; }
+.cs-page .cs-dec:not(:has(.cs-dec__rej)) p { grid-column: 2 / 4; }
+@media (max-width: 899px) {
+  .cs-page .cs-decisions > .cs-dec { grid-template-columns: minmax(0, 1fr); row-gap: .9rem; padding: 1.4rem 1.3rem; }
+  .cs-page .cs-dec h4 { text-align: center; }
+  .cs-page .cs-dec__rej { border-left: 0; border-top: 1px solid var(--cs-line); padding: .9rem 0 0; }
+  .cs-page .cs-dec:not(:has(.cs-dec__rej)) p { grid-column: auto; }
+}
+
+/* steps: one row of equal cards at any count; a full-width list below that */
+@media (min-width: 1100px) {
+  .cs-page .cs-flow { display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); gap: var(--g); }
+  .cs-page .cs-flow > * { flex: none; max-width: none; }
+}
+@media (max-width: 1099px) { .cs-page .cs-flow > * { flex: 0 0 100%; max-width: 100%; } }
+.cs-page .cs-step { align-items: flex-start; text-align: left; justify-content: flex-start; min-height: 9.5rem; }
+
+/* roadmap, domains */
+.cs-page .cs-road__item { min-height: 5.25rem; }
+.cs-page .cs-domain__v { min-height: 3.75rem; align-content: flex-start; }
+.cs-page .cs-section > .cs-cap { text-align: center; }
+
+/* metrics: tag floats at the top, number slot reserves two lines so labels line up */
+.cs-page .cs-metric { padding-top: 2.25rem; }
+.cs-page .cs-metric__tag { position: absolute; top: .8rem; left: 50%; transform: translateX(-50%); margin: 0; }
+.cs-page .cs-metric__n { min-height: 2.3em; display: flex; align-items: center; justify-content: center; text-align: center; }
+
+/* ---- artifacts: one size per type ---- */
+.cs-page .cs-gallery .cs-fig { margin: 0; }
+.cs-page .cs-gallery .cs-fig .cs-vid { width: 100%; aspect-ratio: 6 / 5; object-fit: cover; border-radius: .6rem; }
+.cs-page .cs-gallery .cs-fig img { width: 100%; aspect-ratio: 6 / 5; object-fit: contain; background: #101114; border-radius: .6rem; }
+.cs-page .cs-phones .cs-phone img, .cs-page .cs-phones .cs-phone .cs-vid, .cs-page .cs-split .cs-phone img, .cs-page .cs-split .cs-phone .cs-vid { width: var(--phone-w); max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
+.cs-page .cs-phone .cs-vid { background: transparent; border-radius: 14% / 7%; }
+.cs-page .cs-browsers > .cs-browser, .cs-page .cs-browsers--2 > .cs-browser { width: 100%; max-width: none; }
+.cs-page .cs-funnel__row--1, .cs-page .cs-funnel__row--2, .cs-page .cs-funnel__row--3 { width: 100%; }
+.cs-page .cs-table:not(.cs-table--center):not(:has(th:nth-child(5))) { table-layout: fixed; }
+.cs-page .cs-table:not(.cs-table--center):not(:has(th:nth-child(5))) th:first-child { width: 30%; }
+
+/* home page: more air between sections, governance and below */
+.cs-featured { margin-top: 5rem; }
+.projects .cs-featured { margin-top: 0; }
+.cs-principles.cs-featured { margin: 7rem 0 0; padding-bottom: 0; }
+.cs-principles__list { gap: 1.5rem; }
+.cs-principles .cs-principle { padding: 1.6rem 1.9rem; }
+.cs-principles__intro { margin-bottom: 2rem; }
+article > .clearfix ~ h2 { margin-top: 8rem; margin-bottom: 2rem; }
+article > .clearfix ~ .social { margin-top: 7rem; margin-bottom: 4rem; }
+@media (max-width: 767px) {
+  .cs-featured { margin-top: 4rem; }
+  .cs-principles.cs-featured { margin-top: 5rem; }
+  article > .clearfix ~ h2 { margin-top: 5.5rem; }
+  article > .clearfix ~ .social { margin-top: 5rem; }
+}
