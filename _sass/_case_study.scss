@@ -407,3 +407,177 @@ img[data-zoomable] { cursor: zoom-in; }
 .cs-dec__rej { margin-top: auto !important; padding-top: 1rem !important; border-top: 1px solid var(--global-divider-color); line-height: 1.6 !important; }
 .cs-dec > p:first-of-type { margin-bottom: 1.1rem; }
 @media (max-width: 767px) { .cs-decisions { row-gap: 1rem; } .cs-dec { padding: 1.2rem 1.15rem; } }
+
+/* ======================================================================
+   v3 layout: one wide frame, one text column, one spacing scale.
+   Everything below overrides the earlier rules on purpose.
+   ====================================================================== */
+.cs-page {
+  --frame: min(1160px, calc(100vw - 3rem));
+  --prose: 50rem;
+  --g: 1.5rem;
+  --pad: 1.6rem;
+  --radius: 1rem;
+  width: var(--frame);
+  max-width: none;
+  margin-left: calc(50% - var(--frame) / 2);
+  margin-right: 0;
+}
+@media (max-width: 767px) { .cs-page { --g: 1rem; --pad: 1.25rem; --frame: calc(100vw - 2rem); } }
+
+/* ---- hero ---- */
+.cs-page .cs-back { margin-bottom: 1.5rem; }
+.cs-page .cs-hero { margin-bottom: 0; text-align: center; }
+.cs-page .cs-title { font-size: clamp(2.1rem, 4.4vw, 3.3rem); max-width: 22ch; margin: .7rem auto 1.1rem; }
+.cs-page .cs-lede { max-width: 48rem; margin: 0 auto; font-size: 1.15rem; line-height: 1.7; text-align: center; }
+.cs-page .cs-readtime { margin-top: 1rem; }
+.cs-page .cs-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--g); margin: 2.25rem 0 1.75rem; padding: 0; border: 0; }
+.cs-page .cs-meta > div { flex: 0 0 calc((100% - 3 * var(--g)) / 4); min-width: 0; border: 1px solid var(--cs-line); border-radius: var(--radius); padding: 1.1rem 1rem; background: var(--cs-card); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-height: 6.5rem; }
+.cs-page .cs-meta dd { text-align: center; }
+.cs-page .cs-actions { justify-content: center; margin-bottom: 2.25rem; gap: .8rem; }
+.cs-page .cs-btn { padding: .7rem 1.3rem; }
+.cs-page .cs-cover, .cs-page .cs-film video { width: 100%; border-radius: var(--radius); }
+.cs-page .cs-film { margin: 0 auto; }
+.cs-page .cs-film figcaption, .cs-page .cs-mocknote { text-align: center; }
+@media (max-width: 991px) { .cs-page .cs-meta > div { flex-basis: calc((100% - var(--g)) / 2); } }
+@media (max-width: 479px) { .cs-page .cs-meta > div { flex-basis: 100%; } }
+
+/* ---- on-this-page bar ---- */
+.cs-page .cs-toc { justify-content: safe center; margin: 2.5rem 0 0; padding: .8rem .5rem; gap: .5rem .6rem; }
+.cs-page .cs-toc a { padding: .3rem .85rem; }
+
+/* ---- metrics ---- */
+.cs-page .cs-metrics { margin: 2.5rem 0 0; }
+
+/* ---- sections: one rhythm ---- */
+.cs-page .cs-article { margin-top: 0; max-width: none; width: 100%; }
+.cs-page .cs-section { margin-top: clamp(4rem, 7vw, 6.5rem); padding-top: 0; border: 0; scroll-margin-top: 7rem; }
+.cs-page .cs-h2 { display: block; text-align: center; font-size: clamp(1.8rem, 3vw, 2.4rem); line-height: 1.2; margin: 0 0 3rem; padding-bottom: 1.2rem; position: relative; }
+.cs-page .cs-h2::after { content: ""; display: block; width: 3.5rem; height: 3px; border-radius: 2px; background: var(--cs-accent); margin: 1.1rem auto 0; }
+.cs-page .cs-section > * { margin-top: 0; margin-bottom: 0; }
+.cs-page .cs-section > * + * { margin-top: 2.5rem; }
+.cs-page .cs-section > .cs-h3 { margin-top: 5rem; margin-bottom: 0; padding: 0; border: 0; text-align: center; font-size: clamp(1.35rem, 2vw, 1.65rem); line-height: 1.3; }
+.cs-page .cs-section > .cs-h2 + .cs-h3 { margin-top: 0; }
+.cs-page .cs-section > .cs-h3 + * { margin-top: 1.5rem; }
+.cs-page .cs-section > .cs-h2 + * { margin-top: 0; }
+.cs-page .cs-learn { margin-top: clamp(4rem, 7vw, 6.5rem); border-top: 0; }
+
+/* ---- text column ---- */
+.cs-page .cs-prose, .cs-page .cs-list, .cs-page .cs-quote, .cs-page .cs-principles__intro { max-width: var(--prose); margin-left: auto; margin-right: auto; text-align: left; }
+.cs-page .cs-prose p, .cs-page .cs-prose li, .cs-page .cs-list li { font-size: 1.075rem; line-height: 1.8; }
+.cs-page .cs-prose p { margin: 0 0 1.25rem; }
+.cs-page .cs-prose > :last-child { margin-bottom: 0; }
+.cs-page .cs-list { padding-left: 1.4rem; }
+.cs-page .cs-list li { margin-bottom: .85rem; }
+.cs-page .cs-quote { padding: .4rem 0 .4rem 1.5rem; border-left-width: 4px; }
+.cs-page .cs-quote p { font-size: 1.25rem; line-height: 1.65; }
+
+/* ---- split: text and media side by side, equal halves ---- */
+.cs-page .cs-split, .cs-page .cs-split--phone { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: calc(var(--g) * 2.5); align-items: center; }
+.cs-page .cs-split__text { max-width: none; margin: 0; }
+.cs-page .cs-split__media { display: flex; flex-direction: column; justify-content: center; align-items: center; min-width: 0; }
+.cs-page .cs-split__media > * { width: 100%; }
+.cs-page .cs-split .cs-phone img { max-width: 300px; }
+@media (max-width: 899px) { .cs-page .cs-split, .cs-page .cs-split--phone { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---- figures, all one size ---- */
+.cs-page .cs-fig { width: 100%; margin-left: auto; margin-right: auto; }
+.cs-page .cs-fig:has(img[src*="/assessment"]) { max-width: 100%; }
+.cs-page .cs-fig img, .cs-page .cs-fig .cs-vid { width: 100%; height: auto; border-radius: .6rem; }
+.cs-page figcaption, .cs-page .cs-cap { text-align: center; font-size: .9rem; margin-top: .85rem; max-width: 46rem; margin-left: auto; margin-right: auto; }
+.cs-page .cs-media { margin-left: auto; margin-right: auto; }
+.cs-page .cs-media .cs-mocknote { display: block; width: fit-content; margin: 0 auto 1rem; }
+
+/* ---- every card grid: equal columns, equal heights, orphans centred ---- */
+.cs-page :is(.cs-metrics, .cs-insights, .cs-decisions, .cs-roadmap, .cs-domains, .cs-flow, .cs-phones, .cs-gallery, .cs-browsers--2, .cs-principles__grid) {
+  --cols: 1;
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch;
+  gap: var(--g); padding: 0; list-style: none;
+}
+.cs-page :is(.cs-metrics, .cs-insights, .cs-decisions, .cs-roadmap, .cs-domains, .cs-flow, .cs-phones, .cs-gallery, .cs-browsers--2, .cs-principles__grid) > * {
+  flex: 0 0 calc((100% - (var(--cols) - 1) * var(--g)) / var(--cols)); max-width: calc((100% - (var(--cols) - 1) * var(--g)) / var(--cols)); min-width: 0; box-sizing: border-box; margin: 0;
+}
+@media (min-width: 1100px) {
+  .cs-page :is(.cs-metrics, .cs-domains) { --cols: 4; }
+  .cs-page :is(.cs-insights, .cs-decisions, .cs-roadmap, .cs-phones, .cs-gallery--3) { --cols: 3; }
+  .cs-page .cs-insights:has(> :nth-child(2):last-child) { --cols: 2; }
+  .cs-page :is(.cs-gallery, .cs-browsers--2) { --cols: 2; }
+  .cs-page .cs-gallery--3 { --cols: 3; }
+  .cs-page .cs-flow { --cols: 5; }
+  .cs-page .cs-flow:has(> :nth-child(6)) { --cols: 3; }
+  .cs-page .cs-phones--2 { --cols: 2; }
+}
+@media (min-width: 700px) and (max-width: 1099px) {
+  .cs-page :is(.cs-metrics, .cs-domains, .cs-insights, .cs-decisions, .cs-roadmap, .cs-gallery, .cs-browsers--2, .cs-principles__grid) { --cols: 2; }
+  .cs-page .cs-flow { --cols: 3; }
+  .cs-page .cs-phones { --cols: 3; }
+  .cs-page .cs-phones--2 { --cols: 2; }
+}
+@media (max-width: 699px) {
+  .cs-page .cs-metrics { --cols: 2; }
+  .cs-page :is(.cs-flow, .cs-phones) { --cols: 1; }
+  .cs-page :is(.cs-phones) > * { max-width: 320px; flex-basis: 100%; }
+}
+
+/* ---- the card itself ---- */
+.cs-page :is(.cs-metric, .cs-insight, .cs-dec, .cs-road, .cs-domain, .cs-step, .cs-principle) {
+  border: 1px solid var(--cs-line); border-radius: var(--radius); background: var(--cs-card);
+  padding: var(--pad); display: flex; flex-direction: column; box-shadow: none;
+}
+.cs-page .cs-dec { border-left: 1px solid var(--cs-line); }
+.cs-page :is(.cs-insight, .cs-dec, .cs-road, .cs-domain) h4, .cs-page .cs-domain__h, .cs-page .cs-road__h { text-align: center; }
+.cs-page .cs-insight { align-items: center; }
+.cs-page .cs-insight p, .cs-page .cs-dec p, .cs-page .cs-domain p, .cs-page .cs-road__item span { text-align: left; font-size: .95rem; line-height: 1.7; }
+.cs-page .cs-insight h4, .cs-page .cs-dec h4 { font-size: 1.12rem; line-height: 1.35; margin: .9rem 0 .75rem; }
+.cs-page .cs-dec h4 { margin-top: 0; }
+.cs-page .cs-dec p + p { margin-top: auto; }
+.cs-page .cs-dec p:first-of-type { margin-bottom: 1.1rem; }
+.cs-page .cs-dec__rej { margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--cs-line); font-size: .9rem; line-height: 1.65; }
+.cs-page .cs-dec:last-child:nth-child(odd) { grid-column: auto; }
+.cs-page .cs-metric { align-items: center; justify-content: center; text-align: center; min-height: 9.5rem; }
+.cs-page .cs-metric:not(.cs-metric--basis) .cs-metric__n { margin-top: 0; }
+.cs-page .cs-metric__n { font-size: clamp(1.9rem, 3vw, 2.5rem); }
+.cs-page .cs-metric__l { font-size: .9rem; line-height: 1.5; margin-top: .55rem; }
+.cs-page .cs-metric__tag { margin-bottom: .6rem; }
+.cs-page .cs-step { align-items: center; text-align: center; justify-content: center; gap: .45rem; }
+.cs-page .cs-step strong { font-size: 1.02rem; }
+.cs-page .cs-step__d { font-size: .88rem; line-height: 1.55; }
+.cs-page .cs-road__h { justify-content: center; gap: .7rem; padding-bottom: .9rem; margin-bottom: .4rem; border-bottom: 1px solid var(--cs-line); }
+.cs-page .cs-road__item { border-top: 0; padding: .75rem 0; gap: .25rem; }
+.cs-page .cs-road__item + .cs-road__item { border-top: 1px solid var(--cs-line); }
+.cs-page .cs-road__item strong { font-size: 1rem; text-align: left; }
+.cs-page .cs-domain { text-align: center; }
+.cs-page .cs-domain__v { justify-content: center; margin-top: auto; padding-top: .9rem; }
+
+/* ---- gallery and browsers: equal tiles ---- */
+.cs-page .cs-gallery > .cs-fig, .cs-page .cs-browsers--2 > .cs-browser { margin: 0; }
+.cs-page .cs-browsers { display: flex; flex-direction: column; gap: var(--g); align-items: center; }
+.cs-page .cs-browsers:not(.cs-browsers--2) > .cs-browser { width: 100%; }
+.cs-page .cs-phones .cs-phone { display: flex; flex-direction: column; align-items: center; }
+.cs-page .cs-phones .cs-phone img, .cs-page .cs-phones .cs-phone .cs-vid { max-width: 300px; width: 100%; }
+
+/* ---- tables, systems, funnel, RAI: same width as the figures ---- */
+.cs-page .cs-table-wrap, .cs-page .cs-system, .cs-page .cs-rai, .cs-page .cs-funnel, .cs-page .cs-bars { width: 100%; margin-left: auto; margin-right: auto; }
+.cs-page .cs-table { font-size: .96rem; }
+.cs-page .cs-table th { padding: .9rem 1.2rem; }
+.cs-page .cs-table td { padding: 1rem 1.2rem; line-height: 1.6; }
+.cs-page .cs-system { padding: 1.6rem var(--pad); }
+.cs-page .cs-system__row { gap: calc(var(--g) * 1.5); }
+.cs-page .cs-system__title { text-align: center; margin-bottom: 1.25rem; }
+.cs-page .cs-system__guard { text-align: center; }
+.cs-page .cs-funnel { gap: .9rem; }
+.cs-page .cs-funnel__row { justify-content: flex-start; padding: 1rem 1.5rem; }
+.cs-page .cs-funnel__row--1 { width: 100%; } .cs-page .cs-funnel__row--2 { width: 86%; } .cs-page .cs-funnel__row--3 { width: 72%; }
+.cs-page .cs-rai { padding: 1.75rem var(--pad) 1.4rem; }
+.cs-page .cs-rai__head { justify-content: center; gap: 1rem; flex-wrap: wrap; text-align: center; margin-bottom: 1.4rem; }
+.cs-page .cs-rai__grid { gap: 1.4rem 2.5rem; }
+@media (max-width: 899px) { .cs-page .cs-system__row { grid-template-columns: 1fr 1fr; row-gap: 1.75rem; } .cs-page .cs-system__step::after { display: none; } .cs-page .cs-funnel__row { width: 100% !important; } }
+@media (max-width: 599px) { .cs-page .cs-system__row { grid-template-columns: 1fr; } }
+
+/* ---- pager and footer link ---- */
+.cs-page .cs-pager { margin-top: clamp(4rem, 7vw, 6rem); gap: var(--g); }
+.cs-page .cs-pager__a { padding: 1.25rem 1.5rem; border-radius: var(--radius); }
+.cs-page .cs-foot-pdf { margin: 2rem 0 3rem; }
+.cs-page .cs-section > .cs-cap { margin-top: 1.25rem; text-align: center; max-width: 46rem; }
+.cs-page .cs-section > :is(.cs-fig, .cs-media, .cs-browsers, .cs-gallery, .cs-phones) + :is(.cs-prose, .cs-list) { margin-top: 3rem; }
+.cs-page .cs-section > :is(.cs-prose, .cs-list) + :is(.cs-table-wrap, .cs-fig, .cs-media, .cs-system, .cs-funnel, .cs-flow, .cs-roadmap, .cs-decisions, .cs-insights, .cs-domains, .cs-rai, .cs-gallery, .cs-browsers) { margin-top: 2.25rem; }
