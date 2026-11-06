@@ -241,51 +241,56 @@ ninja.data = [{
             },},{id: "news-graduated-from-carnegie-mellon-university",
           title: 'Graduated from Carnegie Mellon University',
           description: "",
-          section: "News",},{id: "projects-workday",
-          title: 'Workday',
-          description: "An exploratory project for Workday identifying high-yield AI/ML products and services for their accessibility team.",
+          section: "News",},{id: "projects-workday-accessibility-ai-strategy",
+          title: 'Workday Accessibility AI Strategy',
+          description: "Six months on Workday&#39;s accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Accessibility/";
             },},{id: "projects-aurifex-jewelry",
           title: 'Aurifex Jewelry',
-          description: "A jewelry SaaS platform, improving design and operations through AI/ML.",
+          description: "Founder of an AI jewelry-design platform and marketplace that connects buyers with verified manufacturers.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Aurifex/";
-            },},{id: "projects-business-case-studies",
-          title: 'Business Case Studies',
-          description: "Varying analyses on business operations and strategy.",
+            },},{id: "projects-mba-business-cases",
+          title: 'MBA business cases',
+          description: "Twelve MBA cases on M&amp;A, expansion and restructuring across technology, consumer and manufacturing.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Business%20Case%20Studies/";
-            },},{id: "projects-codaworx",
-          title: 'CODAworx',
-          description: "An e-commerce marketplace for public artists and enthusiasts.",
+            },},{id: "projects-matching-buyers-with-the-right-artist-on-codamarket",
+          title: 'Matching buyers with the right artist on CODAmarket',
+          description: "I co-founded CODAworx&#39;s consumer marketplace and ran product and operations through launch and growth. Match rates rose 20%, repeat bookings 15%, retention doubled.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/CODAmarket/";
-            },},{id: "projects-goat",
-          title: 'GOAT',
-          description: "A business analysis on GOAT&#39;s technology strategy.",
+            },},{id: "projects-goat-building-trust-in-a-resale-marketplace",
+          title: 'GOAT: building trust in a resale marketplace',
+          description: "How GOAT uses machine learning and human experts to build trust, and how to cut fraud costs without slowing sign-up.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/GOAT/";
-            },},{id: "projects-gallify",
-          title: 'Gallify',
-          description: "An AR/VR art marketplace built for digital creators and enthusiasts.",
+            },},{id: "projects-building-gallify-and-deciding-to-wind-it-down",
+          title: 'Building Gallify, and deciding to wind it down',
+          description: "An iOS app for collecting digital art in AR. I led product and an engineering team of 8 to 10; our recommender lifted click-through 20% and order value 10%. Then I made the call to wind it down.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Gallify/";
-            },},{id: "projects-jasci-software",
-          title: 'JASCI Software',
-          description: "An organizational analysis and assessment toward improved operations.",
+            },},{id: "projects-jasci-adding-human-feedback-to-warehouse-robotics",
+          title: 'JASCI: adding human feedback to warehouse robotics',
+          description: "Diagnosed a warehouse-software scale-up and proposed adding human feedback to its robotics AI.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/JASCI%20Software/";
-            },},{id: "projects-loan-default",
-          title: 'Loan Default',
-          description: "An AI/ML-based approach to predicting loan defaults.",
+            },},{id: "projects-loan-default-prediction",
+          title: 'Loan Default Prediction',
+          description: "Chose a logistic model (AUC 68.2%, 9.5% false negatives) and a 16% approval cutoff that maximizes expected profit.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Loan%20Default/";
-            },},{id: "projects-quantitative-proteomics",
-          title: 'Quantitative Proteomics',
-          description: "A research analysis on the capabilities and limitations of TMT/iTRAQ quantitative proteomics.",
+            },},{id: "projects-quantitative-proteomics-tmt-and-itraq",
+          title: 'Quantitative proteomics (TMT and iTRAQ)',
+          description: "How TMT and iTRAQ measure thousands of proteins at once, applied to heart-valve development.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Quantitative%20Proteomics/";
+            },},{id: "projects-building-veritas-a-learning-app-that-checks-what-you-remember",
+          title: 'Building Veritas, a learning app that checks what you remember',
+          description: "A learning app I&#39;m building: it reads your book to you in your own voice, checks what you understood and brings back what you missed. Waitlist open.",
+          section: "Projects",handler: () => {
+              window.location.href = "/Edward_Profio_Portfolio_Site/projects/Veritas/";
             },},{
         id: 'social-discord',
         title: 'Discord',
