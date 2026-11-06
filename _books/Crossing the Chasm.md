@@ -7,6 +7,7 @@ categories: marketing technology
 status: Finished
 shelf_group: more
 shelf_rank: 9
+date: 2026-01-15
 ---
 
 A marketing framework for taking a technology product from early adopters to the mainstream market, and surviving the gap in between.

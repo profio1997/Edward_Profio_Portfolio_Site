@@ -4,9 +4,10 @@ title: "The Master Algorithm"
 author: "Pedro Domingos"
 isbn: "9780465094271"
 categories: artificial-intelligence machine-learning
-status: Interested
+status: Finished
 shelf_group: more
 shelf_rank: 83
+date: 2026-07-25
 ---
 
 Domingos describes the main schools of machine learning and asks whether one learning method could cover them all.

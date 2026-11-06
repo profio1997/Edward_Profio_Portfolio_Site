@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Theoretical_Neuroscience.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+date: 2026-05-09
 ---
 
 "Theoretical neuroscience provides a quantitative basis for describing what nervous systems do, determining how they function, and uncovering the general principles by which they operate. This text introduces the basic mathematical and computational methods of theoretical neuroscience and presents applications in a variety of areas including vision, sensory-motor integration, development, learning, and memory.

@@ -7,6 +7,7 @@ categories: entrepreneurship startups
 status: Finished
 shelf_group: more
 shelf_rank: 3
+date: 2026-04-01
 ---
 
 Introduces the build-measure-learn loop, minimum viable products, and validated learning as a disciplined way to find out what customers want before scaling.

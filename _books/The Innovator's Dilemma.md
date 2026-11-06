@@ -8,6 +8,7 @@ categories: strategy innovation
 status: Finished
 shelf_group: more
 shelf_rank: 4
+date: 2026-04-14
 ---
 
 Explains why well-run, successful companies get disrupted by cheaper, simpler technologies they chose to ignore, and what leaders can do about it.

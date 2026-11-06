@@ -88,6 +88,13 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Restore cached book covers
+        uses: actions/cache@v4
+        with:
+          path: assets/img/book_covers
+          key: book-covers-${{ hashFiles('_books/*.md') }}
+          restore-keys: |
+            book-covers-
       - name: Refresh book covers and GitHub data 📚
         continue-on-error: true
         run: |

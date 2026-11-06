@@ -7,6 +7,7 @@ categories: management strategy
 status: Finished
 shelf_group: more
 shelf_rank: 10
+date: 2026-02-04
 ---
 
 Shows how Objectives and Key Results (OKRs) align teams around a few priorities, with case studies from Google, Intel, and the Gates Foundation.

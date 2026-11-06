@@ -4,9 +4,10 @@ title: "Sprint"
 author: "Jake Knapp"
 isbn: "9781501121746"
 categories: product-management design
-status: Interested
+status: Finished
 shelf_group: more
 shelf_rank: 121
+date: 2025-02-10
 ---
 
 Knapp's five-day process for testing an idea with a prototype and real users.

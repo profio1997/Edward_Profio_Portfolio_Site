@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Elon_Musk.jpg
 categories: autobiography technology
 stars: 5
 status: Finished
+date: 2026-01-09
 ---
 
 "The #1 New York Times and global bestseller from Walter Isaacson—the acclaimed author of Steve Jobs, Einstein: His Life and World, Benjamin Franklin, and Leonardo da Vinci—is the astonishingly intimate story of the most fascinating, controversial innovator of modern times. For two years, Isaacson shadowed Elon Musk as he executed his vision for electric vehicles at Tesla, space exploration with SpaceX, the AI revolution, and the takeover of Twitter and its conversion to X. The result is the definitive portrait of the mercurial pioneer that offers clues to his political instincts, future ambitions, and overall worldview.

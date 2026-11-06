@@ -7,6 +7,7 @@ categories: technology history
 status: Finished
 shelf_group: more
 shelf_rank: 24
+date: 2026-04-21
 ---
 
 The story of the people who created the computer and the internet, and how collaboration drove the digital revolution.

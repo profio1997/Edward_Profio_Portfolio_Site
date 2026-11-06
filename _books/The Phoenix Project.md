@@ -7,6 +7,7 @@ categories: technology operations
 status: Finished
 shelf_group: more
 shelf_rank: 11
+date: 2026-05-02
 ---
 
 A novel about rescuing a failing IT project that teaches DevOps principles such as flow, feedback, and continual learning.

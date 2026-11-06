@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Build_Brain.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+date: 2026-02-10
 ---
 
 "One goal of researchers in neuroscience, psychology, and artificial intelligence is to build theoretical models that can explain the flexibility and adaptiveness of biological systems. How to Build a Brain provides a guided exploration of a new cognitive architecture that takes biological detail seriously while addressing cognitive phenomena. The Semantic Pointer Architecture (SPA) introduced in this book provides a set of tools for constructing a wide range of biologically constrained perceptual, cognitive, and motor models.

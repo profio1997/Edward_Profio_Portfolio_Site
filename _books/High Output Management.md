@@ -7,6 +7,7 @@ categories: management leadership
 status: Finished
 shelf_group: more
 shelf_rank: 7
+date: 2026-02-23
 ---
 
 Intel's former CEO on how to raise the output of a team, covering leverage, meetings, performance reviews, and the ideas behind OKRs.

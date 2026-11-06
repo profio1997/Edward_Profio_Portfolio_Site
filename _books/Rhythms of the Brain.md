@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Rhythms_Brain.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+date: 2026-03-12
 ---
 
 "Studies of mechanisms in the brain that allow complicated things to happen in a coordinated fashion have produced some of the most spectacular discoveries in neuroscience. This book provides eloquent support for the idea that spontaneous neuron activity, far from being mere noise, is actually the source of our cognitive abilities. It takes a fresh look at the coevolution of structure and function in the mammalian brain, illustrating how self-emerged oscillatory timing is the brain's fundamental organizer of neuronal information. The small-world-like connectivity of the cerebral cortex allows for global computation on multiple spatial and temporal scales. The perpetual interactions among the multiple network oscillators keep cortical systems in a highly sensitive "metastable" state and provide energy-efficient synchronizing mechanisms via weak links.

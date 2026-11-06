@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Neural_Science.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+date: 2026-03-05
 ---
 
 "Publisher's Note: Products purchased from Third Party sellers are not guaranteed by the publisher for quality, authenticity, or access to any online entitlements included with the product.

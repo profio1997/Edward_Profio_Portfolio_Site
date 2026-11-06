@@ -7,6 +7,7 @@ categories: artificial-intelligence ethics
 status: Finished
 shelf_group: more
 shelf_rank: 16
+date: 2026-02-17
 ---
 
 Argues that AI systems should be built to be uncertain about human preferences, as a route to keeping powerful AI beneficial and under human control.

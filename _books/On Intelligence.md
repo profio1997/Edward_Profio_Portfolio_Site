@@ -6,6 +6,7 @@ cover: assets/img/book_covers/On_Intelligence.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+date: 2026-02-11
 ---
 
 "From the inventor of the PalmPilot comes a new and compelling theory of intelligence, brain function, and the future of intelligent machines

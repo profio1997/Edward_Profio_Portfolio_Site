@@ -78,6 +78,54 @@ def fetch_cover(isbn):
         time.sleep(0.4)
     return None, None
 
+
+FONT_DIRS = ['/usr/share/fonts/truetype/dejavu/', '/usr/share/fonts/dejavu/', '/Library/Fonts/']
+
+def _font(name, size):
+    from PIL import ImageFont
+    for d in FONT_DIRS:
+        try:
+            return ImageFont.truetype(os.path.join(d, name), size)
+        except Exception:
+            pass
+    return ImageFont.load_default()
+
+def fallback_cover(title, author, cats):
+    """A designed typographic cover for books whose real cover art cannot be found."""
+    from PIL import ImageDraw
+    import colorsys, hashlib
+    W, H = 420, 630
+    key = int(hashlib.md5((cats.split()[0] if cats else title).encode()).hexdigest()[:6], 16)
+    hue = (key % 360) / 360.0
+    top = tuple(int(c * 255) for c in colorsys.hls_to_rgb(hue, .26, .42))
+    bot = tuple(int(c * 255) for c in colorsys.hls_to_rgb((hue + .04) % 1, .16, .46))
+    im = Image.new('RGB', (W, H), top)
+    px = im.load()
+    for y in range(H):
+        k = y / (H - 1)
+        row = tuple(int(top[i] + (bot[i] - top[i]) * k) for i in range(3))
+        for x in range(W):
+            px[x, y] = row
+    d = ImageDraw.Draw(im)
+    d.rectangle([22, 22, W - 23, H - 23], outline=(255, 255, 255), width=2)
+    d.line([54, 316, W - 54, 316], fill=(255, 255, 255), width=1)
+    tf, af = _font('DejaVuSerif-Bold.ttf', 40), _font('DejaVuSans.ttf', 20)
+    lines, cur = [], ''
+    for w in title.split(':')[0].split():
+        trial = (cur + ' ' + w).strip()
+        if d.textlength(trial, font=tf) > W - 108 and cur:
+            lines.append(cur); cur = w
+        else:
+            cur = trial
+    lines.append(cur)
+    while len(lines) > 5:
+        tf = _font('DejaVuSerif-Bold.ttf', max(24, tf.size - 4)); lines = lines[:5]
+    y = 120
+    for ln in lines:
+        d.text((54, y), ln, font=tf, fill=(255, 255, 255)); y += int(tf.size * 1.25)
+    d.text((54, 340), author[:60], font=af, fill=(235, 238, 245))
+    return im
+
 STOP = {'the', 'and', 'for', 'with', 'how', 'from', 'that', 'this', 'your', 'a', 'of', 'to', 'in', 'on'}
 
 def words(t):
@@ -108,27 +156,37 @@ def covers():
         head = open(f, encoding='utf-8').read().split('---')[1]
         m = re.search(r'^isbn:\s*["\']?(\d{10,13})', head, re.M)
         t = re.search(r'^title:\s*(.+)$', head, re.M)
+        au = re.search(r'^author:\s*(.+)$', head, re.M)
+        ca = re.search(r'^categories:\s*(.+)$', head, re.M)
         alt = re.search(r'^isbn_alt:\s*\[(.*?)\]', head, re.M)
         if m:
             alts = re.findall(r'\d{10,13}', alt.group(1)) if alt else []
-            books.append((m.group(1), alts, t.group(1).strip().strip('"') if t else '?'))
-    ok = bad = 0
-    for isbn, alts, title in books:
+            books.append((m.group(1), alts, t.group(1).strip().strip('"') if t else '?', au.group(1).strip().strip('"') if au else '', ca.group(1).strip() if ca else ''))
+    from concurrent.futures import ThreadPoolExecutor
+
+    def one(book):
+        isbn, alts, title, author, cats = book
         out = os.path.join(COVERS, 'isbn-%s.jpg' % isbn)
         if os.path.exists(out):
-            print('have    %s  %s' % (isbn, title)); ok += 1; continue
-        done = False
+            return True, 'have    %s  %s' % (isbn, title)
         for cand in [isbn] + alts:
             verdict = title_ok(cand, title)
             if verdict is False:
-                print('REJECT  %s  title does not match "%s"' % (cand, title)); continue
+                print('REJECT  %s  title does not match "%s"' % (cand, title), flush=True); continue
             src, im = fetch_cover(cand)
             if im:
-                im.save(out, 'JPEG', quality=86, optimize=True)
-                print('OK      %s  %-45s via %s (isbn %s, %s)  %dx%d' % (isbn, title[:45], src, cand, 'verified' if verdict else 'UNVERIFIED', *im.size))
-                ok += 1; done = True; break
-        if not done:
-            print('MISSING %s  %s' % (isbn, title)); bad += 1
+                im.thumbnail((360, 540))
+                im.save(out, 'JPEG', quality=84, optimize=True)
+                return True, 'OK      %s  %-45s via %s (isbn %s, %s)  %dx%d' % (isbn, title[:45], src, cand, 'verified' if verdict else 'UNVERIFIED', *im.size)
+        fallback_cover(title, author, cats).save(out, 'JPEG', quality=88)
+        return False, 'MISSING %s  %s  -> designed fallback cover' % (isbn, title)
+
+    ok = bad = 0
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for good, line in pool.map(one, books):
+            print(line, flush=True)
+            if good: ok += 1
+            else: bad += 1
     print('covers: %d ok, %d missing' % (ok, bad))
 
 def github():

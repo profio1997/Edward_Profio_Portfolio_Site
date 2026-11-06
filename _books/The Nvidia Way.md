@@ -6,6 +6,7 @@ cover: assets/img/book_covers/The_Nvidia_Way.jpg
 categories: autobiography technology
 stars: 5
 status: Finished
+date: 2026-05-22
 ---
 
 "Nvidia is the darling of the age of artificial intelligence: the company’s chips are powering the generative-AI revolution, and demand is insatiable. For all the current interest and attention, however, Nvidia is not of our time. Founded more than three decades ago in a Denny’s in East San Jose, for years it was known primarily in the then-niche world of computer gaming. In fact, the company’s leather-jacketed leader, Jensen Huang, is the longest-serving CEO in an industry marked by near constant turmoil and failure.

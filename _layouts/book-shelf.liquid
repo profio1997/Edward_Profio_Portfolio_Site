@@ -36,15 +36,19 @@ layout: page
       {% assign item_status = item.status | downcase | strip %}
       {% if item_status == 'reading' %}{% assign ordered = ordered | push: item %}{% endif %}
     {% endfor %}
-    {% for item in collection reversed %}
-      {% assign item_status = item.status | downcase | strip %}
-      {% if item_status != 'reading' and item.shelf_group != 'more' %}{% assign ordered = ordered | push: item %}{% endif %}
-    {% endfor %}
-    {% assign more_books = collection | where: 'shelf_group', 'more' | sort: 'shelf_rank' %}
-    {% for item in more_books %}
+    {% assign dated = collection | sort: 'date' | reverse %}
+    {% for item in dated %}
       {% assign item_status = item.status | downcase | strip %}
       {% if item_status != 'reading' %}{% assign ordered = ordered | push: item %}{% endif %}
     {% endfor %}
+    {% assign year_list = '' | split: '' %}
+    {% for item in ordered %}
+      {% assign yy = item.date | date: '%Y' %}
+      {% unless year_list contains yy %}{% assign year_list = year_list | push: yy %}{% endunless %}
+    {% endfor %}
+    <p class="book-year-jump" style="font-size:1.05rem;margin:1rem 0 0.5rem;">Jump to:
+      {% for yy in year_list %}<a href="#y{{ yy }}">{{ yy }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+    </p>
     {% for item in ordered %}
       {% assign current_year = item.date | date: '%Y' %}
       {% if current_year != year %}

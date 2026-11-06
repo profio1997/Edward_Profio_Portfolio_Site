@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Steve_Jobs.jpg
 categories: autobiography technology
 stars: 5
 status: Finished
+date: 2026-03-26
 ---
 
 "Walter Isaacson’s “enthralling” (The New Yorker) worldwide bestselling biography of Apple cofounder Steve Jobs.
