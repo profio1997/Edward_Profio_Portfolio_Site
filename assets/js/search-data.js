@@ -778,7 +778,7 @@ ninja.data = [{
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Accessibility/";
             },},{id: "projects-aurifex-jewelry",
           title: 'Aurifex Jewelry',
-          description: "Founder of an AI jewelry-design platform and marketplace that connects buyers with verified manufacturers.",
+          description: "Founded an AI jewelry-design tool and a marketplace where buyers get quotes from verified manufacturers.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Aurifex/";
             },},{id: "projects-mba-business-cases",
@@ -801,11 +801,6 @@ ninja.data = [{
           description: "An iOS app for collecting digital art in AR. I led product and an engineering team of 8 to 10; our recommender lifted click-through 20% and order value 10%. Then I made the call to wind it down.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Gallify/";
-            },},{id: "projects-jasci-adding-human-feedback-to-warehouse-robotics",
-          title: 'JASCI: adding human feedback to warehouse robotics',
-          description: "Diagnosed a warehouse-software scale-up and proposed adding human feedback to its robotics AI.",
-          section: "Projects",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/projects/JASCI%20Software/";
             },},{id: "projects-loan-default-prediction",
           title: 'Loan Default Prediction',
           description: "Chose a logistic model (AUC 68.2%, 9.5% false negatives) and a 16% approval cutoff that maximizes expected profit.",
