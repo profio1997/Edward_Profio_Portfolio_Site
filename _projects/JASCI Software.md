@@ -33,4 +33,4 @@ Technology proposals fail in the organization more often than in the code. The m
 
 ## The report
 
-<iframe src="/assets/pdf/JASCI_Software_Analysis.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/JASCI_Software_Analysis.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>

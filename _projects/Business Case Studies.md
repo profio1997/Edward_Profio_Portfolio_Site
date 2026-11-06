@@ -24,84 +24,84 @@ Open any of them below.
 <details>
 <summary><b>AirThread</b></summary>
 
-<iframe src="/assets/pdf/AirThread Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/AirThread Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Alfie</b></summary>
 
-<iframe src="/assets/pdf/Alfie Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Alfie Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Blaine Kitchenware</b></summary>
 
-<iframe src="/assets/pdf/Blaine Kitchenware Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Blaine Kitchenware Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Comcast</b></summary>
 
-<iframe src="/assets/pdf/Comcast Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Comcast Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Eaton</b></summary>
 
-<iframe src="/assets/pdf/Eaton Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Eaton Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Gucci</b></summary>
 
-<iframe src="/assets/pdf/Gucci Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Gucci Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>MoGen</b></summary>
 
-<iframe src="/assets/pdf/MoGen Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/MoGen Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>MW Petroleum</b></summary>
 
-<iframe src="/assets/pdf/MW Protroleum Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/MW Protroleum Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Target</b></summary>
 
-<iframe src="/assets/pdf/Target Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Target Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Tesla</b></summary>
 
-<iframe src="/assets/pdf/Tesla Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Tesla Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Walt Disney</b></summary>
 
-<iframe src="/assets/pdf/Walt Disney Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Walt Disney Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 
 <details>
 <summary><b>Wintel</b></summary>
 
-<iframe src="/assets/pdf/Wintel Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Wintel Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 </details>
 

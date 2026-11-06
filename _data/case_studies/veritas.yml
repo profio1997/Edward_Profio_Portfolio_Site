@@ -204,7 +204,7 @@ sections:
       - type: table
         head: [Milestone, Status]
         rows:
-          - ["Pre-release site, 2:32 film and waitlist", "Live"]
+          - ["Pre-release site, 2:27 film and waitlist", "Live"]
           - ["Designed screens for all three steps", "Done"]
           - ["Pre-release build", "In progress"]
           - ["Offline evaluation set and launch gates", "In progress"]

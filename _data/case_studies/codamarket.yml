@@ -158,17 +158,6 @@ sections:
           Everything above ran through one shared backlog and one experiment calendar. Engineers, designers, data and operations people worked off the same list, and each item had to name the metric it was meant to move and the guardrail it must not hurt. When two ideas competed, I asked which one would teach us more per week of effort. That usually favoured the cheap test over the elegant build.
 
           A few habits kept a small cross-functional team moving. Every change that shipped had an owner and a result written down, including the ones that failed. Artist relations staff sat in the same conversations as engineers, so what creators told them about confusing screens reached us in days. And operations changes were treated like product changes, with a hypothesis, a measure and a review.
-      - type: table
-        emph: 1
-        head: [Outcome, Result]
-        rows:
-          - ["Project match rate", "+20%"]
-          - ["Repeat bookings", "+15%"]
-          - ["Customer retention", "Doubled"]
-          - ["Fulfillment time", "40% faster"]
-      - type: p
-        text: |
-          Together these helped CODAworx become the leading platform for public art commissions, with a marketplace behind it that matched buyers to artists faster and kept both coming back.
       - type: h
         text: "What I'd do next"
       - type: p

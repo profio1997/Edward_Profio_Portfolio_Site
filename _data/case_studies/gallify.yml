@@ -122,15 +122,6 @@ sections:
       - type: p
         text: |
           Over five years we shipped three major releases. They covered marketplace transactions on the blockchain, the AR gallery experience and the iOS app itself, and we designed, built and launched the platform ahead of schedule. The recommender gave us the 20% and 10% lifts described above.
-      - type: table
-        emph: 1
-        head: [Outcome, Result]
-        rows:
-          - ["Click-through from recommendations", "+20%"]
-          - ["Average order value", "+10%"]
-          - ["Major releases", "3+: marketplace transactions, AR galleries, iOS"]
-          - ["Platform", "Designed, built and launched ahead of schedule"]
-          - ["Business", "Did not reach product-market fit; wound down"]
       - type: h
         text: "Running the team"
       - type: p

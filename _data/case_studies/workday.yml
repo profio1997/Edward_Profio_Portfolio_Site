@@ -3,14 +3,14 @@ order: 4
 title: "Workday Accessibility AI Strategy"
 card_title: "Workday Accessibility AI Strategy"
 card_kicker: "Workday · Internship"
-card_line: "Six months on Workday's accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices."
+card_line: "Twelve months on Workday's accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices."
 card_chips: ["50+ vendors", "8 partnerships", "3 to roll out first"]
 read_time: "9 min read"
 kicker: "Workday"
 headline: "Workday Accessibility AI Strategy"
 lede: >-
   Workday's accessibility team wanted to know where AI could make the product work better for people with disabilities, and which
-  companies to build that with. I worked on it for six months as an intern, as part of a
+  companies to build that with. I worked on it for 12 months as an intern, as part of a
   four-person Carnegie Mellon Tepper capstone team. I led the research into the solutions, and I wrote the rollout plan, the roadmap
   and the AI development practices that came out of it.
 cover: assets/img/case_studies/workday/cover.jpg
@@ -21,14 +21,14 @@ links:
   - {label: "Full capstone deck (PDF)", url: "assets/pdf/Workday_Capstone_Presentation.pdf"}
 meta:
   - {k: Role, v: "Internship"}
-  - {k: Duration, v: "Six months"}
+  - {k: Duration, v: "12 months"}
   - {k: Team, v: "Four-person Carnegie Mellon Tepper team, working with Workday design, engineering and leadership"}
   - {k: Reach, v: "Workday has 70M+ end users"}
 metrics:
   - {n: "50+", l: "AI vendors researched"}
   - {n: "8", l: "partnerships worth pursuing"}
   - {n: "3", l: "recommended to roll out first"}
-  - {n: "6 months", l: "from kickoff to recommendation"}
+  - {n: "12 months", l: "from kickoff to recommendation"}
 sections:
   - id: overview
     title: Overview
@@ -37,14 +37,14 @@ sections:
         text: |
           Workday is the system a large company uses to pay people, track time off, hire and report on its workforce, which means people with disabilities use it every week. The accessibility team had a practical question. AI was making new kinds of help possible, like describing a chart to someone who can't see it or captioning a meeting live, but the market was crowded and changing monthly. Where should Workday use AI first, and should it build those features or partner with someone who already had?
 
-          My team of four from Carnegie Mellon's Tepper School worked on that question with Workday for six months. We had a software lead from a space company, a CEO and business-alliance director, a senior software consultant, and me. I led the research into the solutions. Once we had a recommendation I wrote the rollout plan for each option, a roadmap for when to do what, and a set of practices for how Workday's accessibility AI team should build with AI.
+          My team of four from Carnegie Mellon's Tepper School worked on that question with Workday for 12 months. We had a software lead from a space company, a CEO and business-alliance director, a senior software consultant, and me. I led the research into the solutions. Once we had a recommendation I wrote the rollout plan for each option, a roadmap for when to do what, and a set of practices for how Workday's accessibility AI team should build with AI.
       - type: h
         text: "The brief and how we ran it"
       - type: p
         text: |
           We agreed five goals with Workday at the start. Gain a comprehensive understanding of the accessibility technology landscape. Align that landscape to Workday's strategic objectives. Create a market map, in the style of a CB Insights map, in Figma. Run a trade study of AI accessibility options. And identify strategic opportunities for Workday.
 
-          The six months fell into five stages, each of which fed the next:
+          The 12 months fell into five stages, each of which fed the next:
       - type: flow
         steps:
           - {tag: "1", t: "Frame", d: "Agree goals, split users into four groups, write the job each group needs done"}
@@ -198,7 +198,7 @@ sections:
         text: "What happened"
       - type: p
         text: |
-          Over the six months we presented the work to Workday's design, engineering and executive leaders and to customers, with the market map, the trade study, a partnership evaluation matrix, a research report and the recommendation. It informed the direction of Workday's accessibility AI roadmap, and the full deck is linked at the top of this page.
+          Over the 12 months we presented the work to Workday's design, engineering and executive leaders and to customers, with the market map, the trade study, a partnership evaluation matrix, a research report and the recommendation. It informed the direction of Workday's accessibility AI roadmap, and the full deck is linked at the top of this page.
 learn_title: Looking back
 learn:
   - "Scoring every option on the same five criteria is what made 50+ vendors comparable. It also made the recommendation easy to challenge, which is what leadership needed."

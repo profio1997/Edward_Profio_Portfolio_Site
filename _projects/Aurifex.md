@@ -52,18 +52,18 @@ I'm keeping the original materials here as they were written.
 
 ## Pitch deck
 
-<iframe src="/assets/pdf/Aurifex_Pitch_Deck.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Aurifex_Pitch_Deck.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 ## Business model
 
-<iframe src="/assets/pdf/Aurifex_Business_Model.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Aurifex_Business_Model.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 ## Executive summary
 
-<iframe src="/assets/pdf/Aurifex_Executive_Summary.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Aurifex_Executive_Summary.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 ## Customer interview guide
 
-<iframe src="/assets/pdf/Aurifex_User_Survey.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Aurifex_User_Survey.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 <p><a href="https://drive.google.com/file/d/1CirknYrvlMf5meK3oXAtlx7XAZBJqr9g/view?usp=sharing" class="inline-hover-underline">Pitch presentation recording</a> · <a href="https://docs.google.com/spreadsheets/d/1e-EuInYGt750JjwtqER7O-KZA68SgTTF/edit?usp=sharing&ouid=101259642259960385079&rtpof=true&sd=true" class="inline-hover-underline">Financial model</a></p>

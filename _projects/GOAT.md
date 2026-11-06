@@ -36,4 +36,4 @@ GOAT's approach is a good example of a human-in-the-loop AI system: the model ha
 
 ## The report
 
-<iframe src="/assets/pdf/GOAT.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/GOAT.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>

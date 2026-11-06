@@ -40,6 +40,6 @@ An AUC in the high 60s is modest, and I'd say so to anyone relying on it. With m
 
 ## The presentation
 
-<iframe src="/assets/pdf/Loan_Default_Presentation.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Loan_Default_Presentation.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
 
 <p><a href="https://drive.google.com/file/d/1YVQoUw2ckYFP-M8GkYttJ30PV9E_Yy-7/view?usp=sharing" class="inline-hover-underline">Recording of the presentation</a></p>

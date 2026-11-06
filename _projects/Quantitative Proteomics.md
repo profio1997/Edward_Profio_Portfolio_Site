@@ -29,4 +29,4 @@ Proteomics taught me to ask, before trusting any number, how it was measured and
 
 ## The presentation
 
-<iframe src="/assets/pdf/Quantitative_Proteomics.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="{{ '/assets/pdf/Quantitative_Proteomics.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
