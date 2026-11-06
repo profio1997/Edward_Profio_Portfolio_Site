@@ -6,6 +6,7 @@ isbn: "9780060005696"
 categories: psychology decision-making behavioural-economics
 status: Finished
 date: 2020-07-22
+released: 2004
 ---
 
 Argues that having many options leaves people less satisfied and more anxious. He separates maximisers from satisficers and suggests ways to limit choice.

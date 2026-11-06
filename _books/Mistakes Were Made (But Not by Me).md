@@ -6,6 +6,7 @@ isbn: "9780156033909"
 categories: psychology social-psychology cognitive-dissonance
 status: Finished
 date: 2016-03-01
+released: 2007
 ---
 
 Uses cognitive dissonance theory to explain why people justify bad decisions rather than admit error. Examples range from wrongful convictions to failed marriages and political cover-ups.

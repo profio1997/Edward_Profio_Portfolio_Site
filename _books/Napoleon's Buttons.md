@@ -6,6 +6,7 @@ isbn: "9781585422975"
 categories: chemistry history
 status: Finished
 date: 2022-11-30
+released: 2003
 ---
 
 The authors tell how seventeen groups of molecules, such as those in spices, sugar and dyes, changed history. They link chemistry to exploration, trade, disease and war.

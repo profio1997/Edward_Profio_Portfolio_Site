@@ -6,6 +6,8 @@ isbn: "9780262038034"
 categories: machine-learning artificial-intelligence
 status: Finished
 date: 2018-11-02
+released: 2018
+favorite: true
 ---
 
 A personal account of how neural networks went from a fringe idea to the basis of modern AI. Sejnowski was a participant and describes the people, setbacks and results.

@@ -6,6 +6,7 @@ isbn: "9780765385253"
 categories: science-fiction novella
 status: Finished
 date: 2020-08-12
+released: 2015
 ---
 
 A young woman from the Himba people leaves home to attend a galactic university. Her ship is attacked by an alien race on the way.

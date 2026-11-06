@@ -6,6 +6,8 @@ isbn: "9780316595643"
 categories: ai-risk artificial-intelligence
 status: Finished
 date: 2025-09-04
+released: 2025
+favorite: true
 ---
 
 Argues that building superhuman AI with current methods would likely lead to human extinction. The authors lay out their reasoning and call for an international halt to the race to build it.

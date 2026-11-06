@@ -6,6 +6,7 @@ isbn: "9780547722023"
 categories: fiction fantasy
 status: Finished
 date: 2021-06-13
+released: 1968
 ---
 
 Ged, a gifted boy from a small island, is sent to a school for wizards. In a moment of pride he releases a shadow creature that begins to hunt him.

@@ -8,6 +8,7 @@ status: Finished
 shelf_group: more
 shelf_rank: 13
 date: 2026-03-25
+favorite: true
 ---
 
 A practical approach to strategy built on five linked choices: a winning aspiration, where to play, how to win, required capabilities, and management systems.

@@ -6,6 +6,7 @@ isbn: "9780684868769"
 categories: complexity systems cities
 status: Finished
 date: 2025-01-20
+released: 2001
 ---
 
 Johnson explains how simple local interactions create complex order, in ant colonies, cities and software. He shows that systems without central control can learn and adapt.

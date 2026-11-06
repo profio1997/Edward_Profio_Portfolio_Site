@@ -6,6 +6,7 @@ isbn: "9781612194196"
 categories: economics anthropology history
 status: Finished
 date: 2019-09-14
+released: 2011
 ---
 
 Graeber argues that credit and debt came before coins and markets, and that moral ideas about owing shaped states and religions. He traces how debt has been used to justify violence and slavery across five thousand years.

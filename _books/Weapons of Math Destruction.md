@@ -8,6 +8,7 @@ status: Finished
 shelf_group: more
 shelf_rank: 89
 date: 2025-04-20
+favorite: true
 ---
 
 O'Neil on opaque algorithms used at scale that can reinforce inequality.

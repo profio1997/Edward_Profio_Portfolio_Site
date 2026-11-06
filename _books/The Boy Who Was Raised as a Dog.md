@@ -6,6 +6,7 @@ isbn: "9780465094455"
 categories: neuroscience child-development trauma
 status: Finished
 date: 2016-11-02
+released: 2006
 ---
 
 A child psychiatrist presents cases of severely abused and neglected children and what their treatment taught him. He explains how early trauma affects brain development and what helps recovery.

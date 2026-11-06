@@ -6,6 +6,7 @@ isbn: "9780262532587"
 categories: cognitive-science philosophy artificial-intelligence
 status: Finished
 date: 2024-02-08
+favorite: true
 ---
 
 Argues for an embodied and situated account of mind, linking brain, body and world.

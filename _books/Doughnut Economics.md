@@ -6,6 +6,7 @@ isbn: "9781603587969"
 categories: economics climate
 status: Finished
 date: 2017-08-29
+released: 2017
 ---
 
 Raworth says economics should aim at a safe space between a social minimum and the ecological limits of the planet. She lays out seven changes to how economists think about growth, markets and people.

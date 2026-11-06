@@ -6,6 +6,7 @@ isbn: "9780143116172"
 categories: economics history markets
 status: Finished
 date: 2020-04-29
+released: 2008
 ---
 
 Ferguson traces the history of credit, bonds, stock markets, insurance and housing finance from Renaissance Italy to the 2008 crisis. He argues that finance is the base of human progress and also a source of crises.

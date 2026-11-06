@@ -6,6 +6,7 @@ isbn: "9780060892999"
 categories: science-fiction post-apocalyptic
 status: Finished
 date: 2017-12-18
+released: 1959
 ---
 
 Monks in the American desert preserve fragments of technical knowledge after a nuclear war. The story covers several thousand years of the order's history.

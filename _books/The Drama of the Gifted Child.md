@@ -6,6 +6,7 @@ isbn: "9780465016907"
 categories: psychology parenting clinical-psychology
 status: Finished
 date: 2026-03-08
+released: 1979
 ---
 
 The psychoanalyst argues that sensitive children often learn to meet their parents' needs at the cost of their own feelings. She says this pattern leads to depression and a lost sense of self in adulthood.

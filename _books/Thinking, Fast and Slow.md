@@ -8,6 +8,7 @@ status: Finished
 shelf_group: more
 shelf_rank: 23
 date: 2026-05-16
+favorite: true
 ---
 
 Describes two modes of thought, one fast and intuitive, one slow and deliberate, and the systematic biases that shape our judgments and decisions.

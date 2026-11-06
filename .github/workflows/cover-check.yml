@@ -1,0 +1,25 @@
+name: Cover check
+on:
+  push:
+    branches: ["claude/cover-check"]
+permissions:
+  contents: write
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Fetch covers (real covers by ISBN, then title and author search, then designed fallback)
+        run: python bin/refresh_site_data.py 2>&1 | tee covers.log
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit covers and log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f assets/img/book_covers covers.log
+          git commit -m "Cover check results" && git push || echo nothing

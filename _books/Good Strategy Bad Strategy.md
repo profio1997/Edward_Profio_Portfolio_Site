@@ -8,6 +8,7 @@ status: Finished
 shelf_group: more
 shelf_rank: 5
 date: 2026-01-16
+favorite: true
 ---
 
 Separates real strategy from goals and slogans, built on a kernel of a clear diagnosis, a guiding policy, and a set of coherent actions.

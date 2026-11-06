@@ -6,6 +6,7 @@ isbn: "9781594481710"
 categories: creativity innovation
 status: Finished
 date: 2023-04-06
+released: 2005
 ---
 
 Pink argues that design, story and empathy are becoming more valuable than routine analytical skills. He lays out six aptitudes that he says workers need as outsourcing and automation spread.

@@ -6,6 +6,7 @@ isbn: "9780262691918"
 categories: design artificial-intelligence science
 status: Finished
 date: 2024-06-12
+favorite: true
 ---
 
 Examines artificial systems, bounded rationality and the science of design.

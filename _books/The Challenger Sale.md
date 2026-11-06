@@ -6,6 +6,7 @@ isbn: "9781591844358"
 categories: sales
 status: Finished
 date: 2019-12-16
+released: 2011
 ---
 
 Based on a survey of sales reps, the authors say the top performers teach customers something new and push back on their thinking. They describe how to train a sales team to do this.

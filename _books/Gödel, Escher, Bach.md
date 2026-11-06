@@ -8,6 +8,7 @@ status: Finished
 shelf_group: more
 shelf_rank: 49
 date: 2026-06-03
+favorite: true
 ---
 
 Hofstadter links Gödel's theorems, Escher's drawings and Bach's music through self-reference. He asks how a mind might come from symbols.

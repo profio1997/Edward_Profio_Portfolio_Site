@@ -6,6 +6,7 @@ isbn: "9780061997761"
 categories: economics
 status: Finished
 date: 2020-12-21
+released: 1973
 ---
 
 Schumacher argues that economies should be organized at human scale and should not treat natural resources as endless income. He makes the case for modest technology and local production.

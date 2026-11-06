@@ -6,6 +6,7 @@ isbn: "9780133966152"
 categories: graphic-design design
 status: Finished
 date: 2020-07-11
+released: 1994
 ---
 
 A short introduction to layout for people with no design training. It teaches four principles, contrast, repetition, alignment and proximity, and shows how to apply them.
