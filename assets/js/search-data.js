@@ -9,12 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/Edward_Profio_Portfolio_Site/";
     },
-  },{id: "nav-bookshelf",
-          title: "bookshelf",
+  },{id: "nav-projects",
+          title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Edward_Profio_Portfolio_Site/books/";
+            window.location.href = "/Edward_Profio_Portfolio_Site/projects/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Edward_Profio_Portfolio_Site/cv/";
           },
         },{id: "nav-blog",
           title: "blog",
@@ -30,26 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Edward_Profio_Portfolio_Site/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Edward_Profio_Portfolio_Site/projects/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/Edward_Profio_Portfolio_Site/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Edward_Profio_Portfolio_Site/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -58,7 +51,47 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Edward_Profio_Portfolio_Site/teaching/";
           },
-        },{id: "books-the-four-steps-to-the-epiphany",
+        },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Edward_Profio_Portfolio_Site/books/";
+          },
+        },{id: "post-meta-has-the-distribution-wang-has-to-build-the-model",
+        
+          title: "Meta Has the Distribution, Wang Has to Build the Model",
+        
+        description: "What Alexandr Wang&#39;s first year leading Meta Superintelligence Labs says about a company that owns the customers and now has to build the model that serves them.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Edward_Profio_Portfolio_Site/blog/2026/meta-has-the-distribution-wang-has-to-build-the-model/";
+          
+        },
+      },{id: "post-anthropic-39-s-expensive-promise",
+        
+          title: "Anthropic&#39;s Expensive Promise",
+        
+        description: "Anthropic&#39;s public filing describes a company that sells trust, and the structure and compute bills behind that promise matter more than the valuation talk.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Edward_Profio_Portfolio_Site/blog/2026/anthropics-expensive-promise/";
+          
+        },
+      },{id: "post-apple-chooses-the-integrator",
+        
+          title: "Apple Chooses the Integrator",
+        
+        description: "Apple handed the company to a hardware engineer after an operator, and the choice shows what it thinks it is still for now that AI changes what integration means.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Edward_Profio_Portfolio_Site/blog/2026/apple-chooses-the-integrator/";
+          
+        },
+      },{id: "books-the-four-steps-to-the-epiphany",
           title: 'The Four Steps to the Epiphany',
           description: "",
           section: "Books",handler: () => {
@@ -178,11 +211,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/A%20Guide%20to%20the%20Good%20Life/";
-            },},{id: "books-the-city-amp-the-city",
-          title: 'The City &amp;amp; the City',
+            },},{id: "books-charlotte-39-s-web",
+          title: 'Charlotte&amp;#39;s Web',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20City%20&%20the%20City/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Charlotte's%20Web/";
             },},{id: "books-the-first-90-days",
           title: 'The First 90 Days',
           description: "",
@@ -463,16 +496,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Forever%20War/";
-            },},{id: "books-good-charts",
-          title: 'Good Charts',
+            },},{id: "books-the-botany-of-desire",
+          title: 'The Botany of Desire',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Good%20Charts/";
-            },},{id: "books-at-the-existentialist-cafe",
-          title: 'At the Existentialist Cafe',
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Botany%20of%20Desire/";
+            },},{id: "books-a-streetcar-named-desire",
+          title: 'A Streetcar Named Desire',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/At%20the%20Existentialist%20Cafe/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/A%20Streetcar%20Named%20Desire/";
             },},{id: "books-the-end-of-poverty",
           title: 'The End of Poverty',
           description: "",
@@ -488,11 +521,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Boy%20Who%20Was%20Raised%20as%20a%20Dog/";
-            },},{id: "books-convenience-store-woman",
-          title: 'Convenience Store Woman',
+            },},{id: "books-steppenwolf",
+          title: 'Steppenwolf',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Convenience%20Store%20Woman/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Steppenwolf/";
             },},{id: "books-are-we-smart-enough-to-know-how-smart-animals-are",
           title: 'Are We Smart Enough to Know How Smart Animals Are?',
           description: "",
@@ -503,11 +536,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Whole-Brain%20Child/";
-            },},{id: "books-slide-ology",
-          title: 'slide:ology',
+            },},{id: "books-down-and-out-in-paris-and-london",
+          title: 'Down and Out in Paris and London',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/slideology/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Down%20and%20Out%20in%20Paris%20and%20London/";
             },},{id: "books-kingpin",
           title: 'Kingpin',
           description: "",
@@ -553,11 +586,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Radical%20Focus/";
-            },},{id: "books-the-honest-truth-about-dishonesty",
-          title: 'The (Honest) Truth About Dishonesty',
+            },},{id: "books-animal-farm",
+          title: 'Animal Farm',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20(Honest)%20Truth%20About%20Dishonesty/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Animal%20Farm/";
             },},{id: "books-orientalism",
           title: 'Orientalism',
           description: "",
@@ -618,11 +651,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/A%20Mind%20at%20Play/";
-            },},{id: "books-the-hour-of-the-star",
-          title: 'The Hour of the Star',
+            },},{id: "books-the-metamorphosis",
+          title: 'The Metamorphosis',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Hour%20of%20the%20Star/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Metamorphosis/";
             },},{id: "books-the-cold-war-a-new-history",
           title: 'The Cold War: A New History',
           description: "",
@@ -943,21 +976,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Change%20by%20Design/";
-            },},{id: "books-a-spy-among-friends",
-          title: 'A Spy Among Friends',
+            },},{id: "books-mrs-dalloway",
+          title: 'Mrs Dalloway',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/A%20Spy%20Among%20Friends/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Mrs%20Dalloway/";
             },},{id: "books-style-lessons-in-clarity-and-grace",
           title: 'Style: Lessons in Clarity and Grace',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Style%20Lessons%20in%20Clarity%20and%20Grace/";
-            },},{id: "books-what-i-talk-about-when-i-talk-about-running",
-          title: 'What I Talk About When I Talk About Running',
+            },},{id: "books-the-outsiders",
+          title: 'The Outsiders',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/What%20I%20Talk%20About%20When%20I%20Talk%20About%20Running/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Outsiders/";
             },},{id: "books-development-as-freedom",
           title: 'Development as Freedom',
           description: "",
@@ -1143,11 +1176,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Bad%20Science/";
-            },},{id: "books-beautiful-evidence",
-          title: 'Beautiful Evidence',
+            },},{id: "books-say-nothing",
+          title: 'Say Nothing',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Beautiful%20Evidence/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Say%20Nothing/";
             },},{id: "books-pale-blue-dot",
           title: 'Pale Blue Dot',
           description: "",
@@ -1178,11 +1211,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Chronicles%20Volume%20One/";
-            },},{id: "books-walden-two",
-          title: 'Walden Two',
+            },},{id: "books-i-am-malala",
+          title: 'I Am Malala',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Walden%20Two/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/I%20Am%20Malala/";
             },},{id: "books-free-will",
           title: 'Free Will',
           description: "",
@@ -1343,11 +1376,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/This%20Is%20Marketing/";
-            },},{id: "books-how-democracies-die",
-          title: 'How Democracies Die',
+            },},{id: "books-perfume",
+          title: 'Perfume',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/How%20Democracies%20Die/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Perfume/";
             },},{id: "books-designing-for-emotion",
           title: 'Designing for Emotion',
           description: "",
@@ -1368,11 +1401,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Discovery%20of%20Global%20Warming/";
-            },},{id: "books-why-does-the-world-exist",
-          title: 'Why Does the World Exist?',
+            },},{id: "books-the-general-theory-of-employment-interest-and-money",
+          title: 'The General Theory of Employment, Interest and Money',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Why%20Does%20the%20World%20Exist/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20General%20Theory%20of%20Employment,%20Interest%20and%20Money/";
             },},{id: "books-on-revolution",
           title: 'On Revolution',
           description: "",
@@ -1488,11 +1521,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/On%20the%20Shortness%20of%20Life/";
-            },},{id: "books-nervous-conditions",
-          title: 'Nervous Conditions',
+            },},{id: "books-brave-new-world",
+          title: 'Brave New World',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Nervous%20Conditions/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Brave%20New%20World/";
             },},{id: "books-ten-arguments-for-deleting-your-social-media-accounts-right-now",
           title: 'Ten Arguments for Deleting Your Social Media Accounts Right Now',
           description: "",
@@ -1633,11 +1666,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Hidden%20Figures/";
-            },},{id: "books-the-accidental-mind",
-          title: 'The Accidental Mind',
+            },},{id: "books-strange-case-of-dr-jekyll-and-mr-hyde",
+          title: 'Strange Case of Dr Jekyll and Mr Hyde',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Accidental%20Mind/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Strange%20Case%20of%20Dr%20Jekyll%20and%20Mr%20Hyde/";
             },},{id: "books-the-art-of-statistics",
           title: 'The Art of Statistics',
           description: "",
@@ -1653,11 +1686,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Ghost%20in%20the%20Wires/";
-            },},{id: "books-chronicle-of-a-death-foretold",
-          title: 'Chronicle of a Death Foretold',
+            },},{id: "books-black-hawk-down",
+          title: 'Black Hawk Down',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Chronicle%20of%20a%20Death%20Foretold/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Black%20Hawk%20Down/";
             },},{id: "books-the-autistic-brain",
           title: 'The Autistic Brain',
           description: "",
@@ -1753,11 +1786,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Blind%20Watchmaker/";
-            },},{id: "books-in-the-realm-of-hungry-ghosts",
-          title: 'In the Realm of Hungry Ghosts',
+            },},{id: "books-heart-of-darkness",
+          title: 'Heart of Darkness',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/In%20the%20Realm%20of%20Hungry%20Ghosts/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Heart%20of%20Darkness/";
             },},{id: "books-the-big-short",
           title: 'The Big Short',
           description: "",
@@ -1848,11 +1881,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Steal%20Like%20an%20Artist/";
-            },},{id: "books-the-genius-of-birds",
-          title: 'The Genius of Birds',
+            },},{id: "books-frankenstein",
+          title: 'Frankenstein',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Genius%20of%20Birds/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Frankenstein/";
             },},{id: "books-the-sociopath-next-door",
           title: 'The Sociopath Next Door',
           description: "",
@@ -1963,21 +1996,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Super%20Pumped/";
-            },},{id: "books-philosophy-bites",
-          title: 'Philosophy Bites',
+            },},{id: "books-nine-stories",
+          title: 'Nine Stories',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Philosophy%20Bites/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Nine%20Stories/";
             },},{id: "books-debt-the-first-5-000-years",
           title: 'Debt: The First 5,000 Years',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Debt%20The%20First%205,000%20Years/";
-            },},{id: "books-sustainable-energy-without-the-hot-air",
-          title: 'Sustainable Energy - Without the Hot Air',
+            },},{id: "books-the-hound-of-the-baskervilles",
+          title: 'The Hound of the Baskervilles',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Sustainable%20Energy%20-%20Without%20the%20Hot%20Air/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Hound%20of%20the%20Baskervilles/";
             },},{id: "books-starship-troopers",
           title: 'Starship Troopers',
           description: "",
@@ -2038,11 +2071,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Talent%20Code/";
-            },},{id: "books-kitchen",
-          title: 'Kitchen',
+            },},{id: "books-persuasion",
+          title: 'Persuasion',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Kitchen/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Persuasion/";
             },},{id: "books-the-collected-schizophrenias",
           title: 'The Collected Schizophrenias',
           description: "",
@@ -2118,16 +2151,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Bluest%20Eye/";
-            },},{id: "books-what-is-this-thing-called-science",
-          title: 'What Is This Thing Called Science?',
+            },},{id: "books-bridge-to-terabithia",
+          title: 'Bridge to Terabithia',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/What%20Is%20This%20Thing%20Called%20Science/";
-            },},{id: "books-field-notes-from-a-catastrophe",
-          title: 'Field Notes from a Catastrophe',
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Bridge%20to%20Terabithia/";
+            },},{id: "books-of-mice-and-men",
+          title: 'Of Mice and Men',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Field%20Notes%20from%20a%20Catastrophe/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Of%20Mice%20and%20Men/";
             },},{id: "books-my-brilliant-friend",
           title: 'My Brilliant Friend',
           description: "",
@@ -2603,16 +2636,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Upside%20of%20Irrationality/";
-            },},{id: "books-labyrinths",
-          title: 'Labyrinths',
+            },},{id: "books-how-to-win-friends-and-influence-people",
+          title: 'How to Win Friends and Influence People',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Labyrinths/";
-            },},{id: "books-data-feminism",
-          title: 'Data Feminism',
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/How%20to%20Win%20Friends%20and%20Influence%20People/";
+            },},{id: "books-letters-to-a-young-poet",
+          title: 'Letters to a Young Poet',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Data%20Feminism/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Letters%20to%20a%20Young%20Poet/";
             },},{id: "books-the-halo-effect",
           title: 'The Halo Effect',
           description: "",
@@ -2653,11 +2686,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Sync/";
-            },},{id: "books-the-sound-of-waves",
-          title: 'The Sound of Waves',
+            },},{id: "books-alive",
+          title: 'Alive',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Sound%20of%20Waves/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Alive/";
             },},{id: "books-the-psychopath-test",
           title: 'The Psychopath Test',
           description: "",
@@ -2693,11 +2726,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Train%20Your%20Mind,%20Change%20Your%20Brain/";
-            },},{id: "books-pitch-anything",
-          title: 'Pitch Anything',
+            },},{id: "books-economics-in-one-lesson",
+          title: 'Economics in One Lesson',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Pitch%20Anything/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Economics%20in%20One%20Lesson/";
             },},{id: "books-the-disappearing-spoon",
           title: 'The Disappearing Spoon',
           description: "",
@@ -2978,11 +3011,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Why%20We%20Make%20Mistakes/";
-            },},{id: "books-show-your-work",
-          title: 'Show Your Work!',
+            },},{id: "books-the-rational-optimist",
+          title: 'The Rational Optimist',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Show%20Your%20Work!/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Rational%20Optimist/";
             },},{id: "books-turn-the-ship-around",
           title: 'Turn the Ship Around!',
           description: "",
@@ -3598,11 +3631,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Algorithms%20to%20Live%20By/";
-            },},{id: "books-eye-brain-and-vision",
-          title: 'Eye, Brain, and Vision',
+            },},{id: "books-the-castle",
+          title: 'The Castle',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Eye,%20Brain,%20and%20Vision/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Castle/";
             },},{id: "books-the-left-hand-of-darkness",
           title: 'The Left Hand of Darkness',
           description: "",
@@ -3813,11 +3846,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Build/";
-            },},{id: "books-the-right-kind-of-wrong",
-          title: 'The Right Kind of Wrong',
+            },},{id: "books-river-out-of-eden",
+          title: 'River Out of Eden',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Right%20Kind%20of%20Wrong/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/River%20Out%20of%20Eden/";
             },},{id: "books-code",
           title: 'Code',
           description: "",
@@ -3883,11 +3916,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Power%20of%20Habit/";
-            },},{id: "books-sculpting-in-time",
-          title: 'Sculpting in Time',
+            },},{id: "books-the-road-to-serfdom",
+          title: 'The Road to Serfdom',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Sculpting%20in%20Time/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Road%20to%20Serfdom/";
             },},{id: "books-letters-from-a-stoic",
           title: 'Letters from a Stoic',
           description: "",
@@ -4108,11 +4141,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Skin%20in%20the%20Game/";
-            },},{id: "books-between-parent-and-child",
-          title: 'Between Parent and Child',
+            },},{id: "books-the-little-prince",
+          title: 'The Little Prince',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Between%20Parent%20and%20Child/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Little%20Prince/";
             },},{id: "books-a-brief-history-of-time",
           title: 'A Brief History of Time',
           description: "",
@@ -4308,11 +4341,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/A%20World%20Lit%20Only%20by%20Fire/";
-            },},{id: "books-being-there",
-          title: 'Being There',
+            },},{id: "books-the-time-machine",
+          title: 'The Time Machine',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Being%20There/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Time%20Machine/";
             },},{id: "books-the-creative-habit",
           title: 'The Creative Habit',
           description: "",
@@ -4383,11 +4416,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Invisible%20Cities/";
-            },},{id: "books-season-of-migration-to-the-north",
-          title: 'Season of Migration to the North',
+            },},{id: "books-lost-in-math",
+          title: 'Lost in Math',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Season%20of%20Migration%20to%20the%20North/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Lost%20in%20Math/";
             },},{id: "books-rationality",
           title: 'Rationality',
           description: "",
@@ -4638,11 +4671,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Annotated%20Turing/";
-            },},{id: "books-the-white-album",
-          title: 'The White Album',
+            },},{id: "books-unweaving-the-rainbow",
+          title: 'Unweaving the Rainbow',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20White%20Album/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Unweaving%20the%20Rainbow/";
             },},{id: "books-homo-deus",
           title: 'Homo Deus',
           description: "",
@@ -4808,11 +4841,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Emergence/";
-            },},{id: "books-probabilistic-machine-learning-an-introduction",
-          title: 'Probabilistic Machine Learning: An Introduction',
+            },},{id: "books-an-introduction-to-statistical-learning",
+          title: 'An Introduction to Statistical Learning',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Probabilistic%20Machine%20Learning%20An%20Introduction/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/An%20Introduction%20to%20Statistical%20Learning/";
             },},{id: "books-learned-optimism",
           title: 'Learned Optimism',
           description: "",
@@ -4848,11 +4881,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Brain%20That%20Changes%20Itself/";
-            },},{id: "books-product-roadmaps-relaunched",
-          title: 'Product Roadmaps Relaunched',
+            },},{id: "books-a-farewell-to-arms",
+          title: 'A Farewell to Arms',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Product%20Roadmaps%20Relaunched/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/A%20Farewell%20to%20Arms/";
             },},{id: "books-the-road-less-traveled",
           title: 'The Road Less Traveled',
           description: "",
@@ -4923,16 +4956,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Tell-Tale%20Brain/";
+            },},{id: "books-as-i-lay-dying",
+          title: 'As I Lay Dying',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/As%20I%20Lay%20Dying/";
             },},{id: "books-in-cold-blood",
           title: 'In Cold Blood',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/In%20Cold%20Blood/";
-            },},{id: "books-value-proposition-design",
-          title: 'Value Proposition Design',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Value%20Proposition%20Design/";
             },},{id: "books-hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow",
           title: 'Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow',
           description: "",
@@ -5418,16 +5451,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Principles%20of%20Neural%20Science/";
-            },},{id: "books-permission-marketing",
-          title: 'Permission Marketing',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Permission%20Marketing/";
             },},{id: "books-superintelligence",
           title: 'Superintelligence',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Superintelligence/";
+            },},{id: "books-the-stranger",
+          title: 'The Stranger',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/The%20Stranger/";
             },},{id: "books-the-drama-of-the-gifted-child",
           title: 'The Drama of the Gifted Child',
           description: "",
@@ -5748,11 +5781,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/books/Don't%20Make%20Me%20Think/";
-            },},{id: "books-understanding-deep-learning",
-          title: 'Understanding Deep Learning',
+            },},{id: "books-introduction-to-algorithms",
+          title: 'Introduction to Algorithms',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/books/Understanding%20Deep%20Learning/";
+              window.location.href = "/Edward_Profio_Portfolio_Site/books/Introduction%20to%20Algorithms/";
             },},{id: "books-strangers-on-a-train",
           title: 'Strangers on a Train',
           description: "",
@@ -5871,11 +5904,6 @@ ninja.data = [{
           description: "Twelve months on Workday&#39;s accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Accessibility/";
-            },},{id: "projects-aurifex-jewelry",
-          title: 'Aurifex Jewelry',
-          description: "Founded an AI jewelry-design tool and a marketplace where buyers get quotes from verified manufacturers.",
-          section: "Projects",handler: () => {
-              window.location.href = "/Edward_Profio_Portfolio_Site/projects/Aurifex/";
             },},{id: "projects-mba-business-cases",
           title: 'MBA business cases',
           description: "Twelve MBA cases on M&amp;A, expansion and restructuring across technology, consumer and manufacturing.",
@@ -5896,6 +5924,16 @@ ninja.data = [{
           description: "An iOS app for collecting digital art in AR. I led product and an engineering team of 8 to 10; our recommender lifted click-through 20% and order value 10%. Then I made the call to wind it down.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Gallify/";
+            },},{id: "projects-goldsmith-ai-design-plus-a-marketplace-for-custom-jewelry",
+          title: 'Goldsmith: AI design plus a marketplace for custom jewelry',
+          description: "An AI design tool and a marketplace for custom jewelry, taken from concept to an investor pitch and a launch in 12 weeks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/Edward_Profio_Portfolio_Site/projects/Goldsmith%20Case%20Study/";
+            },},{id: "projects-goldsmith",
+          title: 'Goldsmith',
+          description: "A concept for an AI jewelry design tool and a marketplace where buyers compare quotes from manufacturers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/Edward_Profio_Portfolio_Site/projects/Goldsmith/";
             },},{id: "projects-loan-default-prediction",
           title: 'Loan Default Prediction',
           description: "Chose a logistic model (AUC 68.2%, 9.5% false negatives) and a 16% approval cutoff that maximizes expected profit.",
@@ -5923,7 +5961,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%65%64%77%61%72%64%70%72%6F%66%69%6F@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%65%64%77%61%72%64@%70%72%6F%66%69%6F.%75%73", "_blank");
         },
       },{
         id: 'social-github',
