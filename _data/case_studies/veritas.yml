@@ -15,7 +15,7 @@ lede: >-
 cover: assets/img/case_studies/veritas/cover.jpg
 film: assets/video/case_studies/veritas/pitch-film.mp4
 film_poster: assets/video/case_studies/veritas/film-poster.jpg
-film_cap: "The Veritas pitch film (2:27, with sound). Press play. Join the waitlist at"
+film_cap: "The Veritas pitch film, 2 minutes 27 seconds, with sound. More at"
 film_link: "https://profio1997.github.io/Veritas_Website/"
 cover_video: assets/video/case_studies/veritas/cover.mp4
 cover_poster: assets/video/case_studies/veritas/cover-poster.jpg
@@ -65,7 +65,7 @@ sections:
           Put together, the evidence says people don't need a faster way to read. They need a way to practise remembering, at the right moments, on the things they actually have to know.
       - type: quote
         text: "The tools stop at the first step. Reading apps stop at listening, and study apps live somewhere else and never see what you read."
-        by: "From the Veritas founder's note"
+        by: "Edward Profio, founder of Veritas"
       - type: h
         text: "Who it's for"
       - type: p
@@ -200,7 +200,7 @@ sections:
         text: "Launching"
       - type: p
         text: |
-          I'm building the launch in public stages. A pre-release website explains the product, with a 2 minute 32 second film that walks through the whole loop in seven chapters, from "why we forget" to "one platform and why now," and a waitlist for early access. The first audience is students with an exam ahead, because the need is urgent and the habit is easiest to form when there's a date. Pricing will be announced before launch, and people on the waitlist hear first. Public launch comes after the waitlist and a first pilot.
+          I'm building the launch in public stages. A pre-release website explains the product, with a 2 minute 27 second film that walks through the whole loop in seven chapters, from "why we forget" to "one platform and why now," and a waitlist for early access. The first audience is students with an exam ahead, because the need is urgent and the habit is easiest to form when there's a date. Pricing will be announced before launch, and people on the waitlist hear first. Public launch comes after the waitlist and a first pilot.
       - type: table
         head: [Milestone, Status]
         rows:

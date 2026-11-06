@@ -111,7 +111,7 @@ sections:
         text: "Trade-offs I'd flag"
       - type: p
         text: |
-          Two of our biggest bets were also our riskiest, and it's worth being honest about what each cost.
+          Two of our biggest bets were also our riskiest, and each one cost us something.
 
           **AR.** It was the feature people remembered, and it made the product feel like nothing else. It was also an engineering investment that only paid off if enough collectors cared about seeing a piece in their room. People loved the moment, but loving it and buying because of it are different things, and we never got clear evidence for the second.
 

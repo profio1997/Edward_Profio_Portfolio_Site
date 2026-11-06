@@ -322,3 +322,9 @@ img[data-zoomable] { cursor: zoom-in; }
 .cs-film__link { font-weight: 700; }
 
 .cs-fig { margin-bottom: 1.3rem; }
+
+/* Alignment fixes: metric numbers line up across cards; split blocks centre vertically */
+.cs-metric { position: relative; display: flex; flex-direction: column; justify-content: flex-start; }
+.cs-metric:not(.cs-metric--basis) .cs-metric__n { margin-top: 1.5rem; }
+.cs-split { align-items: center; }
+.cs-split__media { display: flex; flex-direction: column; justify-content: center; }
