@@ -80,7 +80,7 @@ figcaption, .cs-cap { font-size: .8rem; color: var(--global-text-color-light); m
 .cs-step strong { font-size: .92rem; line-height: 1.3; }
 .cs-step__d { font-size: .8rem; color: var(--global-text-color-light); line-height: 1.4; }
 .cs-step__r { font-size: .85rem; font-weight: 700; color: var(--global-theme-color); margin-top: .2rem; }
-.cs-table-wrap { overflow-x: auto; margin: .5rem 0 1.3rem; border: 1px solid var(--global-divider-color); border-radius: .65rem; }
+.cs-table-wrap { overflow-x: visible; margin: .5rem 0 1.3rem; border: 1px solid var(--global-divider-color); border-radius: .65rem; }
 .cs-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
 .cs-table th { text-align: left; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--global-text-color-light); font-weight: 600; padding: .65rem .85rem; border-bottom: 2px solid var(--global-theme-color); background: var(--global-card-bg-color); }
 .cs-table td { padding: .65rem .85rem; border-bottom: 1px solid var(--global-divider-color); vertical-align: top; line-height: 1.5; }
@@ -209,13 +209,10 @@ img[data-zoomable] { cursor: zoom-in; }
 @media (max-width: 991px) { .cs-domains { grid-template-columns: 1fr 1fr; } .cs-system__row { grid-template-columns: 1fr 1fr; } .cs-system__step:nth-child(2)::after { display: none; } }
 @media (max-width: 767px) {
   /* phones: swipeable carousel */
-  .cs-phones, .cs-phones--2 { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 1rem; padding-bottom: .6rem; justify-content: flex-start; -webkit-overflow-scrolling: touch; }
-  .cs-phones .cs-phone { flex: 0 0 72%; scroll-snap-align: center; }
   .cs-phones .cs-phone img { max-width: 100%; }
   /* desktop screens: keep them legible, let people swipe across */
-  .cs-browser__scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: .5rem; }
-  .cs-browser__scroll img { width: 760px; max-width: none; }
-  .cs-browser figcaption::before { content: "Swipe to explore · tap to zoom"; display: block; font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--global-theme-color); margin-bottom: .2rem; }
+  .cs-browser__scroll { overflow: visible; border-radius: .5rem; }
+  .cs-browser__scroll img { width: 100%; max-width: 100%; }
   .cs-funnel__row--2, .cs-funnel__row--3 { width: 100%; }
   .cs-system__row { grid-template-columns: 1fr; gap: .9rem; } .cs-system__step::after { display: none; }
 }
@@ -690,3 +687,20 @@ article > .clearfix ~ .social { margin-top: 7rem; margin-bottom: 4rem; }
 /* top of every case study: everything centred, including the back link */
 .cs-page .cs-back { display: flex; width: fit-content; margin: 0 auto 1.75rem; justify-content: center; }
 .cs-page .cs-kicker, .cs-page .cs-readtime { text-align: center; }
+
+
+/* no sideways scrolling anywhere: everything wraps or stacks inside the page width */
+html, body { overflow-x: clip; }
+pre, .post pre, .highlight pre { white-space: pre-wrap; overflow-wrap: anywhere; overflow-x: visible; max-width: 100%; }
+.cs-page .cs-toc { position: static; flex-wrap: wrap; overflow: visible; white-space: normal; justify-content: center; }
+@media (min-width: 1100px) { .cs-page .cs-toc { position: sticky; } }
+.cs-page .cs-browser__scroll { overflow: visible; }
+.cs-page .cs-browser__scroll img, .cs-page .cs-browser img, .cs-page .cs-vid { max-width: 100%; }
+.cs-page .cs-table-wrap { overflow: visible; }
+.cs-page .cs-table--center th:not(:first-child), .cs-page .cs-table--center td:not(:first-child) { white-space: normal; }
+@media (max-width: 575px) {
+  .cs-page .cs-metrics { --cols: 1; }
+  table.table-cv, table.table-cv tbody, table.table-cv tr, table.table-cv td, table.table-cv th { display: block; width: 100%; max-width: 100%; }
+}
+.cv table.table-cv { table-layout: fixed; max-width: 100%; }
+.cv table.table-cv td, .cv table.table-cv th { overflow-wrap: anywhere; }

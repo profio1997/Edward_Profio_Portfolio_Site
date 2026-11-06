@@ -2181,10 +2181,10 @@ article h2 {
 
 @media (max-width: 767px) {
   .book-year-jump {
-    flex-wrap: nowrap;
-    justify-content: safe center;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: visible;
 
     a {
       flex: 0 0 auto;
