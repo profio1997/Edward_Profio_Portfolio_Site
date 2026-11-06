@@ -1,0 +1,1813 @@
+REJECT  9781608193394  title does not match "23 Things They Don't Tell You About Capitalism"
+OK      9780691168388  1177 B.C.                                     via openlibrary (isbn 9780691168388, verified)  300x459
+OK      9780345816023  12 Rules for Life                             via openlibrary (isbn 9780345816023, verified)  331x500
+REJECT  9780743224543  title does not match "A Beautiful Mind"
+REJECT  9780553805468  title does not match "A Briefer History of Time"
+REJECT  9780143038665  title does not match "A Field Guide to Getting Lost"
+REJECT  9780743202404  title does not match "A Primate's Memoir"
+REJECT  9780804137744  title does not match "A Spy Among Friends"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781400032051  1491                                          via amazon (isbn 9781400032051, verified)  308x500
+OK      9780743226721  1776                                          via openlibrary (isbn 9780743226721, verified)  318x500
+OK      9780525512172  21 Lessons for the 21st Century               via openlibrary (isbn 9780525512172, verified)  318x500
+OK      9781608193394  23 Things They Don't Tell You About Capitalis via openlibrary-search  324x500
+OK      9780998116310  7 Powers                                      via openlibrary (isbn 9780998116310, verified)  333x500
+OK      9780743224543  A Beautiful Mind                              via openlibrary-search  273x475
+OK      9780063286368  A Brief History of Intelligence               via openlibrary (isbn 9780063286368, verified)  333x500
+OK      9780553380163  A Brief History of Time                       via openlibrary (isbn 9780553380163, verified)  328x500
+OK      9780553805468  A Briefer History of Time                     via openlibrary-search  333x500
+OK      9780060892999  A Canticle for Leibowitz                      via openlibrary (isbn 9780060892999, verified)  328x500
+OK      9780486268651  A Christmas Carol                             via openlibrary (isbn 9780486268651, verified)  302x500
+OK      9780393312836  A Clockwork Orange                            via openlibrary (isbn 9780393312836, verified)  336x500
+OK      9780486270623  A Doll's House                                via openlibrary (isbn 9780486270623, verified)  295x500
+OK      9780684801469  A Farewell to Arms                            via openlibrary (isbn 9780684801469, verified)  183x280
+OK      9780143038665  A Field Guide to Getting Lost                 via openlibrary-search  331x500
+OK      9780375709227  A General Theory of Love                      via openlibrary (isbn 9780375709227, verified)  320x500
+OK      9780195374612  A Guide to the Good Life                      via openlibrary (isbn 9780195374612, verified)  318x445
+OK      9780374531263  A Long Way Gone                               via openlibrary (isbn 9780374531263, verified)  325x500
+OK      9780521427067  A Mathematician's Apology                     via openlibrary (isbn 9780521427067, verified)  308x475
+OK      9781476766683  A Mind at Play                                via openlibrary (isbn 9781476766683, verified)  331x500
+OK      9780399165245  A Mind for Numbers                            via openlibrary (isbn 9780399165245, verified)  333x499
+OK      9780684824994  A Moveable Feast                              via openlibrary (isbn 9780684824994, verified)  321x500
+OK      9780062397348  A People's History of the United States       via openlibrary (isbn 9780062397348, verified)  332x500
+OK      9781732102200  A Philosophy of Software Design               via openlibrary (isbn 9781732102200, verified)  360x442
+OK      9780142437346  A Portrait of the Artist as a Young Man       via openlibrary (isbn 9780142437346, verified)  322x500
+OK      9780743202404  A Primate's Memoir                            via openlibrary-search  308x475
+OK      9780393330335  A Random Walk Down Wall Street                via openlibrary (isbn 9780393330335, verified)  307x500
+OK      9780156787338  A Room of One's Own                           via openlibrary (isbn 9780156787338, verified)  314x475
+OK      9780195007770  A Sand County Almanac                         via openlibrary (isbn 9780195007770, verified)  331x500
+REJECT  9780140433166  title does not match "A Vindication of the Rights of Woman"
+REJECT  9781933820989  title does not match "A Web for Everyone"
+REJECT  9780525536543  title does not match "A World Without Email"
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780547572178  A Scanner Darkly                              via amazon (isbn 9780547572178, verified)  332x500
+OK      9780743253970  A Separate Peace                              via openlibrary (isbn 9780743253970, verified)  311x475
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780140238563  A Short History of Financial Euphoria         via amazon (isbn 9780140238563, verified)  325x500
+OK      9780767908184  A Short History of Nearly Everything          via openlibrary (isbn 9780767908184, verified)  327x500
+MISSING 9780804137744  A Spy Among Friends  -> designed fallback cover
+OK      9780811216029  A Streetcar Named Desire                      via openlibrary (isbn 9780811216029, verified)  312x475
+OK      9780674000780  A Theory of Justice                           via openlibrary (isbn 9780674000780, verified)  327x475
+OK      9781541675810  A Thousand Brains                             via openlibrary (isbn 9781541675810, verified)  323x500
+OK      9781451624465  A Universe from Nothing                       via openlibrary (isbn 9781451624465, verified)  328x500
+OK      9780465013777  A Universe of Consciousness                   via openlibrary (isbn 9780465013777, verified)  310x475
+OK      9780140433166  A Vindication of the Rights of Woman          via openlibrary-search  293x475
+REJECT  9781844673841  title does not match "Against Method"
+REJECT  9780307353399  title does not match "Agent Zigzag"
+REJECT  9780061120268  title does not match "Alive"
+REJECT  9780471728795  title does not match "All the Shah's Men"
+REJECT  9780872200906  title does not match "An Enquiry Concerning Human Understanding"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780307477477  A Visit from the Goon Squad                   via amazon (isbn 9780307477477, verified)  324x500
+OK      9780767902526  A Walk in the Woods                           via openlibrary (isbn 9780767902526, verified)  330x500
+OK      9781933820989  A Web for Everyone                            via openlibrary-search  333x500
+OK      9781594481710  A Whole New Mind                              via openlibrary (isbn 9781594481710, verified)  183x275
+OK      9780547722023  A Wizard of Earthsea                          via openlibrary (isbn 9780547722023, verified)  333x499
+OK      9780316545563  A World Lit Only by Fire                      via openlibrary (isbn 9780316545563, verified)  337x500
+OK      9780525536543  A World Without Email                         via openlibrary-search  331x500
+OK      9780312367541  A Wrinkle in Time                             via openlibrary (isbn 9780312367541, verified)  185x274
+OK      9781098166304  AI Engineering                                via openlibrary (isbn 9781098166304, verified)  360x472
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780691249131  AI Snake Oil                                  via amazon (isbn 9780691249131, verified)  322x500
+OK      9781328546395  AI Superpowers                                via openlibrary (isbn 9781328546395, verified)  331x500
+OK      9781668023488  Abundance                                     via openlibrary (isbn 9781668023488, verified)  331x500
+OK      9781942788331  Accelerate                                    via openlibrary (isbn 9781942788331, verified)  333x500
+OK      9780446391177  Adventures in the Screen Trade                via openlibrary (isbn 9780446391177, verified)  309x500
+OK      9780268035044  After Virtue                                  via openlibrary (isbn 9780268035044, verified)  323x500
+OK      9780062339348  Against Empathy                               via openlibrary (isbn 9780062339348, verified)  331x500
+OK      9781844673841  Against Method                                via openlibrary-search  328x500
+OK      9780307353399  Agent Zigzag                                  via openlibrary-search  329x500
+OK      9781479837243  Algorithms of Oppression                      via openlibrary (isbn 9781479837243, verified)  333x500
+OK      9781627790369  Algorithms to Live By                         via openlibrary (isbn 9781627790369, verified)  326x500
+OK      9780061120268  Alive                                         via openlibrary-search  292x475
+OK      9780449213940  All Quiet on the Western Front                via openlibrary (isbn 9780449213940, verified)  306x500
+OK      9780765397539  All Systems Red                               via openlibrary (isbn 9780765397539, verified)  313x500
+OK      9780471728795  All the Shah's Men                            via openlibrary-search  321x500
+OK      9780465031467  Alone Together                                via openlibrary (isbn 9780465031467, verified)  328x500
+OK      9780312384487  American Born Chinese                         via openlibrary (isbn 9780312384487, verified)  333x500
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780143036531  Amusing Ourselves to Death                    via amazon (isbn 9780143036531, verified)  326x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+OK      9780679746898  An Anthropologist on Mars                     via openlibrary-search  327x500
+OK      9781732265189  An Elegant Puzzle                             via openlibrary (isbn 9781732265189, verified)  338x500
+OK      9780872200906  An Enquiry Concerning Human Understanding     via openlibrary-search  303x500
+OK      9780679763307  An Unquiet Mind                               via openlibrary (isbn 9780679763307, verified)  302x475
+OK      9780465051007  Anarchy, State, and Utopia                    via openlibrary (isbn 9780465051007, verified)  334x500
+OK      9780307452429  Anatomy of an Epidemic                        via openlibrary (isbn 9780307452429, verified)  324x500
+OK      9780316246620  Ancillary Justice                             via openlibrary (isbn 9780316246620, verified)  219x346
+OK      9780062073488  And Then There Were None                      via openlibrary (isbn 9780062073488, verified)  293x500
+OK      9780684842677  Angela's Ashes                                via openlibrary (isbn 9780684842677, verified)  314x500
+OK      9780451526342  Animal Farm                                   via openlibrary (isbn 9780451526342, verified)  279x500
+OK      9780691142333  Animal Spirits                                via openlibrary (isbn 9780691142333, verified)  300x456
+OK      9780156031448  Animals in Translation                        via openlibrary (isbn 9780156031448, verified)  332x500
+OK      9780374104092  Annihilation                                  via openlibrary (isbn 9780374104092, verified)  339x499
+OK      9780812979688  Antifragile                                   via openlibrary (isbn 9780812979688, verified)  324x500
+OK      9780393353662  Are We Smart Enough to Know How Smart Animals via openlibrary (isbn 9780393353662, verified)  300x472
+OK      9780961454739  Art & Fear                                    via openlibrary (isbn 9780961454739, verified)  352x500
+OK      9781491921562  Articulating Design Decisions                 via openlibrary (isbn 9781491921562, verified)  333x499
+OK      9780374257835  Artificial Intelligence: A Guide for Thinking via openlibrary (isbn 9780374257835, verified)  333x500
+have    9780134610993  Artificial Intelligence: A Modern Approach
+OK      9780199602919  Artificial Intelligence: A Very Short Introdu via openlibrary (isbn 9780199602919, verified)  180x283
+OK      9780262537018  Artificial Unintelligence                     via openlibrary (isbn 9780262537018, verified)  333x500
+OK      9780679732259  As I Lay Dying                                via openlibrary (isbn 9780679732259, verified)  329x500
+OK      9780156091800  Aspects of the Novel                          via openlibrary (isbn 9780156091800, verified)  308x475
+OK      9780393609394  Astrophysics for People in a Hurry            via openlibrary (isbn 9780393609394, verified)  308x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780743236447  title does not match "Between Parent and Child"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780060837563  title does not match "Black Boy"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781590519677  At the Existentialist Cafe  -> designed fallback cover
+OK      9780300264630  Atlas of AI                                   via openlibrary (isbn 9780300264630, verified)  323x500
+OK      9780998296609  Atomic Design                                 via openlibrary (isbn 9780998296609, verified)  323x500
+OK      9780735211292  Atomic Habits                                 via openlibrary (isbn 9780735211292, verified)  331x500
+OK      9780385721790  Atonement                                     via openlibrary (isbn 9780385721790, verified)  327x500
+OK      9781585429134  Attached                                      via openlibrary (isbn 9781585429134, verified)  333x500
+OK      9780743222983  Authentic Happiness                           via openlibrary (isbn 9780743222983, verified)  306x475
+OK      9781593275990  Automate the Boring Stuff with Python         via openlibrary (isbn 9781593275990, verified)  360x477
+OK      9781250074317  Automating Inequality                         via openlibrary (isbn 9781250074317, verified)  274x400
+OK      9780671791544  Awaken the Giant Within                       via openlibrary (isbn 9780671791544, verified)  299x500
+OK      9780375704055  Awakenings                                    via openlibrary (isbn 9780375704055, verified)  321x500
+OK      9780471409762  Bad Astronomy                                 via openlibrary (isbn 9780471409762, verified)  319x475
+OK      9781524731656  Bad Blood                                     via openlibrary (isbn 9781524731656, verified)  309x500
+OK      9780007284870  Bad Science                                   via openlibrary (isbn 9780007284870, verified)  329x500
+OK      9780143036975  Bargaining for Advantage                      via openlibrary (isbn 9780143036975, verified)  325x500
+OK      9780374516901  Basin and Range                               via openlibrary (isbn 9780374516901, verified)  329x500
+OK      9780547134628  Beautiful Boy                                 via openlibrary-search  183x280
+MISSING 9780961392178  Beautiful Evidence  -> designed fallback cover
+OK      9780735210943  Because Internet                              via openlibrary (isbn 9780735210943, verified)  333x499
+OK      9781524763138  Becoming                                      via openlibrary (isbn 9781524763138, verified)  328x500
+OK      9780143110910  Behave                                        via openlibrary (isbn 9780143110910, verified)  326x500
+OK      9781250076229  Being Mortal                                  via openlibrary (isbn 9781250076229, verified)  309x500
+OK      9780262633086  Being No One                                  via openlibrary (isbn 9780262633086, verified)  357x475
+OK      9780262532587  Being There                                   via amazon (isbn 9780262532587, UNVERIFIED)  360x479
+OK      9780061176050  Being Wrong                                   via openlibrary (isbn 9780061176050, verified)  332x500
+OK      9781524742874  Being You                                     via amazon (isbn 9781524742874, verified)  332x500
+OK      9781400033416  Beloved                                       via openlibrary (isbn 9781400033416, verified)  316x500
+OK      9780312427658  Better                                        via openlibrary (isbn 9780312427658, verified)  324x500
+OK      9780743236447  Between Parent and Child                      via openlibrary-search  318x500
+OK      9780812993547  Between the World and Me                      via openlibrary (isbn 9780812993547, verified)  338x500
+OK      9780140449235  Beyond Good and Evil                          via openlibrary (isbn 9780140449235, verified)  309x475
+OK      9780544002692  Big Data                                      via openlibrary (isbn 9780544002692, verified)  330x500
+OK      9781594634727  Big Magic                                     via openlibrary (isbn 9781594634727, verified)  332x500
+OK      9780765385253  Binti                                         via openlibrary (isbn 9780765385253, verified)  312x500
+OK      9780385480017  Bird by Bird                                  via amazon (isbn 9780385480017, verified)  324x500
+OK      9781591848226  Black Box Thinking                            via openlibrary (isbn 9781591848226, verified)  330x500
+OK      9780060837563  Black Boy                                     via openlibrary-search  292x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780063076976  title does not match "Build"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780802142863  Black Hawk Down                               via openlibrary-search  295x475
+OK      9780553374117  Black Holes and Baby Universes and Other Essa via openlibrary (isbn 9780553374117, verified)  338x500
+OK      9780156007757  Blindness                                     via openlibrary (isbn 9780156007757, verified)  335x500
+OK      9780765312181  Blindsight                                    via openlibrary (isbn 9780765312181, verified)  331x500
+OK      9780553804645  Blindspot                                     via openlibrary (isbn 9780553804645, verified)  324x500
+OK      9780316010665  Blink                                         via openlibrary (isbn 9780316010665, verified)  333x500
+OK      9781524761417  Blitzscaling                                  via openlibrary (isbn 9781524761417, verified)  296x500
+OK      9780316487740  Blood in the Machine                          via openlibrary (isbn 9780316487740, verified)  331x500
+OK      9781625274496  Blue Ocean Strategy                           via openlibrary (isbn 9781625274496, verified)  332x500
+OK      9780316230056  Blueprint                                     via amazon (isbn 9780316230056, verified)  310x500
+OK      9780399588174  Born a Crime                                  via openlibrary (isbn 9780399588174, verified)  329x499
+OK      9780307266309  Born to Run                                   via openlibrary (isbn 9780307266309, verified)  334x500
+OK      9780316056861  Bossypants                                    via openlibrary (isbn 9780316056861, verified)  323x500
+OK      9781571313560  Braiding Sweetgrass                           via openlibrary (isbn 9781571313560, verified)  323x500
+OK      9780983263371  Brain Rules                                   via openlibrary (isbn 9780983263371, verified)  330x500
+OK      9781451621389  Brain on Fire                                 via openlibrary (isbn 9781451621389, verified)  330x500
+OK      9780060850524  Brave New World                               via openlibrary (isbn 9780060850524, verified)  307x500
+OK      9780679745655  Breakfast at Tiffany's                        via openlibrary (isbn 9780679745655, verified)  324x500
+OK      9780735213616  Breath                                        via openlibrary (isbn 9780735213616, verified)  331x500
+OK      9780064401845  Bridge to Terabithia                          via openlibrary (isbn 9780064401845, verified)  154x240
+OK      9781984819192  Brief Answers to the Big Questions            via amazon (isbn 9781984819192, verified)  353x500
+OK      9780735211759  Broad Band                                    via openlibrary (isbn 9780735211759, verified)  331x500
+OK      9781572246959  Buddha's Brain                                via amazon (isbn 9781572246959, verified)  333x500
+OK      9781633437166  Build a Large Language Model (From Scratch)   via openlibrary (isbn 9781633437166, verified)  239x300
+OK      9780063076976  Build                                         via openlibrary-search  327x500
+REJECT  9781451626643  title does not match "Catch-22"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781492045113  Building Machine Learning Powered Application via amazon (isbn 9781492045113, verified)  360x472
+OK      9780718033323  Building a StoryBrand                         via openlibrary (isbn 9780718033323, verified)  269x400
+OK      9780060516406  Built to Last                                 via openlibrary (isbn 9780060516406, verified)  322x500
+OK      9781501143335  Bullshit Jobs                                 via openlibrary (isbn 9781501143335, verified)  328x500
+OK      9780805086843  Bury My Heart at Wounded Knee                 via openlibrary (isbn 9780805086843, verified)  333x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9781590172810  title does not match "Chess Story"
+REJECT  9781400034956  title does not match "Chronicle of a Death Foretold"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780593419625  title does not match "Clear Thinking"
+OK      9780470876411  Business Model Generation                     via openlibrary-search  360x455
+OK      9781544512280  Can't Hurt Me                                 via openlibrary (isbn 9781544512280, verified)  333x500
+OK      9780140455106  Candide                                       via openlibrary (isbn 9780140455106, verified)  293x500
+OK      9780140177381  Cannery Row                                   via openlibrary (isbn 9780140177381, verified)  294x500
+OK      9780674430006  Capital in the Twenty-First Century           via openlibrary (isbn 9780674430006, verified)  330x500
+OK      9780226264219  Capitalism and Freedom                        via openlibrary (isbn 9780226264219, verified)  302x475
+OK      9780385333481  Cat's Cradle                                  via openlibrary (isbn 9780385333481, verified)  327x500
+OK      9781451626643  Catch-22                                      via openlibrary-search  284x500
+OK      9780061766084  Change by Design                              via openlibrary (isbn 9780061766084, verified)  333x500
+OK      9780143113454  Chaos                                         via openlibrary (isbn 9780143113454, verified)  326x500
+OK      9780064400558  Charlotte's Web                               via openlibrary (isbn 9780064400558, verified)  342x500
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+OK      9781620408919  Chasing the Scream                            via amazon (isbn 9781620408919, verified)  333x500
+MISSING 9781590172810  Chess Story  -> designed fallback cover
+OK      9780393310689  Childhood and Society                         via openlibrary (isbn 9780393310689, verified)  322x500
+OK      9780345347954  Childhood's End                               via openlibrary (isbn 9780345347954, verified)  283x475
+OK      9781982172008  Chip War                                      via openlibrary (isbn 9781982172008, verified)  238x360
+REJECT  9780141018621  title does not match "Common Sense"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781400034956  Chronicle of a Death Foretold  -> designed fallback cover
+OK      9780743228152  Chronicles: Volume One                        via openlibrary (isbn 9780743228152, verified)  330x500
+OK      9780316556347  Circe                                         via openlibrary (isbn 9780316556347, verified)  315x475
+OK      9780393304510  Civilization and Its Discontents              via openlibrary (isbn 9780393304510, verified)  334x500
+OK      9780134494166  Clean Architecture                            via openlibrary (isbn 9780134494166, verified)  360x471
+OK      9780132350884  Clean Code                                    via openlibrary (isbn 9780132350884, verified)  360x477
+OK      9780593419625  Clear Thinking                                via openlibrary-search  328x500
+OK      9780393608885  Click Here to Kill Everybody                  via openlibrary (isbn 9780393608885, verified)  302x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780262517683  title does not match "Computing: A Concise History"
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780393316827  Climbing Mount Improbable                     via amazon (isbn 9780393316827, verified)  344x500
+have    9780593716717  Co-Intelligence
+OK      9780140275018  Cod                                           via openlibrary (isbn 9780140275018, verified)  338x475
+OK      9780137909100  Code: The Hidden Language of Computer Hardwar via openlibrary (isbn 9780137909100, verified)  333x500
+OK      9780735611313  Code                                          via openlibrary (isbn 9780735611313, verified)  320x475
+OK      9780735220560  Coders                                        via openlibrary (isbn 9780735220560, verified)  329x500
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+OK      9780393603170  Cognitive Neuroscience: The Biology of the Mi via amazon (isbn 9780393603170, verified)  360x460
+OK      9781337408271  Cognitive Psychology                          via openlibrary (isbn 9781337408271, verified)  248x300
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781483347363  Cognitive Science: An Introduction to the Stu via openlibrary-search  360x442
+OK      9780143117001  Collapse                                      via openlibrary (isbn 9780143117001, verified)  293x450
+OK      9780141018621  Common Sense                                  via openlibrary-search  297x500
+OK      9780062435613  Competing Against Luck                        via openlibrary (isbn 9780062435613, verified)  330x499
+OK      9780684841465  Competitive Advantage                         via openlibrary (isbn 9780684841465, verified)  320x475
+OK      9780684841489  Competitive Strategy                          via openlibrary (isbn 9780684841489, verified)  320x475
+OK      9780199798100  Complexity: A Guided Tour                     via amazon (isbn 9780199798100, verified)  333x500
+OK      9780312421700  Complications                                 via openlibrary (isbn 9780312421700, verified)  332x500
+OK      9780716704638  Computer Power and Human Reason               via openlibrary (isbn 9780716704638, verified)  322x500
+OK      9780262517683  Computing: A Concise History                  via openlibrary-search  349x500
+OK      9780415285940  Conjectures and Refutations                   via openlibrary (isbn 9780415285940, verified)  321x500
+OK      9780547508177  Connectome                                    via openlibrary-search  329x500
+OK      9780316180665  Consciousness Explained                       via amazon (isbn 9780316180665, verified)  336x500
+OK      9780143126263  Consciousness and the Brain                   via amazon (isbn 9780143126263, verified)  326x500
+OK      9780199928644  Consciousness and the Social Brain            via openlibrary (isbn 9780199928644, verified)  331x500
+OK      9781451686579  Contagious                                    via openlibrary (isbn 9781451686579, verified)  322x500
+OK      9781736633304  Continuous Discovery Habits                   via openlibrary (isbn 9781736633304, verified)  333x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780393062250  title does not match "Death by Black Hole"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9781937557027  title does not match "Design Is a Job"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780385315289  title does not match "Drinking: A Love Story"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780802129840  Convenience Store Woman  -> designed fallback cover
+OK      9780380807345  Coraline                                      via openlibrary (isbn 9780380807345, verified)  330x500
+OK      9780345539434  Cosmos                                        via openlibrary (isbn 9780345539434, verified)  324x499
+OK      9780770436193  Countdown to Zero Day                         via amazon (isbn 9780770436193, verified)  324x500
+OK      9780984782857  Cracking the PM Interview                     via openlibrary (isbn 9780984782857, verified)  350x500
+OK      9780865475878  Cradle to Cradle                              via openlibrary (isbn 9780865475878, verified)  328x500
+OK      9781416587095  Crazy Like Us                                 via openlibrary (isbn 9781416587095, verified)  326x500
+OK      9780385349369  Creative Confidence                           via openlibrary (isbn 9780385349369, verified)  322x500
+OK      9780812993011  Creativity, Inc.                              via openlibrary (isbn 9780812993011, verified)  328x500
+OK      9780521657297  Critique of Pure Reason                       via openlibrary (isbn 9780521657297, verified)  333x500
+have    9780062292988  Crossing the Chasm
+OK      9780071771320  Crucial Conversations                         via openlibrary (isbn 9780071771320, verified)  334x500
+OK      9780525657743  Crying in H Mart                              via openlibrary (isbn 9780525657743, verified)  329x500
+OK      9780262730099  Cybernetics                                   via openlibrary (isbn 9780262730099, verified)  334x500
+OK      9780199918119  Cybersecurity and Cyberwar                    via openlibrary (isbn 9780199918119, verified)  266x400
+OK      9780399592522  Dare to Lead                                  via openlibrary (isbn 9780399592522, verified)  265x400
+OK      9781592408412  Daring Greatly                                via openlibrary (isbn 9781592408412, verified)  330x500
+OK      9780307341570  Dark Places                                   via openlibrary (isbn 9780307341570, verified)  302x500
+OK      9781476763262  Dark Territory                                via openlibrary (isbn 9781476763262, verified)  323x500
+OK      9780679736394  Darkness Visible                              via openlibrary (isbn 9780679736394, verified)  260x401
+OK      9780684824710  Darwin's Dangerous Idea                       via openlibrary (isbn 9780684824710, verified)  314x475
+MISSING 9780262044004  Data Feminism  -> designed fallback cover
+OK      9781449361327  Data Science for Business                     via openlibrary (isbn 9781449361327, verified)  360x471
+OK      9780393352177  Data and Goliath                              via openlibrary (isbn 9780393352177, verified)  332x500
+OK      9780316204378  David and Goliath                             via openlibrary (isbn 9780316204378, verified)  267x400
+OK      9780307408860  Dead Wake                                     via openlibrary (isbn 9780307408860, verified)  184x281
+OK      9780887309892  Dealers of Lightning                          via openlibrary (isbn 9780887309892, verified)  317x475
+OK      9780393062250  Death by Black Hole                           via openlibrary-search  183x275
+OK      9780140481341  Death of a Salesman                           via openlibrary (isbn 9780140481341, verified)  319x500
+OK      9781612194196  Debt: The First 5,000 Years                   via openlibrary (isbn 9781612194196, verified)  336x500
+OK      9780307956392  Decisive                                      via openlibrary (isbn 9780307956392, verified)  335x500
+have    9780262035613  Deep Learning
+OK      9781541644632  Deep Medicine                                 via openlibrary (isbn 9781541644632, verified)  323x500
+OK      9781455586691  Deep Work                                     via openlibrary (isbn 9781455586691, verified)  331x500
+OK      9781885254009  Delirious New York                            via openlibrary (isbn 9781885254009, verified)  360x474
+OK      9780446563048  Delivering Happiness                          via openlibrary (isbn 9780446563048, verified)  183x280
+OK      9780143036227  Descartes' Error                              via openlibrary (isbn 9780143036227, verified)  320x500
+OK      9781937557027  Design Is a Job                               via openlibrary-search  308x475
+OK      9780262043458  Design Justice                                via openlibrary (isbn 9780262043458, verified)  333x500
+OK      9780201633610  Design Patterns                               via openlibrary (isbn 9780201633610, verified)  318x396
+OK      9781118980828  Designing Brand Identity                      via openlibrary (isbn 9781118980828, verified)  260x334
+OK      9781449373320  Designing Data-Intensive Applications         via openlibrary (isbn 9781449373320, verified)  360x472
+OK      9781098107963  Designing Machine Learning Systems            via openlibrary (isbn 9781098107963, verified)  360x472
+OK      9781101875322  Designing Your Life                           via openlibrary (isbn 9781101875322, verified)  352x500
+OK      9781937557003  Designing for Emotion                         via openlibrary (isbn 9781937557003, verified)  317x500
+OK      9780525560975  Determined                                    via openlibrary (isbn 9780525560975, verified)  329x500
+OK      9780385720274  Development as Freedom                        via openlibrary (isbn 9780385720274, verified)  325x500
+OK      9780143118442  Difficult Conversations                       via amazon (isbn 9780143118442, verified)  327x500
+OK      9780525536512  Digital Minimalism                            via openlibrary (isbn 9780525536512, verified)  229x346
+OK      9780872204201  Discourse on Method and Meditations on First  via openlibrary (isbn 9780872204201, verified)  303x500
+OK      9780140449464  Discourses and Selected Writings              via openlibrary (isbn 9780140449464, verified)  325x500
+OK      9780140296402  Disgrace                                      via openlibrary (isbn 9780140296402, verified)  326x500
+OK      9780679735250  Dispatches                                    via openlibrary (isbn 9780679735250, verified)  304x475
+OK      9780345404473  Do Androids Dream of Electric Sheep?          via openlibrary (isbn 9780345404473, verified)  300x475
+OK      9780321965516  Don't Make Me Think                           via openlibrary (isbn 9780321965516, verified)  311x400
+OK      9781931498715  Don't Think of an Elephant!                   via openlibrary (isbn 9781931498715, verified)  320x500
+OK      9781524746742  Dopamine Nation                               via openlibrary (isbn 9781524746742, verified)  331x500
+OK      9781603587969  Doughnut Economics                            via openlibrary (isbn 9781603587969, verified)  326x500
+OK      9780156262248  Down and Out in Paris and London              via openlibrary (isbn 9780156262248, verified)  294x500
+OK      9781400082773  Dreams from My Father                         via openlibrary (isbn 9781400082773, verified)  332x500
+OK      9780679744085  Dreams of a Final Theory                      via openlibrary (isbn 9780679744085, verified)  319x500
+OK      9780385315289  Drinking: A Love Story                        via openlibrary-search  325x500
+OK      9781594484803  Drive                                         via openlibrary (isbn 9781594484803, verified)  330x500
+OK      9780441172719  Dune                                          via openlibrary (isbn 9780441172719, verified)  265x475
+have    9781119691297  EMPOWERED
+OK      9780684857084  Easy Riders, Raging Bulls                     via openlibrary (isbn 9780684857084, verified)  307x475
+OK      9781626569416  Eat That Frog!                                via openlibrary (isbn 9781626569416, verified)  344x500
+OK      9780517548233  Economics in One Lesson                       via openlibrary (isbn 9780517548233, verified)  307x500
+REJECT  9780062499851  title does not match "Endure"
+OK      9780399590504  Educated                                      via openlibrary (isbn 9780399590504, verified)  329x500
+OK      9781591847816  Ego Is the Enemy                              via openlibrary (isbn 9781591847816, verified)  314x445
+OK      9780143039884  Eichmann in Jerusalem                         via openlibrary (isbn 9780143039884, verified)  326x500
+OK      9780684868769  Emergence                                     via openlibrary (isbn 9780684868769, verified)  326x500
+OK      9780465051366  Emotional Design                              via openlibrary (isbn 9780465051366, verified)  326x500
+OK      9780553383713  Emotional Intelligence                        via openlibrary (isbn 9780553383713, verified)  301x475
+OK      9781416591061  Empire of the Summer Moon                     via openlibrary (isbn 9781416591061, verified)  330x500
+OK      9780812550702  Ender's Game                                  via openlibrary (isbn 9780812550702, verified)  300x500
+OK      9780393327793  Endless Forms Most Beautiful                  via openlibrary (isbn 9780393327793, verified)  333x500
+OK      9780465062881  Endurance                                     via openlibrary (isbn 9780465062881, verified)  333x500
+OK      9780062499851  Endure                                        via openlibrary-search  330x500
+OK      9780525427575  Enlightenment Now                             via openlibrary (isbn 9780525427575, verified)  329x499
+OK      9780961392116  Envisioning Information                       via openlibrary (isbn 9780961392116, verified)  229x288
+OK      9780805031492  Escape from Freedom                           via openlibrary (isbn 9780805031492, verified)  311x475
+OK      9781491973790  Escaping the Build Trap                       via openlibrary (isbn 9781491973790, verified)  333x500
+OK      9780804137386  Essentialism                                  via openlibrary (isbn 9780804137386, verified)  186x281
+OK      9780140135589  Ethics: Inventing Right and Wrong             via openlibrary (isbn 9780140135589, verified)  318x500
+OK      9780140435719  Ethics                                        via openlibrary (isbn 9780140435719, verified)  323x500
+OK      9780062390868  Everybody Lies                                via openlibrary (isbn 9780062390868, verified)  332x500
+OK      9780307951793  Everything Is Obvious                         via openlibrary (isbn 9780307951793, verified)  321x500
+OK      9780553447453  Evicted                                       via openlibrary (isbn 9780553447453, verified)  322x500
+OK      9781101947883  Exhalation                                    via openlibrary (isbn 9781101947883, verified)  338x500
+OK      9780300115468  Existentialism Is a Humanism                  via openlibrary (isbn 9780300115468, verified)  200x307
+OK      9780691128719  Expert Political Judgment                     via openlibrary (isbn 9780691128719, verified)  329x500
+REJECT  9780316231244  title does not match "Factory Man"
+OK      9781250067050  Extreme Ownership                             via openlibrary (isbn 9781250067050, verified)  317x500
+REJECT  9780060733940  title does not match "First They Killed My Father"
+REJECT  9781324050490  title does not match "Four Battlegrounds"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780807059098  title does not match "Gandhi: An Autobiography"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780716750208  Eye, Brain, and Vision  -> designed fallback cover
+OK      9781250107817  Factfulness                                   via openlibrary (isbn 9781250107817, verified)  324x499
+OK      9780316231244  Factory Man                                   via openlibrary-search  323x500
+OK      9781451673319  Fahrenheit 451                                via openlibrary (isbn 9781451673319, verified)  311x500
+OK      9780547750330  Fast Food Nation                              via openlibrary (isbn 9780547750330, verified)  320x500
+OK      9780140444490  Fear and Trembling                            via openlibrary (isbn 9780140444490, verified)  331x500
+OK      9780380810338  Feeling Good                                  via openlibrary (isbn 9780380810338, verified)  303x500
+OK      9780802713315  Fermat's Enigma                               via openlibrary (isbn 9780802713315, verified)  343x500
+OK      9780802130303  Ficciones                                     via openlibrary (isbn 9780802130303, verified)  322x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781596918665  Field Notes from a Catastrophe                via amazon (isbn 9781596918665, UNVERIFIED)  329x500
+OK      9780393355949  Fight Club                                    via openlibrary (isbn 9780393355949, verified)  333x500
+OK      9781250158062  Fire and Fury                                 via openlibrary (isbn 9781250158062, verified)  329x500
+OK      9780060733940  First They Killed My Father                   via openlibrary-search  332x500
+OK      9780684852867  First, Break All the Rules                    via openlibrary (isbn 9780684852867, verified)  250x358
+OK      9780872206335  Five Dialogues                                via openlibrary (isbn 9780872206335, verified)  316x500
+OK      9780393351590  Flash Boys                                    via openlibrary (isbn 9780393351590, verified)  331x500
+OK      9780486272634  Flatland                                      via openlibrary (isbn 9780486272634, verified)  287x475
+OK      9780061339202  Flow                                          via openlibrary (isbn 9780061339202, verified)  312x500
+OK      9780156030304  Flowers for Algernon                          via openlibrary (isbn 9780156030304, verified)  332x500
+OK      9780812975215  Fooled by Randomness                          via openlibrary (isbn 9780812975215, verified)  324x500
+OK      9780809045990  Fortune's Formula                             via openlibrary (isbn 9780809045990, verified)  333x500
+OK      9780553293357  Foundation                                    via openlibrary (isbn 9780553293357, verified)  312x500
+OK      9780375705243  Founding Brothers                             via openlibrary (isbn 9780375705243, verified)  298x475
+OK      9781324050490  Four Battlegrounds                            via openlibrary-search  331x500
+OK      9780374159122  Four Thousand Weeks                           via amazon (isbn 9780374159122, verified)  326x500
+OK      9781649374042  Fourth Wing                                   via openlibrary (isbn 9781649374042, verified)  329x500
+OK      9780486282114  Frankenstein                                  via openlibrary (isbn 9780486282114, verified)  289x475
+OK      9780060731335  Freakonomics                                  via openlibrary (isbn 9780060731335, verified)  200x296
+OK      9781451683400  Free Will                                     via openlibrary (isbn 9781451683400, verified)  354x500
+OK      9780596002879  Free as in Freedom                            via openlibrary (isbn 9780596002879, verified)  320x500
+OK      9780156334600  Free to Choose                                via openlibrary (isbn 9780156334600, verified)  321x500
+OK      9780465084999  Free to Learn                                 via openlibrary (isbn 9780465084999, verified)  332x500
+OK      9780393242072  From Bacteria to Bach and Back                via openlibrary (isbn 9780393242072, verified)  329x500
+OK      9780618871711  Fun Home                                      via openlibrary (isbn 9780618871711, verified)  309x500
+OK      9781098108304  Fundamentals of Data Engineering              via openlibrary (isbn 9781098108304, verified)  360x472
+OK      9781492043454  Fundamentals of Software Architecture         via openlibrary (isbn 9781492043454, verified)  360x472
+OK      9780198784883  Gaia                                          via openlibrary (isbn 9780198784883, verified)  329x499
+OK      9780140280555  Galileo's Daughter                            via openlibrary (isbn 9780140280555, verified)  326x500
+OK      9780345410030  Games People Play                             via openlibrary (isbn 9780345410030, verified)  328x500
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780807059098  Gandhi: An Autobiography  -> designed fallback cover
+OK      9781098134181  Generative Deep Learning, 2nd Edition         via openlibrary (isbn 9781098134181, verified)  360x472
+OK      9780609809648  Genghis Khan and the Making of the Modern Wor via openlibrary (isbn 9780609809648, verified)  324x500
+OK      9781524742676  Genius Makers                                 via openlibrary (isbn 9781524742676, verified)  331x500
+OK      9780679747048  Genius                                        via openlibrary (isbn 9780679747048, verified)  306x475
+REJECT  9780393347098  title does not match "Gulp"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780060894085  Genome                                        via amazon (isbn 9780060894085, verified)  328x500
+OK      9780553371314  Getting Past No                               via openlibrary (isbn 9780553371314, verified)  318x500
+OK      9780143126560  Getting Things Done                           via openlibrary (isbn 9780143126560, verified)  326x499
+OK      9780143118756  Getting to Yes                                via openlibrary (isbn 9780143118756, verified)  314x500
+OK      9780385495646  Ghost Soldiers                                via openlibrary (isbn 9780385495646, verified)  314x500
+REJECT  9781771642095  title does not match "Gut"
+REJECT  9780374533090  title does not match "Happy City"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781328566249  Ghost Work                                    via amazon (isbn 9781328566249, verified)  333x500
+OK      9780316037709  Ghost in the Wires                            via openlibrary (isbn 9780316037709, verified)  322x500
+OK      9780312424404  Gilead                                        via openlibrary (isbn 9780312424404, verified)  329x500
+OK      9780345806567  Giovanni's Room                               via openlibrary (isbn 9780345806567, verified)  220x334
+OK      9780452282155  Girl with a Pearl Earring                     via openlibrary (isbn 9780452282155, verified)  349x500
+OK      9780679746041  Girl, Interrupted                             via openlibrary (isbn 9780679746041, verified)  312x500
+OK      9780143124986  Give and Take                                 via openlibrary (isbn 9780143124986, verified)  327x499
+OK      9780393324396  Globalization and Its Discontents             via openlibrary (isbn 9780393324396, verified)  318x475
+OK      9780814758373  Godel's Proof                                 via openlibrary (isbn 9780814758373, verified)  313x500
+OK      9781324074335  Going Infinite                                via openlibrary (isbn 9781324074335, verified)  331x500
+OK      9780307588371  Gone Girl                                     via openlibrary (isbn 9780307588371, verified)  325x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780312424107  title does not match "Housekeeping"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9781328915429  title does not match "How Emotions Are Made"
+REJECT  9780679742456  title does not match "How We Die"
+REJECT  9780593084144  title does not match "How to Change"
+REJECT  9781590512340  title does not match "How to Live"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781633690707  Good Charts  -> designed fallback cover
+OK      9781610197892  Good Economics for Hard Times                 via openlibrary-search  307x475
+OK      9781250159076  Good Habits, Bad Habits                       via openlibrary (isbn 9781250159076, verified)  317x475
+OK      9780060853983  Good Omens                                    via openlibrary (isbn 9780060853983, verified)  298x500
+have    9780307886231  Good Strategy Bad Strategy
+OK      9780066620992  Good to Great                                 via openlibrary (isbn 9780066620992, verified)  330x500
+OK      9780618083602  Gorillas in the Mist                          via openlibrary (isbn 9780618083602, verified)  316x475
+OK      9783721201451  Grid Systems in Graphic Design                via amazon (isbn 9783721201451, verified)  354x500
+OK      9781501111112  Grit                                          via openlibrary (isbn 9781501111112, verified)  327x500
+OK      9781617292231  Grokking Algorithms                           via openlibrary (isbn 9781617292231, verified)  360x458
+OK      9780393347098  Gulp                                          via openlibrary-search  331x500
+OK      9780393317558  Guns, Germs, and Steel                        via openlibrary (isbn 9780393317558, verified)  323x500
+OK      9780143113768  Gut Feelings                                  via openlibrary (isbn 9780143113768, verified)  261x400
+OK      9781771642095  Gut                                           via openlibrary-search  312x500
+OK      9780465026562  Gödel, Escher, Bach                           via openlibrary (isbn 9780465026562, verified)  312x500
+OK      9780802124739  H Is for Hawk                                 via openlibrary (isbn 9780802124739, verified)  329x500
+OK      9780596006624  Hackers & Painters                            via openlibrary (isbn 9780596006624, verified)  312x500
+OK      9781449388393  Hackers: Heroes of the Computer Revolution    via openlibrary (isbn 9781449388393, verified)  270x415
+OK      9780307947437  Hallucinations                                via openlibrary (isbn 9780307947437, verified)  324x500
+OK      9781098150969  Hands-On Large Language Models                via openlibrary (isbn 9781098150969, verified)  360x472
+OK      9781098125974  Hands-On Machine Learning with Scikit-Learn,  via openlibrary (isbn 9781098125974, verified)  229x300
+OK      9780374533090  Happy City                                    via openlibrary-search  331x500
+OK      9780593441275  Happy Place                                   via openlibrary (isbn 9780593441275, verified)  331x500
+OK      9780590353427  Harry Potter and the Sorcerer's Stone         via openlibrary (isbn 9780590353427, verified)  338x500
+OK      9781416936473  Hatchet                                       via openlibrary (isbn 9781416936473, verified)  328x500
+OK      9780141441672  Heart of Darkness                             via openlibrary (isbn 9780141441672, verified)  325x500
+OK      9780486264691  Hedda Gabler                                  via openlibrary (isbn 9780486264691, verified)  290x475
+OK      9780393634990  Hello World                                   via openlibrary (isbn 9780393634990, verified)  328x500
+OK      9780143114949  Here Comes Everybody                          via openlibrary (isbn 9780143114949, verified)  320x500
+OK      9780062363602  Hidden Figures                                via openlibrary (isbn 9780062363602, verified)  332x500
+OK      9780593653142  Hidden Potential                              via openlibrary (isbn 9780593653142, verified)  331x500
+OK      9780385543767  Hidden Valley Road                            via openlibrary (isbn 9780385543767, verified)  263x400
+have    9780679762881  High Output Management
+OK      9780062300546  Hillbilly Elegy                               via openlibrary (isbn 9780062300546, verified)  329x500
+OK      9780679721031  Hiroshima                                     via openlibrary (isbn 9780679721031, verified)  286x475
+OK      9780140440393  History of the Peloponnesian War              via openlibrary (isbn 9780140440393, verified)  311x475
+OK      9780062652515  Hit Refresh                                   via openlibrary-search  332x500
+OK      9780316113007  Hold Me Tight                                 via openlibrary (isbn 9780316113007, verified)  323x500
+OK      9780440414803  Holes                                         via openlibrary (isbn 9780440414803, verified)  324x500
+OK      9780156421171  Homage to Catalonia                           via openlibrary (isbn 9780156421171, verified)  329x500
+OK      9780140102314  Home: A Short History of an Idea              via openlibrary (isbn 9780140102314, verified)  305x475
+OK      9780062464316  Homo Deus                                     via openlibrary (isbn 9780062464316, verified)  329x500
+have    9781591847786  Hooked
+OK      9780312424107  Housekeeping                                  via openlibrary-search  334x500
+OK      9780593239513  How Big Things Get Done                       via openlibrary (isbn 9780593239513, verified)  331x500
+OK      9780195573565  How Brands Grow                               via openlibrary (isbn 9780195573565, verified)  267x400
+OK      9781324001560  How Charts Lie                                via openlibrary (isbn 9781324001560, verified)  300x452
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780140112054  title does not match "In Patagonia"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9781556436253  title does not match "In the Realm of Hungry Ghosts"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780312420260  title does not match "Jesus' Son"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+REJECT  9781592407231  title does not match "Just My Type"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781101905470  How Democracies Die  -> designed fallback cover
+OK      9780618610037  How Doctors Think                             via openlibrary (isbn 9780618610037, verified)  335x500
+OK      9781328915429  How Emotions Are Made                         via openlibrary-search  312x500
+OK      9781455582341  How Google Works                              via openlibrary (isbn 9781455582341, verified)  360x490
+OK      9780143127536  How Not to Be Wrong                           via openlibrary (isbn 9780143127536, verified)  326x500
+OK      9780679742456  How We Die                                    via openlibrary-search  314x475
+OK      9781594632969  How We Got to Now                             via openlibrary (isbn 9781594632969, verified)  328x500
+OK      9780029117064  How We Know What Isn't So                     via openlibrary (isbn 9780029117064, verified)  313x475
+OK      9780525559887  How We Learn                                  via openlibrary (isbn 9780525559887, verified)  331x500
+OK      9780393334777  How the Mind Works                            via openlibrary (isbn 9780393334777, verified)  307x500
+OK      9780593297063  How the World Really Works                    via amazon (isbn 9780593297063, verified)  331x500
+OK      9780385546133  How to Avoid a Climate Disaster               via openlibrary (isbn 9780385546133, verified)  318x465
+OK      9780465097951  How to Be a Stoic                             via openlibrary (isbn 9780465097951, verified)  341x499
+OK      9780593084144  How to Change                                 via openlibrary-search  324x500
+OK      9780143124047  How to Create a Mind                          via openlibrary (isbn 9780143124047, verified)  326x499
+OK      9781612197494  How to Do Nothing                             via openlibrary (isbn 9781612197494, verified)  330x500
+OK      9780393310726  How to Lie with Statistics                    via openlibrary (isbn 9780393310726, verified)  334x500
+OK      9781590512340  How to Live                                   via openlibrary-search  355x500
+OK      9781451663877  How to Talk So Kids Will Listen & Listen So K via openlibrary (isbn 9781451663877, verified)  324x500
+OK      9780671027032  How to Win Friends and Influence People       via openlibrary (isbn 9780671027032, verified)  309x500
+OK      9780064410342  Howl's Moving Castle                          via openlibrary (isbn 9780064410342, verified)  310x500
+have    9780525558613  Human Compatible
+OK      9780316322423  I Am Malala                                   via openlibrary (isbn 9780316322423, verified)  333x500
+OK      9780465030781  I Am a Strange Loop                           via openlibrary (isbn 9780465030781, verified)  329x500
+OK      9780062368591  I Contain Multitudes                          via openlibrary (isbn 9780062368591, verified)  314x475
+OK      9780345514400  I Know Why the Caged Bird Sings               via openlibrary (isbn 9780345514400, verified)  308x500
+OK      9780761147480  I Will Teach You to Be Rich                   via openlibrary (isbn 9780761147480, verified)  333x500
+OK      9780062319791  I'll Be Gone in the Dark                      via openlibrary (isbn 9780062319791, verified)  332x500
+OK      9781982185824  I'm Glad My Mom Died                          via openlibrary (isbn 9781982185824, verified)  178x283
+OK      9780553382563  I, Robot                                      via openlibrary (isbn 9780553382563, verified)  334x500
+OK      9780316595643  If Anyone Builds It, Everyone Dies            via openlibrary (isbn 9780316595643, verified)  310x480
+OK      9780143130727  Ikigai                                        via openlibrary (isbn 9780143130727, verified)  332x500
+OK      9781844670864  Imagined Communities                          via openlibrary (isbn 9781844670864, verified)  343x500
+OK      9780679745587  In Cold Blood                                 via openlibrary (isbn 9780679745587, verified)  307x475
+OK      9780143114963  In Defense of Food                            via openlibrary (isbn 9780143114963, verified)  329x500
+OK      9780140112054  In Patagonia                                  via openlibrary-search  308x475
+OK      9780918172020  In Praise of Shadows                          via openlibrary (isbn 9780918172020, verified)  303x475
+OK      9780393329377  In Search of Memory                           via openlibrary (isbn 9780393329377, verified)  333x500
+OK      9780767903868  In a Sunburned Country                        via openlibrary (isbn 9780767903868, verified)  320x500
+OK      9781879505629  In the Blink of an Eye                        via openlibrary (isbn 9781879505629, verified)  323x500
+OK      9780141001821  In the Heart of the Sea                       via openlibrary (isbn 9780141001821, verified)  320x500
+OK      9781416596585  In the Plex                                   via openlibrary (isbn 9781416596585, verified)  314x500
+MISSING 9781556436253  In the Realm of Hungry Ghosts  -> designed fallback cover
+OK      9780143113492  In the Woods                                  via openlibrary (isbn 9780143113492, verified)  183x280
+OK      9780307389923  Incognito                                     via openlibrary (isbn 9780307389923, verified)  324x500
+OK      9781948836531  Indistractable                                via openlibrary (isbn 9781948836531, verified)  317x475
+OK      9780743289696  Infidel                                       via openlibrary (isbn 9780743289696, verified)  319x500
+OK      9781328879981  Infinite Powers                               via openlibrary (isbn 9781328879981, verified)  331x500
+OK      9780061241895  Influence                                     via openlibrary (isbn 9780061241895, verified)  320x500
+OK      9780521642989  Information Theory, Inference, and Learning A via openlibrary (isbn 9780521642989, verified)  360x466
+OK      9780809058402  Innumeracy                                    via openlibrary (isbn 9780809058402, verified)  306x475
+have    9781119387503  INSPIRED: How to Create Tech Products Customers Love
+OK      9780618101368  Interpreter of Maladies                       via openlibrary (isbn 9780618101368, verified)  315x500
+OK      9780385494786  Into Thin Air                                 via openlibrary (isbn 9780385494786, verified)  320x500
+OK      9780385486804  Into the Wild                                 via openlibrary (isbn 9780385486804, verified)  300x475
+OK      9781449369415  Introduction to Machine Learning with Python  via openlibrary (isbn 9781449369415, verified)  360x471
+OK      9780393348781  Intuition Pumps and Other Tools for Thinking  via openlibrary (isbn 9780393348781, verified)  314x500
+OK      9780156453806  Invisible Cities                              via openlibrary (isbn 9780156453806, verified)  333x500
+OK      9781419735219  Invisible Women                               via amazon (isbn 9781419735219, verified)  334x500
+OK      9781649374172  Iron Flame                                    via openlibrary (isbn 9781649374172, verified)  333x500
+OK      9780767923637  Irrational Exuberance                         via openlibrary (isbn 9780767923637, verified)  331x500
+OK      9781594206641  Irresistible                                  via openlibrary (isbn 9781594206641, verified)  337x500
+OK      9780375708275  Isaac's Storm                                 via openlibrary (isbn 9780375708275, verified)  305x475
+OK      9780596517748  JavaScript: The Good Parts                    via openlibrary (isbn 9780596517748, verified)  360x480
+OK      9780312420260  Jesus' Son                                    via openlibrary-search  303x500
+OK      9781590593899  Joel on Software                              via openlibrary (isbn 9781590593899, verified)  333x500
+OK      9781937557102  Just Enough Research                          via openlibrary (isbn 9781937557102, verified)  323x500
+OK      9780060936228  Just Kids                                     via openlibrary (isbn 9780060936228, verified)  185x278
+OK      9780812984965  Just Mercy                                    via openlibrary (isbn 9780812984965, verified)  304x500
+OK      9781592407231  Just My Type                                  via openlibrary-search  264x400
+OK      9780374532505  Justice: What's the Right Thing to Do?        via openlibrary (isbn 9780374532505, verified)  360x466
+REJECT  9780802135476  title does not match "Kitchen"
+REJECT  9780735221086  title does not match "Know My Name"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781400079278  Kafka on the Shore                            via amazon (isbn 9781400079278, verified)  324x500
+OK      9780385534246  Killers of the Flower Moon                    via openlibrary (isbn 9780385534246, verified)  329x500
+OK      9780807083697  Kindred                                       via openlibrary (isbn 9780807083697, verified)  337x500
+OK      9780618001903  King Leopold's Ghost                          via openlibrary (isbn 9780618001903, verified)  315x475
+REJECT  9781620971925  title does not match "Lies My Teacher Told Me"
+REJECT  9780140073690  title does not match "Life & Times of Michael K"
+REJECT  9780393342963  title does not match "Life Ascending"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780307588692  Kingpin                                       via amazon (isbn 9780307588692, verified)  323x500
+OK      9780060899226  Kitchen Confidential                          via openlibrary (isbn 9780060899226, verified)  333x500
+REJECT  9780691120287  title does not match "Life on a Young Planet"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780802135476  Kitchen  -> designed fallback cover
+OK      9780593318171  Klara and the Sun                             via openlibrary (isbn 9780593318171, verified)  296x450
+OK      9780618879649  Kluge                                         via openlibrary (isbn 9780618879649, verified)  331x500
+OK      9780735221086  Know My Name                                  via openlibrary-search  331x500
+OK      9781101873724  Lab Girl                                      via openlibrary (isbn 9781101873724, verified)  324x500
+OK      9780811216999  Labyrinths                                    via openlibrary (isbn 9780811216999, verified)  317x500
+OK      9780486200101  Language, Truth and Logic                     via openlibrary (isbn 9780486200101, verified)  313x500
+OK      9781591848011  Leaders Eat Last                              via openlibrary (isbn 9781591848011, verified)  332x500
+OK      9781449335670  Lean Analytics                                via openlibrary (isbn 9781449335670, verified)  266x400
+REJECT  9780452284388  title does not match "Linked"
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780385349956  Lean In                                       via amazon (isbn 9780385349956, UNVERIFIED)  303x500
+OK      9781491911556  Lean UX                                       via openlibrary-search  266x400
+OK      9781400078394  Learned Optimism                              via openlibrary (isbn 9781400078394, verified)  326x500
+OK      9780140442106  Letters from a Stoic                          via openlibrary (isbn 9780140442106, verified)  327x500
+OK      9780465082322  Letters to a Young Mathematician              via openlibrary (isbn 9780465082322, verified)  318x500
+OK      9780393310399  Letters to a Young Poet                       via openlibrary (isbn 9780393310399, verified)  334x500
+OK      9780140431957  Leviathan                                     via amazon (isbn 9780140431957, verified)  327x500
+OK      9780393338690  Liar's Poker                                  via openlibrary (isbn 9780393338690, verified)  314x500
+OK      9781620971925  Lies My Teacher Told Me                       via openlibrary-search  323x500
+OK      9780140073690  Life & Times of Michael K                     via openlibrary-search  328x500
+have    9781101946596  Life 3.0
+OK      9780393342963  Life Ascending                                via openlibrary-search  328x500
+OK      9780156027328  Life of Pi                                    via openlibrary (isbn 9780156027328, verified)  185x278
+OK      9780691120287  Life on a Young Planet                        via openlibrary-search  329x500
+OK      9781401958237  Limitless                                     via openlibrary (isbn 9781401958237, verified)  333x500
+OK      9781591844099  Linchpin                                      via openlibrary (isbn 9781591844099, verified)  183x280
+OK      9780812995343  Lincoln in the Bardo                          via openlibrary (isbn 9780812995343, verified)  335x500
+OK      9780452284388  Linked                                        via openlibrary-search  310x475
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780393307047  title does not match "Master and Commander"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781524748517  Livewired                                     via openlibrary-search  327x500
+OK      9780262528948  Living with Complexity                        via amazon (isbn 9780262528948, verified)  341x500
+OK      9780679723165  Lolita                                        via openlibrary (isbn 9780679723165, verified)  316x500
+OK      9780316548182  Long Walk to Freedom                          via amazon (isbn 9780316548182, verified)  328x500
+OK      9780802713124  Longitude                                     via openlibrary (isbn 9780802713124, verified)  289x475
+OK      9780307396181  Look Me in the Eye                            via openlibrary (isbn 9780307396181, verified)  316x500
+OK      9780156028714  Looking for Spinoza                           via openlibrary (isbn 9780156028714, verified)  315x475
+OK      9781250185969  Loonshots                                     via openlibrary (isbn 9781250185969, verified)  329x500
+OK      9780399501487  Lord of the Flies                             via openlibrary (isbn 9780399501487, verified)  282x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780156002882  title does not match "Microbe Hunters"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781632864703  Lost Connections                              via openlibrary-search  331x500
+OK      9780465094257  Lost in Math                                  via openlibrary (isbn 9780465094257, verified)  333x500
+OK      9780465064953  Love and Math                                 via openlibrary (isbn 9780465064953, verified)  266x400
+OK      9780307389732  Love in the Time of Cholera                   via openlibrary (isbn 9780307389732, verified)  325x500
+OK      9781098115784  Machine Learning Design Patterns              via amazon (isbn 9781098115784, verified)  360x472
+OK      9781718503762  Machine Learning Q and AI                     via amazon (isbn 9781718503762, verified)  360x475
+OK      9780262529518  Machine Learning: The New AI                  via openlibrary (isbn 9780262529518, verified)  350x500
+OK      9780062266682  Machines of Loving Grace                      via openlibrary (isbn 9780062266682, verified)  328x500
+OK      9781400064281  Made to Stick                                 via openlibrary (isbn 9781400064281, verified)  183x276
+OK      9780674729018  Make It Stick                                 via openlibrary (isbn 9780674729018, verified)  317x500
+OK      9780679756606  Making Movies                                 via openlibrary (isbn 9780679756606, verified)  304x500
+OK      9780440351832  Man and His Symbols                           via openlibrary (isbn 9780440351832, verified)  292x475
+OK      9780807014271  Man's Search for Meaning                      via openlibrary (isbn 9780807014271, verified)  301x466
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780393352948  title does not match "Misbehaving"
+REJECT  9780262038294  title does not match "Mismatch"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780743217453  title does not match "Mornings on Horseback"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781422133125  Managing Oneself                              via openlibrary-search  327x500
+OK      9780375714498  Manufacturing Consent                         via openlibrary (isbn 9780375714498, verified)  314x475
+OK      9781603093002  March: Book One                               via openlibrary (isbn 9781603093002, verified)  342x500
+OK      9780393307047  Master and Commander                          via openlibrary-search  335x500
+OK      9780679748403  Maus                                          via openlibrary (isbn 9780679748403, verified)  280x400
+OK      9780393020052  Mauve                                         via openlibrary (isbn 9780393020052, verified)  312x475
+OK      9781328662057  Maybe You Should Talk to Someone              via openlibrary (isbn 9781328662057, verified)  331x499
+OK      9780316776967  Me Talk Pretty One Day                        via openlibrary (isbn 9780316776967, verified)  321x500
+have    9780525536222  Measure What Matters
+OK      9780812968255  Meditations                                   via openlibrary (isbn 9780812968255, verified)  320x500
+OK      9780735222632  Meltdown                                      via openlibrary (isbn 9780735222632, verified)  329x500
+OK      9781608193943  Merchants of Doubt                            via amazon (isbn 9781608193943, verified)  334x500
+OK      9780060652920  Mere Christianity                             via openlibrary (isbn 9780060652920, verified)  295x445
+OK      9780226468013  Metaphors We Live By                          via openlibrary (isbn 9780226468013, verified)  315x500
+OK      9780156002882  Microbe Hunters                               via openlibrary-search  331x500
+OK      9780385264761  Midaq Alley                                   via amazon (isbn 9780385264761, verified)  324x500
+OK      9780547669243  Midnight's Furies                             via amazon (isbn 9780547669243, verified)  331x500
+OK      9780195157345  Mind: A Brief Introduction                    via openlibrary (isbn 9780195157345, verified)  334x500
+OK      9780674057517  Mind in Life                                  via amazon (isbn 9780674057517, verified)  360x513
+OK      9780345472328  Mindset                                       via openlibrary (isbn 9780345472328, verified)  324x500
+OK      9780553386394  Mindsight                                     via openlibrary (isbn 9780553386394, verified)  324x500
+OK      9780465046744  Mindstorms                                    via openlibrary (isbn 9780465046744, verified)  314x475
+REJECT  9780393337655  title does not match "Naked Economics"
+REJECT  9781585422975  title does not match "Napoleon's Buttons"
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780374536244  Mindware                                      via amazon (isbn 9780374536244, verified)  332x500
+OK      9780393352948  Misbehaving                                   via openlibrary-search  332x500
+OK      9781501156748  Misery                                        via openlibrary (isbn 9781501156748, verified)  276x500
+OK      9780262038881  Mismatch: How Inclusion Shapes Design         via openlibrary (isbn 9780262038881, verified)  341x500
+OK      9780262038294  Mismatch                                      via openlibrary-search  341x500
+OK      9780156033909  Mistakes Were Made (But Not by Me)            via openlibrary (isbn 9780156033909, verified)  332x500
+OK      9781472966421  Models of the Mind                            via openlibrary (isbn 9781472966421, verified)  311x500
+OK      9780393324815  Moneyball                                     via openlibrary (isbn 9780393324815, verified)  314x475
+OK      9780143120537  Moonwalking with Einstein                     via openlibrary (isbn 9780143120537, verified)  326x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780143126058  Moral Tribes                                  via amazon (isbn 9780143126058, verified)  326x500
+OK      9781541619593  More Everything Forever                       via openlibrary (isbn 9781541619593, verified)  322x500
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780743217453  Mornings on Horseback  -> designed fallback cover
+OK      9780812973013  Mountains Beyond Mountains                    via openlibrary (isbn 9780812973013, verified)  324x500
+OK      9780156628709  Mrs Dalloway                                  via openlibrary (isbn 9780156628709, verified)  309x475
+OK      9780061964398  Multipliers                                   via openlibrary (isbn 9780061964398, verified)  329x500
+OK      9780062693662  Murder on the Orient Express                  via openlibrary (isbn 9780062693662, verified)  272x500
+OK      9781400033539  Musicophilia                                  via openlibrary (isbn 9781400033539, verified)  318x500
+OK      9781609450786  My Brilliant Friend                           via openlibrary (isbn 9781609450786, verified)  304x500
+OK      9780452295544  My Stroke of Insight                          via openlibrary (isbn 9780452295544, verified)  332x499
+OK      9780393337655  Naked Economics                               via openlibrary-search  312x475
+OK      9780393347777  Naked Statistics                              via openlibrary (isbn 9780393347777, verified)  333x499
+OK      9780674598461  Naming and Necessity                          via openlibrary (isbn 9780674598461, verified)  306x475
+OK      9781585422975  Napoleon's Buttons                            via openlibrary-search  313x475
+OK      9780486284996  Narrative of the Life of Frederick Douglass   via openlibrary (isbn 9780486284996, verified)  311x500
+REJECT  9781250074805  title does not match "Nickel and Dimed"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780451524935  title does not match "Nineteen Eighty-Four"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780811220309  Nausea                                        via amazon (isbn 9780811220309, verified)  325x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+OK      9780553384116  Negotiation Genius                            via amazon (isbn 9780553384116, verified)  333x500
+REJECT  9780446504959  title does not match "NurtureShock"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780143130857  title does not match "Originals"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781580051774  Nervous Conditions                            via amazon (isbn 9781580051774, UNVERIFIED)  333x500
+OK      9780441569595  Neuromancer                                   via openlibrary (isbn 9780441569595, verified)  300x500
+OK      9781284211283  Neuroscience: Exploring the Brain             via openlibrary (isbn 9781284211283, verified)  360x488
+OK      9780385512053  Never Eat Alone                               via amazon (isbn 9780385512053, verified)  329x500
+OK      9781400078776  Never Let Me Go                               via openlibrary (isbn 9781400078776, verified)  324x500
+OK      9780062407801  Never Split the Difference                    via openlibrary (isbn 9780062407801, verified)  321x500
+OK      9780380789016  Neverwhere                                    via openlibrary (isbn 9780380789016, verified)  304x500
+OK      9781250074805  Nickel and Dimed                              via openlibrary-search  331x500
+OK      9780140449495  Nicomachean Ethics                            via openlibrary (isbn 9780140449495, verified)  319x500
+OK      9780374500016  Night                                         via openlibrary (isbn 9780374500016, verified)  330x500
+OK      9780691158198  Nine Algorithms That Changed the Future       via amazon (isbn 9780691158198, verified)  329x500
+OK      9780316767729  Nine Stories                                  via openlibrary (isbn 9780316767729, verified)  319x500
+OK      9780451524935  Nineteen Eighty-Four                          via openlibrary-search  330x500
+OK      9780811204811  No Longer Human                               via openlibrary (isbn 9780811204811, verified)  357x500
+OK      9781627790734  No Place to Hide                              via openlibrary (isbn 9781627790734, verified)  319x500
+OK      9781984877864  No Rules Rules                                via openlibrary (isbn 9781984877864, verified)  328x500
+OK      9780316451406  Noise                                         via openlibrary (isbn 9780316451406, verified)  323x500
+OK      9781892005281  Nonviolent Communication                      via openlibrary (isbn 9781892005281, verified)  325x500
+OK      9781984822178  Normal People                                 via openlibrary (isbn 9781984822178, verified)  325x500
+OK      9780375704024  Norwegian Wood                                via openlibrary (isbn 9780375704024, verified)  312x500
+OK      9780679734529  Notes from Underground                        via openlibrary (isbn 9780679734529, verified)  321x500
+OK      9780380727506  Notes from a Small Island                     via openlibrary (isbn 9780380727506, verified)  320x500
+OK      9780807006238  Notes of a Native Son                         via openlibrary (isbn 9780807006238, verified)  323x500
+OK      9780385523912  Nothing to Envy                               via openlibrary (isbn 9780385523912, verified)  304x500
+OK      9780143137009  Nudge                                         via openlibrary (isbn 9780143137009, verified)  326x500
+OK      9780446504959  NurtureShock                                  via openlibrary-search  360x480
+OK      9780061765216  Obedience to Authority                        via openlibrary (isbn 9780061765216, verified)  332x500
+OK      9781999023003  Obviously Awesome                             via openlibrary (isbn 9781999023003, verified)  324x500
+OK      9780140177398  Of Mice and Men                               via openlibrary (isbn 9780140177398, verified)  304x500
+OK      9780394729039  Ogilvy on Advertising                         via openlibrary (isbn 9780394729039, verified)  356x475
+OK      9780765348272  Old Man's War                                 via openlibrary (isbn 9780765348272, verified)  310x500
+OK      9780395755310  On Becoming a Person                          via openlibrary (isbn 9780395755310, verified)  317x496
+OK      9780312359201  On Being Certain                              via openlibrary (isbn 9780312359201, verified)  329x500
+OK      9780691122946  On Bullshit                                   via openlibrary (isbn 9780691122946, verified)  325x500
+OK      9780140432077  On Liberty                                    via openlibrary (isbn 9780140432077, verified)  325x500
+OK      9780312420093  On Photography                                via openlibrary (isbn 9780312420093, verified)  313x476
+REJECT  9780192805645  title does not match "Oxygen"
+REJECT  9780199583676  title does not match "Philosophy Bites"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780143039907  On Revolution                                 via amazon (isbn 9780143039907, verified)  327x500
+OK      9780804190114  On Tyranny                                    via openlibrary (isbn 9780804190114, verified)  357x500
+OK      9780060891541  On Writing Well                               via openlibrary (isbn 9780060891541, verified)  322x500
+OK      9780743455961  On Writing                                    via openlibrary (isbn 9780743455961, verified)  306x500
+OK      9780140432053  On the Origin of Species                      via openlibrary (isbn 9780140432053, verified)  318x500
+OK      9780143036326  On the Shortness of Life                      via openlibrary (isbn 9780143036326, verified)  304x500
+OK      9780060883287  One Hundred Years of Solitude                 via openlibrary (isbn 9780060883287, verified)  331x500
+OK      9780743200400  One Up On Wall Street                         via openlibrary (isbn 9780743200400, verified)  290x445
+OK      9780385483827  Only the Paranoid Survive                     via openlibrary (isbn 9780385483827, verified)  315x475
+OK      9780307388407  Open                                          via openlibrary (isbn 9780307388407, verified)  181x280
+OK      9780060995065  Ordinary Men                                  via openlibrary (isbn 9780060995065, verified)  311x475
+OK      9780394740676  Orientalism                                   via openlibrary (isbn 9780394740676, verified)  310x475
+OK      9780143130857  Originals                                     via openlibrary-search  324x500
+OK      9780156701600  Orlando                                       via openlibrary (isbn 9780156701600, verified)  308x475
+OK      9780385721677  Oryx and Crake                                via openlibrary (isbn 9780385721677, verified)  321x500
+OK      9780374537197  Other Minds                                   via openlibrary (isbn 9780374537197, verified)  333x500
+OK      9780316787536  Our Band Could Be Your Life                   via openlibrary (isbn 9780316787536, verified)  333x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781250058782  Our Final Invention                           via amazon (isbn 9781250058782, verified)  333x500
+OK      9780307599803  Our Mathematical Universe                     via openlibrary (isbn 9780307599803, verified)  343x500
+OK      9780316017930  Outliers                                      via openlibrary (isbn 9780316017930, verified)  184x280
+OK      9780593236598  Outlive                                       via openlibrary (isbn 9780593236598, verified)  360x468
+OK      9780192805645  Oxygen                                        via openlibrary-search  327x500
+OK      9780393339918  Packing for Mars                              via openlibrary (isbn 9780393339918, verified)  185x278
+OK      9780345376596  Pale Blue Dot                                 via openlibrary (isbn 9780345376596, verified)  300x450
+OK      9780446675505  Parable of the Sower                          via openlibrary (isbn 9780446675505, verified)  329x500
+have    9780387310732  Pattern Recognition and Machine Learning
+OK      9780544456235  Peak                                          via openlibrary (isbn 9780544456235, verified)  323x500
+OK      9780826412768  Pedagogy of the Oppressed                     via openlibrary (isbn 9780826412768, verified)  313x475
+OK      9780802133908  Pedro Paramo                                  via openlibrary (isbn 9780802133908, verified)  300x475
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780140446135  Pensées                                       via openlibrary-search  295x500
+OK      9780932633439  Peopleware                                    via openlibrary (isbn 9780932633439, verified)  326x500
+OK      9780375725845  Perfume                                       via openlibrary (isbn 9780375725845, verified)  332x500
+OK      9781250237231  Permanent Record                              via openlibrary (isbn 9781250237231, verified)  324x500
+OK      9780684856360  Permission Marketing                          via openlibrary (isbn 9780684856360, verified)  339x500
+OK      9780375714832  Persepolis                                    via openlibrary (isbn 9780375714832, verified)  338x500
+OK      9780385513111  Persian Fire                                  via openlibrary (isbn 9780385513111, verified)  329x500
+OK      9780141439686  Persuasion                                    via openlibrary (isbn 9780141439686, verified)  316x500
+OK      9780688172176  Phantoms in the Brain                         via openlibrary (isbn 9780688172176, verified)  330x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781405159593  Philosophical Investigations                  via openlibrary-search  313x500
+MISSING 9780199583676  Philosophy Bites  -> designed fallback cover
+OK      9780691168319  Phishing for Phools                           via openlibrary (isbn 9780691168319, verified)  315x500
+OK      9780307278821  Physics of the Impossible                     via openlibrary (isbn 9780307278821, verified)  360x480
+OK      9780061233326  Pilgrim at Tinker Creek                       via openlibrary (isbn 9780061233326, verified)  330x500
+OK      9781635575637  Piranesi                                      via openlibrary (isbn 9781635575637, verified)  353x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780071752619  Pitch Anything                                via amazon (isbn 9780071752619, UNVERIFIED)  360x447
+OK      9780393249132  Platform Revolution                           via openlibrary (isbn 9780393249132, verified)  329x499
+have    9781422187395  Playing to Win
+OK      9780679723417  Pnin                                          via openlibrary (isbn 9780679723417, verified)  314x500
+OK      9781610390934  Poor Economics                                via openlibrary (isbn 9781610390934, verified)  333x500
+OK      9780071373586  Positioning                                   via openlibrary (isbn 9780071373586, verified)  332x500
+OK      9780525557999  Possible Minds                                via openlibrary (isbn 9780525557999, verified)  329x500
+OK      9780262535045  Post-Truth                                    via openlibrary (isbn 9780262535045, verified)  357x500
+OK      9780593239919  Poverty, by America                           via openlibrary (isbn 9780593239919, verified)  329x500
+OK      9781647824198  Power and Prediction                          via openlibrary (isbn 9781647824198, verified)  332x500
+OK      9781541702530  Power and Progress                            via openlibrary (isbn 9781541702530, verified)  323x500
+OK      9780199205646  Power, Sex, Suicide                           via openlibrary (isbn 9780199205646, verified)  332x500
+OK      9780521707688  Practical Ethics                              via amazon (isbn 9780521707688, verified)  333x500
+OK      9781492072942  Practical Statistics for Data Scientists      via openlibrary (isbn 9781492072942, verified)  360x472
+OK      9780984380213  Predictable Revenue                           via openlibrary (isbn 9780984380213, verified)  325x499
+OK      9780061353246  Predictably Irrational                        via openlibrary (isbn 9780061353246, verified)  332x500
+OK      9781633695672  Prediction Machines                           via openlibrary (isbn 9781633695672, verified)  332x500
+OK      9780321811981  Presentation Zen                              via openlibrary (isbn 9780321811981, verified)  360x438
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781305585126  Principles of Economics                       via openlibrary-search  360x441
+OK      9781501124020  Principles                                    via openlibrary (isbn 9781501124020, verified)  333x500
+OK      9781501121470  Prisoners of Geography                        via openlibrary (isbn 9781501121470, verified)  320x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780062388766  title does not match "Reader, Come Home"
+REJECT  9780812976700  title does not match "Reading Lolita in Tehran"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780525575665  title does not match "Remember"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780262046824  Probabilistic Machine Learning: An Introduction  -> designed fallback cover
+OK      9780226822587  Probably Overthinking It                      via openlibrary (isbn 9780226822587, verified)  333x500
+OK      9781491960608  Product Leadership                            via openlibrary (isbn 9781491960608, verified)  333x500
+REJECT  9780312421687  title does not match "Running with Scissors"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9781590173824  title does not match "Season of Migration to the North"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781491971734  Product Roadmaps Relaunched  -> designed fallback cover
+OK      9780201657883  Programming Pearls                            via openlibrary (isbn 9780201657883, verified)  360x455
+OK      9780593135204  Project Hail Mary                             via openlibrary (isbn 9780593135204, verified)  265x400
+OK      9781098156152  Prompt Engineering for LLMs                   via openlibrary (isbn 9781098156152, verified)  305x400
+OK      9780618620104  Proust Was a Neuroscientist                   via openlibrary (isbn 9780618620104, verified)  331x500
+OK      9780060933845  Proust and the Squid                          via openlibrary (isbn 9780060933845, verified)  328x500
+OK      9780618001811  Punished by Rewards                           via openlibrary (isbn 9780618001811, verified)  334x500
+OK      9781591843177  Purple Cow                                    via amazon (isbn 9781591843177, verified)  354x500
+OK      9781616202415  Purple Hibiscus                               via amazon (isbn 9781616202415, verified)  332x500
+OK      9781593279288  Python Crash Course                           via openlibrary (isbn 9781593279288, verified)  360x476
+OK      9780691164090  QED: The Strange Theory of Light and Matter   via openlibrary (isbn 9780691164090, verified)  324x500
+OK      9780307352156  Quiet                                         via openlibrary (isbn 9780307352156, verified)  308x475
+OK      9780593422991  Quit                                          via openlibrary (isbn 9780593422991, verified)  331x500
+OK      9781509526437  Race After Technology                         via openlibrary (isbn 9781509526437, verified)  319x500
+OK      9781250103505  Radical Candor                                via openlibrary (isbn 9781250103505, verified)  329x500
+OK      9780996006026  Radical Focus                                 via openlibrary (isbn 9780996006026, verified)  312x500
+OK      9780735214484  Range                                         via openlibrary (isbn 9780735214484, verified)  335x500
+OK      9780525561996  Rationality                                   via openlibrary (isbn 9780525561996, verified)  331x500
+OK      9780062388766  Reader, Come Home                             via openlibrary-search  332x500
+OK      9780060777050  Reading Like a Writer                         via openlibrary (isbn 9780060777050, verified)  332x500
+OK      9780812976700  Reading Lolita in Tehran                      via openlibrary-search  314x475
+OK      9780143118053  Reading in the Brain                          via openlibrary (isbn 9780143118053, verified)  181x280
+OK      9780307887443  Ready Player One                              via openlibrary (isbn 9780307887443, verified)  324x499
+OK      9780393635805  Reality+                                      via openlibrary (isbn 9780393635805, verified)  333x500
+OK      9780198249085  Reasons and Persons                           via openlibrary (isbn 9780198249085, verified)  322x500
+OK      9780380730407  Rebecca                                       via openlibrary (isbn 9780380730407, verified)  332x500
+OK      9781524748258  Rebooting AI                                  via openlibrary (isbn 9781524748258, verified)  329x500
+OK      9780201485677  Refactoring                                   via openlibrary (isbn 9780201485677, verified)  360x460
+OK      9780262039246  Reinforcement Learning: An Introduction       via openlibrary (isbn 9780262039246, verified)  360x496
+OK      9780525575665  Remember                                      via openlibrary-search  331x500
+OK      9780471770886  Reminiscences of a Stock Operator             via openlibrary (isbn 9780471770886, verified)  319x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780547572307  Rendezvous with Rama                          via openlibrary-search  332x500
+OK      9780393652611  Rethinking Consciousness                      via openlibrary (isbn 9780393652611, verified)  300x458
+OK      9780307463746  Rework                                        via openlibrary (isbn 9780307463746, verified)  300x453
+OK      9781612680194  Rich Dad Poor Dad                             via openlibrary (isbn 9781612680194, verified)  333x500
+OK      9780465097531  Rise of the Robots                            via openlibrary (isbn 9780465097531, verified)  333x500
+OK      9780143127109  Risk Savvy                                    via amazon (isbn 9780143127109, verified)  326x500
+OK      9780465069903  River Out of Eden                             via openlibrary (isbn 9780465069903, verified)  298x475
+OK      9781613743416  Roadside Picnic                               via openlibrary (isbn 9781613743416, verified)  324x500
+OK      9780321657299  Rocket Surgery Made Easy                      via openlibrary (isbn 9780321657299, verified)  360x462
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780358157151  title does not match "Seven and a Half Lessons About the Brain"
+OK      9780385507202  Rubicon                                       via openlibrary-search  311x475
+OK      9780679721130  Rules for Radicals                            via openlibrary (isbn 9780679721130, verified)  307x475
+OK      9780312421687  Running with Scissors                         via openlibrary-search  330x500
+OK      9780070511132  SPIN Selling                                  via openlibrary (isbn 9780070511132, verified)  322x475
+OK      9781607066019  Saga, Volume One                              via openlibrary (isbn 9781607066019, verified)  309x500
+OK      9780142001615  Salt: A World History                         via openlibrary (isbn 9780142001615, verified)  312x475
+OK      9780593332702  Same as Ever                                  via openlibrary (isbn 9780593332702, verified)  324x500
+OK      9780385544405  Sandworm                                      via openlibrary (isbn 9780385544405, verified)  331x500
+OK      9780062316110  Sapiens                                       via openlibrary (isbn 9780062316110, verified)  312x475
+OK      9781932907001  Save the Cat!                                 via openlibrary (isbn 9781932907001, verified)  316x475
+OK      9780385521314  Say Nothing                                   via openlibrary (isbn 9780385521314, verified)  333x500
+OK      9780143110903  Scale                                         via openlibrary (isbn 9780143110903, verified)  326x500
+OK      9780805092646  Scarcity                                      via openlibrary (isbn 9780805092646, verified)  333x500
+OK      9780385346450  Scrum                                         via openlibrary (isbn 9780385346450, verified)  329x500
+REJECT  9780307341563  title does not match "Sharp Objects"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780292776241  Sculpting in Time                             via openlibrary-search  360x490
+OK      9780449005613  Seabiscuit                                    via openlibrary (isbn 9780449005613, verified)  316x475
+OK      9780465075522  Searching for Memory                          via openlibrary (isbn 9780465075522, verified)  311x475
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781590173824  Season of Migration to the North  -> designed fallback cover
+OK      9780471453802  Secrets and Lies                              via openlibrary (isbn 9780471453802, verified)  313x475
+OK      9780300078152  Seeing Like a State                           via openlibrary (isbn 9780300078152, verified)  318x500
+OK      9780375704079  Seeing Voices                                 via openlibrary (isbn 9780375704079, verified)  331x500
+OK      9780307474957  Self Comes to Mind                            via openlibrary (isbn 9780307474957, verified)  259x400
+OK      9780061733529  Self-Compassion                               via openlibrary (isbn 9780061733529, verified)  322x500
+OK      9780141439662  Sense and Sensibility                         via openlibrary (isbn 9780141439662, verified)  313x500
+OK      9780399184413  Seven Brief Lessons on Physics                via openlibrary (isbn 9780399184413, verified)  333x500
+OK      9780358157151  Seven and a Half Lessons About the Brain      via openlibrary-search  338x500
+OK      9780307341563  Sharp Objects                                 via openlibrary-search  328x500
+have    9781501135910  Shoe Dog
+OK      9780029356715  Show Stopper!                                 via openlibrary (isbn 9780029356715, verified)  333x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780380805419  title does not match "Stardust"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780393322231  title does not match "Strangers on a Train"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: The read operation timed out
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780761178972  Show Your Work!  -> designed fallback cover
+OK      9780553208849  Siddhartha                                    via openlibrary (isbn 9780553208849, verified)  303x500
+OK      9780618249060  Silent Spring                                 via openlibrary (isbn 9780618249060, verified)  336x500
+OK      9781580911863  Sister Outsider                               via openlibrary (isbn 9781580911863, verified)  333x500
+OK      9780393325423  Six Degrees                                   via openlibrary (isbn 9780393325423, verified)  317x475
+OK      9780465025275  Six Easy Pieces                               via openlibrary (isbn 9780465025275, verified)  333x500
+OK      9780123740373  Sketching User Experiences                    via openlibrary (isbn 9780123740373, verified)  360x441
+OK      9780425284629  Skin in the Game                              via openlibrary (isbn 9780425284629, verified)  345x500
+OK      9780385333849  Slaughterhouse-Five                           via openlibrary (isbn 9780385333849, verified)  322x500
+OK      9780374531386  Slouching Towards Bethlehem                   via openlibrary (isbn 9780374531386, verified)  334x500
+OK      9780593544853  Slow Productivity                             via openlibrary (isbn 9780593544853, verified)  331x500
+OK      9780061997761  Small Is Beautiful                            via amazon (isbn 9780061997761, verified)  328x500
+OK      9780802158741  Small Things Like These                       via openlibrary (isbn 9780802158741, verified)  271x400
+OK      9780679761044  Snow Country                                  via openlibrary (isbn 9780679761044, verified)  305x475
+OK      9780553380958  Snow Crash                                    via openlibrary (isbn 9780553380958, verified)  316x475
+OK      9781455509126  So Good They Can't Ignore You                 via openlibrary (isbn 9781455509126, verified)  326x500
+OK      9780307889096  Social                                        via openlibrary (isbn 9780307889096, UNVERIFIED)  228x306
+OK      9780156027601  Solaris                                       via openlibrary (isbn 9780156027601, verified)  328x500
+OK      9780374530716  Sophie's World                                via openlibrary (isbn 9780374530716, verified)  333x500
+OK      9780262611466  Sources of Power                              via openlibrary (isbn 9780262611466, verified)  314x500
+OK      9780593593806  Spare                                         via openlibrary (isbn 9780593593806, verified)  329x500
+OK      9780316113502  Spark                                         via openlibrary (isbn 9780316113502, verified)  323x500
+OK      9780679723394  Speak, Memory                                 via openlibrary (isbn 9780679723394, verified)  317x500
+OK      9780393329124  Spook                                         via openlibrary (isbn 9780393329124, verified)  334x500
+OK      9781501121746  Sprint                                        via openlibrary (isbn 9781501121746, verified)  331x499
+OK      9781736417911  Staff Engineer                                via openlibrary (isbn 9781736417911, verified)  333x500
+OK      9780380805419  Stardust                                      via openlibrary-search  300x450
+OK      9780441783588  Starship Troopers                             via openlibrary (isbn 9780441783588, verified)  307x500
+OK      9781591846444  Start with Why                                via openlibrary (isbn 9781591846444, verified)  327x500
+OK      9780060777555  Stasiland                                     via openlibrary-search  311x475
+OK      9780385353304  Station Eleven                                via openlibrary (isbn 9780385353304, verified)  338x500
+OK      9781593276201  Statistics Done Wrong                         via openlibrary (isbn 9781593276201, verified)  333x499
+OK      9780761169253  Steal Like an Artist                          via openlibrary-search  353x500
+OK      9780544611603  Steering the Craft                            via openlibrary-search  323x500
+OK      9780312278670  Steppenwolf                                   via openlibrary (isbn 9780312278670, verified)  328x475
+OK      9780393324822  Stiff                                         via openlibrary (isbn 9780393324822, verified)  315x475
+OK      9780593138519  Stolen Focus                                  via openlibrary (isbn 9780593138519, verified)  298x450
+OK      9781101972120  Stories of Your Life and Others               via openlibrary (isbn 9781101972120, verified)  324x500
+OK      9781119002253  Storytelling with Data                        via openlibrary (isbn 9781119002253, verified)  360x452
+OK      9780141439730  Strange Case of Dr Jekyll and Mr Hyde         via openlibrary (isbn 9780141439730, verified)  312x475
+OK      9781620972250  Strangers in Their Own Land                   via amazon (isbn 9781620972250, verified)  329x500
+OK      9780393322231  Strangers on a Train                          via openlibrary-search  317x475
+OK      9780674013827  Strangers to Ourselves                        via openlibrary (isbn 9780674013827, verified)  351x500
+OK      9780544236042  Stuff Matters                                 via openlibrary (isbn 9780544236042, verified)  333x500
+OK      9781400077427  Stumbling on Happiness                        via openlibrary (isbn 9781400077427, verified)  319x500
+OK      9780134080413  Style: Lessons in Clarity and Grace           via openlibrary (isbn 9780134080413, verified)  193x300
+OK      9780307472250  Subliminal                                    via openlibrary (isbn 9780307472250, verified)  259x400
+OK      9780393652246  Super Pumped                                  via openlibrary (isbn 9780393652246, verified)  316x475
+OK      9780060889586  SuperFreakonomics                             via openlibrary (isbn 9780060889586, verified)  333x500
+OK      9780804136716  Superforecasting                              via openlibrary (isbn 9780804136716, verified)  324x500
+have    9780198739838  Superintelligence
+OK      9780393316049  Surely You're Joking, Mr. Feynman!            via openlibrary (isbn 9780393316049, verified)  312x475
+OK      9780190217013  Surfing Uncertainty                           via openlibrary (isbn 9780190217013, verified)  330x500
+OK      9780684826806  Survival in Auschwitz                         via openlibrary (isbn 9780684826806, verified)  337x500
+REJECT  9780143127543  title does not match "Thanks for the Feedback"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780061353932  title does not match "The (Honest) Truth About Dishonesty"
+REJECT  9780674026759  title does not match "The Accidental Mind"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780954452933  Sustainable Energy - Without the Hot Air  -> designed fallback cover
+OK      9780385530606  Sway                                          via openlibrary (isbn 9780385530606, verified)  325x500
+OK      9780385528757  Switch                                        via openlibrary (isbn 9780385528757, verified)  337x500
+OK      9780872200760  Symposium                                     via openlibrary (isbn 9780872200760, verified)  299x500
+OK      9780142001783  Synaptic Self                                 via openlibrary (isbn 9780142001783, verified)  318x475
+OK      9780786887217  Sync                                          via openlibrary (isbn 9780786887217, verified)  225x346
+have    9781119697336  TRANSFORMED
+OK      9780062228802  Tales from Both Sides of the Brain            via openlibrary (isbn 9780062228802, verified)  313x500
+OK      9781250041128  Talk Like TED                                 via openlibrary (isbn 9781250041128, verified)  323x500
+OK      9780316478526  Talking to Strangers                          via openlibrary (isbn 9780316478526, verified)  336x499
+OK      9780061142666  Tao Te Ching                                  via amazon (isbn 9780061142666, verified)  328x500
+OK      9781942788812  Team Topologies                               via openlibrary (isbn 9781942788812, verified)  334x500
+OK      9780393634631  Technically Wrong                             via openlibrary (isbn 9780393634631, verified)  333x500
+OK      9780679745402  Technopoly                                    via openlibrary (isbn 9780679745402, verified)  291x448
+OK      9781250196682  Ten Arguments for Deleting Your Social Media  via openlibrary (isbn 9781250196682, verified)  324x500
+OK      9780307341440  Thank You for Arguing                         via openlibrary (isbn 9780307341440, verified)  335x500
+OK      9780143127543  Thanks for the Feedback                       via openlibrary-search  314x500
+OK      9780316530200  That Will Never Work                          via amazon (isbn 9780316530200, verified)  322x500
+OK      9780307951526  The $100 Startup                              via openlibrary (isbn 9780307951526, verified)  297x450
+OK      9780061353932  The (Honest) Truth About Dishonesty           via openlibrary-search  294x500
+OK      9780887306662  The 22 Immutable Laws of Marketing            via openlibrary (isbn 9780887306662, verified)  327x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780470067901  title does not match "The Bogleheads' Guide to Investing"
+   openlibrary failed: HTTP Error 404: Not Found
+OK      9780142100912  The 33 Strategies of War                      via openlibrary-search  351x500
+OK      9780307465351  The 4-Hour Workweek                           via openlibrary (isbn 9780307465351, verified)  333x500
+OK      9780140280197  The 48 Laws of Power                          via openlibrary (isbn 9780140280197, verified)  350x500
+OK      9780743269513  The 7 Habits of Highly Effective People       via openlibrary (isbn 9780743269513, verified)  329x500
+MISSING 9780674026759  The Accidental Mind  -> designed fallback cover
+OK      9780395925003  The Affluent Society                          via openlibrary (isbn 9780395925003, verified)  331x500
+OK      9781610395694  The Age of Surveillance Capitalism            via openlibrary (isbn 9781610395694, verified)  322x500
+OK      9780062315007  The Alchemist                                 via openlibrary (isbn 9780062315007, verified)  226x342
+OK      9780471445494  The Alchemy of Finance                        via openlibrary (isbn 9780471445494, verified)  323x500
+have    9780393635829  The Alignment Problem
+OK      9781544514208  The Almanack of Naval Ravikant                via openlibrary (isbn 9781544514208, verified)  313x487
+OK      9780140443486  The Analects                                  via openlibrary (isbn 9780140443486, verified)  316x500
+OK      9780140440607  The Annals of Imperial Rome                   via openlibrary (isbn 9780140440607, verified)  308x475
+OK      9780470229057  The Annotated Turing                          via openlibrary (isbn 9780470229057, verified)  333x500
+OK      9780593655030  The Anxious Generation                        via openlibrary (isbn 9780593655030, verified)  328x500
+OK      9780446504102  The Art of Choosing                           via openlibrary (isbn 9780446504102, verified)  337x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+OK      9780764542800  The Art of Deception                          via amazon (isbn 9780764542800, verified)  333x500
+OK      9780679734031  The Art of Fiction                            via openlibrary (isbn 9780679734031, verified)  306x475
+REJECT  9781101970294  title does not match "The Brain: The Story of You"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780743277464  The Art of Learning                           via amazon (isbn 9780743277464, verified)  326x500
+OK      9780061129735  The Art of Loving                             via openlibrary (isbn 9780061129735, verified)  333x500
+OK      9781541618510  The Art of Statistics                         via openlibrary (isbn 9781541618510, verified)  323x500
+OK      9780062219695  The Art of Thinking Clearly                   via openlibrary (isbn 9780062219695, verified)  328x500
+OK      9780195014761  The Art of War                                via openlibrary (isbn 9780195014761, verified)  339x500
+OK      9781591847847  The Art of the Start 2.0                      via openlibrary (isbn 9781591847847, verified)  325x500
+OK      9780143116172  The Ascent of Money                           via openlibrary (isbn 9780143116172, verified)  347x500
+OK      9780307455871  The Audacity of Hope                          via openlibrary (isbn 9780307455871, verified)  353x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9781555978440  title does not match "The Collected Schizophrenias"
+OK      9780544114494  The Autistic Brain                            via openlibrary-search  311x500
+OK      9780345350688  The Autobiography of Malcolm X                via openlibrary (isbn 9780345350688, verified)  310x500
+OK      9781250272959  The Battle for Your Brain                     via openlibrary (isbn 9781250272959, verified)  329x500
+OK      9780679733379  The Beak of the Finch                         via openlibrary (isbn 9780679733379, verified)  304x475
+OK      9780143121350  The Beginning of Infinity                     via openlibrary (isbn 9780143121350, verified)  322x500
+OK      9780060837020  The Bell Jar                                  via openlibrary (isbn 9780060837020, verified)  321x500
+OK      9780143122012  The Better Angels of Our Nature               via openlibrary (isbn 9780143122012, verified)  301x450
+OK      9781586380199  The Bhagavad Gita                             via openlibrary (isbn 9781586380199, verified)  300x500
+OK      9781101984253  The Big Picture                               via openlibrary (isbn 9781101984253, verified)  332x500
+OK      9780393338829  The Big Short                                 via openlibrary (isbn 9780393338829, verified)  185x277
+OK      9780394758282  The Big Sleep                                 via openlibrary (isbn 9780394758282, verified)  308x475
+OK      9780674970847  The Black Box Society                         via openlibrary (isbn 9780674970847, verified)  326x500
+OK      9780679724674  The Black Jacobins                            via openlibrary (isbn 9780679724674, verified)  314x500
+OK      9780812973815  The Black Swan                                via openlibrary (isbn 9780812973815, verified)  324x500
+OK      9780142003343  The Blank Slate                               via openlibrary (isbn 9780142003343, verified)  332x500
+OK      9780393315707  The Blind Watchmaker                          via openlibrary (isbn 9780393315707, verified)  353x500
+OK      9780307278449  The Bluest Eye                                via openlibrary (isbn 9780307278449, verified)  318x500
+OK      9780143127741  The Body Keeps the Score                      via openlibrary (isbn 9780143127741, verified)  325x500
+OK      9780470067901  The Bogleheads' Guide to Investing            via openlibrary-search  300x448
+OK      9780679723004  The Book: On the Taboo Against Knowing Who Yo via openlibrary (isbn 9780679723004, verified)  302x475
+OK      9781541698963  The Book of Why                               via openlibrary (isbn 9781541698963, verified)  333x500
+OK      9780375760396  The Botany of Desire                          via openlibrary (isbn 9780375760396, verified)  324x500
+OK      9780195373387  The Bottom Billion                            via amazon (isbn 9780195373387, verified)  333x500
+OK      9780691170817  The Box                                       via openlibrary (isbn 9780691170817, verified)  324x500
+OK      9780061730337  The Boy Who Harnessed the Wind                via openlibrary (isbn 9780061730337, verified)  185x279
+OK      9780465094455  The Boy Who Was Raised as a Dog               via amazon (isbn 9780465094455, verified)  334x500
+OK      9780143125471  The Boys in the Boat                          via openlibrary (isbn 9780143125471, verified)  318x500
+OK      9780143113102  The Brain That Changes Itself                 via openlibrary (isbn 9780143113102, verified)  326x500
+OK      9781101970294  The Brain: The Story of You                   via openlibrary-search  322x500
+OK      9781594483295  The Brief Wondrous Life of Oscar Wao          via amazon (isbn 9781594483295, verified)  319x500
+OK      9780307455796  The Buried Giant                              via openlibrary (isbn 9780307455796, verified)  324x500
+OK      9780131103627  The C Programming Language                    via openlibrary (isbn 9780131103627, verified)  347x500
+OK      9780486264721  The Call of the Wild                          via openlibrary (isbn 9780486264721, verified)  309x500
+OK      9780805211061  The Castle                                    via openlibrary (isbn 9780805211061, verified)  308x475
+OK      9780316769488  The Catcher in the Rye                        via openlibrary (isbn 9780316769488, verified)  304x500
+OK      9780596001087  The Cathedral and the Bazaar                  via openlibrary (isbn 9780596001087, verified)  325x500
+REJECT  9781573229869  title does not match "The Color of Water"
+REJECT  9780593593950  title does not match "The Coming Wave"
+REJECT  9780691006888  title does not match "The Coming of the French Revolution"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781401309442  The Center Cannot Hold                        via amazon (isbn 9781401309442, verified)  334x500
+OK      9781591844358  The Challenger Sale                           via openlibrary (isbn 9781591844358, verified)  334x500
+OK      9780312430009  The Checklist Manifesto                       via openlibrary (isbn 9780312430009, verified)  323x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781421409887  The Cheese and the Worms                      via amazon (isbn 9781421409887, verified)  331x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9781591846789  title does not match "The Daily Stoic"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780812976168  title does not match "The Demon in the Freezer"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780553296983  title does not match "The Diary of a Young Girl"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780141185378  title does not match "The Divided Self"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780345516329  The City & the City  -> designed fallback cover
+OK      9780684844411  The Clash of Civilizations and the Remaking o via openlibrary (isbn 9780684844411, verified)  339x500
+OK      9780137081073  The Clean Coder                               via openlibrary (isbn 9780137081073, verified)  360x471
+OK      9780738204314  The Cluetrain Manifesto                       via openlibrary (isbn 9780738204314, verified)  187x285
+OK      9780385495325  The Code Book                                 via openlibrary (isbn 9780385495325, verified)  310x475
+OK      9781982115852  The Code Breaker                              via openlibrary (isbn 9781982115852, verified)  329x500
+OK      9780143038276  The Cold War: A New History                   via openlibrary (isbn 9780143038276, verified)  323x500
+OK      9781555978440  The Collected Schizophrenias                  via openlibrary-search  333x500
+OK      9780156028356  The Color Purple                              via openlibrary (isbn 9780156028356, verified)  328x500
+OK      9781631494536  The Color of Law                              via openlibrary (isbn 9781631494536, verified)  317x500
+OK      9781573229869  The Color of Water                            via openlibrary-search  316x475
+OK      9780593593950  The Coming Wave                               via openlibrary-search  182x277
+OK      9780691006888  The Coming of the French Revolution           via openlibrary-search  316x500
+OK      9780140447576  The Communist Manifesto                       via openlibrary (isbn 9780140447576, verified)  325x500
+OK      9780300181111  The Computer and the Brain                    via openlibrary (isbn 9780300181111, verified)  314x500
+OK      9780140444339  The Conquest of Gaul                          via openlibrary (isbn 9780140444339, verified)  286x475
+OK      9780195117899  The Conscious Mind                            via openlibrary (isbn 9780195117899, verified)  347x500
+OK      9780140447804  The Consolation of Philosophy                 via openlibrary (isbn 9780140447804, verified)  306x475
+OK      9780679779179  The Consolations of Philosophy                via openlibrary (isbn 9780679779179, verified)  332x500
+OK      9780374522599  The Control of Nature                         via openlibrary (isbn 9780374522599, verified)  334x500
+OK      9781501197277  The Courage to Be Disliked                    via openlibrary (isbn 9781501197277, verified)  320x500
+OK      9780802162175  The Covenant of Water                         via openlibrary (isbn 9780802162175, verified)  320x500
+OK      9780300234367  The Craving Mind                              via amazon (isbn 9780300234367, verified)  333x500
+OK      9780593652886  The Creative Act: A Way of Being              via amazon (isbn 9780593652886, verified)  341x500
+OK      9780743235273  The Creative Habit                            via openlibrary (isbn 9780743235273, verified)  272x350
+OK      9780142437339  The Crucible                                  via openlibrary (isbn 9780142437339, verified)  320x500
+OK      9781416507789  The Cuckoo's Egg                              via openlibrary (isbn 9781416507789, verified)  322x500
+OK      9780385520812  The Cult of the Amateur                       via openlibrary (isbn 9780385520812, verified)  320x500
+OK      9780804176989  The Culture Code                              via amazon (isbn 9780804176989, verified)  331x500
+OK      9781610392761  The Culture Map                               via openlibrary (isbn 9781610392761, verified)  333x500
+OK      9781400032716  The Curious Incident of the Dog in the Night- via openlibrary (isbn 9781400032716, verified)  300x500
+OK      9781591846789  The Daily Stoic                               via openlibrary-search  321x500
+OK      9781563893421  The Dark Knight Returns                       via openlibrary (isbn 9781563893421, verified)  311x475
+OK      9780374157357  The Dawn of Everything                        via openlibrary (isbn 9780374157357, verified)  333x500
+OK      9780679741954  The Death and Life of Great American Cities   via openlibrary (isbn 9780679741954, verified)  321x500
+OK      9780553210354  The Death of Ivan Ilyich                      via openlibrary (isbn 9780553210354, verified)  289x475
+OK      9780262038034  The Deep Learning Revolution                  via amazon (isbn 9780262038034, verified)  338x500
+OK      9780812976168  The Demon in the Freezer                      via openlibrary-search  324x475
+OK      9780345409461  The Demon-Haunted World                       via openlibrary (isbn 9780345409461, verified)  202x300
+OK      9780684832401  The Denial of Death                           via openlibrary (isbn 9780684832401, verified)  313x475
+OK      9781422177808  The Design of Business                        via openlibrary (isbn 9781422177808, verified)  331x500
+OK      9780465050659  The Design of Everyday Things                 via openlibrary (isbn 9780465050659, verified)  322x500
+OK      9781942788003  The DevOps Handbook                           via openlibrary (isbn 9781942788003, verified)  326x500
+OK      9780375725609  The Devil in the White City                   via openlibrary (isbn 9780375725609, verified)  300x475
+OK      9780553296983  The Diary of a Young Girl                     via openlibrary-search  319x500
+OK      9780316051644  The Disappearing Spoon                        via openlibrary (isbn 9780316051644, verified)  322x500
+OK      9780674031890  The Discovery of Global Warming               via openlibrary (isbn 9780674031890, verified)  322x500
+OK      9780061054884  The Dispossessed                              via openlibrary (isbn 9780061054884, verified)  288x475
+OK      9780141185378  The Divided Self                              via openlibrary-search  326x500
+OK      9780375701214  The Diving Bell and the Butterfly             via openlibrary (isbn 9780375701214, verified)  305x475
+OK      9780743216302  The Double Helix                              via openlibrary (isbn 9780743216302, verified)  330x500
+OK      9780345346292  The Dragons of Eden                           via openlibrary (isbn 9780345346292, verified)  280x475
+OK      9780465016907  The Drama of the Gifted Child                 via openlibrary (isbn 9780465016907, verified)  314x475
+OK      9780142001356  The Dream Machine                             via openlibrary (isbn 9780142001356, verified)  301x500
+OK      9780307275172  The Drunkard's Walk                           via openlibrary (isbn 9780307275172, verified)  326x500
+OK      9780887307287  The E-Myth Revisited                          via openlibrary (isbn 9780887307287, verified)  313x500
+OK      9780060833459  The Effective Executive                       via openlibrary (isbn 9780060833459, verified)  331x500
+OK      9780465045679  The Ego Tunnel                                via openlibrary (isbn 9780465045679, verified)  337x500
+OK      9780393058581  The Elegant Universe                          via openlibrary (isbn 9780393058581, verified)  312x475
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781259914256  The Elements of Moral Philosophy              via amazon (isbn 9781259914256, verified)  329x500
+OK      9780387848570  The Elements of Statistical Learning          via openlibrary (isbn 9780387848570, verified)  305x500
+OK      9780205309023  The Elements of Style                         via openlibrary (isbn 9780205309023, verified)  295x500
+OK      9780881792065  The Elements of Typographic Style             via openlibrary (isbn 9780881792065, verified)  270x500
+OK      9780321683687  The Elements of User Experience               via openlibrary (isbn 9780321683687, verified)  356x500
+OK      9780190495992  The Elephant in the Brain                     via openlibrary (isbn 9780190495992, verified)  328x500
+OK      9780262529365  The Embodied Mind                             via openlibrary (isbn 9780262529365, verified)  336x499
+have    9780743276634  The Emotion Machine
+OK      9780684836591  The Emotional Brain                           via openlibrary (isbn 9780684836591, verified)  325x500
+OK      9781439170915  The Emperor of All Maladies                   via openlibrary (isbn 9781439170915, verified)  324x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780198784920  The Emperor's New Mind                        via amazon (isbn 9780198784920, verified)  329x500
+OK      9780679722038  The Emperor                                   via openlibrary (isbn 9780679722038, verified)  312x500
+OK      9780743284554  The End of History and the Last Man           via openlibrary (isbn 9780743284554, verified)  337x500
+OK      9780812976083  The End of Nature                             via openlibrary (isbn 9780812976083, verified)  324x500
+OK      9780143036586  The End of Poverty                            via openlibrary (isbn 9780143036586, verified)  325x500
+OK      9780679745204  The English Patient                           via openlibrary (isbn 9780679745204, verified)  318x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780307473516  title does not match "The Future of the Mind"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780190948207  The Ethical Algorithm                         via amazon (isbn 9780190948207, verified)  334x500
+OK      9780316219266  The Everything Store                          via openlibrary (isbn 9780316219266, verified)  322x500
+OK      9780465005642  The Evolution of Cooperation                  via openlibrary (isbn 9780465005642, verified)  333x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780198788911  The Extended Phenotype                        via amazon (isbn 9780198788911, verified)  323x500
+OK      9780375727207  The Fabric of the Cosmos                      via openlibrary (isbn 9780375727207, verified)  321x500
+OK      9780140048971  The Face of Battle                            via openlibrary (isbn 9780140048971, verified)  315x500
+OK      9781439102121  The Facebook Effect                           via openlibrary (isbn 9781439102121, verified)  185x280
+OK      9780521398329  The Fall of Constantinople 1453               via openlibrary (isbn 9780521398329, verified)  302x475
+OK      9780679720225  The Fall                                      via openlibrary (isbn 9780679720225, verified)  324x500
+OK      9780142424179  The Fault in Our Stars                        via openlibrary (isbn 9780142424179, verified)  340x500
+OK      9781119477242  The Fearless Organization                     via openlibrary (isbn 9781119477242, verified)  332x500
+REJECT  9780061719608  title does not match "The Gift of Therapy"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780262539555  The Feeling of Life Itself                    via amazon (isbn 9780262539555, verified)  333x500
+OK      9780156010757  The Feeling of What Happens                   via openlibrary (isbn 9780156010757, verified)  327x500
+OK      9781472439055  The Field Guide to Understanding Human Error  via openlibrary (isbn 9781472439055, verified)  351x500
+OK      9780385517256  The Fifth Discipline                          via openlibrary (isbn 9780385517256, verified)  329x500
+OK      9780143121237  The Filter Bubble                             via openlibrary (isbn 9780143121237, verified)  326x500
+OK      9780679744726  The Fire Next Time                            via openlibrary (isbn 9780679744726, verified)  321x500
+OK      9781422188613  The First 90 Days                             via openlibrary (isbn 9781422188613, verified)  331x500
+OK      9780465024377  The First Three Minutes                       via openlibrary (isbn 9780465024377, verified)  308x475
+OK      9780787960759  The Five Dysfunctions of a Team               via openlibrary (isbn 9780787960759, verified)  326x500
+OK      9780312536633  The Forever War                               via openlibrary (isbn 9780312536633, verified)  268x400
+OK      9781878424310  The Four Agreements                           via openlibrary (isbn 9781878424310, verified)  341x500
+REJECT  9780811214049  title does not match "The Glass Menagerie"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780989200509  The Four Steps to the Epiphany                via amazon (isbn 9780989200509, verified)  360x484
+OK      9780321834737  The Functional Art                            via openlibrary (isbn 9780321834737, verified)  311x400
+OK      9780307473516  The Future of the Mind                        via openlibrary-search  329x500
+OK      9780394719856  The Gay Science                               via openlibrary (isbn 9780394719856, verified)  280x475
+OK      9781476733524  The Gene                                      via openlibrary (isbn 9781476733524, verified)  318x500
+OK      9780156347112  The General Theory of Employment, Interest an via openlibrary (isbn 9780156347112, verified)  317x475
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780618658961  title does not match "The Great Railway Bazaar"
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780553563696  title does not match "The Hacker Crackdown"
+REJECT  9781416593096  title does not match "The Halo Effect"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780143128670  The Genius of Birds                           via openlibrary-search  326x500
+OK      9780743255356  The Geography of Thought                      via openlibrary (isbn 9780743255356, verified)  310x475
+OK      9781594489259  The Ghost Map                                 via openlibrary (isbn 9781594489259, verified)  330x500
+OK      9780440226192  The Gift of Fear                              via openlibrary (isbn 9780440226192, verified)  310x500
+OK      9780061719608  The Gift of Therapy                           via openlibrary-search  315x475
+OK      9781592858491  The Gifts of Imperfection                     via openlibrary (isbn 9781592858491, verified)  333x499
+OK      9781594634024  The Girl on the Train                         via openlibrary (isbn 9781594634024, verified)  256x400
+OK      9780544336261  The Giver                                     via openlibrary (isbn 9780544336261, verified)  333x499
+OK      9780393351637  The Glass Cage                                via openlibrary (isbn 9780393351637, verified)  324x500
+OK      9780743247542  The Glass Castle                              via openlibrary (isbn 9780743247542, verified)  304x500
+OK      9780811214049  The Glass Menagerie                           via openlibrary-search  307x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780143111337  The Glass Universe                            via openlibrary-search  329x499
+OK      9780884271789  The Goal                                      via openlibrary (isbn 9780884271789, verified)  317x500
+OK      9780812979657  The God of Small Things                       via openlibrary (isbn 9780812979657, verified)  318x500
+OK      9781982166694  The Good Life                                 via openlibrary (isbn 9781982166694, verified)  239x360
+OK      9780553384666  The Grand Design                              via openlibrary (isbn 9780553384666, verified)  333x500
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780465031610  The Great Cat Massacre                        via openlibrary-search  177x282
+OK      9780547248165  The Great Crash 1929                          via amazon (isbn 9780547248165, verified)  333x500
+OK      9780691165622  The Great Escape                              via openlibrary (isbn 9780691165622, verified)  324x500
+OK      9780743273565  The Great Gatsby                              via openlibrary (isbn 9780743273565, verified)  328x500
+OK      9780143036494  The Great Influenza                           via openlibrary (isbn 9780143036494, verified)  324x500
+OK      9780060006921  The Great Mortality                           via openlibrary (isbn 9780060006921, verified)  328x500
+OK      9780618658961  The Great Railway Bazaar                      via openlibrary-search  327x500
+OK      9780195133325  The Great War and Modern Memory               via openlibrary (isbn 9780195133325, verified)  332x500
+OK      9781416594796  The Greatest Show on Earth                    via amazon (isbn 9781416594796, verified)  324x500
+OK      9780143039648  The Guide                                     via openlibrary (isbn 9780143039648, verified)  311x500
+OK      9780345476098  The Guns of August                            via openlibrary (isbn 9780345476098, verified)  297x500
+OK      9781501143519  The Gunslinger                                via openlibrary (isbn 9781501143519, verified)  328x500
+OK      9780553563696  The Hacker Crackdown                          via openlibrary-search  277x475
+OK      9781416593096  The Halo Effect                               via openlibrary-search  323x500
+OK      9780385490818  The Handmaid's Tale                           via openlibrary (isbn 9780385490818, verified)  311x500
+OK      9780465028023  The Happiness Hypothesis                      via openlibrary (isbn 9780465028023, verified)  267x400
+OK      9780061583261  The Happiness Project                         via openlibrary (isbn 9780061583261, verified)  182x280
+OK      9781590305843  The Happiness Trap                            via openlibrary (isbn 9781590305843, verified)  307x500
+have    9780062273208  The Hard Thing About Hard Things
+OK      9780312569372  The Hare with Amber Eyes                      via openlibrary (isbn 9780312569372, verified)  311x500
+OK      9780143039983  The Haunting of Hill House                    via openlibrary (isbn 9780143039983, verified)  311x475
+OK      9780593422946  The Heaven & Earth Grocery Store              via openlibrary (isbn 9780593422946, verified)  331x500
+OK      9781771642484  The Hidden Life of Trees                      via openlibrary (isbn 9781771642484, verified)  360x492
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780375706769  title does not match "The Island of the Colorblind"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780800795931  The Hiding Place                              via openlibrary-search  315x500
+OK      9780553062182  The Highly Sensitive Person                   via openlibrary (isbn 9780553062182, verified)  316x475
+OK      9780140449082  The Histories                                 via openlibrary (isbn 9780140449082, verified)  323x500
+OK      9780345391803  The Hitchhiker's Guide to the Galaxy          via openlibrary (isbn 9780345391803, verified)  332x500
+OK      9780547928227  The Hobbit                                    via openlibrary (isbn 9780547928227, verified)  323x500
+OK      9780385479561  The Hot Zone                                  via openlibrary (isbn 9780385479561, verified)  285x475
+OK      9780486282145  The Hound of the Baskervilles                 via openlibrary (isbn 9780486282145, verified)  310x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780811220545  The Hour of the Star                          via amazon (isbn 9780811220545, UNVERIFIED)  322x500
+OK      9780143114956  The How of Happiness                          via openlibrary (isbn 9780143114956, verified)  313x500
+OK      9780226924571  The Human Condition                           via openlibrary-search  287x500
+OK      9780306803208  The Human Use of Human Beings                 via openlibrary (isbn 9780306803208, verified)  303x475
+OK      9781999579517  The Hundred-Page Machine Learning Book        via openlibrary (isbn 9781999579517, verified)  360x468
+OK      9780439023528  The Hunger Games                              via openlibrary (isbn 9780439023528, verified)  330x500
+OK      9780143122791  The Idea Factory                              via openlibrary (isbn 9780143122791, verified)  300x457
+OK      9781541646865  The Idea of the Brain                         via amazon (isbn 9781541646865, verified)  323x500
+OK      9780262731621  The Illusion of Conscious Will                via openlibrary (isbn 9780262731621, verified)  309x500
+OK      9781400052189  The Immortal Life of Henrietta Lacks          via openlibrary (isbn 9781400052189, verified)  182x280
+OK      9780486264783  The Importance of Being Earnest               via openlibrary (isbn 9780486264783, verified)  312x500
+OK      9781400096237  The Information                               via openlibrary (isbn 9781400096237, verified)  323x500
+OK      9780672326141  The Inmates Are Running the Asylum            via openlibrary (isbn 9780672326141, verified)  332x500
+OK      9780674007079  The Inner Citadel                             via openlibrary (isbn 9780674007079, verified)  306x475
+have    9781422197585  The Innovator's Dilemma
+OK      9781422196571  The Innovator's Solution                      via amazon (isbn 9781422196571, verified)  338x500
+have    9781476708706  The Innovators
+OK      9780060555665  The Intelligent Investor                      via openlibrary (isbn 9780060555665, verified)  325x500
+OK      9780802123138  The Internet Is Not the Answer                via openlibrary (isbn 9780802123138, verified)  314x475
+OK      9780521437738  The Invention of Tradition                    via openlibrary (isbn 9780521437738, verified)  321x500
+OK      9780307459657  The Invisible Gorilla                         via openlibrary (isbn 9780307459657, verified)  332x500
+OK      9781400078677  The Island at the Center of the World         via openlibrary (isbn 9781400078677, verified)  324x500
+OK      9780375706769  The Island of the Colorblind                  via openlibrary-search  337x500
+OK      9780140444209  The Jewish War                                via openlibrary (isbn 9780140444209, verified)  324x499
+OK      9780671207144  The Johnstown Flood                           via openlibrary (isbn 9780671207144, verified)  331x500
+OK      9780544105850  The Joy of x                                  via openlibrary (isbn 9780544105850, verified)  336x500
+OK      9781594631931  The Kite Runner                               via openlibrary (isbn 9781594631931, verified)  301x500
+REJECT  9780307279460  title does not match "The Lost City of Z"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780399184352  The Knowledge Illusion                        via amazon (isbn 9780399184352, verified)  331x500
+OK      9780061336461  The Language Instinct                         via openlibrary (isbn 9780061336461, verified)  307x500
+OK      9780140455496  The Last Days of Socrates                     via openlibrary (isbn 9780140455496, verified)  312x500
+OK      9781401323257  The Last Lecture                              via openlibrary (isbn 9781401323257, verified)  260x371
+OK      9781118960875  The Lean Product Playbook                     via openlibrary (isbn 9781118960875, verified)  335x500
+have    9780307887894  The Lean Startup
+OK      9780441478125  The Left Hand of Darkness                     via openlibrary (isbn 9780441478125, verified)  295x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780140179842  The Liars' Club                               via openlibrary-search  313x475
+OK      9780812981568  The Life You Can Save                         via openlibrary (isbn 9780812981568, verified)  317x500
+OK      9780064471046  The Lion, the Witch and the Wardrobe          via openlibrary (isbn 9780064471046, verified)  294x500
+OK      9780471733065  The Little Book That Beats the Market         via openlibrary (isbn 9780471733065, verified)  350x500
+OK      9780470102107  The Little Book of Common Sense Investing     via openlibrary (isbn 9780470102107, verified)  349x500
+OK      9780156012195  The Little Prince                             via openlibrary (isbn 9780156012195, verified)  360x446
+OK      9780140047431  The Lives of a Cell                           via openlibrary (isbn 9780140047431, verified)  323x500
+OK      9780415278447  The Logic of Scientific Discovery             via openlibrary (isbn 9780415278447, verified)  321x500
+OK      9780394757681  The Long Goodbye                              via openlibrary (isbn 9780394757681, verified)  259x400
+OK      9780307279460  The Lost City of Z                            via openlibrary-search  318x500
+OK      9780812974447  The Lucifer Effect                            via openlibrary (isbn 9780812974447, verified)  324x500
+OK      9780743299794  The Machine That Changed the World            via openlibrary (isbn 9780743299794, verified)  325x500
+OK      9780735219564  The Making of a Manager                       via openlibrary (isbn 9780735219564, verified)  331x500
+OK      9781451677614  The Making of the Atomic Bomb                 via openlibrary (isbn 9781451677614, verified)  331x500
+OK      9780393330519  The Making of the Fittest                     via openlibrary (isbn 9780393330519, verified)  334x500
+OK      9780679722649  The Maltese Falcon                            via openlibrary (isbn 9780679722649, verified)  324x500
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780312676896  The Man Who Couldn't Stop                     via openlibrary-search  327x500
+OK      9780671750619  The Man Who Knew Infinity                     via openlibrary (isbn 9780671750619, verified)  301x475
+OK      9780786863624  The Man Who Loved Only Numbers                via openlibrary (isbn 9780786863624, verified)  323x500
+OK      9781501147913  The Man Who Mistook His Wife for a Hat        via openlibrary-search  335x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780743222334  title does not match "The Noonday Demon"
+OK      9780735217997  The Man Who Solved the Market                 via openlibrary-search  315x475
+OK      9780547572482  The Man in the High Castle                    via openlibrary (isbn 9780547572482, verified)  294x500
+OK      9780674546257  The Man with a Shattered World                via openlibrary (isbn 9780674546257, verified)  296x475
+OK      9781491973899  The Manager's Path                            via openlibrary (isbn 9781491973899, verified)  317x475
+OK      9780316230872  The Marshmallow Test                          via openlibrary (isbn 9780316230872, verified)  312x500
+OK      9781451678192  The Martian Chronicles                        via openlibrary (isbn 9781451678192, verified)  309x500
+OK      9780553418026  The Martian                                   via openlibrary (isbn 9780553418026, verified)  313x500
+OK      9780465094271  The Master Algorithm                          via openlibrary (isbn 9780465094271, verified)  333x500
+OK      9780307390998  The Master Switch                             via openlibrary (isbn 9780307390998, verified)  254x400
+OK      9780300188370  The Master and His Emissary                   via openlibrary (isbn 9780300188370, verified)  325x500
+OK      9780141180144  The Master and Margarita                      via openlibrary (isbn 9780141180144, verified)  360x466
+OK      9780553213690  The Metamorphosis                             via openlibrary (isbn 9780553213690, verified)  333x500
+OK      9781589795471  The Millionaire Next Door                     via openlibrary (isbn 9781589795471, verified)  196x293
+OK      9780060988470  The Mind and the Brain                        via openlibrary (isbn 9780060988470, verified)  313x475
+OK      9780674576223  The Mind of a Mnemonist                       via openlibrary (isbn 9780674576223, verified)  303x475
+OK      9780465030910  The Mind's I                                  via openlibrary (isbn 9780465030910, verified)  315x475
+REJECT  9780307474902  title does not match "The Optimism Bias"
+REJECT  9780805050349  title does not match "The Outermost House"
+REJECT  9780142181478  title does not match "The Particle at the End of the Universe"
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780062376565  The Mind-Gut Connection                       via openlibrary-search  331x499
+OK      9780316300131  The Ministry for the Future                   via openlibrary (isbn 9780316300131, verified)  320x500
+OK      9780807012390  The Miracle of Mindfulness                    via openlibrary (isbn 9780807012390, verified)  315x475
+OK      9780393314250  The Mismeasure of Man                         via amazon (isbn 9780393314250, verified)  323x500
+have    9781492180746  The Mom Test
+OK      9780679763994  The Moral Animal                              via openlibrary (isbn 9780679763994, verified)  303x475
+OK      9780060935580  The Music of the Primes                       via openlibrary (isbn 9780060935580, verified)  315x475
+OK      9780465016143  The Mystery of Capital                        via openlibrary (isbn 9780465016143, verified)  321x475
+OK      9780674983519  The Myth of Artificial Intelligence           via openlibrary (isbn 9780674983519, verified)  333x500
+OK      9780312141233  The Myth of Repressed Memory                  via openlibrary (isbn 9780312141233, verified)  326x500
+OK      9780679733737  The Myth of Sisyphus                          via openlibrary (isbn 9780679733737, verified)  319x500
+OK      9780201835953  The Mythical Man-Month                        via openlibrary (isbn 9780201835953, verified)  336x499
+OK      9780385334303  The Naked Ape                                 via openlibrary (isbn 9780385334303, verified)  298x475
+OK      9780618485222  The Namesake                                  via openlibrary (isbn 9780618485222, verified)  333x500
+OK      9781610391061  The Net Delusion                              via openlibrary (isbn 9781610391061, verified)  328x500
+OK      9781595586438  The New Jim Crow                              via openlibrary (isbn 9781595586438, verified)  326x500
+OK      9780133966152  The Non-Designer's Design Book                via openlibrary (isbn 9780133966152, verified)  350x500
+OK      9780743222334  The Noonday Demon                             via openlibrary-search  310x500
+OK      9780199753871  The Number Sense                              via openlibrary (isbn 9780199753871, verified)  331x500
+REJECT  9780802715654  title does not match "The Poincare Conjecture"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780385333610  title does not match "The Promise of Sleep"
+REJECT  9781594486456  title does not match "The Psychopath Test"
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+REJECT  9781524760441  title does not match "The Road to Unfreedom"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781771641265  The Obesity Code                              via openlibrary-search  266x400
+OK      9781591846352  The Obstacle Is the Way                       via openlibrary (isbn 9781591846352, verified)  355x500
+OK      9780062459367  The Ocean at the End of the Lane              via openlibrary (isbn 9780062459367, verified)  311x500
+OK      9780684801223  The Old Man and the Sea                       via openlibrary (isbn 9780684801223, verified)  184x280
+OK      9780143038580  The Omnivore's Dilemma                        via openlibrary (isbn 9780143038580, verified)  312x500
+OK      9781885167774  The One Thing                                 via openlibrary (isbn 9781885167774, verified)  343x500
+OK      9780307474902  The Optimism Bias                             via openlibrary-search  312x500
+OK      9780449003718  The Orchid Thief                              via openlibrary (isbn 9780449003718, verified)  318x475
+OK      9780735216105  The Order of Time                             via openlibrary (isbn 9780735216105, verified)  320x500
+OK      9780147516312  The Organized Mind                            via openlibrary (isbn 9780147516312, verified)  332x500
+OK      9780618057078  The Origin of Consciousness in the Breakdown  via openlibrary (isbn 9780618057078, verified)  321x500
+OK      9780140264456  The Origins of Virtue                         via openlibrary (isbn 9780140264456, verified)  321x500
+OK      9780805050349  The Outermost House                           via openlibrary-search  318x475
+OK      9780142407332  The Outsiders                                 via openlibrary (isbn 9780142407332, verified)  322x500
+OK      9780393308198  The Panda's Thumb                             via openlibrary (isbn 9780393308198, verified)  313x475
+OK      9780060005696  The Paradox of Choice                         via openlibrary (isbn 9780060005696, verified)  326x500
+OK      9780142181478  The Particle at the End of the Universe       via openlibrary-search  320x500
+OK      9780140187380  The Pearl                                     via openlibrary (isbn 9780140187380, verified)  194x300
+OK      9780805210415  The Periodic Table                            via openlibrary (isbn 9780805210415, verified)  321x500
+OK      9780140440072  The Persian Expedition                        via openlibrary (isbn 9780140440072, verified)  304x475
+OK      9780312429843  The Philosophical Baby                        via amazon (isbn 9780312429843, verified)  333x500
+have    9781942788294  The Phoenix Project
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780143034346  title does not match "The Snow Leopard"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780140444759  title does not match "The Sorrows of Young Werther"
+REJECT  9781591846550  title does not match "The Sports Gene"
+REJECT  9781101970348  title does not match "The Strange Order of Things"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780312421359  The Pianist  -> designed fallback cover
+OK      9780141439570  The Picture of Dorian Gray                    via openlibrary (isbn 9780141439570, verified)  291x450
+OK      9780679720218  The Plague                                    via openlibrary (isbn 9780679720218, verified)  322x500
+MISSING 9780802715654  The Poincare Conjecture  -> designed fallback cover
+OK      9780143118824  The Poisoner's Handbook                       via openlibrary (isbn 9780143118824, verified)  183x280
+OK      9780060520854  The Power of Babel                            via openlibrary (isbn 9780060520854, verified)  308x475
+OK      9780812981605  The Power of Habit                            via openlibrary (isbn 9780812981605, verified)  321x500
+OK      9781577314806  The Power of Now                              via openlibrary (isbn 9781577314806, verified)  325x500
+OK      9780743234801  The Power of Positive Thinking                via openlibrary (isbn 9780743234801, verified)  306x475
+OK      9780060878979  The Practice of Management                    via openlibrary (isbn 9780060878979, verified)  323x500
+OK      9780201615869  The Practice of Programming                   via openlibrary (isbn 9780201615869, verified)  360x450
+OK      9780135957059  The Pragmatic Programmer                      via openlibrary (isbn 9780135957059, verified)  360x471
+OK      9780393345063  The Price of Inequality                       via openlibrary (isbn 9780393345063, verified)  334x500
+OK      9780140449150  The Prince                                    via openlibrary (isbn 9780140449150, verified)  312x500
+OK      9780156035217  The Princess Bride                            via openlibrary (isbn 9780156035217, verified)  297x500
+OK      9780195115529  The Problems of Philosophy                    via openlibrary (isbn 9780195115529, verified)  330x500
+OK      9780060839789  The Professor and the Madman                  via openlibrary (isbn 9780060839789, verified)  333x500
+OK      9780385333610  The Promise of Sleep                          via openlibrary-search  337x475
+OK      9780394404288  The Prophet                                   via openlibrary (isbn 9780394404288, verified)  334x500
+OK      9780857197689  The Psychology of Money                       via openlibrary (isbn 9780857197689, verified)  307x500
+OK      9781594486456  The Psychopath Test                           via openlibrary-search  329x500
+OK      9780273710516  The Pyramid Principle                         via openlibrary (isbn 9780273710516, verified)  267x400
+OK      9780465068364  The Rape of Nanking                           via amazon (isbn 9780465068364, verified)  333x500
+OK      9780061452062  The Rational Optimist                         via openlibrary (isbn 9780061452062, verified)  328x500
+OK      9780375707971  The Reader                                    via openlibrary (isbn 9780375707971, verified)  316x500
+OK      9780812994865  The Reason I Jump                             via openlibrary (isbn 9780812994865, verified)  263x400
+OK      9780679733843  The Rebel                                     via openlibrary (isbn 9780679733843, verified)  323x500
+OK      9780060556570  The Red Queen                                 via openlibrary (isbn 9780060556570, verified)  182x278
+OK      9780679731726  The Remains of the Day                        via openlibrary (isbn 9780679731726, verified)  332x500
+OK      9780140455113  The Republic                                  via openlibrary (isbn 9780140455113, verified)  324x500
+OK      9780674766914  The Return of Martin Guerre                   via openlibrary (isbn 9780674766914, verified)  317x500
+OK      9780812982220  The Revenge of Geography                      via openlibrary (isbn 9780812982220, verified)  312x500
+OK      9780451205360  The Richest Man in Babylon                    via openlibrary (isbn 9780451205360, verified)  295x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780061995033  title does not match "The Upside of Irrationality"
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780374532086  title does not match "The White Album"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781982189570  The Right Kind of Wrong  -> designed fallback cover
+OK      9780312427566  The Right Stuff                               via openlibrary (isbn 9780312427566, verified)  202x299
+OK      9780307455772  The Righteous Mind                            via openlibrary (isbn 9780307455772, verified)  324x500
+OK      9780140441024  The Rise and Fall of Athens: Nine Greek Lives via openlibrary (isbn 9780140441024, verified)  299x500
+OK      9780743243155  The Road Less Traveled                        via openlibrary (isbn 9780743243155, verified)  314x475
+OK      9780679776314  The Road to Reality                           via openlibrary (isbn 9780679776314, verified)  340x500
+OK      9780226320557  The Road to Serfdom                           via openlibrary (isbn 9780226320557, verified)  333x500
+OK      9781524760441  The Road to Unfreedom                         via openlibrary-search  329x500
+OK      9780307387899  The Road                                      via openlibrary (isbn 9780307387899, verified)  324x500
+OK      9781401284770  The Sandman: Preludes and Nocturnes           via openlibrary (isbn 9781401284770, verified)  322x500
+OK      9780486280486  The Scarlet Letter                            via openlibrary (isbn 9780486280486, verified)  316x500
+OK      9780262691918  The Sciences of the Artificial                via openlibrary (isbn 9780262691918, verified)  323x475
+OK      9780735217553  The Scout Mindset                             via openlibrary (isbn 9780735217553, verified)  331x500
+OK      9780195069976  The Sea Around Us                             via openlibrary (isbn 9780195069976, verified)  331x500
+OK      9780060930721  The Second Brain                              via openlibrary (isbn 9780060930721, verified)  320x500
+OK      9780393350647  The Second Machine Age                        via amazon (isbn 9780393350647, verified)  335x500
+OK      9780198788607  The Selfish Gene                              via openlibrary (isbn 9780198788607, verified)  328x500
+OK      9780143127796  The Sense of Style                            via openlibrary (isbn 9780143127796, verified)  332x500
+OK      9780307947727  The Sense of an Ending                        via openlibrary (isbn 9780307947727, verified)  326x500
+OK      9780618219193  The Seven Sins of Memory                      via openlibrary (isbn 9780618219193, verified)  316x475
+OK      9780393339758  The Shallows                                  via openlibrary (isbn 9780393339758, verified)  333x499
+OK      9780743225427  The Shipping News                             via openlibrary (isbn 9780743225427, verified)  330x500
+OK      9780143125082  The Signal and the Noise                      via openlibrary (isbn 9780143125082, verified)  326x500
+OK      9781101912379  The Silk Roads                                via openlibrary (isbn 9781101912379, verified)  331x500
+OK      9781533667922  The Simple Path to Wealth                     via openlibrary (isbn 9781533667922, verified)  308x475
+OK      9780399562761  The Singularity Is Nearer                     via openlibrary (isbn 9780399562761, verified)  331x500
+OK      9780385333498  The Sirens of Titan                           via openlibrary (isbn 9780385333498, verified)  317x475
+OK      9781250062185  The Sixth Extinction                          via openlibrary (isbn 9781250062185, verified)  333x499
+OK      9781101904008  The Sleep Revolution                          via openlibrary (isbn 9781101904008, verified)  319x500
+OK      9781591840534  The Smartest Guys in the Room                 via openlibrary (isbn 9781591840534, verified)  307x475
+OK      9780143034346  The Snow Leopard                              via openlibrary-search  301x475
+OK      9780140442014  The Social Contract                           via openlibrary (isbn 9780140442014, verified)  326x500
+OK      9780671657130  The Society of Mind                           via openlibrary (isbn 9780671657130, verified)  360x460
+OK      9780767915823  The Sociopath Next Door                       via openlibrary (isbn 9780767915823, verified)  323x500
+OK      9780140094299  The Songlines                                 via openlibrary (isbn 9780140094299, verified)  322x500
+OK      9780140444759  The Sorrows of Young Werther                  via openlibrary-search  324x500
+OK      9780316491976  The Soul of a New Machine                     via openlibrary (isbn 9780316491976, verified)  315x475
+OK      9781451697728  The Soul of an Octopus                        via openlibrary (isbn 9781451697728, verified)  328x500
+OK      9780486280417  The Souls of Black Folk                       via openlibrary (isbn 9780486280417, verified)  307x500
+OK      9780679732242  The Sound and the Fury                        via openlibrary (isbn 9780679732242, verified)  321x500
+REJECT  9780691150574  title does not match "The Winner's Curse"
+REJECT  9780374534783  title does not match "Things to Make and Do in the Fourth Dimension"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780192100542  title does not match "Think"
+REJECT  9781568984698  title does not match "Thinking with Type"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+REJECT  9780374281113  title does not match "Train Dreams"
+REJECT  9780062978523  title does not match "Ultralearning"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780679750208  The Sound of Waves  -> designed fallback cover
+OK      9780449912553  The Sparrow                                   via openlibrary (isbn 9780449912553, verified)  333x500
+OK      9780679776390  The Spell of the Sensuous                     via openlibrary (isbn 9780679776390, verified)  325x500
+OK      9780374533403  The Spirit Catches You and You Fall Down      via openlibrary (isbn 9780374533403, verified)  348x500
+OK      9781608193417  The Spirit Level                              via openlibrary (isbn 9781608193417, verified)  333x500
+OK      9781591846550  The Sports Gene                               via openlibrary-search  325x500
+OK      9781098118730  The Staff Engineer's Path                     via openlibrary (isbn 9781098118730, verified)  266x400
+OK      9780307888907  The Start-up of You                           via openlibrary (isbn 9780307888907, verified)  331x500
+OK      9781101970348  The Strange Order of Things                   via openlibrary-search  324x500
+OK      9780679720201  The Stranger                                  via openlibrary (isbn 9780679720201, verified)  315x500
+OK      9780226458120  The Structure of Scientific Revolutions       via openlibrary (isbn 9780226458120, verified)  320x500
+OK      9780143114246  The Stuff of Thought                          via openlibrary (isbn 9780143114246, verified)  326x500
+OK      9780062457714  The Subtle Art of Not Giving a F*ck           via openlibrary (isbn 9780062457714, verified)  327x500
+OK      9780743297332  The Sun Also Rises                            via openlibrary (isbn 9780743297332, verified)  328x500
+OK      9780316182348  The Tale of the Dueling Neurosurgeons         via openlibrary (isbn 9780316182348, verified)  315x500
+OK      9780553806847  The Talent Code                               via openlibrary (isbn 9780553806847, verified)  329x500
+OK      9780393332148  The Talented Mr. Ripley                       via openlibrary (isbn 9780393332148, verified)  318x500
+OK      9781590308356  The Tao of Physics                            via openlibrary (isbn 9781590308356, verified)  360x466
+OK      9780393340624  The Tell-Tale Brain                           via openlibrary (isbn 9780393340624, verified)  333x500
+OK      9780679752707  The Temple of the Golden Pavilion             via openlibrary (isbn 9780679752707, verified)  320x500
+OK      9780618706419  The Things They Carried                       via openlibrary (isbn 9780618706419, verified)  318x500
+OK      9780060845506  The Third Chimpanzee                          via openlibrary (isbn 9780060845506, verified)  320x500
+OK      9780765382030  The Three-Body Problem                        via openlibrary (isbn 9780765382030, verified)  331x500
+OK      9780486284729  The Time Machine                              via openlibrary (isbn 9780486284729, verified)  286x475
+OK      9780316346627  The Tipping Point                             via openlibrary (isbn 9780316346627, verified)  181x270
+OK      9780071392310  The Toyota Way                                via openlibrary (isbn 9780071392310, verified)  331x500
+OK      9780140440577  The Travels of Marco Polo                     via openlibrary (isbn 9780140440577, verified)  315x500
+OK      9780805209990  The Trial                                     via openlibrary (isbn 9780805209990, verified)  308x475
+OK      9780321934079  The Truthful Art                              via openlibrary (isbn 9780321934079, verified)  360x463
+OK      9780140455168  The Twelve Caesars                            via openlibrary (isbn 9780140455168, verified)  339x500
+OK      9780691191263  The Tyranny of Metrics                        via openlibrary-search  283x430
+OK      9780061148521  The Unbearable Lightness of Being             via openlibrary (isbn 9780061148521, verified)  339x500
+OK      9780195189773  The Undercover Economist                      via openlibrary (isbn 9780195189773, verified)  328x500
+OK      9780393354775  The Undoing Project                           via openlibrary (isbn 9780393354775, verified)  333x500
+OK      9780525576709  The Uninhabitable Earth                       via openlibrary (isbn 9780525576709, verified)  296x500
+OK      9780553802023  The Universe in a Nutshell                    via openlibrary (isbn 9780553802023, verified)  360x471
+OK      9781572245372  The Untethered Soul                           via openlibrary (isbn 9781572245372, verified)  333x500
+OK      9780061995033  The Upside of Irrationality                   via openlibrary-search  335x500
+OK      9780553448184  The Vegetarian                                via openlibrary (isbn 9780553448184, verified)  329x500
+OK      9780802716040  The Victorian Internet                        via openlibrary (isbn 9780802716040, verified)  347x500
+OK      9780195056440  The View from Nowhere                         via openlibrary (isbn 9780195056440, verified)  325x500
+OK      9780961392147  The Visual Display of Quantitative Informatio via openlibrary (isbn 9780961392147, verified)  220x278
+OK      9780393352979  The Vital Question                            via openlibrary (isbn 9780393352979, verified)  334x500
+OK      9780385534260  The Wager                                     via openlibrary (isbn 9780385534260, verified)  263x400
+OK      9781936891023  The War of Art                                via openlibrary (isbn 9781936891023, verified)  313x499
+OK      9780451530653  The War of the Worlds                         via openlibrary (isbn 9780451530653, verified)  309x500
+OK      9780375705106  The Way of Zen                                via openlibrary (isbn 9780375705106, verified)  308x475
+OK      9780553585971  The Wealth of Nations                         via openlibrary (isbn 9780553585971, verified)  288x475
+MISSING 9780374532086  The White Album  -> designed fallback cover
+OK      9780143038825  The White Man's Burden                        via openlibrary (isbn 9780143038825, verified)  326x500
+OK      9780553386691  The Whole-Brain Child                         via openlibrary (isbn 9780553386691, verified)  324x500
+OK      9781583334386  The Willpower Instinct                        via openlibrary (isbn 9781583334386, verified)  333x500
+OK      9780691150574  The Winner's Curse                            via openlibrary-search  309x475
+OK      9780385721707  The Wisdom of Crowds                          via openlibrary (isbn 9780385721707, verified)  324x500
+OK      9780679721888  The Woman Warrior                             via openlibrary (isbn 9780679721888, verified)  308x474
+OK      9780684862149  The Worldly Philosophers                      via openlibrary (isbn 9780684862149, verified)  322x500
+OK      9781250897930  The Worlds I See                              via openlibrary (isbn 9781250897930, verified)  329x500
+OK      9780618773473  The Worst Hard Time                           via openlibrary (isbn 9780618773473, verified)  267x400
+OK      9780802141323  The Wretched of the Earth                     via openlibrary (isbn 9780802141323, verified)  325x500
+OK      9781400078431  The Year of Magical Thinking                  via openlibrary (isbn 9781400078431, verified)  183x280
+OK      9780345324252  The Zimmermann Telegram                       via openlibrary (isbn 9780345324252, verified)  311x500
+OK      9780061120060  Their Eyes Were Watching God                  via openlibrary (isbn 9780061120060, verified)  185x279
+OK      9780385474542  Things Fall Apart                             via openlibrary (isbn 9780385474542, verified)  316x500
+OK      9780374534783  Things to Make and Do in the Fourth Dimension via openlibrary-search  334x500
+OK      9781984878106  Think Again                                   via openlibrary (isbn 9781984878106, verified)  331x500
+OK      9781585424337  Think and Grow Rich                           via openlibrary (isbn 9781585424337, verified)  351x500
+OK      9780192100542  Think                                         via openlibrary-search  339x500
+OK      9780735216372  Thinking in Bets                              via openlibrary (isbn 9780735216372, verified)  333x500
+OK      9780307275653  Thinking in Pictures                          via openlibrary (isbn 9780307275653, verified)  321x500
+OK      9781603580557  Thinking in Systems                           via openlibrary (isbn 9781603580557, verified)  332x499
+OK      9781568984698  Thinking with Type                            via openlibrary-search  360x437
+have    9780374533557  Thinking, Fast and Slow
+OK      9780393318340  Thirteen Days                                 via openlibrary (isbn 9780393318340, verified)  313x475
+OK      9780525540830  This Is Marketing                             via openlibrary (isbn 9780525540830, verified)  354x500
+OK      9780452288522  This Is Your Brain on Music                   via openlibrary (isbn 9780452288522, verified)  320x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780312610494  Through the Language Glass                    via amazon (isbn 9780312610494, verified)  331x500
+OK      9780140441185  Thus Spoke Zarathustra                        via openlibrary (isbn 9780140441185, verified)  326x500
+OK      9781098151249  Tidy First?                                   via openlibrary (isbn 9781098151249, verified)  250x328
+OK      9780358003328  Tiny Habits                                   via openlibrary (isbn 9780358003328, verified)  315x475
+OK      9780679734161  To Engineer Is Human                          via openlibrary (isbn 9780679734161, verified)  303x475
+OK      9780061120084  To Kill a Mockingbird                         via openlibrary (isbn 9780061120084, verified)  332x500
+OK      9781610393706  To Save Everything, Click Here                via openlibrary (isbn 9781610393706, verified)  334x500
+OK      9781594631900  To Sell Is Human                              via openlibrary (isbn 9781594631900, verified)  332x500
+OK      9780156907392  To the Lighthouse                             via openlibrary (isbn 9780156907392, verified)  329x500
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9781401207526  title does not match "V for Vendetta"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780872206755  title does not match "Walden Two"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780063327498  Tom Lake                                      via openlibrary-search  331x500
+OK      9780486250236  Towards a New Architecture                    via openlibrary (isbn 9780486250236, verified)  313x475
+OK      9780415254083  Tractatus Logico-Philosophicus                via openlibrary (isbn 9780415254083, verified)  360x474
+OK      9781591848363  Traction                                      via openlibrary (isbn 9781591848363, verified)  331x500
+OK      9780374281113  Train Dreams                                  via openlibrary-search  318x474
+OK      9780345479891  Train Your Mind, Change Your Brain            via openlibrary (isbn 9780345479891, verified)  324x500
+OK      9780465061716  Trauma and Recovery                           via openlibrary (isbn 9780465061716, verified)  336x500
+OK      9780385496094  Traveling Mercies                             via openlibrary (isbn 9780385496094, verified)  313x500
+OK      9780062839275  Trillion Dollar Coach                         via openlibrary-search  331x500
+OK      9780143120544  Triumph of the City                           via openlibrary (isbn 9780143120544, verified)  326x500
+OK      9780767905923  Tuesdays with Morrie                          via openlibrary (isbn 9780767905923, verified)  342x500
+OK      9781400075997  Turing's Cathedral                            via openlibrary (isbn 9781400075997, verified)  261x400
+OK      9781591846406  Turn the Ship Around!                         via openlibrary (isbn 9781591846406, verified)  331x499
+OK      9780547572291  Ubik                                          via openlibrary (isbn 9780547572291, verified)  332x500
+OK      9780062978523  Ultralearning                                 via openlibrary-search  319x500
+OK      9780812974492  Unbroken                                      via openlibrary (isbn 9780812974492, verified)  332x500
+OK      9780375704048  Uncle Tungsten                                via openlibrary (isbn 9780375704048, verified)  308x500
+OK      9780743487481  Unconditional Parenting                       via openlibrary (isbn 9780743487481, verified)  321x500
+OK      9780593136270  Under a White Sky                             via openlibrary (isbn 9780593136270, verified)  331x500
+OK      9780060976255  Understanding Comics                          via openlibrary (isbn 9780060976255, verified)  331x500
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   openlibrary failed: HTTP Error 404: Not Found
+   googlebooks failed: HTTP Error 429: Too Many Requests
+REJECT  9780140185850  title does not match "We"
+   search failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780262048644  Understanding Deep Learning  -> designed fallback cover
+REJECT  9780195052893  title does not match "What Does It All Mean?"
+REJECT  9780307389879  title does not match "What I Talk About When I Talk About Running"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781592535873  Universal Principles of Design  -> designed fallback cover
+OK      9780593241837  Unmasking AI                                  via openlibrary (isbn 9780593241837, verified)  298x450
+OK      9780618056736  Unweaving the Rainbow                         via openlibrary (isbn 9780618056736, verified)  316x475
+OK      9780804179058  Uprooted                                      via openlibrary (isbn 9780804179058, verified)  333x500
+OK      9780872206052  Utilitarianism                                via amazon (isbn 9780872206052, verified)  324x500
+OK      9781401207526  V for Vendetta                                via openlibrary-search  325x500
+REJECT  9780872209503  title does not match "What Is This Thing Called Science?"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9781118968055  Value Proposition Design  -> designed fallback cover
+OK      9780596514556  Visualizing Data                              via openlibrary (isbn 9780596514556, verified)  360x472
+OK      9780802144423  Waiting for Godot                             via openlibrary (isbn 9780802144423, verified)  332x500
+OK      9780140061109  Waiting for the Barbarians                    via openlibrary (isbn 9780140061109, verified)  329x500
+OK      9781556432330  Waking the Tiger                              via openlibrary (isbn 9781556432330, verified)  310x475
+MISSING 9780872206755  Walden Two  -> designed fallback cover
+OK      9780374285814  Walkable City                                 via amazon (isbn 9780374285814, verified)  332x500
+OK      9780930289232  Watchmen                                      via openlibrary (isbn 9780930289232, verified)  338x500
+OK      9780141035796  Ways of Seeing                                via openlibrary (isbn 9780141035796, verified)  250x420
+OK      9780143039976  We Have Always Lived in the Castle            via openlibrary (isbn 9780143039976, verified)  333x500
+OK      9780312243357  We Wish to Inform You That Tomorrow We Will B via openlibrary (isbn 9780312243357, verified)  330x500
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780140185850  We  -> designed fallback cover
+OK      9780553418835  Weapons of Math Destruction                   via openlibrary (isbn 9780553418835, verified)  333x500
+OK      9780062515872  Weaving the Web                               via openlibrary (isbn 9780062515872, verified)  313x475
+OK      9780195052893  What Does It All Mean?                        via openlibrary-search  325x500
+   openlibrary failed: HTTP Error 404: Not Found
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780307389879  What I Talk About When I Talk About Running  -> designed fallback cover
+OK      9780394703916  What Is History?                              via openlibrary (isbn 9780394703916, verified)  301x500
+REJECT  9780805080636  title does not match "Why We Love"
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780872209503  What Is This Thing Called Science?  -> designed fallback cover
+OK      9780374533656  What Money Can't Buy                          via openlibrary (isbn 9780374533656, verified)  330x500
+OK      9781541618626  What We Owe the Future                        via openlibrary (isbn 9781541618626, verified)  322x500
+OK      9780802130310  What the Buddha Taught                        via openlibrary (isbn 9780802130310, verified)  324x500
+OK      9780143036760  What the Dormouse Said                        via openlibrary (isbn 9780143036760, verified)  326x500
+OK      9780812988406  When Breath Becomes Air                       via openlibrary (isbn 9780812988406, verified)  293x432
+OK      9780375758256  When Genius Failed                            via openlibrary (isbn 9780375758256, verified)  301x475
+OK      9781594487712  Where Good Ideas Come From                    via openlibrary (isbn 9781594487712, verified)  185x279
+OK      9780684832678  Where Wizards Stay Up Late                    via openlibrary (isbn 9780684832678, verified)  326x500
+OK      9780316204262  Where'd You Go, Bernadette                    via openlibrary (isbn 9780316204262, verified)  255x382
+OK      9781401307783  Wherever You Go, There You Are                via openlibrary (isbn 9781401307783, verified)  345x500
+OK      9780399144462  Who Moved My Cheese?                          via openlibrary (isbn 9780399144462, verified)  224x346
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9781451654974  Who Owns the Future?                          via amazon (isbn 9781451654974, verified)  328x500
+OK      9780061906114  Who's in Charge?                              via openlibrary (isbn 9780061906114, verified)  328x500
+OK      9781439195468  Why Buddhism Is True                          via openlibrary (isbn 9781439195468, verified)  324x500
+   openlibrary failed: HTTP Error 404: Not Found
+REJECT  9780307385994  title does not match "Zeitoun"
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   googlebooks failed: HTTP Error 429: Too Many Requests
+OK      9780871403056  Why Does the World Exist?                     via amazon (isbn 9780871403056, UNVERIFIED)  313x500
+OK      9780470591963  Why Don't Students Like School?               via openlibrary (isbn 9780470591963, verified)  333x500
+OK      9780143116646  Why Evolution Is True                         via amazon (isbn 9780143116646, verified)  323x500
+OK      9780671203238  Why I Am Not a Christian                      via openlibrary (isbn 9780671203238, verified)  293x500
+OK      9780307719225  Why Nations Fail                              via amazon (isbn 9780307719225, verified)  324x500
+OK      9780805080636  Why We Love                                   via openlibrary-search  313x475
+OK      9780767928069  Why We Make Mistakes                          via openlibrary (isbn 9780767928069, verified)  325x500
+OK      9781501144318  Why We Sleep                                  via openlibrary (isbn 9781501144318, verified)  331x500
+OK      9780805073690  Why Zebras Don't Get Ulcers                   via openlibrary (isbn 9780805073690, verified)  332x500
+OK      9780393316193  Why the Allies Won                            via openlibrary (isbn 9780393316193, verified)  163x254
+OK      9780307476074  Wild                                          via openlibrary (isbn 9780307476074, verified)  259x400
+OK      9780143122234  Willpower                                     via openlibrary (isbn 9780143122234, verified)  321x500
+OK      9781572304512  Without Conscience                            via openlibrary (isbn 9781572304512, verified)  342x500
+OK      9780393307009  Wonderful Life                                via openlibrary (isbn 9780393307009, verified)  330x500
+OK      9781250267597  Working Backwards                             via openlibrary (isbn 9781250267597, verified)  329x500
+OK      9781590307946  Writing Down the Bones                        via openlibrary (isbn 9781590307946, verified)  333x500
+OK      9780063250833  Yellowface                                    via openlibrary (isbn 9780063250833, verified)  332x500
+OK      9781592406593  You Are Not So Smart                          via openlibrary (isbn 9781592406593, verified)  360x480
+OK      9780307389978  You Are Not a Gadget                          via openlibrary (isbn 9780307389978, verified)  333x500
+OK      9780762447695  You Are a Badass                              via openlibrary (isbn 9780762447695, verified)  317x500
+OK      9780316525244  You Look Like a Thing and I Love You          via openlibrary (isbn 9780316525244, verified)  360x488
+OK      9780307277459  Your Inner Fish                               via openlibrary (isbn 9780307277459, verified)  259x400
+OK      9780143115762  Your Money or Your Life                       via openlibrary (isbn 9780143115762, verified)  317x500
+OK      9780307385994  Zeitoun                                       via openlibrary-search  286x500
+OK      9781590308493  Zen Mind, Beginner's Mind                     via openlibrary (isbn 9781590308493, verified)  255x400
+OK      9780060839871  Zen and the Art of Motorcycle Maintenance     via openlibrary (isbn 9780060839871, verified)  322x500
+OK      9780140296471  Zero: The Biography of a Dangerous Idea       via openlibrary (isbn 9780140296471, verified)  309x500
+have    9780804139298  Zero to One
+   googlebooks failed: HTTP Error 429: Too Many Requests
+   search failed: HTTP Error 429: Too Many Requests
+MISSING 9780596522346  slide:ology  -> designed fallback cover
+covers: 1367 ok, 35 missing
+github: 10 public repos -> ['Veritas_Website', 'LLM_Application', 'MIMIC_Visualization', 'MIMIC_SQL', 'MIMIC_NLP', 'LOS_Prediction', 'MIMIC_ML_DL', 'Gallify_Website', 'UWCS_Alumni_Website', 'Gallify_App']
