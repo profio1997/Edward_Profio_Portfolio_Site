@@ -6,6 +6,7 @@ isbn: "9780131103627"
 categories: programming classics
 status: Finished
 date: 2021-02-14
+released: 1978
 ---
 
 The original description of C, written by the language's designers. It teaches the language through short worked programs and serves as a compact reference.

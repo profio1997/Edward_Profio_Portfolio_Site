@@ -6,6 +6,7 @@ isbn: "9780312421687"
 categories: memoir
 status: Finished
 date: 2024-09-11
+released: 2002
 ---
 
 Burroughs describes being left by his mother in the care of her eccentric psychiatrist's family. He tells of an unusual and neglected adolescence.

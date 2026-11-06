@@ -149,6 +149,67 @@ def title_ok(isbn, want):
         return None
     return bool(words(main) & words(got))
 
+
+def _title_match(want, got):
+    a, b = words(want.split(':')[0]), words(got.split(':')[0])
+    if not a or not b:
+        return False
+    return len(a & b) / float(len(a | b)) >= 0.6
+
+def _author_match(want, names):
+    last = [w for w in re.findall(r"[A-Za-z']+", want) if len(w) > 2]
+    if not last:
+        return True
+    sur = last[-1].lower()
+    return any(sur in (n or '').lower() for n in names)
+
+def search_cover(title, author):
+    """Last resort before a designed cover: find the book by title and author (not ISBN) and
+    accept a cover only when the catalogued title and author both match."""
+    main = title.split(':')[0]
+    first_author = re.split(r',| and | & ', author)[0].strip() if author else ''
+    try:
+        q = urllib.parse.urlencode({'title': main, 'author': first_author, 'limit': 5, 'fields': 'title,author_name,cover_i'})
+        docs = json.loads(get('https://openlibrary.org/search.json?' + q)[0]).get('docs') or []
+        for d in docs:
+            if d.get('cover_i') and _title_match(title, d.get('title', '')) and _author_match(author, d.get('author_name') or []):
+                data, _ = get('https://covers.openlibrary.org/b/id/%d-L.jpg?default=false' % d['cover_i'])
+                im = valid_cover(data)
+                if im:
+                    return 'openlibrary-search', im
+    except Exception as e:
+        print('   search failed: %s' % str(e)[:80])
+    try:
+        q = urllib.parse.urlencode({'q': 'intitle:"%s"+inauthor:"%s"' % (main, first_author), 'maxResults': 5}, safe=':"+')
+        items = json.loads(get('https://www.googleapis.com/books/v1/volumes?' + q)[0]).get('items') or []
+        for it in items:
+            vi = it.get('volumeInfo', {})
+            links = vi.get('imageLinks') or {}
+            if links and _title_match(title, vi.get('title', '')) and _author_match(author, vi.get('authors') or []):
+                u = (links.get('extraLarge') or links.get('large') or links.get('medium') or links.get('thumbnail') or links.get('smallThumbnail'))
+                u = u.replace('http://', 'https://').replace('&edge=curl', '')
+                data, _ = get(re.sub(r'zoom=\d', 'zoom=0', u))
+                im = valid_cover(data)
+                if im:
+                    return 'googlebooks-search', im
+    except Exception as e:
+        print('   search failed: %s' % str(e)[:80])
+    return None, None
+
+def is_fallback(path, title, author, cats):
+    """True if the file on disk is one of our own designed fallback covers."""
+    try:
+        from PIL import ImageChops
+        have = Image.open(path).convert('RGB')
+        ref = fallback_cover(title, author, cats).convert('RGB')
+        if have.size != ref.size:
+            return False
+        a, b = have.resize((42, 63)), ref.resize((42, 63))
+        d = ImageChops.difference(a, b).convert('L')
+        return sum(d.tobytes()) / float(42 * 63) < 3
+    except Exception:
+        return False
+
 def covers():
     os.makedirs(COVERS, exist_ok=True)
     books = []
@@ -167,8 +228,11 @@ def covers():
     def one(book):
         isbn, alts, title, author, cats = book
         out = os.path.join(COVERS, 'isbn-%s.jpg' % isbn)
+        retry = False
         if os.path.exists(out):
-            return True, 'have    %s  %s' % (isbn, title)
+            if not is_fallback(out, title, author, cats):
+                return True, 'have    %s  %s' % (isbn, title)
+            retry = True                      # earlier run could only make a designed cover: try again
         for cand in [isbn] + alts:
             verdict = title_ok(cand, title)
             if verdict is False:
@@ -178,7 +242,13 @@ def covers():
                 im.thumbnail((360, 540))
                 im.save(out, 'JPEG', quality=84, optimize=True)
                 return True, 'OK      %s  %-45s via %s (isbn %s, %s)  %dx%d' % (isbn, title[:45], src, cand, 'verified' if verdict else 'UNVERIFIED', *im.size)
-        fallback_cover(title, author, cats).save(out, 'JPEG', quality=88)
+        src, im = search_cover(title, author)
+        if im:
+            im.thumbnail((360, 540))
+            im.save(out, 'JPEG', quality=84, optimize=True)
+            return True, 'OK      %s  %-45s via %s  %dx%d' % (isbn, title[:45], src, *im.size)
+        if not retry:
+            fallback_cover(title, author, cats).save(out, 'JPEG', quality=88)
         return False, 'MISSING %s  %s  -> designed fallback cover' % (isbn, title)
 
     ok = bad = 0
@@ -210,6 +280,26 @@ def github():
         'repos': [{k: r.get(k) for k in ('name', 'full_name', 'html_url', 'description', 'language',
                                           'stargazers_count', 'forks_count', 'pushed_at')} for r in keep],
     }
+    # Seven day activity snapshot (UTC days), used by the heatmap until the live fetch in the browser answers.
+    try:
+        counts = {}
+        for page in (1, 2, 3):
+            evs = json.loads(get('https://api.github.com/users/%s/events/public?per_page=100&page=%d' % (OWNER, page), headers)[0])
+            for ev in evs:
+                t = ev.get('type')
+                if t in ('WatchEvent', 'ForkEvent', 'PublicEvent', 'MemberEvent'):
+                    continue
+                p = ev.get('payload') or {}
+                n = (p.get('size') or len(p.get('commits') or []) or 1) if t == 'PushEvent' else 1
+                day = (ev.get('created_at') or '')[:10]
+                if day:
+                    counts[day] = counts.get(day, 0) + n
+            if len(evs) < 100:
+                break
+        cache['activity'] = dict(sorted(counts.items())[-14:])
+    except Exception as e:
+        print('activity snapshot failed: %s' % str(e)[:80])
+        cache['activity'] = {}
     path = os.path.join(ROOT, '_data', 'github_cache.json')
     json.dump(cache, open(path, 'w'), indent=2, ensure_ascii=False)
     print('github: %d public repos -> %s' % (len(keep), [r['name'] for r in keep]))

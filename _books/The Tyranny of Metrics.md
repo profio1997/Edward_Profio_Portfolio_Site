@@ -6,6 +6,7 @@ isbn: "9780691191263"
 categories: management data society
 status: Finished
 date: 2019-11-10
+released: 2018
 ---
 
 Muller argues that measuring performance with numbers in schools, hospitals and businesses often does harm. He shows how metrics lead to gaming and distract from the real purpose of the work.

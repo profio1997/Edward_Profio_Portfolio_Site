@@ -6,6 +6,7 @@ isbn: "9780465031610"
 categories: history ideas
 status: Finished
 date: 2024-07-28
+released: 1984
 ---
 
 Uses odd episodes from eighteenth-century France, such as a printers' killing of cats, to study how ordinary people thought. Darnton shows how peasants, workers and writers saw their world.

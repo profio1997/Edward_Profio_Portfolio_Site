@@ -6,6 +6,7 @@ isbn: "9781400078677"
 categories: history american
 status: Finished
 date: 2019-12-05
+released: 2004
 ---
 
 Describes the Dutch colony of New Amsterdam and the values of tolerance and commerce it brought to what became New York. Shorto argues the Dutch left a bigger mark on American life than is usually admitted.

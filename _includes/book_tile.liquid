@@ -1,0 +1,49 @@
+{% assign item = include.item %}
+{%- comment -%} Prefer the downloaded local cover (assets/img/book_covers/isbn-<ISBN>.jpg); otherwise Open Library. {%- endcomment -%}
+{% assign isbn_src = '' %}
+{% if item.isbn %}
+  {% capture has_local_cover %}{% file_exists assets/img/book_covers/isbn-{{ item.isbn }}.jpg %}{% endcapture %}
+  {% if has_local_cover == 'true' %}
+    {% capture isbn_src %}{{ '/assets/img/book_covers/isbn-' | append: item.isbn | append: '.jpg' | relative_url }}{% endcapture %}
+  {% else %}
+    {% capture isbn_src %}https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false{% endcapture %}
+  {% endif %}
+{% endif %}
+<figure class="cover"{% if item.favorite %} data-fav="1"{% endif %}>
+  <a class="cover-link" href="{{ item.url | relative_url }}">
+    {% if item.cover %}
+      <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}">
+    {% elsif item.olid %}
+      <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false">
+    {% elsif item.isbn %}
+      <img
+        alt="{{ item.title | escape }} cover"
+        src="{{ isbn_src }}"
+        data-isbn="{{ item.isbn }}"
+        data-title="{{ item.title | escape }}"
+        {% if item.cover_fallback %}data-fallback="{{ item.cover_fallback | relative_url }}"{% endif %}
+        loading="lazy"
+        onerror="bookCoverFallback(this)"
+      >
+    {% else %}
+      <div class="cover-fallback">{{ item.title }}</div>
+    {% endif %}
+    {% if item.status %}
+      {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+      {% assign status = item.status | downcase | strip %}
+      {% if statuses contains status %}
+        <figcaption class="{{ status | downcase }}">
+          {%- if item.favorite -%}<i class="fa-solid fa-star cover-fav" aria-hidden="true"></i> {% endif -%}{%- if status == 'reading' -%}IN PROGRESS{%- else -%}{{ status | upcase }}{%- endif -%}
+        </figcaption>
+      {% else %}
+        <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+      {% endif %}
+    {% else %}
+      <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+    {% endif %}
+  </a>
+  <div class="book-meta">
+    <a class="book-meta__title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% if item.author %}<span class="book-meta__author">{{ item.author }}</span>{% endif %}
+  </div>
+</figure>

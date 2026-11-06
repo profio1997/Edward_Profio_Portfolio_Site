@@ -6,6 +6,7 @@ isbn: "9780393316193"
 categories: history war
 status: Finished
 date: 2023-06-13
+released: 1995
 ---
 
 Asks why the Allies defeated the Axis powers in the Second World War. Overy points to economic strength, air power, and the moral and political resolve of the Allied states.

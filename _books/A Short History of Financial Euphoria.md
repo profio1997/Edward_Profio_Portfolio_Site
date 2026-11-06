@@ -6,6 +6,7 @@ isbn: "9780140238563"
 categories: economics markets-crises history
 status: Finished
 date: 2017-11-28
+released: 1990
 ---
 
 Galbraith looks at repeated speculative booms, from tulip mania to the 1987 crash. He argues that investors forget past crashes and that new generations repeat the same mistakes.

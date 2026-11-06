@@ -6,6 +6,8 @@ isbn: "9781098115784"
 categories: machine-learning software-engineering
 status: Finished
 date: 2020-07-08
+released: 2020
+favorite: true
 ---
 
 Catalogs recurring problems in building and deploying machine learning systems and the standard solutions. Patterns cover data representation, training, serving and reproducibility.

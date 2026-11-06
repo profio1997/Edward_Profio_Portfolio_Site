@@ -1,6 +1,6 @@
 {%- comment -%}Web: looping muted clip when `v` is given. Print/PDF and fallback: the still image `s`.{%- endcomment -%}
 {%- if include.v and page.layout != 'case-study-print' -%}
-<video class="cs-vid" src="{{ include.v | relative_url }}" poster="{{ include.p | default: include.s | relative_url }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ include.alt | strip_html | escape }}"></video>
+<video class="cs-vid" src="{{ include.v | relative_url }}" poster="{{ include.p | default: include.s | relative_url }}" data-autoplay muted loop playsinline preload="none" tabindex="0" aria-label="{{ include.alt | strip_html | replace: '*', '' | escape }}"></video>
 {%- else -%}
-<img src="{{ include.s | relative_url }}" alt="{{ include.alt | strip_html | escape }}" loading="lazy" data-zoomable>
+<img src="{{ include.s | relative_url }}" alt="{{ include.alt | strip_html | replace: '*', '' | escape }}" loading="lazy" data-zoomable>
 {%- endif -%}

@@ -6,6 +6,7 @@ isbn: "9780134080413"
 categories: writing-craft language
 status: Finished
 date: 2017-09-28
+released: 1981
 ---
 
 A guide to diagnosing why sentences are hard to read and how to revise them. It teaches writers to put characters in subjects and actions in verbs.

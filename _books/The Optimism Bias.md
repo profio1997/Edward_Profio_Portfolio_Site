@@ -6,6 +6,7 @@ isbn: "9780307474902"
 categories: psychology neuroscience emotion
 status: Finished
 date: 2017-10-13
+released: 2011
 ---
 
 Explains why most people expect good outcomes beyond what evidence supports, and how the brain produces this bias. Sharot argues optimism helps health and motivation but carries risks.

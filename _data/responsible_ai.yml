@@ -1,21 +1,21 @@
-# Home-page "How I build AI responsibly": three habits, each with the frameworks I design to and real results.
-intro: "Most of my AI work has been in healthcare, where a wrong answer costs something and the rules are specific. Here are the three habits I hold every AI and agentic product to, and the frameworks behind them."
+# Home-page "How I build AI responsibly": three habits, each with one real example.
+intro: "Most of my AI work has been in healthcare, where a wrong answer costs something and the rules are specific. These are the three habits I hold every AI and agentic product to."
 items:
   - h: "I design the guardrails with the feature"
-    t: "In a hospital, an AI feature can't ship first and get made safe later. For an agent that touches patient data, I put the controls on the same ticket as the feature. Under the HIPAA Privacy Rule, that means the agent only gets the minimum necessary data. Under the Security Rule, every agent runs as its own identity with least-privilege access, and every tool call lands in an audit log. Any vendor that sees PHI signs a business associate agreement. Agents can read freely, but anything that writes to the chart needs a clinician's approval. I also design inputs against prompt injection, and I shape clinical decision support so clinicians can see and independently review the basis for a recommendation, which is what keeps it on the right side of FDA's CDS guidance."
-    frameworks: ["HIPAA Privacy and Security Rules", "Business associate agreements", "FDA clinical decision support guidance", "Least-privilege agent access", "Human approval for writes"]
+    t: "In a hospital, an AI feature can't ship first and get made safe later, so I put the controls on the same ticket as the feature. An agent that touches patient data gets only the minimum it needs, runs under its own identity, and leaves an audit trail of every tool call. It can read freely, but anything that writes to the chart waits for a clinician to approve it."
+    frameworks: ["HIPAA Privacy and Security Rules", "FDA clinical decision support guidance"]
     proof:
-      - "UW Health: integrated GenAI agents with Epic, Best Buy Health remote patient monitoring and UiPath, with regulatory compliance and guardrails built into each integration."
       - "Aurifex Healthcare: decided where AI, forecasting and automation add real value in discharge and placement workflows, and put guardrails around each."
+      - "UW Health: integrated GenAI agents with Epic, Best Buy Health remote patient monitoring and UiPath, with regulatory compliance and guardrails built into each integration."
   - h: "I treat evaluation as part of the product"
-    t: "I measure an AI system the way I would a clinician's workflow, which means looking at more than whether the model's answer was right. For agents that means trace-level evaluation: did it pick the right tool, use the right data, stop and escalate when it should, and avoid unsupported claims. I use the NIST AI Risk Management Framework and its Generative AI Profile to structure the testing, and I keep an up-to-date record of what each model does, what data it was built on and how it performs, in the spirit of the ONC HTI-1 transparency rules for predictive decision support. Red-teaming for prompt injection and data leakage happens before launch, and monitoring continues after it."
-    frameworks: ["NIST AI RMF and GenAI Profile", "ONC HTI-1 decision support transparency", "Trace-level agent evals", "OWASP LLM Top 10", "Joint Commission and CHAI guidance"]
+    t: "I judge an AI system the way I would a clinician's workflow, which means looking past whether the answer was right. For an agent, I check whether it picked the right tool, used the right data, stopped and escalated when it should, and avoided claims it couldn't support. I test for prompt injection and data leakage before launch and keep monitoring after it."
+    frameworks: ["NIST AI RMF and GenAI Profile", "ONC HTI-1 transparency"]
     proof:
-      - "UW Health: built a real-time Databricks pipeline combining usage telemetry with clinician feedback, cutting iteration cycles from months to days and feeding prompt, retrieval and UX fixes."
       - "Aurifex Healthcare: built an AI software development lifecycle and operating model, using AI agents and automation, that cut release cycle time by 60% and code release errors by 40%."
+      - "UW Health: built a real-time Databricks pipeline combining usage telemetry with clinician feedback, cutting iteration cycles from months to days and feeding prompt, retrieval and UX fixes."
   - h: "I measure what changes for people"
-    t: "Engagement only tells you people opened the product. It says nothing about whether it helped, or helped everyone. Before launch I pick the outcome that matters to patients, clinicians and the business, name who owns the model after launch, and check performance across patient groups. That last check is partly a legal one, since the nondiscrimination rule under Section 1557 of the ACA (45 CFR 92.210) now applies to the decision-support tools used in patient care. I keep a model inventory and a governance review in the style of ISO/IEC 42001, and I plan for the stricter documentation that high-risk AI systems face under the EU AI Act."
-    frameworks: ["ACA Section 1557 (45 CFR 92.210)", "ISO/IEC 42001", "EU AI Act high-risk requirements", "Subgroup performance checks", "Named model owner"]
+    t: "Engagement only tells you people opened the product, not whether it helped them, or helped everyone. Before launch I pick the outcome that matters to patients, clinicians and the business, name who owns the model afterward, and check performance across patient groups. That last check is partly a legal one, since the nondiscrimination rule under Section 1557 of the ACA now covers the decision support tools used in patient care."
+    frameworks: ["ACA Section 1557 (45 CFR 92.210)", "ISO/IEC 42001"]
     proof:
-      - "UW Health: over 90% engagement, and more than 42,000 clinician hours saved in the first year, from automating work that took up to 40% of a nursing shift."
       - "Aurifex Healthcare: the two-clinic pilot was judged on patient flow: 20% fewer excess patient days and 15% higher acceptance into acute rehabilitation, worth over $2 million a year."
+      - "UW Health: over 90% engagement, and more than 42,000 clinician hours saved in the first year, from automating work that took up to 40% of a nursing shift."

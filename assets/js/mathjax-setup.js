@@ -1,10 +1,8 @@
 window.MathJax = {
   tex: {
     tags: "ams",
-    inlineMath: [
-      ["$", "$"],
-      ["\\(", "\\)"],
-    ],
+    // Single dollar signs are prices on this site, not math, so only \( ... \) starts inline math.
+    inlineMath: [["\\(", "\\)"]],
   },
   options: {
     renderActions: {

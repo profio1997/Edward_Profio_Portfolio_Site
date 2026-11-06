@@ -6,6 +6,7 @@ isbn: "9780679779179"
 categories: philosophy self-help history-of-philosophy
 status: Finished
 date: 2016-09-15
+released: 2000
 ---
 
 De Botton draws on Socrates, Epicurus, Seneca, Montaigne, Schopenhauer and Nietzsche to address everyday troubles. Each chapter takes one problem, such as unpopularity or a broken heart, and shows what a philosopher said about it.

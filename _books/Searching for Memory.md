@@ -6,6 +6,7 @@ isbn: "9780465075522"
 categories: neuroscience memory psychology
 status: Finished
 date: 2017-10-28
+released: 1996
 ---
 
 This history of memory research follows how scientists came to see memory as many systems, not one store. It covers amnesia cases, false memories and the brain regions involved in storing and retrieving the past.

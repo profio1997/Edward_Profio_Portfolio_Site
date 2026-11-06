@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: ""
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: []
 horizontal: false
 ---
@@ -18,8 +18,8 @@ horizontal: false
   </section>
 
   <h2 class="category cs-more-head" id="more-projects">more projects</h2>
-  {% assign more = site.projects | where_exp: "p", "p.case_study == nil" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+  {% assign more = site.projects | where_exp: "p", "p.case_study == nil" | where_exp: "p", "p.hidden != true" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2 justify-content-center">
     {% for project in more %}
       {% include projects.liquid %}
     {% endfor %}

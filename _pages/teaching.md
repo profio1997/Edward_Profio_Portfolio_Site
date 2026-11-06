@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: At The University of Texas at Austin, I have supported as a Graduate Teaching Assistant for AI/ML courses.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 <div class="teaching-courses">

@@ -6,6 +6,7 @@ isbn: "9781541618510"
 categories: statistics data-science
 status: Finished
 date: 2019-02-04
+released: 2019
 ---
 
 Uses real cases such as medical trials and crime figures to explain how to learn from data. It covers uncertainty, sampling, risk and the common ways results get misread.

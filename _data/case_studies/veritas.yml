@@ -2,7 +2,7 @@ slug: veritas
 order: 1
 title: "Veritas"
 card_title: Veritas
-card_kicker: "Founder and CEO"
+card_kicker: "Founder, CEO"
 card_line: "A learning app I'm building. It reads your book to you in your own voice, checks what you understood and brings back what you missed. Waitlist open."
 card_chips: ["Pre-release", "Waitlist open"]
 read_time: "12 min read"
@@ -24,7 +24,7 @@ mock_note: "Screens are from the Veritas pre-release build."
 links:
   - {label: "Veritas website", url: "https://profio1997.github.io/Veritas_Website/"}
 meta:
-  - {k: Role, v: "Founder and CEO"}
+  - {k: Role, v: "Founder, CEO"}
   - {k: Status, v: "Pre-release, waitlist open"}
 metrics:
   - {n: "61% vs 40%", l: "recalled a week later with recall practice versus rereading (Roediger and Karpicke, 2006)", basis: true}

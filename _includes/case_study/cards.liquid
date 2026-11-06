@@ -2,7 +2,7 @@
 <div class="cs-cards">
 {%- for p in studies -%}{%- assign cs = site.data.case_studies[p.case_study] -%}
   <a class="cs-card" href="{{ p.url | relative_url }}">
-    {% if cs.cover_video %}<video class="cs-vid" src="{{ cs.cover_video | relative_url }}" poster="{{ cs.cover_poster | default: cs.cover | relative_url }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ cs.card_title }} case study" width="1600" height="1000"></video>{% else %}<img src="{{ cs.cover | relative_url }}" alt="{{ cs.card_title }} case study" width="1600" height="1000" loading="lazy">{% endif %}
+    {% if cs.cover_video %}<video class="cs-vid" src="{{ cs.cover_video | relative_url }}" poster="{{ cs.cover_poster | default: cs.cover | relative_url }}" data-autoplay muted loop playsinline preload="none" tabindex="0" aria-label="{{ cs.card_title }} case study" width="1600" height="1000"></video>{% else %}<img src="{{ cs.cover | relative_url }}" alt="{{ cs.card_title }} case study" width="1600" height="1000" loading="lazy">{% endif %}
     <div class="cs-card__body">
       <div class="cs-card__k">{{ cs.card_kicker | default: cs.meta[1].v }}</div>
       <div class="cs-card__t">{{ cs.title }}</div>

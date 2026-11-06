@@ -6,6 +6,7 @@ isbn: "9780399144462"
 categories: career management
 status: Finished
 date: 2025-03-18
+released: 1998
 ---
 
 A short fable about four characters who react differently when their supply of cheese disappears. It is meant to show how people handle change at work.

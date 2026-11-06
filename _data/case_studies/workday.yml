@@ -37,7 +37,7 @@ sections:
         text: |
           Workday is the system a large company uses to pay people, track time off, hire and report on its workforce, which means people with disabilities use it every week. The accessibility team had a practical question. AI was making new kinds of help possible, like describing a chart to someone who can't see it or captioning a meeting live, but the market was crowded and changing monthly. Where should Workday use AI first, and should it build those features or partner with someone who already had?
 
-          My team of four from Carnegie Mellon's Tepper School worked on that question with Workday for 12 months. We had a software lead from a space company, a CEO and business-alliance director, a senior software consultant, and me. I led the research into the solutions. Once we had a recommendation I wrote the rollout plan for each option, a roadmap for when to do what, and a set of practices for how Workday's accessibility AI team should build with AI.
+          My team of four from Carnegie Mellon's Tepper School worked on that question with Workday for 12 months. I led the research into the solutions. Once we had a recommendation I wrote the rollout plan for each option, a roadmap for when to do what, and a set of practices for how Workday's accessibility AI team should build with AI.
       - type: h
         text: "The brief and how we ran it"
       - type: p
@@ -80,7 +80,7 @@ sections:
         src: assets/img/case_studies/workday/market-map.webp
         video: assets/video/case_studies/workday/map-slides.mp4
         poster: assets/video/case_studies/workday/map-slides.jpg
-        cap: "**The market map, domain by domain.** 72 organizations across 19 solution categories. The map cycles through Visual, Physical, Neurodivergence and Audio and shows the pick for each. Audio has no pick yet."
+        cap: "**The market map, domain by domain.** 72 organizations across 19 solution categories. The map cycles through Visual, Physical, Neurodivergence and Audio and shows the pick for each: the three we recommended first, and Hugging Face as the Audio partner to test."
       - type: p
         text: |
           The market map, shown at the top of this page, was the first big deliverable. We found companies, products and research groups in each of the four groups, from large technology firms to university labs and small startups, and sorted them by the kind of help they offered. Then we had to compare them fairly, which was harder.

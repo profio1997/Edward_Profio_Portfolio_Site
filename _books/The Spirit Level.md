@@ -6,6 +6,7 @@ isbn: "9781608193417"
 categories: inequality public-health sociology
 status: Finished
 date: 2018-06-18
+released: 2009
 ---
 
 Wilkinson and Pickett argue that more unequal rich countries do worse on health, crime and trust than more equal ones. They present cross-country data and propose reducing income gaps.

@@ -324,7 +324,86 @@ img[data-zoomable] { cursor: zoom-in; }
 .cs-fig { margin-bottom: 1.3rem; }
 
 /* Alignment fixes: metric numbers line up across cards; split blocks centre vertically */
-.cs-metric { position: relative; display: flex; flex-direction: column; justify-content: flex-start; }
-.cs-metric:not(.cs-metric--basis) .cs-metric__n { margin-top: 1.5rem; }
+.cs-metric { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.cs-metric:not(.cs-metric--basis) .cs-metric__n { margin-top: 0; }
+.cs-metric__l { margin-left: auto; margin-right: auto; }
+.cs-metric__tag { align-self: center; }
 .cs-split { align-items: center; }
 .cs-split__media { display: flex; flex-direction: column; justify-content: center; }
+
+// Home page "How I build AI responsibly": clear space above and below the block
+.cs-principles.cs-featured { margin: 3.5rem 0 3.5rem; padding-top: 0; }
+.cs-principles + * { margin-top: 0; }
+@media (max-width: 576px) { .cs-principles.cs-featured { margin: 2.5rem 0 2.75rem; } }
+
+// GitHub seven day heatmap
+.gh-heat { margin: .4rem 0 1.2rem; max-width: 46rem; }
+.gh-heat__lede { color: var(--global-text-color-light); margin: 0 0 1rem; }
+.gh-heat__grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: .5rem; }
+.gh-day { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .15rem; padding: .8rem .2rem; border-radius: .6rem; border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); color: var(--global-text-color); min-height: 6.2rem; }
+.gh-day__dow { font-size: .8rem; font-weight: 600; letter-spacing: .03em; }
+.gh-day__n { font-size: 1.7rem; font-weight: 700; line-height: 1.1; }
+.gh-day__date { font-size: .75rem; color: var(--global-text-color-light); }
+.gh-day.lvl-1 { background: rgba(100, 181, 246, .22); border-color: rgba(100, 181, 246, .4); }
+.gh-day.lvl-2 { background: rgba(100, 181, 246, .42); border-color: rgba(100, 181, 246, .6); }
+.gh-day.lvl-3 { background: rgba(100, 181, 246, .65); border-color: rgba(100, 181, 246, .85); color: #0d1b2a; }
+.gh-day.lvl-4 { background: #64b5f6; border-color: #64b5f6; color: #0d1b2a; }
+.gh-day.lvl-3 .gh-day__date, .gh-day.lvl-4 .gh-day__date { color: #0d1b2a; }
+.gh-heat__foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .5rem; margin-top: .8rem; font-size: .9rem; }
+.gh-heat__legend { display: inline-flex; align-items: center; gap: .3rem; color: var(--global-text-color-light); font-size: .8rem; }
+.gh-heat__legend i { width: 1rem; height: 1rem; border-radius: .25rem; display: inline-block; border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); }
+.gh-heat__legend i.lvl-1 { background: rgba(100, 181, 246, .22); }
+.gh-heat__legend i.lvl-2 { background: rgba(100, 181, 246, .42); }
+.gh-heat__legend i.lvl-3 { background: rgba(100, 181, 246, .65); }
+.gh-heat__legend i.lvl-4 { background: #64b5f6; }
+.gh-heat__note { font-size: .8rem; color: var(--global-text-color-light); margin: .4rem 0 0; }
+@media (max-width: 576px) { .gh-day { min-height: 5rem; padding: .6rem .1rem; } .gh-day__n { font-size: 1.3rem; } .gh-day__date { display: none; } }
+
+// An odd last case-study card sits centered under the pairs above it
+@media (min-width: 992px) { .cs-cards > .cs-card:last-child:nth-child(odd) { grid-column: 1 / -1; width: calc(50% - .55rem); margin-inline: auto; } }
+
+.gh-link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 1.1rem; border: 1px solid var(--global-theme-color); border-radius: .5rem; color: var(--global-theme-color); text-decoration: none; }
+.gh-link:hover { background: var(--global-theme-color); color: #0d1b2a; text-decoration: none; }
+
+/* Symmetry pass: heads, grids and media are centered; paragraph text stays left aligned inside a centered column. */
+.cs-hero { text-align: center; }
+.cs-hero .cs-lede { margin-left: auto; margin-right: auto; }
+.cs-hero .cs-actions, .cs-hero .cs-readtime { justify-content: center; }
+.cs-hero .cs-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem 2.4rem; text-align: center; }
+.cs-hero .cs-meta > div { flex: 0 1 15rem; }
+.cs-toc { justify-content: center; }
+.cs-article h2, .cs-article .cs-h2, .cs-article .cs-h3, .cs-article h3 { text-align: center; }
+.cs-h3 { display: flex; justify-content: center; }
+.cs-prose, .cs-list { max-width: 46rem; margin-left: auto; margin-right: auto; }
+.cs-quote { max-width: 40rem; margin-left: auto; margin-right: auto; border-left: 0; border-top: 2px solid var(--global-theme-color); border-bottom: 2px solid var(--global-theme-color); padding: 1rem 1.2rem; text-align: center; }
+.cs-split { align-items: center; }
+.cs-figcaption, figcaption { text-align: center; }
+.cs-media, .cs-fig, .cs-film { margin-left: auto; margin-right: auto; }
+.cs-insight, .cs-dec, .cs-metric, .cs-domain, .cs-road { text-align: center; }
+.cs-dec p, .cs-insight p, .cs-domain p, .cs-road__item span { text-align: left; }
+.cs-metric { text-align: center; }
+@media (min-width: 768px) {
+  .cs-insights, .cs-decisions, .cs-roadmap, .cs-domains, .cs-metrics, .cs-gallery { --g: .9rem; display: flex; flex-wrap: wrap; justify-content: center; gap: var(--g); }
+  .cs-gallery { --g: 1.1rem; }
+  .cs-decisions > *, .cs-gallery > *, .cs-insights:has(> :nth-child(2):last-child) > *, .cs-insights:has(> :nth-child(4):last-child) > * { flex: 0 0 calc((100% - var(--g)) / 2); }
+  .cs-insights > *, .cs-roadmap > *, .cs-gallery--3 > * { flex: 0 0 calc((100% - 2 * var(--g)) / 3); }
+  .cs-insights:has(> :nth-child(2):last-child) > *, .cs-insights:has(> :nth-child(4):last-child) > * { flex: 0 0 calc((100% - var(--g)) / 2); }
+  .cs-metrics > *, .cs-domains > * { flex: 0 0 calc((100% - 3 * var(--g)) / 4); }
+}
+@media (max-width: 767px) { .cs-hero .cs-meta > div { flex-basis: 40%; } }
+.cs-h2 { justify-content: center; }
+.cs-hero .cs-meta { gap: 1rem 1.6rem; }
+.cs-hero .cs-meta > div { flex: 0 1 12.5rem; }
+.cs-learn .cs-list, .cs-learn .cs-prose { margin-left: auto; margin-right: auto; }
+.cs-principles.cs-featured { margin-bottom: 4.5rem; }
+.about .cs-principles + h2, .about .cs-principles ~ h2 { margin-top: 0; }
+
+/* Decisions: roomier cards, clear gap between the decision and what was set aside */
+.cs-decisions { --g: 1.4rem; row-gap: 1.4rem; margin-top: 1.4rem; }
+.cs-dec { display: flex; flex-direction: column; padding: 1.5rem 1.7rem 1.4rem; }
+.cs-dec h4 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .9rem; }
+.cs-dec p { font-size: .95rem; line-height: 1.7; margin: 0; }
+.cs-dec p + p { margin-top: auto; }
+.cs-dec__rej { margin-top: auto !important; padding-top: 1rem !important; border-top: 1px solid var(--global-divider-color); line-height: 1.6 !important; }
+.cs-dec > p:first-of-type { margin-bottom: 1.1rem; }
+@media (max-width: 767px) { .cs-decisions { row-gap: 1rem; } .cs-dec { padding: 1.2rem 1.15rem; } }

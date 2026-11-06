@@ -8,6 +8,7 @@ status: Finished
 shelf_group: more
 shelf_rank: 17
 date: 2026-01-22
+favorite: true
 ---
 
 The standard textbook on deep learning, covering the math background, modern networks, and research topics such as generative models.

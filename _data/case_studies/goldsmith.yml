@@ -1,0 +1,276 @@
+slug: goldsmith
+order: 5
+title: "Goldsmith"
+card_title: Goldsmith
+card_kicker: "Founder, CEO"
+card_line: "An AI design tool and a marketplace for custom jewelry, taken from concept to an investor pitch and a launch in 12 weeks."
+card_chips: ["Concept to launch", "12 weeks"]
+read_time: "12 min read"
+kicker: "Goldsmith"
+headline: "Goldsmith: AI design plus a marketplace for custom jewelry"
+lede: >-
+  Goldsmith lets a buyer describe a piece of jewelry in plain words, see it in 3D, and compare quotes from manufacturers. I started it as a
+  Carnegie Mellon Lean Entrepreneurship course project and owned the product, the research plan, the business model and the financial model behind
+  an investor pitch in December 2024, then took it from concept to launch in 12 weeks. This page shows the thinking, the plan and what I would test next.
+  I have not published usage or revenue numbers here, and the plan figures below are targets, not results.
+cover: assets/img/case_studies/goldsmith/cover.jpg
+cover_video: assets/video/case_studies/goldsmith/cover.mp4
+cover_poster: assets/video/case_studies/goldsmith/cover-poster.jpg
+pdf: assets/pdf/case_studies/Edward_Profio_Goldsmith_Case_Study.pdf
+mock_note: "Screens are concept designs. Manufacturer details are public information about real companies; no partnership or quote is implied."
+meta:
+  - {k: Role, v: "Founder, CEO"}
+  - {k: Status, v: "Concept, investor pitch, launched in 12 weeks"}
+  - {k: Focus, v: "Product, research plan, business model, financial model"}
+metrics:
+  - {n: "200% to 500%", l: "markup on custom pieces that I found passes through jeweler consulting, store costs and middlemen", basis: true}
+  - {n: "$367B to $371B", l: "global jewelry sales in 2024 by two aggregator estimates, of which custom work is a small, loosely defined slice", basis: true}
+  - {n: "5", l: "revenue streams in the business model"}
+  - {n: "12 weeks", l: "from concept to launch"}
+sections:
+  - id: overview
+    title: Overview
+    blocks:
+      - type: p
+        text: |
+          Custom jewelry is expensive mostly because of the people between you and the person who makes it. Jewelers hold the relationships with manufacturers and designers, and they mark prices up to cover that, plus the store and the hours of consulting that custom work takes. A buyer can't tell whether a price is fair, so many don't trust the process, and custom pieces stay out of reach for anyone who isn't already wealthy. I described Goldsmith as the Warby Parker of custom jewelry.
+
+          I wrote the product plan, the research plan and the business model, built the financial model, and presented the plan to investors in December 2024.
+      - type: split
+        text: |
+          **What this page covers.** I have not published usage numbers for the launch and I won't invent any. What the page does show is how I went from a pricing problem to a two sided product, the decisions I made, the plan I put in front of investors, and the one assumption I would test before building anything else.
+
+          Figures marked as targets come from the plan. Figures marked as research come from public sources.
+        figure:
+          src: assets/img/case_studies/goldsmith/tool.webp
+          video: assets/video/case_studies/goldsmith/tool.mp4
+          poster: assets/video/case_studies/goldsmith/tool.jpg
+          cap: "**Design tool (concept).** Type a description, generate candidates, pick one and turn it in 3D."
+  - id: problem
+    title: Problem and research
+    blocks:
+      - type: p
+        text: |
+          Three things about the market stood out. The first is price: I found that custom work is marked up by 200% to 500%, and the buyer sees only the final number. The second is trust: most people don't buy custom jewelry often enough to know what a fair price looks like, so they either overpay or give up. The third is access: a small jeweler without a strong network of verified manufacturers, or without expensive hardware for 3D design, can't compete on speed or choice.
+      - type: h
+        text: "How big is it?"
+      - type: p
+        text: |
+          The honest answer is that nobody agrees on the size of the custom slice. Published estimates of all jewelry sales in 2024 sit at about $367 billion to $371 billion. Estimates for custom jewelry services alone run from about $1.09 billion to $3.63 billion depending on the publisher, and broader definitions of customized jewelry reach $31.8 billion to $36.2 billion. The gap comes from what each report counts, so I treated the range as a reason to size the opportunity from the bottom up, using manufacturers and buyers I could actually reach, and not from a market report.
+      - type: table
+        head: ["Measure (2024)", "Estimate", "What it counts"]
+        rows:
+          - ["All jewelry sales", "$367B to $371B", "Two aggregator estimates of global jewelry revenue"]
+          - ["Custom jewelry services", "$1.09B to $3.63B", "Services only, and the range depends on the publisher"]
+          - ["Customized jewelry products", "$31.8B to $36.2B", "Broader definition that includes made to order products"]
+      - type: h
+        text: "Who it's for"
+      - type: p
+        text: |
+          The business has three sides, and each one has a different reason to use it. I wrote them down early because they decide what the product has to do.
+      - type: insights
+        items:
+          - {h: "Buyers", t: "People who want a custom piece without knowing how to design one. They want to describe what they like, see it, and know the price they're given is fair. They will pay for quality but want to compare more than one offer."}
+          - {h: "Jewelers and designers", t: "Small and mid size shops without powerful computers or a deep network of verified manufacturers. They want faster designs, a design department that costs less, and a shorter route to production."}
+          - {h: "Manufacturers", t: "Makers who want custom work to fill capacity. Custom jewelry takes a lot of manual effort to conceive, and leads that arrive with a finished design and a specification make it more profitable."}
+      - type: h
+        text: "How I planned to test the idea"
+      - type: p
+        text: |
+          I wrote a customer discovery interview guide. It starts from a stated problem and value hypothesis, then asks buyers ten questions: how often they buy, what hurts most about custom jewelry, how much they trust a jeweler's price on a 1 to 10 scale, whether they would design with natural language, whether they would choose a piece from a 3D preview, and how long they would wait. I built it so the answers would turn into simple probability models and descriptive statistics, not a pile of quotes.
+
+          I don't have interview results to report, and I won't imply that I do. The guide is the work product.
+      - type: h
+        text: "What already exists"
+      - type: p
+        text: |
+          I looked at the tools jewelers use to design. They are all CAD software, and the closest existing route to a finished piece belongs to one company: Gemvision's MatrixGold is owned by Stuller, which also makes custom jewelry from submitted designs, but only for businesses with a resale account.
+      - type: table
+        head: ["Tool", "What it is", "Who can use it"]
+        rows:
+          - ["MatrixGold (Gemvision, a Stuller company)", "3D jewelry design software. Designs can go to Stuller's CAD/CAM service for casting and finishing.", "Jewelers with a Stuller resale account"]
+          - ["RhinoGold", "Jewelry specific version of the general purpose Rhino 3D modeler", "Paid software, mostly trained designers"]
+          - ["JewelCAD Pro", "Proprietary jewelry CAD, listed for Windows", "Paid software, mostly trained designers"]
+          - ["Blender", "Free, open source mesh modeler that needs add-ons for jewelry work", "Anyone willing to learn it"]
+      - type: p
+        text: |
+          In my 2024 review none of these paired design from a text description with a marketplace where manufacturers compete on the same file. That is the gap I built Goldsmith around. It is a claim from my review, not a survey of every tool on the market.
+  - id: solution
+    title: Solution
+    blocks:
+      - type: p
+        text: |
+          Goldsmith has two parts, a design tool and a marketplace, and they depend on each other. The tool creates the design a manufacturer can quote on. The marketplace turns that design into a real piece at a price the buyer can compare.
+      - type: h
+        text: "How a buyer would use it"
+      - type: flow
+        steps:
+          - {tag: "1", t: "Describe", d: "The buyer writes what they want in plain language."}
+          - {tag: "2", t: "Generate", d: "The platform creates candidate 3D designs using generative CAD on open source design software."}
+          - {tag: "3", t: "Refine", d: "The buyer iterates, or a jeweler with the full tool edits by hand on cloud GPUs."}
+          - {tag: "4", t: "Request quotes", d: "The design goes to manufacturers, who quote through a request for quotation."}
+          - {tag: "5", t: "Try it on", d: "The buyer receives 3D printed models of their top candidates."}
+          - {tag: "6", t: "Order", d: "The buyer picks a final design and expects the finished piece in about three weeks. That is the plan, not a measured time."}
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/goldsmith/refine.webp, video: assets/video/case_studies/goldsmith/refine.mp4, poster: assets/video/case_studies/goldsmith/refine.jpg, cap: "**Refine (concept).** Stone size, band thickness and prong height change the piece while it turns."}
+          - {src: assets/img/case_studies/goldsmith/rfq.webp, video: assets/video/case_studies/goldsmith/rfq.mp4, poster: assets/video/case_studies/goldsmith/rfq.jpg, cap: "**Compare quotes (concept).** Filter manufacturers, see where they are and how the three weeks would run."}
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/goldsmith/order.webp, video: assets/video/case_studies/goldsmith/order.mp4, poster: assets/video/case_studies/goldsmith/order.jpg, cap: "**Order progress (concept).** Milestones, messages and the planned ship window for a sample order."}
+          - {src: assets/img/case_studies/goldsmith/workspace.webp, video: assets/video/case_studies/goldsmith/workspace.mp4, poster: assets/video/case_studies/goldsmith/workspace.jpg, cap: "**Jeweler workspace (concept).** Measure, check manufacturing readiness, queue renders and export a file."}
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/goldsmith/landing.webp, cap: "**Storefront (concept).** The buyer's front door, with the reference tools one click away."}
+          - {src: assets/img/case_studies/goldsmith/detail.webp, cap: "**Design detail (concept).** Specifications, a fit checker and the try-on model that ships first."}
+      - type: h
+        text: "Built in reference tools"
+      - type: p
+        text: |
+          Most of the value in a design tool is the small facts a buyer or jeweler would otherwise look up elsewhere. The tool keeps three reference tables one click away, so the design, the stone and the size always agree. These are standard industry reference values, not figures from the plan.
+      - type: table
+        center: true
+        head: ["US ring size", "Inner diameter", "Circumference", "UK", "EU"]
+        rows:
+          - ["5", "15.7 mm", "49.3 mm", "J½", "49"]
+          - ["6", "16.5 mm", "51.9 mm", "L½", "52"]
+          - ["7", "17.3 mm", "54.4 mm", "N½", "54"]
+          - ["8", "18.2 mm", "57.0 mm", "P½", "57"]
+          - ["9", "19.0 mm", "59.5 mm", "R½", "59.5"]
+      - type: table
+        center: true
+        head: ["Round brilliant", "Diameter"]
+        rows:
+          - ["0.50 ct", "5.2 mm"]
+          - ["0.75 ct", "5.8 mm"]
+          - ["1.00 ct", "6.5 mm"]
+          - ["1.50 ct", "7.4 mm"]
+          - ["2.00 ct", "8.2 mm"]
+      - type: table
+        center: true
+        head: ["Metal", "Gold or platinum content"]
+        rows:
+          - ["24k gold", "99.9%"]
+          - ["22k gold", "91.7%"]
+          - ["18k gold", "75.0%"]
+          - ["14k gold", "58.3%"]
+          - ["Platinum 950", "95.0%"]
+      - type: p
+        text: |
+          A design check reads the same numbers. The rules below are examples I would start from, to be replaced by each manufacturer's own limits.
+      - type: table
+        head: ["Example rule", "Starting value", "Why it matters"]
+        rows:
+          - ["Prong thickness", "At least 0.8 mm", "Thin prongs bend or break when the stone is set"]
+          - ["Minimum wall", "At least 1.2 mm", "Thin walls can fail in casting"]
+          - ["Band width", "At least 1.5 mm", "Keeps the shank strong enough to resize"]
+          - ["Stone seat", "Matches the stone diameter", "A loose seat means a loose stone"]
+          - ["Mesh", "Watertight", "Printers and casters need a closed solid"]
+      - type: h
+        text: "The supply side is real"
+      - type: p
+        text: |
+          The marketplace only works if manufacturers can make what the tool designs. I checked who actually offers the services the platform would route to, and every company below publishes what it does. None of them is a partner, and none has quoted anything.
+      - type: table
+        head: ["Manufacturer", "Where", "What it publishes"]
+        rows:
+          - ["Stuller", "Lafayette, Louisiana", "CAD/CAM design, casting, finishing and stone setting. Says it sends a quote and render in 24 to 48 hours and aims to finish custom orders in 10 to 15 business days. Requires a resale account."]
+          - ["Hoover & Strong", "Richmond, Virginia", "Contract casting and CAM wax printing, with recycled (Harmony) or Fairmined metals. Lists CAD service at $75 an hour and 3D printing from $31.50."]
+          - ["Richline Group", "Corporate group, owns Rio Grande of Albuquerque, New Mexico", "Precious metal jewelry and materials manufacturer. Responsible Jewellery Council certified, with Rio Grande inside the certificate scope."]
+      - type: h
+        text: "Decisions I made"
+      - type: decisions
+        items:
+          - {t: "Open source design software underneath", b: "I built on open source CAD so one person could move quickly instead of writing a modeler from scratch. The AI work sits on top of it.", rej: "Licensing or building a proprietary modeler. It would have used most of the time before a buyer saw anything."}
+          - {t: "Train on data that isn't someone else's design", b: "The plan was to train the models on non IP data and let a buyer protect any design they create. A jeweler's catalog is their livelihood, and a tool that copies it would not get used by the people I needed.", rej: "Training on scraped catalogs because it would have been faster."}
+          - {t: "Verify manufacturers before they can bid", b: "Manufacturers share business documentation before they can quote, and certifications such as the Responsible Jewellery Council's are shown where a company holds one. That is what makes a buyer willing to compare offers from strangers.", rej: "An open marketplace where anyone can list, which is easier to grow and harder to trust."}
+          - {t: "Document the stone, not just the setting", b: "A center stone should come with a lab grading report where it is eligible. GIA, for example, grades and reports on stones; it does not certify manufacturers, so the platform keeps the two separate.", rej: "Letting a listing imply that a manufacturer is 'GIA certified'."}
+          - {t: "Cloud GPUs for the tools", b: "Jewelers and designers get the full tool on cloud GPUs, so a small shop doesn't need expensive hardware to compete.", rej: "A local install only, which would have kept out the shops the product was built for."}
+          - {t: "Let a buyer hold the design first", b: "A 3D printed model of the top candidates lets a buyer judge scale and fit, and it makes the three week wait easier to accept because they have already seen the thing.", rej: "Renders only, which are cheaper and don't answer whether the buyer will commit."}
+      - type: h
+        text: "How it makes money"
+      - type: p
+        text: |
+          The plan had five revenue streams, each tied to a different customer. They were not meant to start at once.
+      - type: table
+        head: ["Revenue stream", "Who pays", "What the plan says"]
+        rows:
+          - ["Software licences and subscriptions", "Jewelers and designers", "Licences from $5,000 a year for on premise use, cloud subscriptions from $8,000 a year"]
+          - ["Support contracts", "Business customers", "Design support engineers and technical support engineers"]
+          - ["Platform fees", "Jewelers, manufacturers and power users", "A monthly fee based on usage and premium functions"]
+          - ["Sponsored listings", "Manufacturers", "A fee to appear as sponsored when buyers compare quotes"]
+          - ["Transaction fee", "Marketplace orders", "A fee on each completed order"]
+      - type: h
+        text: "How I planned to reach each side"
+      - type: p
+        text: |
+          Buyers come in through the website and social media. Jewelers and manufacturers are reached through LinkedIn, trade expos, follow up calls and account managers, with HubSpot connecting the channels. I expected social media outreach to be the cheapest per contact and account managers to matter most for jewelers and manufacturers, since those are relationships, not clicks.
+      - type: h
+        text: "The first version I would build"
+      - type: p
+        text: |
+          I wouldn't build the whole platform first. A first version needs to answer one question: will a buyer pick a final design from a 3D preview and wait about three weeks for it? So I would scope it to a small run.
+      - type: list
+        items:
+          - "**Design.** Text to 3D candidates for one category, such as rings, with a small catalog of styles."
+          - "**Quotes.** A request for quotation sent by hand to a few manufacturers that publish their services."
+          - "**Try on.** 3D printed models of the top candidates for each buyer."
+          - "**Measure.** Whether buyers commit, how long they take, and what they would pay."
+  - id: results
+    title: Where it stands
+    blocks:
+      - type: p
+        text: |
+          Goldsmith went from a concept to a business model, a financial model, an investor pitch and a launch in 12 weeks. I have not published launch results on this page, so every figure under the plan below is a target, not an outcome. I would rather say that plainly than dress up targets as results.
+      - type: h
+        text: "What the plan targeted"
+      - type: p
+        text: |
+          At the December 2024 pitch I presented a plan for a seed round. These are targets from that plan, not results.
+      - type: table
+        emph: 1
+        head: ["Stage", "Target in the plan"]
+        rows:
+          - ["Year one", "Beta launch with 1,000 users and 20 manufacturers, and about $500K in revenue"]
+          - ["Year two", "5,000+ users and partnerships with 50 manufacturers, and about $2M in revenue"]
+          - ["Year three", "10,000+ users and global manufacturing partnerships, $5M+ in revenue at 90% retention"]
+          - ["Long term", "Establish Goldsmith as the leading custom jewelry design platform, with revenue growing past $20M a year"]
+      - type: h
+        text: "The assumption I would test first"
+      - type: p
+        text: |
+          The plan rests on one behavior. Buyers will choose a final design from a 3D preview and wait about three weeks for the finished piece. If they won't, the cost advantage disappears, because a jeweler's fitting room is the thing I was trying to replace. So I would run the small version above with a few manufacturers and a few dozen real buyers before building more of the platform.
+      - type: p
+        text: |
+          Before a run like that I would write down what counts as a pass. The criteria below are proposals I would set in advance, not findings.
+      - type: table
+        head: ["What I'd measure", "Why it matters", "A pass I'd set before starting"]
+        rows:
+          - ["Share of buyers who pick a final design from a 3D preview", "It tests the core behavior directly", "A clear majority of buyers who reach the preview stage"]
+          - ["Buyers who accept a three week wait", "The timeline is part of the promise", "Most buyers who pick a design go on to order"]
+          - ["Quote competitiveness", "It tests the claim that buyers get a better deal", "Quotes beat what the same buyer was quoted by a jeweler"]
+          - ["Manufacturer response and win rate", "Without supply the marketplace has nothing to sell", "Manufacturers respond to most requests and win some"]
+      - type: h
+        text: "The two priorities I set"
+      - type: p
+        text: |
+          My business model work ended with two priorities to validate, and I still think they were right.
+      - type: insights
+        items:
+          - {h: "Customer segments", t: "I believed there were more segments than I had found and that some deserved more emphasis, depending on which side of the network they sat. The plan was to map the market for both sides and rank segments by how well they fit the product and the outreach."}
+          - {h: "Key resources and IP", t: "Whether AI generated designs can be protected, and how the data behind the models is governed, was an open legal question. The plan was to research IP law, data governance, open source model datasets and their licensing before training anything."}
+  - id: lessons
+    title: What I took from it
+    blocks:
+      - type: list
+        items:
+          - "**Say what the stage is.** A pitch can carry a plan without pretending the plan is a result. Investors trust a founder who keeps those apart."
+          - "**Pick the assumption that can kill the idea.** For Goldsmith it was whether buyers will commit from a 3D preview. I would test it before polishing the rest."
+          - "**A marketplace has two cold starts.** Buyers won't come without manufacturers and manufacturers won't come without buyers. Verification, and handling the first quotes by hand, are how I would start both."
+          - "**Treat legal questions as product questions.** Who owns an AI generated design shapes what data can be used for training and what can be promised to a buyer."
+          - "**Match the funding stage to the evidence.** Before there is revenue or a working product, the honest ask is an early round such as pre seed or seed, sized to the test above."
+learn_title: "What I'd do differently"
+learn:
+  - "Put a rough version in front of real buyers and manufacturers before the pitch, so the plan had at least one real data point behind it."
+  - "Start the IP and data governance research in the first weeks, because it constrains the training data and the promise to a buyer."
+  - "Run the three week promise as an experiment before building the platform that depends on it."

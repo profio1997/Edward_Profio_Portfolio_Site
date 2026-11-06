@@ -2,7 +2,7 @@ slug: gallify
 order: 2
 title: "Gallify"
 card_title: Gallify
-card_kicker: "Co-founder, CPO/COO"
+card_kicker: "Co-Founder, CPO/COO"
 card_line: "An iOS app for collecting digital art in AR. I led product and an engineering team of 8 to 10. Our recommender lifted click-through 20% and order value 10%. Then I made the call to wind it down."
 card_chips: ["+20% click-through", "+10% order value", "60% to 85% on time"]
 read_time: "8 min read"
@@ -20,7 +20,7 @@ mock_note: "The polished screens on this page are recreations. Artist names and 
 links:
   - {label: "Code on GitHub", url: "https://github.com/profio1997/Gallify_App"}
 meta:
-  - {k: Role, v: "Co-founder, Chief Product/Operating Officer"}
+  - {k: Role, v: "Co-Founder, CPO/COO"}
   - {k: Team, v: "8 to 10 engineers in 4 sub-teams"}
   - {k: Stack, v: "iOS, ARKit, Object Capture, Solidity on Polygon"}
 metrics:

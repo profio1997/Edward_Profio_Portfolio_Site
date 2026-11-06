@@ -9,7 +9,7 @@
 const { chromium } = require('playwright');
 const path = require('path');
 const base = process.argv[2] || 'http://127.0.0.1:4011';
-const studies = { veritas: 'Veritas', workday: 'Workday', gallify: 'Gallify', codamarket: 'CODAmarket' };
+const studies = { veritas: 'Veritas', workday: 'Workday', gallify: 'Gallify', codamarket: 'CODAmarket', goldsmith: 'Goldsmith' };
 (async () => {
   const browser = await chromium.launch();
   for (const [slug, name] of Object.entries(studies)) {

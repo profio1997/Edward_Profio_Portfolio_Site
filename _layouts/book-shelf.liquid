@@ -41,72 +41,83 @@ layout: page
       {% assign item_status = item.status | downcase | strip %}
       {% if item_status != 'reading' %}{% assign ordered = ordered | push: item %}{% endif %}
     {% endfor %}
+    {% assign favorites = collection | where: 'favorite', true | sort: 'date' | reverse %}
     {% assign year_list = '' | split: '' %}
     {% for item in ordered %}
       {% assign yy = item.date | date: '%Y' %}
       {% unless year_list contains yy %}{% assign year_list = year_list | push: yy %}{% endunless %}
     {% endfor %}
-    <p class="book-year-jump" style="font-size:1.05rem;margin:1rem 0 0.5rem;">Jump to:
-      {% for yy in year_list %}<a href="#y{{ yy }}">{{ yy }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
-    </p>
+    <nav class="book-year-jump" aria-label="Jump to a year">
+      {% if favorites.size > 0 %}<button type="button" class="fav-filter" aria-pressed="false"><i class="fa-solid fa-star" aria-hidden="true"></i> Favorites <span class="fav-count">{{ favorites.size }}</span></button>{% endif %}
+      {% for yy in year_list %}<button type="button" class="year-filter" data-year="{{ yy }}" aria-pressed="false">{{ yy }}</button>{% endfor %}
+    </nav>
     {% for item in ordered %}
       {% assign current_year = item.date | date: '%Y' %}
       {% if current_year != year %}
         {% unless forloop.first %}
-          </ul>
+          </div>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
+        <h2 id="y{{ current_year }}" class="book-year">
           <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
-        </h1>
-        <ul>
+        </h2>
+        <div class="book-grid">
           {% assign year = current_year %}
       {% endif %}
-
-      {%- comment -%} Prefer the downloaded local cover (assets/img/book_covers/isbn-<ISBN>.jpg); otherwise Open Library. {%- endcomment -%}
-      {% assign isbn_src = '' %}
-      {% if item.isbn %}
-        {% capture has_local_cover %}{% file_exists assets/img/book_covers/isbn-{{ item.isbn }}.jpg %}{% endcapture %}
-        {% if has_local_cover == 'true' %}
-          {% capture isbn_src %}{{ '/assets/img/book_covers/isbn-' | append: item.isbn | append: '.jpg' | relative_url }}{% endcapture %}
-        {% else %}
-          {% capture isbn_src %}https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false{% endcapture %}
-        {% endif %}
-      {% endif %}
-      <figure class="cover">
-        <a class="cover-link" href="{{ item.url | relative_url }}">
-          {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}">
-          {% elsif item.olid %}
-            <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false">
-          {% elsif item.isbn %}
-            <img
-              alt="{{ item.title }} cover"
-              src="{{ isbn_src }}"
-              data-isbn="{{ item.isbn }}"
-              data-title="{{ item.title | escape }}"
-              {% if item.cover_fallback %}data-fallback="{{ item.cover_fallback | relative_url }}"{% endif %}
-              loading="lazy"
-              onerror="bookCoverFallback(this)"
-            >
-          {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-            {% assign status = item.status | downcase | strip %}
-            {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">
-                {%- if status == 'reading' -%}IN PROGRESS{%- else -%}{{ status | upcase }}{%- endif -%}
-              </figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
-          {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-          {% endif %}
-        </a>
-      </figure>
+      {% include book_tile.liquid item=item %}
       {% if forloop.last %}
-        </ul>
+        </div>
       {% endif %}
     {% endfor %}
   {% endif %}
 {% endif %}
+
+<script>
+  // Favorites and year chips filter the shelf. Click a chip to filter, click it again to clear.
+  // A year and Favorites can be combined (for example favorites from 2023).
+  (function () {
+    var nav = document.querySelector('.book-year-jump');
+    if (!nav) return;
+    var fav = nav.querySelector('.fav-filter');
+    var years = [].slice.call(nav.querySelectorAll('.year-filter'));
+    var state = { fav: false, year: null };
+    var count = document.createElement('p');
+    count.className = 'book-filter-count'; count.setAttribute('aria-live', 'polite');
+    nav.insertAdjacentElement('afterend', count);
+
+    function apply() {
+      document.body.classList.toggle('book-fav-only', state.fav);
+      if (fav) fav.setAttribute('aria-pressed', state.fav ? 'true' : 'false');
+      years.forEach(function (b) { b.setAttribute('aria-pressed', state.year === b.getAttribute('data-year') ? 'true' : 'false'); });
+      var shown = 0;
+      document.querySelectorAll('.book-grid').forEach(function (g) {
+        var h = g.previousElementSibling;
+        var yr = h && h.id ? h.id.replace('y', '') : '';
+        var okYear = !state.year || yr === state.year;
+        var n = [].slice.call(g.querySelectorAll('figure.cover')).filter(function (f) { return !state.fav || f.hasAttribute('data-fav'); }).length;
+        var visible = okYear && n > 0;
+        g.style.display = visible ? '' : 'none';
+        if (h && h.classList.contains('book-year')) h.style.display = visible ? '' : 'none';
+        if (visible) shown += n;
+      });
+      years.forEach(function (b) {
+        var g = document.getElementById('y' + b.getAttribute('data-year'));
+        g = g && g.nextElementSibling;
+        var n = g ? [].slice.call(g.querySelectorAll('figure.cover')).filter(function (f) { return !state.fav || f.hasAttribute('data-fav'); }).length : 0;
+        b.style.display = n ? '' : 'none';
+      });
+      count.textContent = (state.fav || state.year) ? (shown + (shown === 1 ? ' book' : ' books') + (state.year ? ' from ' + state.year : '') + (state.fav ? ', favorites only' : '')) : '';
+      count.style.display = count.textContent ? '' : 'none';
+    }
+    if (fav) fav.addEventListener('click', function () { state.fav = !state.fav; apply(); });
+    years.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var y = b.getAttribute('data-year'); state.year = state.year === y ? null : y; apply();
+        var top = document.querySelector('h2.book-year:not([style*="none"])');
+        if (top) window.scrollTo({ top: top.getBoundingClientRect().top + window.scrollY - 130, behavior: 'smooth' });
+      });
+    });
+    var h = (location.hash || '').match(/^#y(\d{4})$/);
+    if (h) { state.year = h[1]; apply(); }
+    apply();
+  })();
+</script>

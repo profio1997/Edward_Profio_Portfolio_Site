@@ -6,6 +6,7 @@ isbn: "9781492045113"
 categories: machine-learning software-engineering
 status: Finished
 date: 2020-09-07
+released: 2020
 ---
 
 Walks through building a writing-advice tool from idea to deployed product. It focuses on scoping, data, model debugging and monitoring in production.

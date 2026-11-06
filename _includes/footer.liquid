@@ -1,27 +1,12 @@
-{% capture footer_contents %}
-  <span style="color: #64b5f6;">&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}</span>. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-{% endcapture %}
-
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% else %}
+{%- comment -%}No copyright line. The footer only renders if footer_text is set in _config.yml.{%- endcomment -%}
+{% capture footer_contents %}{{ site.footer_text }}{% if site.impressum_path %} <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.{% endif %}{% if site.last_updated %} Last updated: {{ 'now' | date: '%B %d, %Y' }}.{% endif %}{% endcapture %}
+{% assign footer_check = footer_contents | strip %}
+{% if footer_check != '' %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
-    {% endif %}
-
     <div class="container">
       {{ footer_contents }}
     </div>
   </footer>
+{% else %}
+  <div class="page-end-space" aria-hidden="true"></div>
 {% endif %}

@@ -2,7 +2,7 @@ slug: codamarket
 order: 3
 title: "CODAmarket"
 card_title: CODAmarket
-card_kicker: "CODAworx · Co-founder"
+card_kicker: "Co-Founder"
 card_line: "I co-founded CODAworx's consumer marketplace and ran product and operations through launch and growth. Match rates rose 20%, repeat bookings 15%, retention doubled."
 card_chips: ["+20% match rate", "+15% repeat bookings", "2x retention"]
 read_time: "9 min read"
@@ -18,7 +18,7 @@ cover_poster: assets/video/case_studies/codamarket/cover-poster.jpg
 pdf: assets/pdf/case_studies/Edward_Profio_CODAmarket_Case_Study.pdf
 mock_note: "Screens on this page are recreations in CODA.market's style, except where marked as the live site. Creator names, prices and artwork are made up."
 meta:
-  - {k: Role, v: "Co-founder of CODAmarket"}
+  - {k: Role, v: "Co-Founder"}
   - {k: Team, v: "Engineering, design, data, operations and artist relations"}
   - {k: Where, v: "CODAworx, Madison, Wisconsin"}
 metrics:

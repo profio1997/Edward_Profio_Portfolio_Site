@@ -6,6 +6,7 @@ isbn: "9781401307783"
 categories: mindfulness self-improvement
 status: Finished
 date: 2021-12-18
+released: 1994
 ---
 
 Kabat-Zinn introduces mindfulness meditation as a plain practice of paying attention in daily life. The short chapters cover sitting, walking, breathing and working with stress.
