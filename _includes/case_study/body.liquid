@@ -1,0 +1,17 @@
+{%- comment -%} Shared case-study body, used by the web page and the print (PDF) page. {%- endcomment -%}
+{%- assign cs = include.cs -%}
+{%- if cs.metrics -%}
+<div class="cs-metrics">{% for m in cs.metrics %}<div class="cs-metric{% if m.basis %} cs-metric--basis{% endif %}">{% if m.basis %}<span class="cs-metric__tag">Research</span>{% endif %}<div class="cs-metric__n">{{ m.n }}</div><div class="cs-metric__l">{% include case_study/md.liquid t=m.l %}</div></div>{% endfor %}</div>
+{%- endif -%}
+{% for s in cs.sections %}
+<section class="cs-section{% if s.pdf_break %} cs-break{% endif %}" id="{{ s.id }}">
+  <h2 class="cs-h2">{{ s.title }}</h2>
+  {% for b in s.blocks %}{% include case_study/block.liquid b=b %}{% endfor %}
+</section>
+{% endfor %}
+{%- if cs.learn -%}
+<section class="cs-section cs-learn" id="lessons">
+  <h2 class="cs-h2">{{ cs.learn_title | default: "Looking back" }}</h2>
+  <ul class="cs-list">{% for it in cs.learn %}<li>{% include case_study/md.liquid t=it %}</li>{% endfor %}</ul>
+</section>
+{%- endif -%}

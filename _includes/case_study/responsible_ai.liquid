@@ -1,0 +1,18 @@
+{%- assign r = site.data.responsible_ai -%}
+<section class="cs-featured cs-principles" id="responsible-ai">
+  <div class="cs-featured__head"><h2>How I build AI responsibly</h2></div>
+  <p class="cs-principles__intro">{{ r.intro }}</p>
+  <div class="cs-principles__list">
+  {%- for it in r.items -%}
+    <div class="cs-principle">
+      <div class="cs-principle__n">{{ forloop.index }}</div>
+      <div class="cs-principle__body">
+        <h3>{{ it.h }}</h3>
+        <p>{{ it.t }}</p>
+        {% if it.frameworks %}<div class="cs-principle__fw">{% for f in it.frameworks %}<span>{{ f }}</span>{% endfor %}</div>{% endif %}
+        <ul>{% for pr in it.proof %}{% assign parts = pr | split: ': ' %}<li><strong>{{ parts[0] }}.</strong> {{ pr | remove_first: parts[0] | remove_first: ': ' }}</li>{% endfor %}</ul>
+      </div>
+    </div>
+  {%- endfor -%}
+  </div>
+</section>

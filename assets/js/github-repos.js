@@ -82,26 +82,35 @@
         }
 
         var meta = card.querySelector('.repo-card__meta');
-        if (r.language) {
-          var lang = document.createElement('span');
-          lang.className = 'gh-stat';
-          var dot = document.createElement('span');
-          dot.className = 'gh-lang-dot';
-          dot.style.backgroundColor = LANG_COLORS[r.language] || '#8b949e';
-          lang.appendChild(dot);
-          lang.appendChild(document.createTextNode(' ' + r.language));
-          meta.appendChild(lang);
+        if (r.stargazers_count > 0) {
+          meta.appendChild(stat('fa-solid fa-star', fmt(r.stargazers_count), 'Stars'));
+          meta.hidden = false;
         }
-        meta.appendChild(stat('fa-solid fa-star', fmt(r.stargazers_count), 'Stars'));
-        meta.appendChild(stat('fa-solid fa-code-fork', fmt(r.forks_count), 'Forks'));
-        meta.hidden = false;
       })
       .catch(function () {
         /* keep the plain name + link */
       });
   }
 
+  // Overall public totals (all public repositories, not just the ones listed on the page).
+  function fillTotals(card) {
+    var user = card.getAttribute('data-user');
+    getJSON('/users/' + user + '/repos?per_page=100&type=owner')
+      .then(function (repos) {
+        var pub = repos.filter(function (r) { return !r.private; });
+        var stars = pub.reduce(function (n, r) { return n + (r.stargazers_count || 0); }, 0);
+        var rEl = card.querySelector('[data-gh="repos"]');
+        var sEl = card.querySelector('[data-gh="stars"]');
+        if (rEl) rEl.textContent = fmt(pub.length);
+        if (sEl) sEl.textContent = fmt(stars);
+      })
+      .catch(function () {
+        /* keep the snapshot numbers */
+      });
+  }
+
   function fillUser(card) {
+    fillTotals(card);
     if (card.getAttribute('data-rendered') === 'true') return;   // already rendered with real data
     var user = card.getAttribute('data-user');
     getJSON('/users/' + user)
@@ -112,11 +121,6 @@
           bio.textContent = u.bio;
           bio.hidden = false;
         }
-        var meta = card.querySelector('.repo-user-card__meta');
-        meta.appendChild(stat('fa-solid fa-book-bookmark', u.public_repos + ' repos', 'Public repositories'));
-        meta.appendChild(stat('fa-solid fa-user-group', fmt(u.followers) + (u.followers === 1 ? ' follower' : ' followers'), 'Followers'));
-        meta.appendChild(stat('fa-solid fa-user-plus', fmt(u.following) + ' following', 'Following'));
-        meta.hidden = false;
       })
       .catch(function () {
         /* keep the plain avatar + username */

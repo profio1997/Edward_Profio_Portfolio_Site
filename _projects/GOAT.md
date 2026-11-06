@@ -1,16 +1,39 @@
 ---
 layout: page
-title: GOAT
-description: A business analysis on GOAT's technology strategy.
+title: "GOAT: building trust in a resale marketplace"
+description: "How GOAT uses machine learning and human experts to build trust, and how to cut fraud costs without slowing sign-up."
 img: assets/img/GOAT.png
-importance: 1
+importance: 4
 category: work
-# related_publications: true
+giscus_comments: false
 ---
+<p class="proj-glance"><span><b>Role</b> Co-author</span><span><b>When</b> Carnegie Mellon, technology strategy course</span><span><b>Team</b> Five authors</span></p>
 
-As a part of a technology strategy analysis, I co-authored a business report examining GOAT, a leading resale platform specializing in authenticated sneakers and streetwear. The project explored GOAT’s multi-faceted authentication system, which combines machine learning with human expertise to detect counterfeit goods and ensure trust in peer-to-peer transactions. We evaluated GOAT’s core operational model — particularly its "ship to verify" workflow and buyer protection policies — as well as the platform’s success in fostering community engagement among sneaker enthusiasts and rare item collectors. This analysis highlighted GOAT’s differentiation through AI/ML verification, marketplace trust, and brand partnerships with global icons like Paris Saint-Germain.
+GOAT is a marketplace for sneakers and streetwear, and its whole value is that you can trust what you buy. Counterfeits are a real problem in resale, so the platform authenticates items before they reach the buyer. Our report looked at how that works and where the strategy could be stronger.
 
-Beyond evaluating GOAT’s current structure, our team provided strategic recommendations to strengthen its competitive position in the increasingly saturated luxury resale market. We analyzed competitors such as StockX, eBay, and The RealReal, and identified opportunities for GOAT to expand user loyalty, enhance onboarding security, and leverage data analytics for dynamic pricing. We proposed the introduction of ID verification checkpoints, influencer partnerships, and deeper investments in sustainability initiatives. The project culminated in a multi-pronged strategy to reduce the cost of fraud, drive customer acquisition, and improve operational efficiency through smart automation and expanded vertical integration.
+## How GOAT builds trust
 
-<h1><a href='#'>Analysis:</a></h1>
-<iframe src="{{ '/assets/pdf/GOAT.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+Sellers apply before they can list, and they upload standardized photos from several angles. Those photos train image-recognition models that learn what authentic items look like and flag inconsistencies. When a sale happens, the item goes to a GOAT distribution center first, where trained specialists check things a photo can't show, like stitching, texture and feel. GOAT calls this "ship to verify." Buyers are covered by a protection policy that gives an authentic replacement or a refund. The platform reported catching $72 million in counterfeit shoes in 2019, which shows how large the problem is.
+
+GOAT also charges competitively, at a 9.5% seller commission against 8% to 10% for StockX, 13.25% for eBay and 15% to 80% for The RealReal.
+
+## Where we saw an opening
+
+Authentication and buyer protection treat counterfeits after they've been listed. They don't remove the people who list them, and they cost a lot to run. Our central recommendation was to make it harder for bad actors to get in, without hurting sign-up.
+
+Sign-up is a growth metric for a marketplace, so we didn't want to add friction at the start. Instead, we proposed asking for a valid photo ID later in onboarding, after a seller has already put in significant effort and is unlikely to leave. Automated ID verification services exist and are cheap compared with the cost of one counterfeit item going through the entire process. For a counterfeit seller, the effort now outweighs the payoff.
+
+## Other recommendations
+
+- **Partnerships and creators:** GOAT's $50 million partnership with Paris Saint-Germain put the brand in front of millions. We suggested continuing that with rising athletes, and adding video and live-stream selling through creators
+- **Community:** build on its 40 million members with events and content
+- **Data:** use data from over 320,000 listings to give sellers pricing and inventory guidance, and to predict price movements
+- **Sustainability and resilience:** lean into second-hand luxury as demand grows, and keep a flexible fee structure that holds up when the economy slows
+
+## What I'd note today
+
+GOAT's approach is a good example of a human-in-the-loop AI system: the model handles volume, and people handle the cases where the evidence isn't visual. That's also a pattern I use when I design AI products in healthcare.
+
+## The report
+
+<iframe src="/assets/pdf/GOAT.pdf" width="100%" height="600px" style="border: none;"></iframe>

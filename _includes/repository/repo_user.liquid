@@ -1,6 +1,6 @@
 {% comment %}
   GitHub profile card. The avatar comes straight from github.com/<user>.png and the
-  name / bio / counts are filled in by assets/js/github-repos.js. If the API is
+  name / bio come from the cached snapshot; repo and star totals are refreshed live by assets/js/github-repos.js. If the API is
   unavailable the card still renders with the username and a link to the profile.
 {% endcomment %}
 {% assign gu = site.data.github_cache.user %}
@@ -18,17 +18,12 @@
     <div class="repo-user-card__body">
       <div class="repo-user-card__name">{% if gu.name %}{{ gu.name }}{% else %}{{ include.username }}{% endif %}</div>
       <div class="repo-user-card__handle">@{{ include.username }}</div>
+      <div class="repo-user-card__stats">
+        <span class="repo-user-card__stat" title="Public repositories"><i class="fa-solid fa-book-bookmark" aria-hidden="true"></i> <b data-gh="repos">{{ gu.public_repos | default: '–' }}</b> repositories</span>
+        <span class="repo-user-card__stat" title="Stars across all public repositories"><i class="fa-solid fa-star" aria-hidden="true"></i> <b data-gh="stars">{{ gu.total_stars | default: '–' }}</b> stars</span>
+      </div>
       {% if gu %}
         {% if gu.bio %}<p class="repo-user-card__bio">{{ gu.bio | escape }}</p>{% endif %}
-        <div class="repo-user-card__meta">
-          {%- assign shown_repos = 0 -%}
-          {%- for r in site.data.github_cache.repos -%}
-            {%- if site.data.repositories.github_repos contains r.full_name -%}{%- assign shown_repos = shown_repos | plus: 1 -%}{%- endif -%}
-          {%- endfor -%}
-          <span class="gh-stat"><i class="fa-solid fa-book-bookmark"></i> {{ shown_repos }} repos</span>
-          <span class="gh-stat"><i class="fa-solid fa-user-group"></i> {{ gu.followers }} {% if gu.followers == 1 %}follower{% else %}followers{% endif %}</span>
-          <span class="gh-stat"><i class="fa-solid fa-user-plus"></i> {{ gu.following }} following</span>
-        </div>
       {% else %}
         <p class="repo-user-card__bio" hidden></p>
         <div class="repo-user-card__meta" hidden></div>

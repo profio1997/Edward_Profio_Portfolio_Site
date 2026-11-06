@@ -1,4 +1,4 @@
-TL;DR: Technical Product Leader who builds AI/ML systems at scale. Recognized for technical expertise, relentless user focus and cross-functional leadership. Achieved turning complex domains into products that people adopt and retain.
+TL;DR: Technical Product & Delivery Leader who builds AI/ML systems at scale. Recognized for technical expertise, relentless user focus and cross-functional leadership. Achieved turning complex domains into products that people adopt and retain.
 
 Highlights:
 

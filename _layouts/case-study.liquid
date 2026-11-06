@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{%- assign cs = site.data.case_studies[page.case_study] -%}
+{%- assign all = site.projects | where_exp: "p", "p.case_study" | sort: "importance" -%}
+<div class="post cs-page">
+  <a class="cs-back" href="{{ '/projects/' | relative_url }}"><i class="fa-solid fa-arrow-left"></i> All projects</a>
+  <header class="cs-hero">
+    <div class="cs-kicker">{{ cs.kicker }}</div>
+    <h1 class="cs-title">{{ cs.headline }}</h1>
+    <p class="cs-lede">{{ cs.lede }}</p>
+    {% if cs.read_time %}<div class="cs-readtime"><i class="fa-regular fa-clock"></i> {{ cs.read_time }}</div>{% endif %}
+    <dl class="cs-meta">{% for m in cs.meta %}<div><dt>{{ m.k }}</dt><dd>{{ m.v }}</dd></div>{% endfor %}</dl>
+    <div class="cs-actions">
+      {% if cs.pdf %}<a class="cs-btn cs-btn--pri" href="{{ cs.pdf | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down"></i> Download PDF</a>{% endif %}
+      {% for l in cs.links %}{% if l.url contains "://" %}{% assign lu = l.url %}{% else %}{% assign lu = l.url | relative_url %}{% endif %}<a class="cs-btn" href="{{ lu }}" target="_blank" rel="noopener">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
+    </div>
+    {% if cs.film and page.layout != 'case-study-print' %}<figure class="cs-film"><video class="cs-cover cs-vid" src="{{ cs.film | relative_url }}" poster="{{ cs.film_poster | relative_url }}" controls playsinline preload="metadata" aria-label="Pitch film"></video>{% if cs.film_cap %}<figcaption>{{ cs.film_cap }}{% if cs.film_link %} <a class="cs-film__link" href="{{ cs.film_link }}" target="_blank" rel="noopener">{{ cs.film_link | remove: "https://" }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endif %}</figcaption>{% endif %}</figure>{% elsif cs.cover_video %}<video class="cs-cover cs-vid" src="{{ cs.cover_video | relative_url }}" poster="{{ cs.cover_poster | default: cs.cover | relative_url }}" autoplay muted loop playsinline aria-label="{{ cs.card_title }} case study cover" width="1600" height="1000"></video>{% else %}<img class="cs-cover" src="{{ cs.cover | relative_url }}" alt="{{ cs.card_title }} case study cover" width="1600" height="1000" fetchpriority="high">{% endif %}{% if cs.mock_note %}<p class="cs-mocknote" style="margin-top:.6rem">{{ cs.mock_note }}</p>{% endif %}
+  </header>
+  <nav class="cs-toc" aria-label="On this page"><span>On this page</span>{% for sec in cs.sections %}<a href="#{{ sec.id }}">{{ sec.title }}</a>{% endfor %}{% if cs.learn %}<a href="#lessons">{{ cs.learn_title | default: "Looking back" }}</a>{% endif %}</nav>
+  <article class="cs-article">
+    {% include case_study/body.liquid cs=cs %}
+  </article>
+  <nav class="cs-pager" aria-label="More case studies">
+    {%- for p in all -%}{%- if p.url == page.url -%}
+      {%- assign i = forloop.index0 -%}{%- assign n = all.size -%}
+      {%- assign prev_i = i | plus: n | minus: 1 | modulo: n -%}{%- assign next_i = i | plus: 1 | modulo: n -%}
+      {%- assign pp = all[prev_i] -%}{%- assign np = all[next_i] -%}
+      <a class="cs-pager__a" href="{{ pp.url | relative_url }}"><span><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Previous case study</span>{{ site.data.case_studies[pp.case_study].title }}</a>
+      <a class="cs-pager__a cs-pager__a--next" href="{{ np.url | relative_url }}"><span>Next case study <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>{{ site.data.case_studies[np.case_study].title }}</a>
+    {%- endif -%}{%- endfor -%}
+  </nav>
+  {% if cs.pdf %}<p class="cs-foot-pdf"><a href="{{ cs.pdf | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Download this case study as a PDF</a></p>{% endif %}
+</div>

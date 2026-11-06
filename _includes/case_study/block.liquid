@@ -1,0 +1,58 @@
+{%- assign b = include.b -%}
+{%- capture mocknote -%}{%- if b.concept -%}<p class="cs-mocknote">Concept drawn for this case study · not a Workday product screen</p>{%- elsif b.badge -%}<p class="cs-mocknote">Recreated mockup · fictional names · generated artwork</p>{%- endif -%}{%- endcapture -%}
+{%- if b.web_only and page.layout == 'case-study-print' -%}{%- else -%}{%- case b.type -%}
+{%- when 'h' -%}
+<h3 class="cs-h3">{{ b.text }}</h3>
+{%- when 'p' -%}
+<div class="cs-prose">{{ b.text | markdownify }}</div>
+{%- when 'list' -%}
+<ul class="cs-list">{% for it in b.items %}<li>{% include case_study/md.liquid t=it %}</li>{% endfor %}</ul>
+{%- when 'quote' -%}
+<blockquote class="cs-quote"><p>&ldquo;{{ b.text }}&rdquo;</p>{% if b.by %}<cite>{{ b.by }}</cite>{% endif %}</blockquote>
+{%- when 'split' -%}
+<div class="cs-split{% if b.phone %} cs-split--phone{% endif %}">
+  <div class="cs-split__text cs-prose">{{ b.text | markdownify }}</div>
+  <div class="cs-split__media">
+    {%- if b.figure -%}
+    <figure class="cs-fig">{% include case_study/media.liquid s=b.figure.src v=b.figure.video p=b.figure.poster alt=b.figure.cap %}{% if b.figure.cap %}<figcaption>{% include case_study/md.liquid t=b.figure.cap %}</figcaption>{% endif %}</figure>
+    {%- elsif b.phone -%}
+    <figure class="cs-phone">{% include case_study/media.liquid s=b.phone.src v=b.phone.video p=b.phone.poster alt=b.phone.cap %}{% if b.phone.cap %}<figcaption>{% include case_study/md.liquid t=b.phone.cap %}</figcaption>{% endif %}</figure>
+    {%- elsif b.bars -%}
+    {%- assign mx = 0 -%}{%- for it in b.bars.items -%}{%- if it.value > mx -%}{%- assign mx = it.value -%}{%- endif -%}{%- endfor -%}
+    <div class="cs-bars"><div class="cs-bars__title">{{ b.bars.title }}</div><div class="cs-bars__sub">{{ b.bars.sub }}</div>
+      <div class="cs-bars__chart">{% for it in b.bars.items %}{% assign h = it.value | times: 100 | divided_by: mx %}<div class="cs-bars__col"><div class="cs-bars__val{% if it.hi %} hi{% endif %}">{{ it.value }}%</div><div class="cs-bars__bar{% if it.hi %} hi{% endif %}" style="height:{{ h | times: 1.3 }}px"></div><div class="cs-bars__lab">{{ it.label }}</div></div>{% endfor %}</div>
+      {% if b.bars.cap %}<div class="cs-cap">{{ b.bars.cap }}</div>{% endif %}</div>
+    {%- endif -%}
+  </div>
+</div>
+{%- when 'figure' -%}
+<figure class="cs-fig">{% include case_study/media.liquid s=b.src v=b.video p=b.poster alt=b.cap %}{% if b.cap %}<figcaption>{% include case_study/md.liquid t=b.cap %}</figcaption>{% endif %}</figure>
+{%- when 'phones' -%}
+<div class="cs-media">{{ mocknote }}<div class="cs-phones cs-phones--{{ b.items.size }}">{% for it in b.items %}<figure class="cs-phone">{% include case_study/media.liquid s=it.src v=it.video p=it.poster alt=it.cap %}<figcaption>{% include case_study/md.liquid t=it.cap %}</figcaption></figure>{% endfor %}</div></div>
+{%- when 'browser' -%}
+<div class="cs-media">{{ mocknote }}<div class="cs-browsers">{% for it in b.items %}<figure class="cs-browser"><div class="cs-browser__scroll">{% include case_study/media.liquid s=it.src v=it.video p=it.poster alt=it.cap %}</div><figcaption>{% include case_study/md.liquid t=it.cap %}</figcaption></figure>{% endfor %}</div></div>
+{%- when 'gallery' -%}
+<div class="cs-gallery cs-gallery--{{ b.cols | default: 2 }}">{% for it in b.items %}<figure class="cs-fig cs-fig--dark">{% include case_study/media.liquid s=it.src v=it.video p=it.poster alt=it.cap %}<figcaption>{% include case_study/md.liquid t=it.cap %}</figcaption></figure>{% endfor %}</div>
+{%- when 'decisions' -%}
+<div class="cs-decisions">{% for it in b.items %}<div class="cs-dec"><h4>{{ it.t }}</h4><p>{% include case_study/md.liquid t=it.b %}</p>{% if it.rej %}<p class="cs-dec__rej"><span>Set aside:</span> {% include case_study/md.liquid t=it.rej %}</p>{% endif %}</div>{% endfor %}</div>
+{%- when 'insights' -%}
+<div class="cs-insights">{% for it in b.items %}<div class="cs-insight"><span class="cs-insight__n">{{ forloop.index }}</span><h4>{{ it.h }}</h4><p>{% include case_study/md.liquid t=it.t %}</p></div>{% endfor %}</div>
+{%- when 'flow' -%}
+<ol class="cs-flow">{% for s in b.steps %}<li class="cs-step"><span class="cs-step__tag">{{ s.tag }}</span><strong>{{ s.t }}</strong><span class="cs-step__d">{{ s.d }}</span>{% if s.r %}<span class="cs-step__r">{{ s.r }}</span>{% endif %}</li>{% endfor %}</ol>
+{%- when 'system' -%}
+<div class="cs-system">{% if b.title %}<div class="cs-system__title">{{ b.title }}</div>{% endif %}<ol class="cs-system__row">{% for s in b.steps %}<li class="cs-system__step"><span class="cs-system__h">{{ s.h }}</span><span class="cs-system__t">{% include case_study/md.liquid t=s.t %}</span></li>{% endfor %}</ol>{% if b.guard %}<p class="cs-system__guard">{{ b.guard }}</p>{% endif %}</div>
+{%- when 'funnel' -%}
+<div class="cs-funnel">{% for r in b.rows %}<div class="cs-funnel__row cs-funnel__row--{{ forloop.index }}"><span class="cs-funnel__n">{{ r.n }}</span><span><strong>{{ r.t }}</strong><span class="cs-funnel__s">{{ r.s }}</span></span></div>{% endfor %}</div>
+{%- when 'domains' -%}
+<div class="cs-domains">{% for d in b.items %}<div class="cs-domain"><div class="cs-domain__h">{{ d.h }}</div><p class="cs-domain__job">{{ d.job }}</p><p class="cs-domain__who">{{ d.who }}</p><div class="cs-domain__v">{% for v in d.vendors %}<span>{{ v }}</span>{% endfor %}</div></div>{% endfor %}</div>{% if b.note %}<p class="cs-cap" style="margin-top:-.6rem;margin-bottom:1.2rem">{{ b.note }}</p>{% endif %}
+{%- when 'table' -%}
+<div class="cs-table-wrap{% if b.center %} cs-table-wrap--matrix{% endif %}"><table class="cs-table{% if b.center %} cs-table--center{% endif %}"><thead><tr>{% for h in b.head %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>
+{%- for row in b.rows -%}<tr>{%- for c in row -%}{%- assign ci = forloop.index0 -%}<td data-label="{{ b.head[ci] | escape }}" class="{% if b.emph and ci == b.emph %}{% if c.size < 34 %}cs-em{% else %}cs-em-soft{% endif %}{% endif %}{% if b.center %}{% if c == 'Yes' %} cs-yes{% elsif ci > 0 %} cs-no{% endif %}{% endif %}">{% include case_study/md.liquid t=c %}</td>{%- endfor -%}</tr>{%- endfor -%}
+</tbody></table></div>
+{%- when 'roadmap' -%}
+<div class="cs-roadmap">{% for c in b.cols %}<div class="cs-road"><div class="cs-road__h">{{ c.h }}<span>{{ c.sub }}</span></div>{% for it in c.items %}<div class="cs-road__item"><strong>{{ it.t }}</strong><span>{{ it.d }}</span></div>{% endfor %}</div>{% endfor %}</div>
+{%- when 'rai' -%}
+<div class="cs-rai"><div class="cs-rai__head"><h3>{{ b.title }}</h3><span class="cs-badge">Responsible AI</span></div>
+<div class="cs-rai__grid">{% for it in b.items %}<div><strong>{{ it.h }}</strong><p>{% include case_study/md.liquid t=it.t %}</p></div>{% endfor %}</div>
+{% if b.note %}<p class="cs-rai__note">{{ b.note }}</p>{% endif %}</div>
+{%- endcase -%}{%- endif -%}

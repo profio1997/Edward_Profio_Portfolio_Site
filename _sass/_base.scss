@@ -164,12 +164,13 @@ strong {
 .post .clearfix {
   // Add spacing before TL;DR text (first paragraph)
   > p:first-of-type {
-    margin-top: 4rem;
-    margin-bottom: 2.5rem;
+    margin-top: 2.6rem;
+    margin-bottom: 1rem;
     font-size: 1.125rem;
-    line-height: 1.8;
+    line-height: 1.75;
     font-weight: 400;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
+    opacity: 0.9;
     letter-spacing: 0.015em;
     // Use padding-right instead of max-width to prevent overlap with profile picture
     // On mobile, profile picture will be below, so no padding needed
@@ -2248,3 +2249,15 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.repo-user-card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+.repo-user-card__stat i { color: var(--global-theme-color); margin-right: 0.15rem; }
+.repo-user-card__stat .fa-star { color: #e3b341; }
+.repo-user-card__stat b { color: var(--global-text-color); font-weight: 700; }

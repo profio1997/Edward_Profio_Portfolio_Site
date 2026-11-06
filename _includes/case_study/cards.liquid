@@ -1,0 +1,15 @@
+{%- assign studies = site.projects | where_exp: "p", "p.case_study" | sort: "importance" -%}
+<div class="cs-cards">
+{%- for p in studies -%}{%- assign cs = site.data.case_studies[p.case_study] -%}
+  <a class="cs-card" href="{{ p.url | relative_url }}">
+    {% if cs.cover_video %}<video class="cs-vid" src="{{ cs.cover_video | relative_url }}" poster="{{ cs.cover_poster | default: cs.cover | relative_url }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ cs.card_title }} case study" width="1600" height="1000"></video>{% else %}<img src="{{ cs.cover | relative_url }}" alt="{{ cs.card_title }} case study" width="1600" height="1000" loading="lazy">{% endif %}
+    <div class="cs-card__body">
+      <div class="cs-card__k">{{ cs.card_kicker | default: cs.meta[1].v }}</div>
+      <div class="cs-card__t">{{ cs.title }}</div>
+      <div class="cs-card__l">{{ cs.card_line }}</div>
+      <div class="cs-card__m">{% if cs.card_chips %}{% for c in cs.card_chips %}<span>{{ c }}</span>{% endfor %}{% else %}{% for m in cs.metrics %}{% if m.chip %}<span>{{ m.chip }}</span>{% endif %}{% endfor %}{% endif %}</div>
+      <div class="cs-card__cta">Read the case study <i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </a>
+{%- endfor -%}
+</div>

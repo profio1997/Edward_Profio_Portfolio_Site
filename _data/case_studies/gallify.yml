@@ -1,0 +1,180 @@
+slug: gallify
+order: 2
+title: "Gallify"
+card_title: Gallify
+card_kicker: "Co-founder, CPO/COO"
+card_line: "An iOS app for collecting digital art in AR. I led product and an engineering team of 8 to 10; our recommender lifted click-through 20% and order value 10%. Then I made the call to wind it down."
+card_chips: ["+20% click-through", "+10% order value", "60% to 85% on time"]
+read_time: "8 min read"
+kicker: "Gallify"
+headline: "Building Gallify, and deciding to wind it down"
+lede: >-
+  Gallify was an iOS app where digital artists could put up a gallery in a few minutes and collectors could hang the work on their
+  own wall in AR before buying it. I joined early, became Chief Product and Operating Officer, and ran product and engineering until
+  we closed the company.
+cover: assets/img/case_studies/gallify/cover.jpg
+cover_video: assets/video/case_studies/gallify/cover.mp4
+cover_poster: assets/video/case_studies/gallify/cover-poster.jpg
+pdf: assets/pdf/case_studies/Edward_Profio_Gallify_Case_Study.pdf
+mock_note: "The polished screens on this page are recreations. Artist names and artwork are made up. The wireframes, AR capture and wallet screen are from the original build, shown in the same phone frame."
+links:
+  - {label: "Code on GitHub", url: "https://github.com/profio1997/Gallify_App"}
+meta:
+  - {k: Role, v: "Co-founder, Chief Product/Operating Officer"}
+  - {k: Team, v: "8 to 10 engineers in 4 sub-teams"}
+  - {k: Stack, v: "iOS, ARKit, Object Capture, Solidity on Polygon"}
+metrics:
+  - {n: "+20%", l: "click-through from recommendations"}
+  - {n: "+10%", l: "average order value"}
+  - {n: "60→85%", l: "on-time delivery"}
+  - {n: "3 → 10+", l: "engineers hired"}
+sections:
+  - id: overview
+    title: Overview
+    blocks:
+      - type: p
+        text: |
+          Gallify is where I learned the most about how to build a product and how to stop. It began with a small AI-focused team. I was hand-picked for my technical skills and for how I worked with others, and I grew into Chief Product and Operating Officer and a co-founder. Over five years I led product, ran engineering through a period of heavy hiring, and eventually recommended that we wind the company down.
+
+          The idea was simple to state. Digital artists had nowhere to show and sell their work that felt like a gallery, and collectors had no way to see a piece in their own space or to prove they owned it. We built an iOS app to fix both: galleries you could create and share in minutes, AR so you could see any piece on your wall at its real size, and ownership recorded on a blockchain.
+
+          This page covers the product decisions, the recommender I led, how I ran the team, and the decision to stop.
+      - type: phones
+        items:
+          - {src: assets/img/case_studies/gallify/p1.webp, video: assets/video/case_studies/gallify/p1.mp4, poster: assets/video/case_studies/gallify/p1.jpg, cap: "Collector setup and discovery: pick a few styles, get a first feed built from them, then tap \"Why?\" to see and adjust what a pick is based on."}
+          - {src: assets/img/case_studies/gallify/p2.webp, video: assets/video/case_studies/gallify/p2.mp4, poster: assets/video/case_studies/gallify/p2.jpg, cap: "AR in a real room: walk around, place the piece on the wall at its real size, resize it, take a snapshot, then bid from the same screen."}
+          - {src: assets/img/case_studies/gallify/p3.webp, video: assets/video/case_studies/gallify/p3.mp4, poster: assets/video/case_studies/gallify/p3.jpg, cap: "The artist side: add works, mint each as 1 of 1, publish a gallery and share its link."}
+  - id: problem
+    title: Problem and research
+    blocks:
+      - type: split
+        text: |
+          Back then digital art mostly lived on social feeds built for photos. Artists could post, but there was no place that treated a piece of digital work with the presence a gallery gives a painting. For collectors there were two gaps. They couldn't tell how a piece would look at home, which is how most people decide to buy art, and they had no reliable way to prove they owned it, which is the thing that makes a collection worth anything.
+
+          Our positioning was "a next generation gallery for the digital age": create a gallery and share it instantly. We believed that seeing a piece on your own wall and being able to verify that you owned it would give digital art the weight it needed, and that good discovery would help collectors find work they'd never have searched for.
+        phone: {src: assets/img/case_studies/gallify/gallery.webp, cap: "Each artist gets a gallery and a link to share it."}
+      - type: h
+        text: "Discovery and early design"
+      - type: p
+        text: |
+          We began with flows, not screens. I sketched sign-up, the library, playlists and search by hand and argued over the paths until the team agreed on the journey. Only then did we move to high-fidelity iOS designs, and then to a beta landing page with a Discord community to collect early feedback.
+      - type: split
+        text: |
+          The sketches show what mattered to us at the start: how an artist creates a gallery, how a collector builds a library of favourites, and how playlists let people share taste. A few of those ideas survived and a lot of them didn't, but starting on paper meant it cost us nothing to change our minds.
+
+          The beta page used the line "Create a gallery and share, instantly," and that sentence was our test of every feature: does it make the first gallery faster to create, or easier to share?
+        figure: {src: assets/img/case_studies/gallify/real-wireframes.webp, cap: "From the original build: early flow wireframes for sign-up, library, playlists and search."}
+  - id: solution
+    title: Solution
+    blocks:
+      - type: h
+        text: "Product decisions"
+      - type: decisions
+        items:
+          - {t: "Discovery over search", b: "Collectors rarely know what to search for. So the home screen is a per-collector feed, with local auctions by city, curated playlists and a featured room, rather than a search bar."}
+          - {t: "AR as the differentiator", b: "We built on Apple's ARKit so collectors could place a piece on their own wall at real size before bidding. Later we added Object Capture so artists could scan physical sculptures into 3D and show those in AR too."}
+          - {t: "Ownership on a blockchain", b: "Purchases are tokens on Polygon (an ERC-721 contract written in Solidity) with wallet connect, so a purchase meant verifiable ownership. Polygon's low fees and fast confirmation suited small first purchases by new collectors."}
+          - {t: "Collectors keep their own keys", b: "Bids and purchases are approved in the collector's own wallet. Gallify never holds anyone's keys, which meant fewer security obligations for us and more trust for them."}
+          - {t: "Lower the bar for artists", b: "Publishing a gallery from a phone takes minutes: upload images or capture a 3D piece, mint the work as a one-of-one, and share one link."}
+      - type: system
+        title: How the pieces fit together
+        steps:
+          - {h: "iOS app", t: "Auctions, discovery, galleries and profiles, built in Swift for iPhone"}
+          - {h: "AR layer", t: "ARKit places any piece on a wall at real size; Object Capture turns physical work into 3D"}
+          - {h: "Ownership", t: "Solidity smart contracts on Polygon issue each piece as a one-of-one token"}
+          - {h: "Wallet", t: "The collector approves every bid and purchase in their own wallet"}
+      - type: phones
+        items:
+          - {src: assets/img/case_studies/gallify/real-ar.webp, cap: "From the original build: a real AR capture in a bedroom."}
+          - {src: assets/img/case_studies/gallify/real-wallet.webp, cap: "From the original build: connecting a Polygon wallet."}
+          - {src: assets/img/case_studies/gallify/bid.webp, cap: "A bid, approved in the collector's own wallet."}
+      - type: h
+        text: "The recommender"
+      - type: p
+        text: |
+          I led the AI recommender for listings. Collectors arrived without a clear idea of what they wanted, and every artist wanted to be seen, so a feed that put the right piece in front of the right person was the most valuable thing we could build.
+
+          It ranked live auctions and listings for each collector from what they had viewed, saved, bid on and bought, plus each piece's style, medium and artist. New collectors picked a few styles they liked first so the feed wasn't empty on day one. Each pick had a reason behind it, and collectors could ask for more or less of something, or hide an artist. We measured the feed against our previous ordering, looking at click-through and at average order value rather than time in the app. Click-through rose 20% and average order value 10%.
+      - type: phones
+        items:
+          - {src: assets/img/case_studies/gallify/why.webp, cap: "Tapping \"Why?\" shows what a pick was based on and lets the collector adjust it."}
+          - {src: assets/img/case_studies/gallify/artwork.webp, cap: "A listing with live bidding and verified ownership."}
+          - {src: assets/img/case_studies/gallify/lock.webp, cap: "An outbid alert while the auction is still running."}
+      - type: system
+        title: How the recommender worked
+        steps:
+          - {h: "Signals", t: "Views, saves, bids and purchases; each piece's style, medium and artist; taste picks for new collectors"}
+          - {h: "Ranking", t: "Live auctions and listings, ordered for each collector and refreshed as they browse"}
+          - {h: "Explanation", t: "A reason for each pick, with more, less and hide controls"}
+          - {h: "Measured on", t: "Click-through and average order value, compared with the previous feed"}
+      - type: h
+        text: "Trade-offs I'd flag"
+      - type: p
+        text: |
+          Two of our biggest bets were also our riskiest, and it's worth being honest about what each cost.
+
+          **AR.** It was the feature people remembered, and it made the product feel like nothing else. It was also an engineering investment that only paid off if enough collectors cared about seeing a piece in their room. People loved the moment, but loving it and buying because of it are different things, and we never got clear evidence for the second.
+
+          **Blockchain.** On-chain ownership solved a real problem, which is proving that a piece is yours. It also added friction. New collectors had to set up a wallet before they could bid, and that is a lot to ask before someone has seen a single piece they love. We worked on this by keeping fees low on Polygon and by making the wallet step as clear as we could, but the cost to growth was real.
+  - id: results
+    title: Team, results and the shutdown
+    blocks:
+      - type: p
+        text: |
+          Over five years we shipped three major releases. They covered marketplace transactions on the blockchain, the AR gallery experience and the iOS app itself, and we designed, built and launched the platform ahead of schedule. The recommender gave us the 20% and 10% lifts described above.
+      - type: table
+        emph: 1
+        head: [Outcome, Result]
+        rows:
+          - ["Click-through from recommendations", "+20%"]
+          - ["Average order value", "+10%"]
+          - ["Major releases", "3+: marketplace transactions, AR galleries, iOS"]
+          - ["Platform", "Designed, built and launched ahead of schedule"]
+          - ["Business", "Did not reach product-market fit; wound down"]
+      - type: h
+        text: "Running the team"
+      - type: p
+        text: |
+          By our busiest period we had six projects running across four sub-teams of eight to ten engineers. I was Scrum Master and also the main technical decision-maker, which meant setting product priorities and engineering standards. Delivery was unreliable when I took it on. Here's what I changed.
+      - type: list
+        items:
+          - "**Rhythm.** I set up regular sprints and one-on-ones, so problems surfaced in a week instead of at the deadline."
+          - "**Standards.** I wrote down engineering standards, including what \"done\" meant, so quality didn't depend on who was reviewing."
+          - "**Hiring.** I ran the whole process, from sourcing to onboarding, as we grew from 3 engineers to more than 10, and recruited more than 15 people across the company."
+          - "**Onboarding.** I documented the codebase and the way we worked so new engineers could contribute sooner."
+      - type: table
+        emph: 1
+        head: [Delivery measure, Result]
+        rows:
+          - ["On-time delivery", "From about 60% to 85%"]
+          - ["Average bug resolution time", "About 35% faster"]
+          - ["Team velocity", "About 30% higher, with scope and budget within 10% of projections"]
+          - ["Time to productivity for new engineers", "About 25% shorter"]
+          - ["Active projects", "All 6 delivered on schedule, within 8% of estimates on average; production incidents under 2% of deployments"]
+      - type: p
+        text: |
+          Over five years we shipped three major releases. They covered marketplace transactions on the blockchain, the AR gallery experience and the iOS app itself, and we designed, built and launched the platform ahead of schedule. The recommender gave us the 20% and 10% lifts described above.
+      - type: table
+        emph: 1
+        head: [Outcome, Result]
+        rows:
+          - ["Click-through from recommendations", "+20%"]
+          - ["Average order value", "+10%"]
+          - ["Major releases", "3+: marketplace transactions, AR galleries, iOS"]
+          - ["Platform", "Designed, built and launched ahead of schedule"]
+          - ["Business", "Did not reach product-market fit; wound down"]
+      - type: h
+        text: "Winding it down"
+      - type: p
+        text: |
+          The product worked. People used the AR view, and the recommendations measurably moved sales. What we never found was product-market fit. The group of collectors who wanted to buy digital art this way stayed small, and our delivery numbers, however good, didn't change that.
+
+          I recommended that we stop. It was the hardest call I've made, and I made it knowing that every month we kept going was a month the team put into a bet that wasn't paying off. Closing a company carefully (people, code and commitments) taught me nearly as much as building it did.
+
+          Before deciding I looked at four things: whether the people who tried Gallify came back, whether new collectors kept arriving without us pushing, whether we could afford another year of the same bet, and whether the team was still excited about it. None of the answers pointed toward continuing. I told the team directly, did what I could for the people who had put years into it, and made the app's code public so the work could still be seen. It's on GitHub today.
+learn_title: What I'd do differently
+learn:
+  - "We built AR and blockchain ownership before we had proof that enough collectors wanted them. Today I would test demand with something much cheaper first: a landing page, a handful of artists, a manual version of the experience."
+  - "Our delivery numbers improved a lot, and they still told us nothing about product-market fit. I now decide up front which retention number would justify continuing, and I look at it every month."
+  - "Stopping was the right decision. I would make it sooner."
+  - "Telling users why a piece is shown, and letting them change it, was cheap to build and gave us a clearer signal than clicks alone. I'd do it from the start on any recommender."

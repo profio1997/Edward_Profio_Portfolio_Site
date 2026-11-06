@@ -8,12 +8,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -41,7 +41,17 @@ latest_posts:
 
 <span style="font-weight: bold; color: white;">Technical Product and Delivery Leader</span> who builds AI/ML systems at scale. Recognized for technical expertise, relentless user focus, and cross-functional leadership. Achieved turning complex domains into products that people adopt and retain.
 
+<div class="home-cta">
+  <a class="cs-btn cs-btn--pri" href="#case-studies"><i class="fa-solid fa-arrow-down"></i> Case studies</a>
+  <a class="cs-btn" href="{{ '/assets/pdf/Edward_Profio.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down"></i> Resume (PDF)</a>
+  <a class="cs-btn" href="mailto:ledwardprofio@gmail.com"><i class="fa-solid fa-envelope"></i> Email me</a>
+</div>
+
+{% include case_study/featured.liquid %}
+
 Highlights:
+
+- Co-founded Aurifex Healthcare and led product from concept to MVP in 12 weeks, 6 weeks ahead of schedule. Piloted at two clinics, the AI platform achieved 80%+ engagement, 20% fewer excess patient days, and 15% higher acceptance into acute rehabilitation, translating to $2M+ in annual cost savings. Operationalized an AI software development life cycle that cut release cycle time by 60% and code release errors by 40%.
 
 - Conceived, developed, and commercialized premier AI/EPIC technology which revolutionized quality of care at Wisconsin’s largest provider, lowering costs while also minimizing provider burn-out. Spearheaded initial research to uncover unmet needs, proposed solution, gained agreement across large, highly matrixed organization, and won approval to move forward. Successfully launched product.
 
@@ -50,3 +60,5 @@ Highlights:
 - Recruited to be a part of original team that conceived, created, developed and launched the first consumer marketplace for commissioned artists, CODAmarket. Spearheaded every stage of product concept to commercialization including both front-end and back-end operations. Established analytics instrumentation, funnel optimization, and experimentation cadence that positioned CODAworx as the category-leading platform for public art commissions. Led, influenced and managed cross-functional team. Drove technical development with a focus on integrating ML.
 
 - Hand-picked to be part of an AI-Startup, Gallify. Based on technical skills and leadership/teamwork abilities, progressed to CPO. Resulted in designing/launching an AI recommender system for e-commerce listings that increased click-through rate by 20% and boosted average order value by 10%.
+
+{% include case_study/responsible_ai.liquid %}

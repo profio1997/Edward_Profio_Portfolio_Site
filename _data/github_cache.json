@@ -5,9 +5,10 @@
     "name": "Edward Profio",
     "bio": null,
     "html_url": "https://github.com/profio1997",
-    "public_repos": 13,
+    "public_repos": 14,
     "followers": 1,
-    "following": 1
+    "following": 1,
+    "total_stars": 14
   },
   "repos": [
     {
@@ -16,7 +17,7 @@
       "html_url": "https://github.com/profio1997/Veritas_Website",
       "description": "Pre-release site for Veritas: Master what you read.",
       "language": "HTML",
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "pushed_at": "2026-11-04T22:10:47Z"
     },

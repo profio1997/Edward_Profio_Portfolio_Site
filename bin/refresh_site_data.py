@@ -137,6 +137,8 @@ def github():
         headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
     user = json.loads(get('https://api.github.com/users/%s' % OWNER, headers)[0])
     repos = json.loads(get('https://api.github.com/users/%s/repos?type=owner&sort=pushed&per_page=100' % OWNER, headers)[0])
+    public = [r for r in repos if not r.get('private')]
+    total_stars = sum(r.get('stargazers_count') or 0 for r in public)
     keep = [r for r in repos if not r.get('fork') and not r.get('archived') and not r.get('private')]
     # only repos listed in _data/repositories.yml (github_repos) are kept in the snapshot
     listed = set(re.findall(r'^\s*-\s*([\w.-]+/[\w.-]+)\s*$',
@@ -146,7 +148,7 @@ def github():
     keep.sort(key=lambda r: r.get('pushed_at') or '', reverse=True)
     cache = {
         'generated': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'user': {k: user.get(k) for k in ('login', 'name', 'bio', 'html_url', 'public_repos', 'followers', 'following')},
+        'user': dict({k: user.get(k) for k in ('login', 'name', 'bio', 'html_url', 'public_repos', 'followers', 'following')}, total_stars=total_stars),
         'repos': [{k: r.get(k) for k in ('name', 'full_name', 'html_url', 'description', 'language',
                                           'stargazers_count', 'forks_count', 'pushed_at')} for r in keep],
     }

@@ -1,5 +1,7 @@
 // Particle background setup
 document.addEventListener("DOMContentLoaded", function () {
+  // Respect users who ask for less motion.
+  if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   // Create canvas element for particles
   const canvas = document.createElement("canvas");
   canvas.id = "particles-canvas";

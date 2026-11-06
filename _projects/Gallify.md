@@ -1,38 +1,9 @@
 ---
-layout: page
-title: Gallify
-description: An AR/VR art marketplace built for digital creators and enthusiasts.
-img: assets/img/Gallify_7.jpg
-importance: 1
-category: work
-# related_publications: true
+layout: case-study
+title: "Building Gallify, and deciding to wind it down"
+description: "An iOS app for collecting digital art in AR. I led product and an engineering team of 8 to 10; our recommender lifted click-through 20% and order value 10%. Then I made the call to wind it down."
+img: assets/img/case_studies/gallify/cover.jpg
+importance: 2
+category: case studies
+case_study: gallify
 ---
-
-<style>
-.inline-hover-underline {
-  color: white;
-  text-decoration: none;
-}
-.inline-hover-underline:hover {
-  text-decoration: underline;
-}
-</style>
-
-Gallify was a startup that I founded which lasted for over 18 months. During that time I recruited over 15 people to our team, and made a bunch of friends along the way. Through trial, error, and a lot of pain, our team created the app. However, we did not reach product market fit, and I pulled the plug at third base. The app sucked, but it was a valuable learning experience for how to run a startup.
-
-The app was highly technical, mainly relying on Apple's ARKit5 and ERC-720 Smart Contracts deployed on the Polygon Sidechain.
-
-I made the repo public.
-
-<h1><a href='#'>UI Mockups:</a></h1>
-
-<img src="{{ '/assets/img/Gallify_1.jpg' | relative_url }}" alt="Gallify 1" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
-<img src="{{ '/assets/img/Gallify_2.jpg' | relative_url }}" alt="Gallify 2" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
-<img src="{{ '/assets/img/Gallify_3.jpg' | relative_url }}" alt="Gallify 3" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
-<img src="{{ '/assets/img/Gallify_4.jpg' | relative_url }}" alt="Gallify 4" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
-<img src="{{ '/assets/img/Gallify_5.jpg' | relative_url }}" alt="Gallify 5" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
-<img src="{{ '/assets/img/Gallify_6.jpg' | relative_url }}" alt="Gallify 6" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
-
-<h1><a href="https://firebasestorage.googleapis.com/v0/b/tejvir-website.appspot.com/o/Gallify%2FFullExample.MP4?alt=media&token=f5586249-037f-4ad7-bff4-75104f8e0dd4" class="inline-hover-underline">Full Demo</a></h1>
-
-<h1><a href="https://firebasestorage.googleapis.com/v0/b/tejvir-website.appspot.com/o/Gallify%2FMetamask.MP4?alt=media&token=c2d4b16d-8609-4fe4-b951-068d031bc094" class="inline-hover-underline">Metamask Demo</a></h1>

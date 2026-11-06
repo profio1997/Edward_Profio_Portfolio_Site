@@ -1,0 +1,2 @@
+{%- comment -%} Inline markdown: renders **bold** / *italic* without wrapping <p>. {%- endcomment -%}
+{{- include.t | markdownify | remove: '<p>' | remove: '</p>' | strip -}}

@@ -1,49 +1,107 @@
 ---
 layout: page
-title: Business Case Studies
-description: Varying analyses on business operations and strategy.
+title: "MBA business cases"
+description: "Twelve MBA cases on M&A, expansion and restructuring across technology, consumer and manufacturing."
 img: assets/img/strategy_final.png
-importance: 1
+importance: 5
 category: work
 giscus_comments: false
 ---
+<p class="proj-glance"><span><b>Role</b> Analyst</span><span><b>When</b> Carnegie Mellon MBA</span><span><b>Team</b> Individual and team cases</span></p>
 
-As a part of my MBA studies at Carnegie Mellon University, I completed a series of strategic business case studies spanning a range of industries, including technology, consumer products, media, luxury retail, and manufacturing. These projects were designed to simulate real-world executive decision-making and required deep analysis of complex business challenges involving corporate strategy, competitive positioning, financial modeling, and organizational effectiveness. Working both individually and in teams, I applied structured frameworks to evaluate scenarios such as mergers and acquisitions, market expansion, operational restructuring, and long-term investment planning. Each case pushed me to synthesize quantitative data with qualitative insight and develop clear, persuasive recommendations grounded in both analysis and strategic judgment.
+Across my MBA I wrote twelve cases that put me in the seat of an executive making a decision with incomplete information: AirThread, Alfie, Blaine Kitchenware, Comcast, Eaton, Gucci, MoGen, MW Petroleum, Target, Tesla, Walt Disney and Wintel. They cover technology, consumer products, media, luxury retail, energy and manufacturing, and the questions range from whether to acquire a company, to how to enter a new market, to how to restructure a business that is losing ground.
 
-Collectively, these case studies strengthened my ability to think across functional lines and adapt structured problem-solving approaches to a variety of business contexts. They enhanced my fluency in evaluating trade-offs under uncertainty, understanding the impact of leadership and culture on performance, and identifying levers for sustainable value creation. These experiences also sharpened my executive communication skills, as I often had to distill complex issues into concise presentations for stakeholder audiences. Taken together, this casework reinforces a strong foundation in business strategy and critical thinking that I continue to draw upon in both technical and strategic domains.
+## How I approached them
 
-<h1><a href='#'>AirThread Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/AirThread Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+Every case followed the same discipline. State the decision. Build the numbers, usually a valuation or a financial model, so the recommendation has a price. Check it against what the company is actually good at and what competitors will do. Then write the recommendation in a form an executive can read in a few minutes, usually as a short memo or deck with the main risk stated up front.
 
-<h1><a href='#'>Alfie Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Alfie Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+## Why I include them
 
-<h1><a href='#'>Blaine Kitchenware Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Blaine Kitchenware Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+Product work rarely has the full data, and almost every decision I make as a product leader has a financial and organizational side. These cases are where I practiced weighing those together. They're also where I learned to put the answer first and the analysis behind it, which is how I write now.
 
-<h1><a href='#'>Comcast Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Comcast Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+Open any of them below.
 
-<h1><a href='#'>Eaton Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Eaton Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+<details>
+<summary><b>AirThread</b></summary>
 
-<h1><a href='#'>Gucci Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Gucci Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="/assets/pdf/AirThread Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
 
-<h1><a href='#'>MoGen Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/MoGen Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+</details>
 
-<h1><a href='#'>MW Petroleum Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/MW Protroleum Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+<details>
+<summary><b>Alfie</b></summary>
 
-<h1><a href='#'>Target Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Target Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="/assets/pdf/Alfie Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
 
-<h1><a href='#'>Tesla Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Tesla Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+</details>
 
-<h1><a href='#'>Walt Disney Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Walt Disney Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+<details>
+<summary><b>Blaine Kitchenware</b></summary>
 
-<h1><a href='#'>Wintel Case Study:</a></h1>
-<iframe src="{{ '/assets/pdf/Wintel Case Study.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="/assets/pdf/Blaine Kitchenware Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Comcast</b></summary>
+
+<iframe src="/assets/pdf/Comcast Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Eaton</b></summary>
+
+<iframe src="/assets/pdf/Eaton Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Gucci</b></summary>
+
+<iframe src="/assets/pdf/Gucci Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>MoGen</b></summary>
+
+<iframe src="/assets/pdf/MoGen Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>MW Petroleum</b></summary>
+
+<iframe src="/assets/pdf/MW Protroleum Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Target</b></summary>
+
+<iframe src="/assets/pdf/Target Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Tesla</b></summary>
+
+<iframe src="/assets/pdf/Tesla Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Walt Disney</b></summary>
+
+<iframe src="/assets/pdf/Walt Disney Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+
+<details>
+<summary><b>Wintel</b></summary>
+
+<iframe src="/assets/pdf/Wintel Case Study.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+</details>
+

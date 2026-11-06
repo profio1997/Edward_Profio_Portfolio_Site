@@ -1,0 +1,182 @@
+slug: codamarket
+order: 3
+title: "CODAmarket"
+card_title: CODAmarket
+card_kicker: "CODAworx · Co-founder"
+card_line: "I co-founded CODAworx's consumer marketplace and ran product and operations through launch and growth. Match rates rose 20%, repeat bookings 15%, retention doubled."
+card_chips: ["+20% match rate", "+15% repeat bookings", "2x retention"]
+read_time: "9 min read"
+kicker: "CODAworx"
+headline: "Matching buyers with the right artist on CODAmarket"
+lede: >-
+  CODAworx is where architects, designers and developers go to commission public art. I joined the founding team of
+  CODAmarket, its marketplace for collectors, dealers and businesses, and stayed through launch and two years of growth. I owned the
+  product and the back-office operations behind it.
+cover: assets/img/case_studies/codamarket/cover.jpg
+cover_video: assets/video/case_studies/codamarket/cover.mp4
+cover_poster: assets/video/case_studies/codamarket/cover-poster.jpg
+pdf: assets/pdf/case_studies/Edward_Profio_CODAmarket_Case_Study.pdf
+mock_note: "Screens on this page are recreations in CODA.market's style, except where marked as the live site. Creator names, prices and artwork are made up."
+meta:
+  - {k: Role, v: "Co-founder of CODAmarket"}
+  - {k: Team, v: "Engineering, design, data, operations and artist relations"}
+  - {k: Where, v: "CODAworx, Madison, Wisconsin"}
+metrics:
+  - {n: "+20%", l: "project match rate"}
+  - {n: "+15%", l: "repeat bookings"}
+  - {n: "2x", l: "customer retention"}
+  - {n: "−40%", l: "fulfillment time"}
+sections:
+  - id: overview
+    title: Overview
+    blocks:
+      - type: p
+        text: |
+          CODAworx is a company in Madison, Wisconsin that connects the people who commission public art (architects, interior designers, developers, city and corporate buyers) with the artists who make it. It had become the leading platform for public art commissions. CODAmarket was the next step: a marketplace where those artists could also sell finished work, and take commissions, directly from collectors, dealers and businesses.
+
+          I was recruited into the original team that conceived, built and launched it, and I became a co-founder. I owned every stage from concept to commercial launch, across the buyer-facing storefront and the back-office operations behind it, led and influenced a cross-functional team of engineers, designers, data and operations people and artist-relations staff, and drove the technical work with a focus on integrating machine learning.
+
+          This page covers what we launched, the measurement system we put in place first, and three problems I worked on afterwards: matching buyers with the right artist, keeping new creators past their first week, and getting orders out the door. The results were a 20% rise in project match rate, a 15% rise in repeat bookings, a doubling of customer retention and a 40% cut in fulfillment time.
+      - type: figure
+        src: assets/img/case_studies/codamarket/real-home.webp
+        cap: "The live CODA.market home page at launch: Sculpture, Art for the Wall and Tech Art, and a \"Sell your artwork\" path for creators."
+  - id: problem
+    title: Problem and research
+    blocks:
+      - type: h
+        text: "Who we built it for"
+      - type: insights
+        items:
+          - {h: "Buyers with a project", t: "Architects, designers, developers and businesses commissioning art for a specific space, with a budget, a deadline and a lot at stake. They need to find someone who has done this kind of work, and they need to trust the price and the schedule."}
+          - {h: "Collectors and dealers", t: "People looking for finished work to buy. They browse by category and artist, compare pieces and want to know the work can be shipped and installed without surprises."}
+          - {h: "Creators", t: "Sculptors, painters and technology artists, many of them small studios. They want to be found by the right buyers and to spend their time making art instead of managing paperwork."}
+      - type: p
+        text: |
+          The three groups needed different things from the same product, and the sharpest tension was between buyers, who wanted the best fit, and creators, who wanted to be seen at all. That tension shaped the recommender, which I describe below.
+      - type: h
+        text: "Getting the numbers in place first"
+      - type: p
+        text: |
+          Before we changed anything I set up funnel analytics, cohort reports and an NPS survey, and agreed a regular experiment cadence with the team. From then on each change went out as an A/B test with one primary metric and a couple of guardrails, so we could see if a win on one number was costing us somewhere else.
+
+          Instrumenting first felt slow, but it paid for itself. Most arguments about what to do next could be settled with data we already had, and when something worked we knew it had.
+      - type: table
+        head: [Change, What we were trying to move, What we watched so it didn't backfire]
+        rows:
+          - ["Recommender", "Project match rate, repeat bookings", "Buyer NPS, how evenly exposure spread across creators"]
+          - ["Self-serve onboarding", "Customer retention", "Time to first listing, support tickets"]
+          - ["Commission workflow", "Fulfillment time", "Order errors, payment disputes"]
+  - id: solution
+    title: Solution
+    blocks:
+      - type: h
+        text: "What we launched"
+      - type: p
+        text: |
+          The first version of the marketplace was deliberately simple. Three categories (Sculpture, Art for the Wall and Tech Art) organised the catalogue. Every creator got a storefront that linked back to their CODAworx profile, with an artwork tab and a Commissions and Press tab so buyers could see a track record as well as available pieces. A creators directory, sortable A to Z and filterable by type of work, let buyers browse by artist. Artists applied through a "Sell your artwork" path.
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/codamarket/creators.webp, cap: "The creators directory: filter by type of work, search by name or place, and sort by recent commissions."}
+          - {src: assets/img/case_studies/codamarket/storefront.webp, cap: "A creator's storefront: biography, the facts a buyer needs for budget and timing, a clear way to request a proposal, and tabs for artwork and past commissions."}
+      - type: p
+        text: |
+          Once real traffic arrived, three problems stood out. Buyers who came with a project in mind, say a lobby with a budget and a deadline, had to dig through categories to find someone who had done that kind of work. New creators signed up and then stalled halfway through setting up their storefront. And commissions dragged, because proposal, contract, deposit and shipping all ran through email.
+      - type: h
+        text: "Matching buyers to artists"
+      - type: p
+        text: |
+          The buyers we most wanted were people with a project: a site, a budget, a deadline. Category browsing was good for finishing a living-room wall and no use for a 2.6 metre sculpture in an atrium. What they needed was a way to say what they were commissioning and see who was suited to it.
+
+          I led the recommender work with our engineers. It scored each creator against what the buyer told us about the project (budget, materials, size, setting, timeline and location) and against the creator's record of past commissions, and it learned from which creators buyers went on to request proposals from and book. Each match came with a short list of reasons, so a buyer could check them rather than take the ranking on faith. And we limited how often the same handful of established studios could take the top spots, so newer artists still got seen.
+
+          I counted a project as matched when a buyer's brief ended with a request for a proposal from a creator on their recommended list. Over the test period, that rate went up 20% and repeat bookings went up 15%.
+
+          The fairness limit deserves a word. A recommender that only ever suggests the artists with the longest track record is easy to build and tends to look good on short-term metrics. But it starves newer creators of the commissions they need to build a record, and a marketplace that stops adding good artists eventually has nothing new to recommend. So the ranking got a cap on repeat exposure, and we watched how evenly attention spread as a guardrail next to match rate.
+      - type: figure
+        web_only: true
+        src: assets/img/case_studies/codamarket/match.webp
+        video: assets/video/case_studies/codamarket/walkthrough.mp4
+        poster: assets/video/case_studies/codamarket/walkthrough.jpg
+        cap: "**The buyer flow, animated.** A buyer opens a project, sees creators ranked against the brief, asks one for a proposal, then follows the commission in the tracker."
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/codamarket/match.webp, cap: "A buyer's brief on the left, ranked creators on the right, with the reasons for the top match spelled out."}
+          - {src: assets/img/case_studies/codamarket/store.webp, cap: "Once a buyer has a project open, recommendations for it follow them around the storefront."}
+      - type: system
+        title: How the recommender worked
+        steps:
+          - {h: "Signals", t: "Brief fields (budget, materials, size, setting, timeline, location); creator track record; proposals requested and projects booked"}
+          - {h: "Ranking", t: "Scores each creator's fit to the brief and learns from which proposals buyers request and book"}
+          - {h: "Explanation", t: "A short list of reasons for each match that a buyer can check"}
+          - {h: "Fairness", t: "Within-budget by default; limits on how often the same studios take the top spots"}
+      - type: h
+        text: "Keeping customers past the first week"
+      - type: p
+        text: |
+          Cohort data showed creators dropping off during storefront setup, and their NPS comments were mostly about not knowing what to do next, not about fees or features. We replaced the open-ended setup with a self-serve checklist, short tips at the steps where people tended to stop, and follow-up emails when someone went quiet. Customer retention doubled.
+
+          We also gave creators a view into the matching data: which briefs they came up for, which they narrowly missed and what would have changed the result. A creator who sees "your listed pieces are glass and this brief asked for metal" knows exactly what to add. That turned the recommender from something that only served buyers into a tool that improved our supply.
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/codamarket/onboard.webp, cap: "Storefront setup as a five-step checklist, with a tip at the step that matters most for matching."}
+          - {src: assets/img/case_studies/codamarket/insights.webp, cap: "The creator's side of the same matching data."}
+      - type: h
+        text: "Fixing the back end"
+      - type: p
+        text: |
+          Nobody outside the company sees inventory or request-for-proposal workflows, but they decide whether a marketplace delivers on what it promises. The operations side was mine too: inventory, requests for proposal, contracts, payments and shipping. I redesigned those workflows one at a time, testing each change against real-time dashboards, and moved each commission onto a single tracker that the buyer and the studio both work from, in place of an email chain. Fulfillment time dropped 40%.
+      - type: table
+        head: [Workflow, The problem, What changed]
+        rows:
+          - ["Inventory", "Availability and lead times lived in spreadsheets and people's heads", "Creators kept availability and lead time current in their storefront, so buyers saw realistic dates up front"]
+          - ["Requests for proposal", "Briefs arrived in different shapes and needed back-and-forth to be usable", "A structured brief that matched what creators needed to price a job"]
+          - ["Transactions", "Contract, deposit and payments ran over email", "One commission tracker for documents, payments and status that buyer and studio share"]
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/codamarket/tracker.webp, cap: "One page per commission, from brief to installation."}
+      - type: browser
+        items:
+          - {src: assets/img/case_studies/codamarket/browse.webp, cap: "Browsing by category continued to work well for finished wall art."}
+  - id: results
+    title: Results
+    blocks:
+      - type: table
+        emph: 1
+        head: [Outcome, Result]
+        rows:
+          - ["Project match rate", "+20%"]
+          - ["Repeat bookings", "+15%"]
+          - ["Customer retention", "Doubled"]
+          - ["Fulfillment time", "40% faster"]
+      - type: p
+        text: |
+          Together these helped CODAworx become the leading platform for public art commissions, with a marketplace behind it that matched buyers to artists faster and kept both coming back.
+      - type: h
+        text: "How we worked"
+      - type: p
+        text: |
+          Everything above ran through one shared backlog and one experiment calendar. Engineers, designers, data and operations people worked off the same list, and each item had to name the metric it was meant to move and the guardrail it must not hurt. When two ideas competed, I asked which one would teach us more per week of effort. That usually favoured the cheap test over the elegant build.
+
+          A few habits kept a small cross-functional team moving. Every change that shipped had an owner and a result written down, including the ones that failed. Artist relations staff sat in the same conversations as engineers, so what creators told them about confusing screens reached us in days. And operations changes were treated like product changes, with a hypothesis, a measure and a review.
+      - type: table
+        emph: 1
+        head: [Outcome, Result]
+        rows:
+          - ["Project match rate", "+20%"]
+          - ["Repeat bookings", "+15%"]
+          - ["Customer retention", "Doubled"]
+          - ["Fulfillment time", "40% faster"]
+      - type: p
+        text: |
+          Together these helped CODAworx become the leading platform for public art commissions, with a marketplace behind it that matched buyers to artists faster and kept both coming back.
+      - type: h
+        text: "What I'd do next"
+      - type: p
+        text: |
+          With more time I'd extend the same approach to the parts of a commission that still depend on people. Pricing was the clearest candidate: buyers will always want to know what a piece like theirs usually costs, and the data from past commissions could answer that. I'd also add a mobile experience for tracking a commission, since buyers and artists are often on site when decisions get made, and I'd measure how often a match turns into a signed contract, not only a proposal request, which is where the real business value sits.
+learn_title: Looking back
+learn:
+  - "Setting up analytics before building anything meant most arguments about what to do next could be settled with data we already had."
+  - "The onboarding changes did more for retention than any feature we built for established creators."
+  - "Showing people why a match was made earned trust from buyers and gave creators something to act on. I'd explain the ranking in any recommender I work on."
+  - "Cutting fulfillment time was some of the most valuable work I did there, and almost nobody saw it."

@@ -6,7 +6,7 @@
     "email": "ledwardprofio@gmail.com",
     "phone": "(414) 373-8267",
     "url": "https://linktr.ee/profio",
-    "summary": "Customer-oriented technology professional with 10 years of experience building and scaling innovative solutions at the intersection of business and technology.",
+    "summary": "Technical product and delivery leader focused on AI/ML, with 10 years of experience taking products from zero to launch in healthcare, e-commerce and enterprise software.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -91,22 +91,6 @@
         "Owned full cycle hiring from sourcing to onboarding, growing the engineering team from 3 to 10+ engineers and reducing time to productivity for new hires by about 25% through structured onboarding and documentation.",
         "Managed engineering deliverables across time, scope, and cost, delivering all 6 active projects on schedule with an average variance of under 8% from initial estimates while maintaining quality standards that kept production incidents below 2% of deployments."
       ]
-    },
-    {
-      "name": "UW School of Medicine and Public Health",
-      "position": "Research Scientist, Medicine",
-      "url": "https://www.med.wisc.edu/",
-      "startDate": "2016",
-      "endDate": "2023",
-      "summary": "Conducted and led experimental biotechnology research, translating biological hypotheses into validated assays, datasets, and scientific insights supporting discovery and translational programs.   Combined wet-lab, computational, and analytical approaches to drive reproducible scientific outcomes.   Highlights Include:",
-      "highlights": [
-        "Designed and executed wet-lab and computational experiments spanning molecular, cellular, and systems-level biology.",
-        "Developed and optimized experimental protocols, assays, and analytical pipelines to improve data quality, throughput, and reproducibility.",
-        "Analyzed high-dimensional biological datasets to generate testable hypotheses and guide downstream experimentation.",
-        "Collaborated with cross-functional teams across biology, chemistry, engineering, and clinical research to advance discovery pipelines.",
-        "Documented and communicated findings through manuscripts, presentations, and internal reports to inform scientific strategy.",
-        "Maintained laboratory compliance standards and mentored junior scientists and research staff."
-      ]
     }
   ],
   "volunteer": [
@@ -136,16 +120,6 @@
       "highlights": []
     },
     {
-      "organization": "UW Health",
-      "location": "Madison",
-      "position": "Volunteer",
-      "url": "https://www.uwhealth.org/",
-      "startDate": null,
-      "endDate": null,
-      "summary": "",
-      "highlights": []
-    },
-    {
       "organization": "National Eagle Scout Association",
       "location": "Washington DC",
       "position": "Eagle Scout",
@@ -156,53 +130,13 @@
       "highlights": []
     },
     {
-      "organization": "National Alliance on Mental Illness",
-      "location": "Milwaukee",
+      "organization": "Community volunteering",
+      "location": "",
       "position": "Volunteer",
-      "url": "https://www.nami.org/",
+      "url": "",
       "startDate": null,
       "endDate": null,
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "Madison Area Technical College",
-      "location": "Madison",
-      "position": "Volunteer",
-      "url": "https://madisoncollege.edu/",
-      "startDate": null,
-      "endDate": null,
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "SSM Health",
-      "location": "Madison",
-      "position": "Volunteer",
-      "url": "https://www.ssmhealth.com/",
-      "startDate": null,
-      "endDate": null,
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "Boy Scouts of America",
-      "location": "Milwaukee",
-      "position": "Volunteer",
-      "url": "https://www.scouting.org/",
-      "startDate": null,
-      "endDate": null,
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "Ronald McDonald House Charities",
-      "location": "Madison",
-      "position": "Volunteer",
-      "url": "https://rmhc.org/",
-      "startDate": null,
-      "endDate": null,
-      "summary": "",
+      "summary": "UW Health, NAMI, Madison Area Technical College, SSM Health, Boy Scouts of America, Ronald McDonald House Charities.",
       "highlights": []
     }
   ],
@@ -214,7 +148,10 @@
       "area": "General Education",
       "studyType": "K-12, High School Diploma",
       "score": "10",
-      "courses": ["AP Scholar with Distinction", "Honor Roll"]
+      "courses": [
+        "AP Scholar with Distinction",
+        "Honor Roll"
+      ]
     },
     {
       "institution": "The University of Colorado, Boulder",
@@ -223,7 +160,9 @@
       "area": "Computational Data Science",
       "studyType": "Master of Science (MSc)",
       "score": "10",
-      "courses": ["Academic Merit Scholarship"]
+      "courses": [
+        "Academic Merit Scholarship"
+      ]
     },
     {
       "institution": "The University of Wisconsin, Madison",
@@ -246,7 +185,9 @@
       "area": "Cellular and Molecular Biology (Part-Time Online)",
       "studyType": "Doctor of Philosophy (PhD)",
       "score": "10",
-      "courses": ["Academic Merit Scholarship"]
+      "courses": [
+        "Academic Merit Scholarship"
+      ]
     },
     {
       "institution": "The University of Texas at Austin",
@@ -255,14 +196,16 @@
       "area": "Artificial Intelligence Engineering with Thesis",
       "studyType": "Master of Science (MSc)",
       "score": "10",
-      "courses": ["Academic Merit Scholarship"]
+      "courses": [
+        "Academic Merit Scholarship"
+      ]
     },
     {
       "institution": "Carnegie Mellon University",
       "location": "Pittsburgh",
       "url": "https://www.cmu.edu/",
-      "area": "Artificial Intelligence, Technology Strategy and Product Management, Software Engineering Graduate Certificate",
-      "studyType": "Master's Degree",
+      "area": "Technology Strategy and Product Management; Artificial Intelligence and Software Engineering Graduate Certificates",
+      "studyType": "Master of Business Administration (MBA)",
       "score": "10",
       "courses": [
         "Academic Merit Scholarship",
@@ -316,44 +259,16 @@
       "summary": ""
     },
     {
-      "title": "1st Place",
+      "title": "1st Place, Piano Competitions",
       "date": "",
-      "awarder": "National Federation of Music Clubs",
+      "awarder": "National Federation of Music Clubs; Wisconsin Music Teachers' Association; Milwaukee Music Teachers' Association; Wisconsin State Music Association",
       "url": "",
       "summary": ""
     },
     {
-      "title": "Exemplary Soloist",
+      "title": "Exemplary Soloist, Piano",
       "date": "",
-      "awarder": "National Federation of Music Clubs",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "1st Place",
-      "date": "",
-      "awarder": "Wisconsin Music Teachers' Association",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "Exemplary Soloist",
-      "date": "",
-      "awarder": "Wisconsin Music Teachers' Association",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "1st Place",
-      "date": "",
-      "awarder": "Milwaukee Music Teachers' Association",
-      "url": "",
-      "summary": ""
-    },
-    {
-      "title": "1st Place",
-      "date": "",
-      "awarder": "Wisconsin State Music Association",
+      "awarder": "National Federation of Music Clubs; Wisconsin Music Teachers' Association",
       "url": "",
       "summary": ""
     }
@@ -389,6 +304,20 @@
     },
     {
       "name": "Certified Scrum Product Owner (CSPO)",
+      "date": "",
+      "issuer": "Scrum Alliance",
+      "url": "https://www.scrumalliance.org/",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Agile Certified Practitioner (ACP)",
+      "date": "",
+      "issuer": "Project Management Institute",
+      "url": "https://www.pmi.org",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Certified Scrum Master (CSM)",
       "date": "",
       "issuer": "Scrum Alliance",
       "url": "https://www.scrumalliance.org/",
@@ -434,58 +363,54 @@
   ],
   "skills": [
     {
-      "name": "Technical Product Management",
-      "level": "Advanced",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": []
-    },
-    {
-      "name": "Technical Program Management",
-      "level": "Advanced",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": []
-    },
-    {
-      "name": "Technical Project Management",
+      "name": "AI & ML",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": []
+      "keywords": [
+        "Claude Code",
+        "Evals",
+        "Prompt Engineering",
+        "RAG",
+        "Agentic AI",
+        "LangSmith",
+        "TensorFlow",
+        "PyTorch",
+        "NLP"
+      ]
     },
     {
-      "name": "Artificial Intelligence",
+      "name": "Data & Cloud",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": []
+      "keywords": [
+        "Python",
+        "R",
+        "SQL",
+        "Data Engineering",
+        "APIs",
+        "REST Integrations",
+        "Databricks",
+        "Microsoft Azure",
+        "Google Cloud",
+        "AWS",
+        "Tableau",
+        "Power BI"
+      ]
     },
     {
-      "name": "Machine Learning",
+      "name": "Product & Delivery",
       "level": "",
       "icon": "fa-solid fa-hashtag",
-      "keywords": []
-    },
-    {
-      "name": "Software Architecture",
-      "level": "",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": []
-    },
-    {
-      "name": "Business Analytics",
-      "level": "",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": []
-    },
-    {
-      "name": "Business Strategy",
-      "level": "",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": []
-    },
-    {
-      "name": "Data Science",
-      "level": "",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": []
+      "keywords": [
+        "Technical Product Management",
+        "Technical Program Management",
+        "Technical Project Management",
+        "Business Strategy",
+        "Business Analytics",
+        "Jira",
+        "Confluence",
+        "Figma"
+      ]
     }
   ],
   "languages": [
@@ -531,7 +456,10 @@
     {
       "name": "CODAmarket",
       "summary": "An e-commerce marketplace for public artists and enthusiasts.",
-      "highlights": ["E-Commerce", "Commissioned Art"],
+      "highlights": [
+        "E-Commerce",
+        "Commissioned Art"
+      ],
       "startDate": "2021",
       "endDate": "2023",
       "url": ""
@@ -539,7 +467,12 @@
     {
       "name": "Gallify",
       "summary": "An AR/VR art marketplace built for digital creators and enthusiasts.",
-      "highlights": ["Augmented Reality", "Computer Vision", "Blockchain", "E-Commerce"],
+      "highlights": [
+        "Augmented Reality",
+        "Computer Vision",
+        "Blockchain",
+        "E-Commerce"
+      ],
       "startDate": "2017",
       "endDate": "2019",
       "url": ""

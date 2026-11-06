@@ -1,16 +1,32 @@
 ---
 layout: page
-title: Quantitative Proteomics
-description: A research analysis on the capabilities and limitations of TMT/iTRAQ quantitative proteomics.
+title: "Quantitative proteomics (TMT and iTRAQ)"
+description: "How TMT and iTRAQ measure thousands of proteins at once, applied to heart-valve development."
 img: assets/img/Protein.png
-importance: 1
+importance: 6
 category: work
-# related_publications: true
+giscus_comments: false
 ---
+<p class="proj-glance"><span><b>Role</b> Researcher and presenter</span><span><b>When</b> Graduate coursework, UW-Madison</span><span><b>Team</b> Two authors</span></p>
 
-In this project, I conducted extensive research into TMT (Tandem Mass Tag) and iTRAQ (Isobaric Tags for Relative and Absolute Quantitation) quantitative proteomics, focusing on their application in high-throughput protein identification and quantification workflows. These isobaric labeling techniques allow researchers to multiplex samples for mass spectrometry analysis, enabling the detection of subtle yet biologically meaningful differences in protein expression. I explored the full experimental pipeline — from protein extraction and enzymatic digestion, to peptide labeling, LC-MS/MS analysis, and automated data processing using tools like Proteome Discoverer. A key part of this work involved understanding how these platforms quantify mass-to-charge ratios and identify differential protein expression across biological samples.
+This is the project from my science background, and it's the oldest on the page. I include it because it shows how I learn a complicated technical field well enough to explain it to others.
 
-As part of the project, I investigated how TMT/iTRAQ methods can be applied to study molecular mechanisms underlying diseases such as congenital heart defects. Specifically, I examined the role of miRNA-21 in valvulogenesis using zebrafish as a model organism. This work included bioinformatic and luciferase validation of differentially expressed proteins regulated by miR-21, identifying over 250 affected proteins through TMT-MS and revealing new regulatory targets. The experience deepened my knowledge of proteomics, mass spectrometry, and the use of systems biology tools to uncover protein-level changes driving developmental and disease-related processes.
+## The problem
 
-<h1><a href='#'>Presentation:</a></h1>
-<iframe src="{{ '/assets/pdf/Quantitative_Proteomics.pdf' | relative_url }}" width="100%" height="600px" style="border: none;"></iframe>
+Cells are run by proteins, and diseases often start with a protein being made too much or too little. Quantitative proteomics measures how much of each protein a sample contains, and TMT and iTRAQ are the standard ways to compare many samples in one experiment. Both attach chemical tags that look the same to the instrument until the sample is broken apart in the mass spectrometer, so a single run can measure several conditions side by side.
+
+## What I covered
+
+My co-author and I built a 74-slide talk that took the audience through the whole workflow: extracting proteins, cutting them into peptides with trypsin, labeling each sample with a different tag, mixing the samples, running liquid chromatography and mass spectrometry, and using software such as Proteome Discoverer to identify and quantify proteins from the mass-to-charge data. We compared iTRAQ with TMT and were explicit about where each method breaks down.
+
+## Applied to the heart
+
+For the applied part, I looked at congenital heart defects. The study I presented used TMT mass spectrometry in zebrafish to see how the microRNA miR-21 shapes the formation of heart valves. The team identified over 250 proteins affected by miR-21, and bioinformatics and luciferase assays confirmed some of them as direct regulatory targets, which gave new leads for how valves form.
+
+## What carries over
+
+Proteomics taught me to ask, before trusting any number, how it was measured and what could distort it. I use the same instinct when I read an AI evaluation.
+
+## The presentation
+
+<iframe src="/assets/pdf/Quantitative_Proteomics.pdf" width="100%" height="600px" style="border: none;"></iframe>
