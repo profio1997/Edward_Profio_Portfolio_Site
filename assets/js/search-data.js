@@ -773,7 +773,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-workday-accessibility-ai-strategy",
           title: 'Workday Accessibility AI Strategy',
-          description: "Six months on Workday&#39;s accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices.",
+          description: "Twelve months on Workday&#39;s accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices.",
           section: "Projects",handler: () => {
               window.location.href = "/Edward_Profio_Portfolio_Site/projects/Accessibility/";
             },},{id: "projects-aurifex-jewelry",
