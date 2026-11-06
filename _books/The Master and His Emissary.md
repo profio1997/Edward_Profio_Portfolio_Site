@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 43
 ---
 
-An argument that the two brain hemispheres attend to the world differently, and how that shaped Western culture.
+McGilchrist argues that the two brain hemispheres attend to the world differently and that this has shaped Western culture.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 28
 ---
 
-An argument that most of what the brain does happens outside awareness, and what that means for decisions and the self.
+Eagleman says most of what the brain does happens without our awareness, and looks at what this means for choice and the self.

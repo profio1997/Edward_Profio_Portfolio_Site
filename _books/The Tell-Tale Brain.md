@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 29
 ---
 
-Clinical stories of unusual neurological cases used to explain language, perception, mirror neurons and the sense of self.
+Ramachandran uses unusual neurological cases to discuss language, perception, mirror neurons and the self.

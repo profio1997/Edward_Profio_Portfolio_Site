@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 54
 ---
 
-How minds and comprehension could evolve from mindless processes through natural and cultural evolution.
+Dennett on how minds that understand things could come out of evolution, starting with simple cells and ending with human culture.

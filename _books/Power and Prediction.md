@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 86
 ---
 
-How AI changes whole systems and decisions rather than just individual tasks.
+The authors argue that AI will matter most when whole systems and decisions are rebuilt around it, not just single tasks.

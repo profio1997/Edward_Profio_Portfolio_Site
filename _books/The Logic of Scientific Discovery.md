@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 71
 ---
 
-Popper's case for falsifiability as the mark of scientific theories.
+Popper argues that what makes a theory scientific is that it can be shown false.

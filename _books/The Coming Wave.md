@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 90
 ---
 
-An argument that AI and synthetic biology will transform power and that containing them is the central challenge.
+Suleyman says AI and synthetic biology will shift power in society, and that keeping them under control is the main challenge.

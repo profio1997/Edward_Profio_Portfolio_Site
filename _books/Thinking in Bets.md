@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 105
 ---
 
-Applying the decision-making habits of poker players to uncertain choices in work and life.
+Duke applies how poker players think about uncertainty and luck to decisions at work and in life.

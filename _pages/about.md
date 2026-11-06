@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: '<span style="color: #64b5f6 !important;"><strong>Technical Product &amp; Delivery Leader, AI/ML</strong></span><span class="sub-sep">  |  </span><span class="sub-part">Harvard University</span>'
+subtitle: '<span style="color: #64b5f6 !important;"><strong>Technical Product &amp; Delivery Leader, AI/ML</strong></span><span class="sub-sep">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><span class="sub-part">Harvard University</span>'
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -39,7 +39,7 @@ latest_posts:
 }
 </style>
 
-<span style="font-weight: bold; color: white;">Technical Product and Delivery Leader</span> who builds AI/ML systems at scale. Recognized for technical expertise, relentless user focus, and cross-functional leadership. Achieved turning complex domains into products that people adopt and retain.
+<span style="font-weight: bold; color: white;">Technical Product and Delivery Leader</span> who builds AI/ML systems at scale. My work relies on technical depth, close attention to users and cross-functional leadership, and I turn complicated domains into products that people adopt and keep using.
 
 <div class="home-cta">
   <a class="cs-btn cs-btn--pri" href="#case-studies"><i class="fa-solid fa-arrow-down"></i> Case studies</a>
@@ -51,14 +51,14 @@ latest_posts:
 
 Highlights:
 
-- Co-founded Aurifex Healthcare and led product from concept to MVP in 12 weeks, 6 weeks ahead of schedule. Piloted at two clinics, the AI platform achieved 80%+ engagement, 20% fewer excess patient days, and 15% higher acceptance into acute rehabilitation, translating to $2M+ in annual cost savings. Operationalized an AI software development life cycle that cut release cycle time by 60% and code release errors by 40%.
+- Co-founded Aurifex Healthcare and led product from concept to MVP in 12 weeks, 6 weeks ahead of schedule. In a pilot at two clinics, the AI platform reached 80%+ engagement, 20% fewer excess patient days and 15% higher acceptance into acute rehabilitation, worth $2M+ in annual cost savings. I also put an AI software development life cycle in place that cut release cycle time by 60% and code release errors by 40%.
 
-- Conceived, developed, and commercialized premier AI/EPIC technology which revolutionized quality of care at Wisconsin’s largest provider, lowering costs while also minimizing provider burn-out. Spearheaded initial research to uncover unmet needs, proposed solution, gained agreement across large, highly matrixed organization, and won approval to move forward. Successfully launched product.
+- Conceived, developed and commercialized an AI/EPIC product at Wisconsin’s largest provider that improved quality of care, lowered costs and reduced provider burn-out. I started with research into unmet needs, proposed the solution, got agreement across a large, highly matrixed organization and won approval to move forward. The product launched.
 
-- Shaped Workday’s global AI/ML product strategy regarding Accessibility. Conducted extensive customer and competitive analysis and research which resulted in creating and prioritizing high-impact solutions that segmented users, reduced costs, lowered enterprise risk, and improved UX for 70M+ end users worldwide. Resulted in influencing and informing the direction of Workday’s Accessibility AI roadmap.
+- Shaped Workday’s global AI/ML product strategy for accessibility. I ran customer and competitive research and used it to create and prioritize solutions that segmented users, reduced costs, lowered enterprise risk and improved UX for 70M+ end users worldwide. The work informed the direction of Workday’s Accessibility AI roadmap.
 
-- Recruited to be a part of original team that conceived, created, developed and launched the first consumer marketplace for commissioned artists, CODAmarket. Spearheaded every stage of product concept to commercialization including both front-end and back-end operations. Established analytics instrumentation, funnel optimization, and experimentation cadence that positioned CODAworx as the category-leading platform for public art commissions. Led, influenced and managed cross-functional team. Drove technical development with a focus on integrating ML.
+- Recruited to the original team that conceived, created, developed and launched the first consumer marketplace for commissioned artists, CODAmarket. I took the product from concept to commercialization, including front-end and back-end operations. I set up analytics instrumentation, funnel optimization and an experimentation cadence that positioned CODAworx as the category-leading platform for public art commissions. I led and managed a cross-functional team and drove technical development, with a focus on integrating ML.
 
-- Hand-picked to be part of an AI-Startup, Gallify. Based on technical skills and leadership/teamwork abilities, progressed to CPO. Resulted in designing/launching an AI recommender system for e-commerce listings that increased click-through rate by 20% and boosted average order value by 10%.
+- Hand-picked to join an AI startup, Gallify, and progressed to CPO on the strength of my technical skills and leadership. I designed and launched an AI recommender system for e-commerce listings that increased click-through rate by 20% and boosted average order value by 10%.
 
 {% include case_study/responsible_ai.liquid %}

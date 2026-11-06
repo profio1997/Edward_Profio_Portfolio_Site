@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 27
 ---
 
-How chronic stress reshapes the body and brain, from the hormonal stress response to memory and disease.
+Sapolsky on how long-term stress affects the body and brain, from stress hormones to memory and disease.

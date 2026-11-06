@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 97
 ---
 
-The standard textbook on reinforcement learning, from bandits to policy gradients.
+Sutton and Barto's standard textbook on reinforcement learning.

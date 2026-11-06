@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 76
 ---
 
-How moral intuitions evolved for cooperation within groups and what that means for conflict between them.
+Greene says moral intuitions evolved to help people cooperate within a group, and that they work poorly between groups.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 79
 ---
 
-Why some systems gain from disorder, and how to build them.
+Taleb on things that get stronger from shocks instead of just surviving them. Mixes finance, risk and personal opinion.

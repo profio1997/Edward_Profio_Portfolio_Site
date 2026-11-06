@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 55
 ---
 
-A guide to predictive processing, the idea that the brain is constantly predicting and correcting its model of the world.
+Clark on predictive processing, the view that the brain keeps predicting its input and adjusting when it is wrong.

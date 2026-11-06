@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 94
 ---
 
-A hands-on walkthrough of building a GPT-style language model step by step.
+Raschka builds a GPT-style model in code, one piece at a time. Aimed at people who want to see how it works inside.

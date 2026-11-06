@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 96
 ---
 
-A practical textbook covering classical machine learning and deep learning with working code.
+A textbook with code. Starts with classical machine learning and moves on to neural networks.

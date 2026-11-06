@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 26
 ---
 
-A sweeping account of why humans do what they do, tracing a single action back through seconds, hours, years and evolution.
+Sapolsky takes one human act and traces its causes backward: the brain a second before, hormones hours before, childhood, genes, evolution.

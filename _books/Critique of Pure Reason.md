@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 69
 ---
 
-Kant's foundational work on the limits and structure of human knowledge.
+Kant asks what we can know independent of experience, and where reason overreaches. Dense and often hard going.

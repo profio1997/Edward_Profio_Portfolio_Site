@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 60
 ---
 
-A tour of the mind as a system of evolved computational modules for perception, reasoning and emotion.
+Pinker's view that the mind is a set of evolved computational systems, applied to vision, reasoning, emotion and more.

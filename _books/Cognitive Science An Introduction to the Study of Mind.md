@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 64
 ---
 
-An interdisciplinary textbook linking psychology, neuroscience, philosophy, linguistics and AI.
+A textbook that covers cognitive science from several fields at once: psychology, neuroscience, philosophy, linguistics and AI.

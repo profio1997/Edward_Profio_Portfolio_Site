@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 66
 ---
 
-The private notes of a Roman emperor on Stoic practice, duty and self-discipline.
+Marcus Aurelius's private notes to himself on Stoic practice, duty and self-control.

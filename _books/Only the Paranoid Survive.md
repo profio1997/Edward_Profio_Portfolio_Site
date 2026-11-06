@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 108
 ---
 
-How leaders can navigate strategic inflection points, from the former CEO of Intel.
+Grove, formerly of Intel, on handling strategic inflection points when a business changes sharply.

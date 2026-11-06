@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 98
 ---
 
-A rigorous reference on the statistical foundations of data mining and machine learning.
+A rigorous reference on the statistics behind machine learning and data mining.

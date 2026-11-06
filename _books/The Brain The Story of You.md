@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 42
 ---
 
-An accessible tour of how the brain shapes perception, decisions, identity and relationships.
+Eagleman on how the brain shapes perception, decisions, identity and relationships. Written for a general audience.

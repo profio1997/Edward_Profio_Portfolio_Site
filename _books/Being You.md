@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 31
 ---
 
-A neuroscientist's case that conscious experience is a controlled hallucination built from the brain's predictions.
+Seth argues that what we experience is the brain's best guess about the world and the body. Consciousness, in his view, is tied to being a living organism.

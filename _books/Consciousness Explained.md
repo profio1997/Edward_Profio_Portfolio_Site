@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 52
 ---
 
-Dennett's account of consciousness as a set of parallel processes rather than a single inner theater.
+Dennett rejects the picture of a single inner stage where experience is shown. He proposes many parallel processes that compete for influence.

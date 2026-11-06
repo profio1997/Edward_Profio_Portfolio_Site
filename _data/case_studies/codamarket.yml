@@ -32,9 +32,9 @@ sections:
     blocks:
       - type: p
         text: |
-          CODAworx is a company in Madison, Wisconsin that connects the people who commission public art (architects, interior designers, developers, city and corporate buyers) with the artists who make it. It had become the leading platform for public art commissions. CODAmarket was the next step: a marketplace where those artists could also sell finished work, and take commissions, directly from collectors, dealers and businesses.
+          CODAworx is a company in Madison, Wisconsin that connects the people who commission public art (architects, interior designers, developers, city and corporate buyers) with the artists who make it. It had become the leading platform for public art commissions. CODAmarket was the next step, a marketplace where those artists could also sell finished work, and take commissions, directly from collectors, dealers and businesses.
 
-          I was recruited into the original team that conceived, built and launched it, and I became a co-founder. I owned every stage from concept to commercial launch, across the buyer-facing storefront and the back-office operations behind it, led and influenced a cross-functional team of engineers, designers, data and operations people and artist-relations staff, and drove the technical work with a focus on integrating machine learning.
+          I was recruited into the original team that conceived, built and launched it, and became a co-founder. I owned every stage from concept to commercial launch, on both the buyer-facing storefront and the back-office operations behind it. I led and influenced a cross-functional team of engineers, designers, data and operations people and artist-relations staff, and I drove the technical work, with a focus on integrating machine learning.
 
           This page covers what we launched, the measurement system we put in place first, and three problems I worked on afterwards: matching buyers with the right artist, keeping new creators past their first week, and getting orders out the door. The results were a 20% rise in project match rate, a 15% rise in repeat bookings, a doubling of customer retention and a 40% cut in fulfillment time.
       - type: figure
@@ -59,7 +59,7 @@ sections:
         text: |
           Before we changed anything I set up funnel analytics, cohort reports and an NPS survey, and agreed a regular experiment cadence with the team. From then on each change went out as an A/B test with one primary metric and a couple of guardrails, so we could see if a win on one number was costing us somewhere else.
 
-          Instrumenting first felt slow, but it paid for itself. Most arguments about what to do next could be settled with data we already had, and when something worked we knew it had.
+          Instrumenting first felt slow. It paid off anyway, because most arguments about what to do next could be settled with data we already had.
       - type: table
         head: [Change, What we were trying to move, What we watched so it didn't backfire]
         rows:
@@ -91,7 +91,7 @@ sections:
 
           I counted a project as matched when a buyer's brief ended with a request for a proposal from a creator on their recommended list. Over the test period, that rate went up 20% and repeat bookings went up 15%.
 
-          The fairness limit deserves a word. A recommender that only ever suggests the artists with the longest track record is easy to build and tends to look good on short-term metrics. But it starves newer creators of the commissions they need to build a record, and a marketplace that stops adding good artists eventually has nothing new to recommend. So the ranking got a cap on repeat exposure, and we watched how evenly attention spread as a guardrail next to match rate.
+          I want to say more about the fairness limit. A recommender that only suggests the artists with the longest track records is easy to build and usually looks good on short-term metrics. It also starves newer creators of the commissions they need to build a record, and a marketplace that stops adding good artists runs out of anything new to recommend. So the ranking got a cap on repeat exposure, and we tracked how evenly attention spread as a guardrail next to match rate.
       - type: figure
         web_only: true
         src: assets/img/case_studies/codamarket/match.webp
@@ -113,9 +113,9 @@ sections:
         text: "Keeping customers past the first week"
       - type: p
         text: |
-          Cohort data showed creators dropping off during storefront setup, and their NPS comments were mostly about not knowing what to do next, not about fees or features. We replaced the open-ended setup with a self-serve checklist, short tips at the steps where people tended to stop, and follow-up emails when someone went quiet. Customer retention doubled.
+          Cohort data showed creators dropping off during storefront setup, and their NPS comments were mostly about not knowing what to do next rather than about fees or features. We replaced the open-ended setup with a self-serve checklist, short tips at the steps where people tended to stop, and follow-up emails when someone went quiet. Customer retention doubled.
 
-          We also gave creators a view into the matching data: which briefs they came up for, which they narrowly missed and what would have changed the result. A creator who sees "your listed pieces are glass and this brief asked for metal" knows exactly what to add. That turned the recommender from something that only served buyers into a tool that improved our supply.
+          We also gave creators a view into the matching data: which briefs they came up for, which they narrowly missed and what would have changed the result. A creator who sees "your listed pieces are glass and this brief asked for metal" knows exactly what to add. The recommender then helped build our supply as well as serve buyers.
       - type: browser
         items:
           - {src: assets/img/case_studies/codamarket/onboard.webp, cap: "Storefront setup as a five-step checklist, with a tip at the step that matters most for matching."}
@@ -124,7 +124,7 @@ sections:
         text: "Fixing the back end"
       - type: p
         text: |
-          Nobody outside the company sees inventory or request-for-proposal workflows, but they decide whether a marketplace delivers on what it promises. The operations side was mine too: inventory, requests for proposal, contracts, payments and shipping. I redesigned those workflows one at a time, testing each change against real-time dashboards, and moved each commission onto a single tracker that the buyer and the studio both work from, in place of an email chain. Fulfillment time dropped 40%.
+          Nobody outside the company sees inventory or request-for-proposal workflows, but they decide whether a marketplace delivers on its promises. Operations was mine too: inventory, requests for proposal, contracts, payments and shipping. I redesigned those workflows one at a time and tested each change against real-time dashboards. Each commission moved onto a single tracker that the buyer and the studio both work from, replacing an email chain. Fulfillment time dropped 40%.
       - type: table
         head: [Workflow, The problem, What changed]
         rows:
@@ -150,19 +150,19 @@ sections:
           - ["Fulfillment time", "40% faster"]
       - type: p
         text: |
-          Together these helped CODAworx become the leading platform for public art commissions, with a marketplace behind it that matched buyers to artists faster and kept both coming back.
+          Together these helped CODAworx become the leading platform for public art commissions, and the marketplace matched buyers to artists faster and kept both coming back.
       - type: h
         text: "How we worked"
       - type: p
         text: |
           Everything above ran through one shared backlog and one experiment calendar. Engineers, designers, data and operations people worked off the same list, and each item had to name the metric it was meant to move and the guardrail it must not hurt. When two ideas competed, I asked which one would teach us more per week of effort. That usually favoured the cheap test over the elegant build.
 
-          A few habits kept a small cross-functional team moving. Every change that shipped had an owner and a result written down, including the ones that failed. Artist relations staff sat in the same conversations as engineers, so what creators told them about confusing screens reached us in days. And operations changes were treated like product changes, with a hypothesis, a measure and a review.
+          A few habits kept a small cross-functional team moving. Every change that shipped had an owner and a written result, including the ones that failed. Artist-relations staff sat in the same conversations as engineers, so what creators told them about confusing screens reached us within days. We treated operations changes like product changes, with a hypothesis, a measure and a review.
       - type: h
         text: "What I'd do next"
       - type: p
         text: |
-          With more time I'd extend the same approach to the parts of a commission that still depend on people. Pricing was the clearest candidate: buyers will always want to know what a piece like theirs usually costs, and the data from past commissions could answer that. I'd also add a mobile experience for tracking a commission, since buyers and artists are often on site when decisions get made, and I'd measure how often a match turns into a signed contract, not only a proposal request, which is where the real business value sits.
+          With more time I'd extend the same approach to the parts of a commission that still depend on people. Pricing was the clearest candidate. Buyers always want to know what a piece like theirs usually costs, and the data from past commissions could answer that. I'd also add a mobile experience for tracking a commission, since buyers and artists are often on site when decisions get made. And I'd measure how often a match turns into a signed contract and not just a proposal request, because that's where the business value is.
 learn_title: Looking back
 learn:
   - "Setting up analytics before building anything meant most arguments about what to do next could be settled with data we already had."

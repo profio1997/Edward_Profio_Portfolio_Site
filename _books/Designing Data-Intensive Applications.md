@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 93
 ---
 
-A deep guide to the principles behind reliable, scalable and maintainable data systems.
+Kleppmann on how databases and distributed systems work and the trade-offs behind them. Aimed at engineers building data systems.

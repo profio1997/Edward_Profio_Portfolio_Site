@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 89
 ---
 
-How opaque algorithms can entrench inequality when applied at scale.
+O'Neil on opaque algorithms used at scale that can reinforce inequality.

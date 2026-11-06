@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 123
 ---
 
-Insider accounts of Amazon's product and management practices, from press releases to FAQs.
+Insiders describe how Amazon runs product work and management, including press-release-first planning and written FAQs.

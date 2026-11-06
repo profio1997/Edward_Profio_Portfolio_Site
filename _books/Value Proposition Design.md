@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 129
 ---
 
-A visual toolkit for designing products and services customers want.
+A visual workbook for working out what customers want and shaping a product to fit.

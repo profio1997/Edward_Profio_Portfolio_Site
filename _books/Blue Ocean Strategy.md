@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 103
 ---
 
-A framework for creating uncontested market space instead of competing in crowded ones.
+Argues that companies do better by making new markets than by fighting rivals in existing ones. Uses many company case studies.

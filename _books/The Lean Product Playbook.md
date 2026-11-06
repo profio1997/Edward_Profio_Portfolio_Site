@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 117
 ---
 
-A step-by-step guide to finding product-market fit with lean methods.
+Olsen's step-by-step method for finding product-market fit with lean techniques.

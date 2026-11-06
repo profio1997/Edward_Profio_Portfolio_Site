@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 84
 ---
 
-The story of the researchers and companies behind the modern deep learning boom.
+Metz follows the people and companies behind the recent rise of deep learning, as a news story with named characters.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 50
 ---
 
-Hofstadter's argument that the self is a pattern of self-reference arising in the brain.
+Hofstadter argues that the self is a pattern of self-reference in the brain. A more personal follow-up to Gödel, Escher, Bach.

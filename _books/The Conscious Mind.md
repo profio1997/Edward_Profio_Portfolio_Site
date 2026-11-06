@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 75
 ---
 
-Chalmers's case for the hard problem of consciousness and a naturalistic dualism.
+Chalmers states the hard problem of consciousness and argues for a form of naturalistic dualism.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 109
 ---
 
-Negotiation tactics from a former FBI hostage negotiator.
+Voss draws on his work as an FBI hostage negotiator to offer negotiation tactics for ordinary situations.

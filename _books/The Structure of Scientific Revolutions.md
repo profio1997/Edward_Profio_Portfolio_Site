@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 70
 ---
 
-An influential argument that science advances through paradigm shifts rather than steady accumulation.
+Kuhn says science changes through paradigm shifts and not only by steady accumulation.

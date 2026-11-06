@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 67
 ---
 
-Plato's dialogue on justice, the ideal state and the nature of the good.
+Plato's dialogue on justice, the ideal city and the nature of the good.

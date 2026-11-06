@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 122
 ---
 
-How to choose and use the right metrics at each stage of a startup.
+Croll and Yoskovitz on picking metrics for a startup depending on its stage.

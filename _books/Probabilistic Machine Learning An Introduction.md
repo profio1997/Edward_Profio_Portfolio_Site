@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 99
 ---
 
-A modern, comprehensive textbook on machine learning from a probabilistic view.
+Murphy's textbook on machine learning, built around probability.

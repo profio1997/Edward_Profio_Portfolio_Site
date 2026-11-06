@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 124
 ---
 
-A foundational book on how good design makes products understandable and usable.
+Norman on why some everyday objects are easy to use and others baffle us, and how design causes the difference.

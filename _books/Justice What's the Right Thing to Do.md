@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 77
 ---
 
-A guided tour of the major theories of justice through real moral dilemmas.
+Sandel runs through the main theories of justice by way of concrete moral dilemmas.

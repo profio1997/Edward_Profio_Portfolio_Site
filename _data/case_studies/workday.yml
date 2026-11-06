@@ -3,7 +3,7 @@ order: 4
 title: "Workday Accessibility AI Strategy"
 card_title: "Workday Accessibility AI Strategy"
 card_kicker: "Workday · Internship"
-card_line: "Twelve months on Workday's accessibility AI strategy: we researched 50+ vendors, surfaced 8 partnerships, and recommended 3 to roll out first, with a roadmap and AI development practices."
+card_line: "Twelve months on Workday's accessibility AI strategy. We researched 50+ vendors, surfaced 8 partnerships and recommended 3 to roll out first, with a roadmap and AI development practices."
 card_chips: ["50+ vendors", "8 partnerships", "3 to roll out first"]
 read_time: "9 min read"
 kicker: "Workday"
@@ -42,9 +42,9 @@ sections:
         text: "The brief and how we ran it"
       - type: p
         text: |
-          We agreed five goals with Workday at the start. Gain a comprehensive understanding of the accessibility technology landscape. Align that landscape to Workday's strategic objectives. Create a market map, in the style of a CB Insights map, in Figma. Run a trade study of AI accessibility options. And identify strategic opportunities for Workday.
+          We agreed five goals with Workday at the start: understand the accessibility technology market, line it up against Workday's strategic objectives, build a market map in Figma in the style of a CB Insights map, run a trade study of AI accessibility options, and identify strategic opportunities for Workday.
 
-          The 12 months fell into five stages, each of which fed the next:
+          The 12 months fell into five stages, each feeding the next.
       - type: flow
         steps:
           - {tag: "1", t: "Frame", d: "Agree goals, split users into four groups, write the job each group needs done"}
@@ -54,7 +54,7 @@ sections:
           - {tag: "5", t: "Recommend", d: "Choose partners, then write the rollout plan, roadmap and AI development practices"}
       - type: p
         text: |
-          I kept regular check-ins going with Workday's design, engineering and leadership contacts and presented to leaders and customers along the way, so the final recommendations didn't land as a surprise. That mattered as much as the analysis. A recommendation nobody has seen coming is a recommendation that gets ignored.
+          I kept regular check-ins going with Workday's design, engineering and leadership contacts and presented to leaders and customers along the way, so the final recommendations didn't land as a surprise.
   - id: research
     title: Problem and research
     blocks:
@@ -62,7 +62,7 @@ sections:
         text: "Starting from people, not technology"
       - type: p
         text: |
-          The first thing we did was resist the urge to list vendors. We split accessibility into four groups of users and wrote down, for each, the job they need done and what has to be true for software to do it. It kept us from chasing whichever model was newest, and it gave Workday a way to compare options that wasn't about features.
+          The first thing we did was resist the urge to list vendors. We split accessibility into four groups of users and wrote down, for each, the job they need done and what has to be true for software to do it. It stopped us chasing whichever model was newest and gave Workday a way to compare options that wasn't about features.
       - type: domains
         items:
           - {h: Visual, job: "Understand charts, dashboards and documents without sight", who: "A person who is blind or has low vision", vendors: [VizAbility, WebPlotDigitizer, Meta Ray-Ban glasses, ChatGPT-4o]}
@@ -83,20 +83,20 @@ sections:
         cap: "**The market map, domain by domain.** 72 organizations across 19 solution categories. The map cycles through Visual, Physical, Neurodivergence and Audio and shows the pick for each. Audio has no pick yet."
       - type: p
         text: |
-          The market map, shown at the top of this page, was the first big deliverable. We found companies, products and research groups in each of the four groups, from large technology firms to university labs and small startups, and sorted them by the kind of help they offered. Then came the harder part: comparing them fairly.
+          The market map, shown at the top of this page, was the first big deliverable. We found companies, products and research groups in each of the four groups, from large technology firms to university labs and small startups, and sorted them by the kind of help they offered. Then we had to compare them fairly, which was harder.
 
           Every shortlist was rated on the same five criteria:
       - type: table
         head: [Criterion, Why it matters, What we looked for]
         rows:
-          - ["Feature success rate", "Accessibility users rely on the output; a wrong answer is a harm, not an inconvenience", "Published accuracy, benchmarks, hands-on testing"]
+          - ["Feature success rate", "Accessibility users rely on the output, and a wrong answer harms them", "Published accuracy, benchmarks, hands-on testing"]
           - ["Daily and monthly active users", "Evidence that real people adopt it", "Usage, retention signals, customer references"]
           - ["Integration compatibility and time", "Engineering cost and fit with Workday's platform", "APIs, data flows, security review effort, estimated weeks"]
           - ["Feature latency", "Real-time jobs like captions break when they lag", "Response time under realistic load"]
           - ["Prototyping potential", "Can we test it with users in weeks, not quarters?", "Sandbox access, licensing, partner willingness"]
       - type: p
         text: |
-          We showed the result as a table of partial-fill circles, one row per product and one column per criterion, so a busy executive could read a shortlist at a glance. Whenever scores were close, the margin was in the details, which is why we ran deep-dives on the leaders.
+          We showed the result as a table of partial-fill circles, one row per product and one column per criterion, so a busy executive could read a shortlist at a glance. Where scores were close, the difference was in the details, so we ran deep-dives on the leaders.
       - type: figure
         src: assets/img/case_studies/workday/assessment.webp
         video: assets/video/case_studies/workday/score-visual.mp4
@@ -108,9 +108,9 @@ sections:
         text: |
           **Visual: chart interpretation.** We chose chart interpretation as the focus because charts are common in business reporting, and they are one of the places screen readers struggle most. Any solution has to do three things: convert a chart in any format into data points, answer the user's questions and draw insights from the data, and communicate the answers in a non-visual way.
 
-          Two approaches stood out. VizAbility, a research tool from Boston College, is fully integrated and had a high success rate with accuracy fairly even across chart types, and it follows standard accessibility principles. The downsides were that its white paper doesn't say which language model it uses, it only works with JavaScript chart libraries, and it has trouble classifying contextual questions. The other approach was to pair the open-source WebPlotDigitizer with a language model. That works on every chart type and format, is completely open source, and its LLM integrations were in development, but there was little performance data, many chart types needed manual setup, and the current version needed us to integrate a language model ourselves. Build-versus-buy was a real trade-off, and we didn't pretend one side won on every axis.
+          Two approaches stood out. VizAbility, a research tool from Boston College, is fully integrated and had a high success rate with accuracy fairly even across chart types, and it follows standard accessibility principles. The downsides were that its white paper doesn't say which language model it uses, it only works with JavaScript chart libraries, and it has trouble classifying contextual questions. The other approach was to pair the open-source WebPlotDigitizer with a language model. That works on every chart type and format, is completely open source, and its LLM integrations were in development, but there was little performance data, many chart types needed manual setup, and the current version needed us to integrate a language model ourselves. Build versus buy was a real trade-off here.
 
-          **Physical.** The job here is to let people control devices and finish tasks without help. We looked at hands-free control (Microsoft Eye Control, which uses eye tracking and has large-scale adoption) and at task automation for people with motor impairments (Liftware, which personalises help with daily routines). Our reasoning for pairing them was that they complement each other: one changes how a person interacts, the other reduces how much they have to do.
+          **Physical.** The job here is to let people control devices and finish tasks without help. We looked at hands-free control (Microsoft Eye Control, which uses eye tracking and has large-scale adoption) and at task automation for people with motor impairments (Liftware, which personalises help with daily routines). We paired them because one changes how a person interacts and the other reduces how much they have to do.
 
           **Neurodivergent.** We assessed two products with very different risk profiles. Axios HQ uses AI to turn dense information into a short, digestible format, which could help people with dyslexia, but private internal memos might surface across the platform. Mentra matches neurodivergent people with jobs in tech that suit their strengths, but many people are not comfortable telling their employer about a neurodivergence.
       - type: figure
@@ -133,7 +133,7 @@ sections:
         text: "The recommendation"
       - type: p
         text: |
-          Out of more than 50 vendors we surfaced 8 partnerships worth pursuing and recommended three to start with: VizAbility for chart descriptions, Mentra for strengths-based job matching, and Liftware for people with limited mobility. We put the three at the top because each had a strong score on the criteria, each addressed a real job, and each could be piloted without a large integration project.
+          Out of more than 50 vendors we surfaced 8 partnerships worth pursuing and recommended three to start with: VizAbility for chart descriptions, Mentra for strengths-based job matching, and Liftware for people with limited mobility. We put these three first because they scored well on the criteria and could each be piloted without a large integration project.
       - type: funnel
         rows:
           - {n: "50+", t: "AI vendors researched", s: "Across four groups of users"}
@@ -146,7 +146,7 @@ sections:
         text: "Rollout plan and roadmap"
       - type: p
         text: |
-          A recommendation isn't useful until someone knows what to do on Monday. For each partner I wrote how to start, a success measure and a condition that has to be true before going further.
+          For each partner I wrote how to start, a success measure and a condition that has to be true before going further.
       - type: table
         head: [Partner, How to start, What has to be true before scaling]
         rows:
@@ -175,7 +175,7 @@ sections:
         text: "How the team should build with AI"
       - type: p
         text: |
-          The last piece was less about vendors and more about how Workday's own accessibility AI product team should work, so the plan didn't depend on us being in the room. I wrote it as six practices, in the order a feature moves from idea to release.
+          The last piece covered how Workday's own accessibility AI product team should work, so the plan didn't depend on us being in the room. I wrote it as six practices, in the order a feature moves from idea to release.
       - type: flow
         steps:
           - {tag: "1", t: "Bring users in early", d: "People with disabilities in discovery, not only in testing"}
@@ -201,7 +201,7 @@ sections:
           Over the 12 months we presented the work to Workday's design, engineering and executive leaders and to customers, with the market map, the trade study, a partnership evaluation matrix, a research report and the recommendation. It informed the direction of Workday's accessibility AI roadmap, and the full deck is linked at the top of this page.
 learn_title: Looking back
 learn:
-  - "Scoring every option on the same five criteria is what made 50+ vendors comparable. It also made the recommendation easy to challenge, which is what leadership needed."
-  - "Listing each option's risks next to its benefits mattered as much as the scores. An AI feature that's confidently wrong is worse than none, and people building accessibility features know that."
+  - "Scoring every option on the same five criteria is what made 50+ vendors comparable. It also made the recommendation easy to challenge, which leadership wanted."
+  - "Listing each option's risks next to its benefits mattered as much as the scores. An AI feature that's confidently wrong is worse than none for these users."
   - "Presenting along the way meant the final recommendation came with support already behind it."
   - "I would build a rough prototype of the top option during the research next time, to check the integration estimates before recommending it."

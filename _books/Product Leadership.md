@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 128
 ---
 
-How top product managers and leaders build and run product organizations.
+Interviews with product leaders about how they build and run product teams.

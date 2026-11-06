@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 78
 ---
 
-An argument that explanations drive progress and that knowledge growth is, in principle, unlimited.
+Deutsch argues that good explanations drive progress and that there is no fixed limit to what knowledge can reach.

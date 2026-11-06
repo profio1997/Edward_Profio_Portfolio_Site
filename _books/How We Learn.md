@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 34
 ---
 
-What cognitive science and neuroscience say about how learning works and how to teach and study more effectively.
+Dehaene on what brain science says about learning, and what that means for teaching and for studying.

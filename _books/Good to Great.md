@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 102
 ---
 
-Research on what separates companies that make a lasting leap in performance.
+Collins studies companies that sustained a jump in results and lists what they had in common.

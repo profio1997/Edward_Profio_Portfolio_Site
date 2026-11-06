@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 74
 ---
 
-A psychiatrist's account of surviving the camps and the idea that meaning is the central human drive.
+Frankl writes about his time in the concentration camps and the view that finding meaning is what drives people.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 80
 ---
 
-On the outsized role of rare, unpredictable events and how poorly we account for them.
+Taleb on rare, unpredictable events that have huge effects, and how badly people plan for them.

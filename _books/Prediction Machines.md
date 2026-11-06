@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 85
 ---
 
-An economic framework for thinking about AI as a drop in the cost of prediction.
+The authors treat AI as cheaper prediction and work out the economic effects of that.

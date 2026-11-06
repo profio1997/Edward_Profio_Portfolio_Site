@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 121
 ---
 
-A five-day process for answering critical questions through design and prototyping.
+Knapp's five-day process for testing an idea with a prototype and real users.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 115
 ---
 
-A practical system for weekly customer touchpoints and opportunity-driven product discovery.
+Torres suggests talking to customers every week and using what you hear to choose which opportunities to work on.

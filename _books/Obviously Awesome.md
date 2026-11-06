@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 130
 ---
 
-A step-by-step method for positioning products so customers understand their value.
+Dunford's method for positioning a product so customers quickly see what it is good for.

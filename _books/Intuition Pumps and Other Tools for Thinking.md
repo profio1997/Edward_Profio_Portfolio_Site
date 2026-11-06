@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 53
 ---
 
-A toolkit of thought experiments and heuristics for reasoning about hard problems.
+Dennett shares thought experiments and rules of thumb he uses on hard problems.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 38
 ---
 
-A neuroscientist's theory of how body, emotion and the brain together produce the sense of self and consciousness.
+Damasio proposes how body, emotion and brain together produce the sense of self and consciousness.

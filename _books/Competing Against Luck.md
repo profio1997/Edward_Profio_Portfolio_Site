@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 120
 ---
 
-The jobs-to-be-done theory of innovation and how to apply it.
+Christensen's jobs-to-be-done idea: customers buy a product to get a particular job done, so start there when building one.

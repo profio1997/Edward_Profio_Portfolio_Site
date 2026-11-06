@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 49
 ---
 
-A playful exploration of self-reference, formal systems and how meaning and mind might arise from them.
+Hofstadter links Gödel's theorems, Escher's drawings and Bach's music through self-reference. He asks how a mind might come from symbols.

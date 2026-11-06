@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 47
 ---
 
-A comprehensive textbook on neural signaling, sensation, movement, and the neurobiology of cognition.
+A neuroscience textbook by Purves and colleagues, covering neural signaling, sensation, movement and cognition.

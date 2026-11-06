@@ -9,15 +9,15 @@ giscus_comments: false
 ---
 <p class="proj-glance"><span><b>Role</b> Analyst</span><span><b>When</b> Carnegie Mellon MBA</span><span><b>Team</b> Individual and team cases</span></p>
 
-Across my MBA I wrote twelve cases that put me in the seat of an executive making a decision with incomplete information: AirThread, Alfie, Blaine Kitchenware, Comcast, Eaton, Gucci, MoGen, MW Petroleum, Target, Tesla, Walt Disney and Wintel. They cover technology, consumer products, media, luxury retail, energy and manufacturing, and the questions range from whether to acquire a company, to how to enter a new market, to how to restructure a business that is losing ground.
+Across my MBA I wrote twelve cases, each asking what an executive should decide with incomplete information. They were AirThread, Alfie, Blaine Kitchenware, Comcast, Eaton, Gucci, MoGen, MW Petroleum, Target, Tesla, Walt Disney and Wintel. The industries include technology, consumer products, media, luxury retail, energy and manufacturing. The questions include whether to acquire a company, how to enter a new market and how to restructure a business that is losing ground.
 
 ## How I approached them
 
-Every case followed the same discipline. State the decision. Build the numbers, usually a valuation or a financial model, so the recommendation has a price. Check it against what the company is actually good at and what competitors will do. Then write the recommendation in a form an executive can read in a few minutes, usually as a short memo or deck with the main risk stated up front.
+Every case went the same way. I stated the decision, then built the numbers, usually a valuation or a financial model, so the recommendation had a price. I checked it against what the company is good at and what competitors would do. Then I wrote it up so an executive could read it in a few minutes, usually as a short memo or deck with the main risk stated up front.
 
 ## Why I include them
 
-Product work rarely has the full data, and almost every decision I make as a product leader has a financial and organizational side. These cases are where I practiced weighing those together. They're also where I learned to put the answer first and the analysis behind it, which is how I write now.
+Product work rarely has the full data, and almost every product decision has a financial and an organizational side. These cases are where I practiced weighing them together. They're also where I learned to put the answer first and the analysis behind it, which is how I write now.
 
 Open any of them below.
 

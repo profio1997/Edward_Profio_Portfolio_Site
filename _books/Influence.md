@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 110
 ---
 
-The psychology behind why people say yes, organized into six principles of persuasion.
+Cialdini describes six principles that make people agree to requests, with studies and everyday examples.

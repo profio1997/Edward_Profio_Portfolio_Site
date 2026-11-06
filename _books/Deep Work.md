@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 111
 ---
 
-The case for focused, distraction-free work and how to cultivate it.
+Newport says focused work without distraction is rare and valuable, and gives methods for making room for it.

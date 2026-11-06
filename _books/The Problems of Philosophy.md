@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 81
 ---
 
-A short classic introduction to knowledge, reality and the nature of philosophical questions.
+Russell's short introduction to questions about knowledge and reality.

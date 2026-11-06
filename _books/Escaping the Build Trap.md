@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 116
 ---
 
-How product teams can focus on outcomes instead of shipping features.
+Perri on teams that measure success by features shipped. She argues for managing around results for customers and the business.

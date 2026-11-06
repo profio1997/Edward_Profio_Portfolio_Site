@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 83
 ---
 
-A tour of the major schools of machine learning and the search for a single universal learner.
+Domingos describes the main schools of machine learning and asks whether one learning method could cover them all.

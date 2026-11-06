@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 101
 ---
 
-A modern textbook on deep learning, from fundamentals to transformers and diffusion models.
+Prince's textbook on deep learning, from the basics to transformers and diffusion models.

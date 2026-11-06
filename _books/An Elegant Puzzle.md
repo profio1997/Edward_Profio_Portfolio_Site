@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 127
 ---
 
-Systems of engineering management: team sizing, growth, culture and process.
+Larson's practical notes on running engineering teams. Covers team size, growth, and how to keep process from getting in the way.

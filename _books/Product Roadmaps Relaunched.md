@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 118
 ---
 
-How to build roadmaps that communicate strategy and outcomes rather than feature lists.
+On writing roadmaps that show strategy and goals instead of a list of features.

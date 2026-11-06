@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 56
 ---
 
-An argument that cognition is enacted through the body's interaction with the world.
+The authors argue that cognition comes from the body acting in the world, not from representations in the head.

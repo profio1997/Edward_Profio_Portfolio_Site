@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 51
 ---
 
-A collection of essays and reflections on the self, consciousness and artificial minds.
+An anthology edited by Hofstadter and Dennett, with essays and commentary on the self, consciousness and artificial minds.

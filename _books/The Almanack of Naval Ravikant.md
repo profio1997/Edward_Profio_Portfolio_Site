@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 107
 ---
 
-A collection of Naval Ravikant's thinking on wealth, judgment and happiness.
+Jorgenson collects Naval Ravikant's statements on wealth, judgment and happiness.

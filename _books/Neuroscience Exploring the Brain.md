@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 46
 ---
 
-A widely used undergraduate textbook on neurons, circuits, sensory and motor systems and higher brain functions.
+A common undergraduate neuroscience textbook, from neurons and circuits up to sensory systems, movement and higher functions.

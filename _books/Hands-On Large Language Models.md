@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 95
 ---
 
-An illustrated, practical guide to working with and building on large language models.
+A practical book with many diagrams on using and building with large language models.

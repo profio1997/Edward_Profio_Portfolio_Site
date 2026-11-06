@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 113
 ---
 
-A widely used introductory economics textbook covering micro and macroeconomics.
+Mankiw's introductory economics textbook, covering both micro and macro.

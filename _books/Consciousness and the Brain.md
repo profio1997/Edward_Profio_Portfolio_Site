@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 33
 ---
 
-Experimental work on how the brain turns sensory information into conscious awareness, and the global workspace theory.
+Dehaene describes experiments that separate conscious from unconscious processing, and builds the global workspace theory from them.

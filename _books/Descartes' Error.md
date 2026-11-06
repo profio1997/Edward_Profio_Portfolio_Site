@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 37
 ---
 
-Evidence from brain injury that emotion is essential to rational decision-making.
+Damasio uses patients with brain damage to argue that emotion is part of good reasoning, not its opponent.

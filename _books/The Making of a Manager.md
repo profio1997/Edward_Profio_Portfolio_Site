@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 126
 ---
 
-A practical guide to becoming a good manager, drawn from experience at Facebook.
+Zhuo's practical advice on becoming a manager, based on her time at Facebook.

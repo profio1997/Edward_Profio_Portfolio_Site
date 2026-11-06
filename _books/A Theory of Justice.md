@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 73
 ---
 
-Rawls's theory of justice as fairness, built on the idea of a veil of ignorance.
+Rawls asks what principles people would pick for society if they did not know their own place in it.

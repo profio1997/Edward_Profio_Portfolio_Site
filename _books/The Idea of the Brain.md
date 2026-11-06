@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 32
 ---
 
-A history of how scientists have understood the brain, from ancient metaphors to computers and modern neuroscience.
+Cobb's history of how people have tried to understand the brain, from early metaphors to computers.

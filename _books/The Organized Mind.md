@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 36
 ---
 
-How attention and memory limits shape everyday decisions, and practical ways to organize information and time.
+Levitin on the limits of attention and memory, with practical tips for organizing information and time.

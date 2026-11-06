@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 30
 ---
 
-Investigations of phantom limbs and other neurological syndromes that reveal how the brain builds the body image.
+Ramachandran describes patients with phantom limbs and similar conditions and what they suggest about how the brain represents the body.

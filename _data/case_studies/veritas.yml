@@ -3,15 +3,15 @@ order: 1
 title: "Veritas"
 card_title: Veritas
 card_kicker: "Founder and CEO"
-card_line: "A learning app I'm building: it reads your book to you in your own voice, checks what you understood and brings back what you missed. Waitlist open."
+card_line: "A learning app I'm building. It reads your book to you in your own voice, checks what you understood and brings back what you missed. Waitlist open."
 card_chips: ["Pre-release", "Waitlist open"]
 read_time: "12 min read"
 kicker: "Veritas"
 headline: "Building Veritas, a learning app that checks what you remember"
 lede: >-
   Veritas reads any book or document to you in your own voice, quizzes you at the end of each chapter, and brings back what you
-  got wrong until it sticks. I started it and do the product work myself: research, design, the AI decisions and the launch
-  plan. It isn't released yet, so this case study is about the thinking and the decisions so far, not results.
+  got wrong until it sticks. I started it and do the product work myself, including the research, the design, the AI decisions and the launch
+  plan. It isn't released yet, so this case study covers the thinking and decisions so far. There are no results yet.
 cover: assets/img/case_studies/veritas/cover.jpg
 film: assets/video/case_studies/veritas/pitch-film.mp4
 film_poster: assets/video/case_studies/veritas/film-poster.jpg
@@ -37,12 +37,12 @@ sections:
     blocks:
       - type: p
         text: |
-          Veritas started from a simple frustration: we forget much of what we read. When I looked into why, the research was clear and a little uncomfortable. Most of what people do to study (rereading, highlighting, summarising) barely helps, and the things that do help (testing yourself, spacing your practice, explaining things in your own words) are the things nobody enjoys doing alone.
+          Veritas started because we forget much of what we read. When I looked into why, the research was clear, and a bit uncomfortable. Most of what people do to study (rereading, highlighting, summarising) barely helps. The things that do help are testing yourself, spacing your practice and explaining things in your own words, and nobody enjoys doing those alone.
 
-          So I'm building one product that does the unglamorous parts for you. You bring in a book, a set of lecture notes or a long report. Veritas reads it to you in your own voice, checks what you took in at the end of each chapter, and brings back the parts you missed, a little before you'd have forgotten them. I do the product work myself: the research, the design of every step, the decisions about where AI belongs, and the plan for launching.
+          So I'm building one product that handles the dull parts. You bring in a book, lecture notes or a long report. Veritas reads it to you in your own voice, checks what you took in at the end of each chapter, and brings back what you missed a little before you'd have forgotten it. I do the product work myself, which covers the research, the design of every step, the decisions about where AI belongs and the launch plan.
       - type: split
         text: |
-          **What this page covers.** It's an early-stage story, so there are no usage numbers to show. What I can show is how I went from a research finding to a product, which choices I made and why, how the AI is meant to be checked, and what I still don't know.
+          **What this page covers.** It's early, so there are no usage numbers. The page shows how I went from a research finding to a product, the choices I made and why, how the AI is meant to be checked, and what I still don't know.
         bars:
           title: "Recalled one week later"
           sub: "Same passage, same study time (Roediger and Karpicke, 2006)"
@@ -62,7 +62,7 @@ sections:
 
           Third, forgetting is predictable. Ebbinghaus described the curve in 1885 and Murre and Dros replicated it in 2015. Material you never revisit fades quickly, and each well-timed review flattens the curve.
 
-          Put together, the evidence says people don't need a faster way to read. They need a way to practise remembering, at the right moments, on the things they actually have to know.
+          Put together, the evidence pointed me away from faster reading and toward practice. People need to rehearse remembering the things they have to know, at the right moments.
       - type: quote
         text: "The tools stop at the first step. Reading apps stop at listening, and study apps live somewhere else and never see what you read."
         by: "Edward Profio, founder of Veritas"
@@ -70,17 +70,17 @@ sections:
         text: "Who it's for"
       - type: p
         text: |
-          I started with three groups, because they read for different reasons and have different tolerance for effort. The first audience I'm building for is the first one.
+          I started with three groups, since they read for different reasons and put up with different amounts of effort. I'm building for the first one first.
       - type: insights
         items:
           - {h: "Students with an exam ahead", t: "They have a fixed deadline, a lot of text and not enough time. They want to listen on the bus, take a check when they sit down, and review weak points until the exam. Textbooks, lecture notes and papers."}
           - {h: "Professionals learning on the job", t: "They need to understand a report or technical PDF quickly and still know it next quarter. They want the fastest speed they can follow, a place for their own notes, and review that fits around work."}
-          - {h: "Lifelong learners", t: "They own the books they've always meant to finish, like Meditations, The Art of War or Walden. They want to come away able to explain the book to someone else, not just to have turned the pages."}
+          - {h: "Lifelong learners", t: "They own the books they've always meant to finish, like Meditations, The Art of War or Walden. They want to finish able to explain the book to someone else."}
       - type: h
         text: "What already exists"
       - type: p
         text: |
-          I looked at four kinds of tools: read-aloud and audiobook apps, note-taking and study tools that work on your own files, flashcard apps, and quiz and game apps. Each is good at its step. None of them knows what you missed in the step before, which is the whole problem.
+          I looked at four kinds of tools: read-aloud and audiobook apps, note-taking and study tools that work on your own files, flashcard apps, and quiz and game apps. Each is good at its own step. None of them knows what you missed in the step before.
       - type: table
         center: true
         head: ["To master what you read", "Read-aloud apps", "Note apps", "Flashcard and quiz apps", "Veritas"]
@@ -95,7 +95,7 @@ sections:
           - ["A plan with a finish date for each book", "No", "No", "No", "Yes"]
       - type: p
         text: |
-          The rows that matter most are the last three. A flashcard app can space review perfectly, but only for the cards you made. A read-aloud app can read anything but has no idea whether you understood it. Connecting those two, so that what you get wrong in a chapter check shapes tomorrow's review, is where I think there's room.
+          The last three rows matter most. A flashcard app can space review well, but only for cards you made. A read-aloud app can read anything and has no idea whether you understood it. I think there's room in connecting the two, so what you get wrong in a chapter check shapes tomorrow's review.
   - id: solution
     title: Solution
     blocks:
@@ -103,25 +103,25 @@ sections:
         text: "Principles"
       - type: p
         text: |
-          Before drawing a single screen I wrote down the rules I'd use to say yes or no to features. They come straight from the research.
+          Before I drew a screen I wrote down the rules I'd use to say yes or no to features. They come from the research.
       - type: decisions
         items:
           - {t: "A feature has to help people remember", b: "Every format in the product is a form of practice testing, generative learning (like drawing or teaching back, from Fiorella and Mayer's 2016 review) or spacing. If an idea is popular but doesn't strengthen recall, it waits."}
           - {t: "Start from the reader's own material", b: "A curated library would be easier to build and quality-check. But people study what they have to study, so the product takes PDFs, EPUBs, Word files, web pages, photos and scans, and finds the chapters itself."}
           - {t: "Your own voice, by default", b: "Reading six short passages aloud, about two minutes, is enough to build a voice that reads any book back to you. It's the first thing people react to, and it gives them a reason to bring their whole library in. Preset voices are there for anyone who'd rather not record."}
           - {t: "Don't write the notes", b: "Summaries are the feature people ask for most, and the research rates summarising as low value for remembering. So each chapter starts with an empty note, and Veritas never writes or inserts notes for you. This is the call I'm least sure everyone will accept."}
-          - {t: "Fit the product to the reader", b: "A short speed test finds the fastest pace at which you still understand. A short mode test compares reading, read-along and audio-only on real passages and sets your default from your own scores. The product starts from how you learn, not from a settings screen."}
+          - {t: "Fit the product to the reader", b: "A short speed test finds the fastest pace at which you still understand. A short mode test compares reading, read-along and audio-only on real passages and sets your default from your own scores. The defaults come from how you learn instead of a settings screen."}
           - {t: "Close the loop", b: "What you miss in a check should come back in practice and in review. That connection is the product, so I'd cut a feature before I'd break it."}
       - type: h
         text: "The product, step by step"
       - type: p
         text: |
-          The research suggests a recipe for long-term memory: encode the material well, practise retrieving it, and space that practice out. Veritas runs all three steps on anything you read. Here is how each step works and what I decided along the way.
+          The research points to three things for long-term memory: encode the material well, practise retrieving it, and space that practice out. Veritas runs all three on anything you read. Below is how each step works and what I decided along the way.
       - type: h
         text: "Step 1. Encode"
       - type: p
         text: |
-          Everything starts in the library: PDFs, EPUBs, Word files, web links, photos and scans, or pasted text, organised on shelves and in collections. Chapters are found for you. Then the reader hears the text while seeing every word highlighted, with a picture of the idea building beside it, following Mayer's multimedia principle that people learn better from words and pictures than from words alone.
+          It starts in the library, which takes PDFs, EPUBs, Word files, web links, photos and scans, or pasted text, organised on shelves and in collections. Chapters are found for you. Then the reader hears the text with every word highlighted and a picture of the idea building beside it, following Mayer's multimedia principle that people learn better from words and pictures than from words alone.
       - type: gallery
         cols: 3
         items:
@@ -133,12 +133,12 @@ sections:
           - {src: assets/img/case_studies/veritas/notes.webp, video: assets/video/case_studies/veritas/notes.mp4, poster: assets/video/case_studies/veritas/notes.jpg, cap: "**Notes.** A blank bullet per chapter in the same type as the book. The reader writes them."}
       - type: p
         text: |
-          The speed test is a good example of a small decision with a big effect. Most apps let you pick a playback speed and leave it. But people overestimate how fast they can listen and understand, so the test reads short passages at increasing speeds, each followed by a comprehension question, and plots the result. It shows the pace where understanding starts to fall, and then it shows how long the current chapter and the whole book will take at that pace. Chapter recaps are also read aloud in the reader's voice, with sections they can jump between.
+          The speed test is a small decision with a big effect. Most apps let you pick a playback speed and leave it, but people overestimate how fast they can listen and understand. So the test reads short passages at increasing speeds, each followed by a comprehension question, and plots the result. It shows where understanding starts to fall, then how long the current chapter and the whole book will take at that pace. Chapter recaps are also read aloud in the reader's voice, with sections they can jump between.
       - type: h
         text: "Step 2. Retrieve"
       - type: p
         text: |
-          Every chapter ends with a knowledge check: about 12 mixed questions that read like a real exam, diagrams included, taking about 12 minutes. After each answer the product explains why a wrong option is wrong, then why the right one is right. Written questions ask the reader to explain something in their own words, and Veritas says what they covered and what they missed.
+          Every chapter ends with a knowledge check of about 12 mixed questions that read like a real exam, diagrams included. It takes about 12 minutes. After each answer the product explains why a wrong option is wrong, then why the right one is right. Written questions ask the reader to explain something in their own words, and Veritas says what they covered and what they missed.
       - type: gallery
         cols: 3
         items:
@@ -147,7 +147,7 @@ sections:
           - {src: assets/img/case_studies/veritas/results.webp, video: assets/video/case_studies/veritas/results.mp4, poster: assets/video/case_studies/veritas/results.jpg, cap: "**Chapter check.** Mastery for the chapter and the exact weak points, so practice goes where it counts."}
       - type: p
         text: |
-          The weak points then drive practice. The reader can work on them in six main ways: written answers, multiple choice, drawing from memory, teaching the topic back out loud, flashcards and games. Veritas recommends one based on the reader's own results, and the reader can reorder the list. I included drawing and teaching back because the evidence for them is strong: explaining an idea, to yourself or to a friend, exposes gaps that recognising the right answer hides.
+          The weak points then drive practice. The reader can work on them in six main ways: written answers, multiple choice, drawing from memory, teaching the topic back out loud, flashcards and games. Veritas recommends one based on the reader's own results, and the reader can reorder the list. I included drawing and teaching back because the evidence for them is strong. Explaining an idea, to yourself or to a friend, exposes gaps that recognising the right answer hides.
       - type: gallery
         cols: 3
         items:
@@ -161,7 +161,7 @@ sections:
         text: "Step 3. Space it out"
       - type: p
         text: |
-          The third step is where the product stops being a set of features and becomes a habit. Instead of a review queue for every book, there is one daily review across all of them, in a calm full-screen mode. What you miss comes back sooner; what you know comes back less often. Before starting, the Today screen says what is due, how many questions it is and about how long it will take, because a review you can't size up is a review you put off.
+          The third step is meant to turn the product into a habit. Instead of a review queue for every book there's one daily review across all of them, in a calm full-screen mode. What you miss comes back sooner and what you know comes back less often. Before you start, the Today screen says what's due, how many questions it is and about how long it will take. I figure a review you can't size up is one you put off.
       - type: gallery
         cols: 2
         items:
@@ -175,7 +175,7 @@ sections:
         text: |
           Most of the product is ordinary software. The AI does four jobs, and in each one I've decided in advance what it is allowed to do.
       - type: table
-        head: [Feature, What the model does, How I'm keeping it honest]
+        head: [Feature, What the model does, How I'm checking it]
         rows:
           - ["Your-voice reading", "Builds a voice from the reader's recording", "Only the reader's own voice, from a recording they make on purpose. Preset voices are an alternative."]
           - ["Questions and flashcards", "Writes questions from the reader's text, including diagram questions", "A question must be answerable from that text, and every answer is explained."]
@@ -183,7 +183,7 @@ sections:
           - ["Review schedule", "Decides when weak points come back", "The reader sees what's due and how long it will take before starting."]
       - type: p
         text: |
-          The risk in a product like this is a confident wrong answer: a question whose key is wrong, or feedback that says a correct explanation is incorrect. A learner might not notice, and they'd be studying the mistake. So I'm treating evaluation as a launch requirement. Before any question type or feedback type ships, it has to pass a review set built from real chapters across subjects, checked for whether the answer is actually in the text, whether the answer key is right, and whether the explanation helps. After launch I'll track how often learners flag a question or dispute feedback, and fix patterns by question type.
+          The main risk in a product like this is a confident wrong answer, such as a question with the wrong key or feedback that calls a correct explanation incorrect. A learner might not notice and would end up studying the mistake. So evaluation is a launch requirement. Before any question type or feedback type ships, it has to pass a review set built from real chapters across subjects. The set checks whether the answer is in the text, whether the key is right and whether the explanation helps. After launch I'll track how often learners flag a question or dispute feedback, and fix patterns by question type.
       - type: table
         head: [What I'm measuring, Before launch, After launch]
         rows:
@@ -192,7 +192,7 @@ sections:
           - ["Learning", "A pilot against a rereading baseline", "Mastery gain per book; return to the daily review in week four"]
       - type: p
         text: |
-          Two more choices are about privacy. The library and the voice belong to the reader and are used only to serve that reader. And I won't make claims about learning outcomes until I've measured them.
+          Two more choices. The library and the voice belong to the reader and are used only to serve that reader. And I won't make claims about learning outcomes until I've measured them.
   - id: results
     title: Launch and open questions
     blocks:
@@ -215,11 +215,11 @@ sections:
       - type: list
         items:
           - "Whether people learn more with Veritas than by rereading. This is the first thing I'll measure with real users, and until then I'm only claiming what the published research supports."
-          - "Whether readers will accept a product that won't write their notes. If it costs us sign-ups I'll learn from that, but I don't want to give it up without evidence."
+          - "Whether readers will accept a product that won't write their notes. If it costs us sign-ups I'll learn from that, but I don't want to drop it without evidence."
           - "How much effort people will put into a daily review. If the Today screen doesn't keep people coming back, the product doesn't work, however good the questions are."
           - "How well the voice works across accents and recording conditions."
 learn_title: What I've learned so far
 learn:
-  - "Starting from published research gave me a clear rule for the roadmap: if a feature doesn't help people remember, it waits. It's made saying no easier."
-  - "The demo does more of the explaining than any description. When people see a check, then targeted practice, then tomorrow's review, the product makes sense."
-  - "Because I'm building it alone, I've learned to keep the hard parts (evaluation, the review schedule) honest and the rest simple."
+  - "Starting from published research gave me one rule for the roadmap. If a feature doesn't help people remember, it waits. That has made saying no easier."
+  - "The demo explains the product better than any description does. Once people see a check, then targeted practice, then tomorrow's review, it makes sense."
+  - "Because I'm building it alone, I've learned to be careful with the hard parts (evaluation, the review schedule) and keep the rest simple."

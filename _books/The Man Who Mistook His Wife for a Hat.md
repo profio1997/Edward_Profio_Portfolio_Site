@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 40
 ---
 
-Clinical tales of patients with unusual neurological conditions and what they reveal about perception and identity.
+Sacks tells stories of neurological patients and what their conditions show about perception and identity.

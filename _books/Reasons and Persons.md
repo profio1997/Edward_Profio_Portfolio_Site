@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 72
 ---
 
-A landmark work on personal identity, rationality and what we owe future generations.
+Parfit on personal identity, rationality and ethics, including what we owe to people in the future.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 100
 ---
 
-A textbook linking information theory, Bayesian inference and machine learning.
+MacKay's textbook ties information theory to inference and machine learning. Heavy on math.

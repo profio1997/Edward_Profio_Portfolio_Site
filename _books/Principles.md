@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 106
 ---
 
-Dalio's approach to decision-making and running an organization with radical transparency.
+Dalio describes the rules he uses for decisions and for running a firm, including his commitment to radical transparency.

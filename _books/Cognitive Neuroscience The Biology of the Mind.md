@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 45
 ---
 
-A standard textbook covering the neural basis of perception, memory, language, attention and consciousness.
+A university textbook on how the brain supports perception, memory, language, attention and related functions.

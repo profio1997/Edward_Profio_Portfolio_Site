@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 92
 ---
 
-A guide to building applications on top of foundation models, from evaluation to deployment.
+Huyen on building products on top of existing foundation models. Evaluation and deployment get a lot of space.

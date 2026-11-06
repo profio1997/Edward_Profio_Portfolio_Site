@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 48
 ---
 
-An introductory textbook on how brain systems support attention, memory, language and consciousness.
+An introductory textbook on brain systems for attention, memory, language and consciousness.

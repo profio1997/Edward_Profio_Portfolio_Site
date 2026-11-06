@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 25
 ---
 
-Case studies of neuroplasticity, showing how the adult brain rewires itself after injury, habit and training.
+Doidge presents cases of neuroplasticity, where the brain reorganizes after injury or through training.

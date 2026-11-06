@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 119
 ---
 
-A guide to the product manager interview process and the skills it tests.
+Prep for product manager interviews. Covers the kinds of questions asked and how to answer them.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 88
 ---
 
-A clear-eyed look at what AI can and cannot do today, and why intelligence is harder than it looks.
+Mitchell looks at what current AI systems can really do and where they fall short. Written for a general reader.

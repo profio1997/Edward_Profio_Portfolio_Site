@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 39
 ---
 
-A theory of how the neocortex builds models of the world from many reference frames, and what it means for AI.
+Hawkins argues the neocortex learns through many small models, each tied to its own reference frame. He then draws conclusions for how AI should be built.

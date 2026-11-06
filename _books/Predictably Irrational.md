@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 58
 ---
 
-Experiments showing the systematic ways people make irrational choices.
+Ariely reports experiments showing that people make mistakes in consistent, predictable ways.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 65
 ---
 
-A textbook on perception, attention, memory, language, reasoning and problem solving.
+A textbook on how people perceive, remember, reason and use language. Intended for coursework.

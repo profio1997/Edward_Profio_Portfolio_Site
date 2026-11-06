@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 57
 ---
 
-How random variability in human judgment causes costly errors, and how organizations can reduce it.
+The authors look at random variation in professional judgments, such as different verdicts on the same case, and at ways to reduce it.

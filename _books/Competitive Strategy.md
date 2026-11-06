@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 104
 ---
 
-Porter's techniques for analyzing industries and competitors, including the five forces.
+Porter's methods for analyzing an industry and its competitors. This is where the five forces framework comes from.

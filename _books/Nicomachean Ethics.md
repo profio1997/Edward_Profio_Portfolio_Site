@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 68
 ---
 
-Aristotle's study of virtue, character and the good life.
+Aristotle on virtue, character and what it means to live well.

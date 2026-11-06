@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 63
 ---
 
-A psychological account of why people divide over morality and politics.
+Haidt on why people split over morality and politics, drawing on moral psychology.

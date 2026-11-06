@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 91
 ---
 
-A practical guide to building reliable, scalable machine learning systems in production.
+Huyen on running machine learning in production: data, deployment, monitoring and the problems that come up after launch.

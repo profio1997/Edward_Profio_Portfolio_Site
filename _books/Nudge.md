@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 59
 ---
 
-How the design of choices can steer people toward better decisions without restricting freedom.
+Thaler and Sunstein show how the way choices are laid out affects what people pick, and argue for designing them with care.

@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 62
 ---
 
-The science of learning: why retrieval practice, spacing and interleaving beat rereading.
+The authors say retrieval practice, spacing and mixing topics work better than rereading, and cite the research.

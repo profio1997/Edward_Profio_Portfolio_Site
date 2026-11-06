@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 41
 ---
 
-The history of the mathematical and computational ideas that neuroscientists use to describe the brain.
+Lindsay traces the history of the math and computing ideas neuroscientists use to describe the brain.

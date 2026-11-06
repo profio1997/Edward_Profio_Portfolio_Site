@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 87
 ---
 
-A critique of current deep learning and a case for building AI with common sense and reasoning.
+Marcus and Davis criticize deep learning as it stands and argue that AI needs common sense and better reasoning.

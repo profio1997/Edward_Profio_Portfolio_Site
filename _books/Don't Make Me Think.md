@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 125
 ---
 
-A short, practical guide to web and product usability.
+Krug on web usability. A short book and an easy read, built on the idea that pages should be obvious.

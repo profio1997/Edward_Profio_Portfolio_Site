@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 114
 ---
 
-A standard textbook on the theory and practice of marketing.
+A standard marketing textbook by Kotler and Keller.

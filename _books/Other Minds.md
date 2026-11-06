@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 44
 ---
 
-Octopuses as a way into the evolution of intelligence and the origins of subjective experience.
+Godfrey-Smith uses octopuses and their relatives to ask how intelligence and subjective experience evolved.

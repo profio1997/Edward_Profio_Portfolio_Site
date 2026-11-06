@@ -9,4 +9,4 @@ shelf_group: more
 shelf_rank: 82
 ---
 
-A clear introductory textbook that surveys the major ethical theories and debates.
+An introductory textbook that goes through the main ethical theories and debates in plain language.
