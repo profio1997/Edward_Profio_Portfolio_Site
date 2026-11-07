@@ -631,7 +631,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Ensure navbar nav items remain visible on desktop
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .navbar-collapse:not(.show) {
     display: flex !important;
   }
