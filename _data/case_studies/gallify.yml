@@ -13,8 +13,8 @@ lede: >-
   own wall in AR before buying it. I joined early, became Chief Product and Operating Officer, and ran product and engineering until
   we closed the company.
 cover: assets/img/case_studies/gallify/cover.jpg
-cover_video: assets/video/case_studies/gallify/cover.mp4
-cover_poster: assets/video/case_studies/gallify/cover-poster.jpg
+cover_video: assets/video/case_studies/gallify/cover_b.mp4
+cover_poster: assets/video/case_studies/gallify/cover-poster_b.jpg
 pdf: assets/pdf/case_studies/Edward_Profio_Gallify_Case_Study.pdf
 mock_note: "The polished screens on this page are recreations. Artist names and artwork are made up. The wireframes, AR capture and wallet screen are from the original build, shown in the same phone frame."
 links:
@@ -41,9 +41,9 @@ sections:
           This page covers the product decisions, the recommender I led, how I ran the team, and the decision to stop.
       - type: phones
         items:
-          - {src: assets/img/case_studies/gallify/p1.webp, video: assets/video/case_studies/gallify/p1.mp4, poster: assets/video/case_studies/gallify/p1.jpg, cap: "Collector setup and discovery: pick a few styles, get a first feed built from them, then tap \"Why?\" to see and adjust what a pick is based on."}
-          - {src: assets/img/case_studies/gallify/p2.webp, video: assets/video/case_studies/gallify/p2.mp4, poster: assets/video/case_studies/gallify/p2.jpg, cap: "AR in a real room: walk around, place the piece on the wall at its real size, resize it, take a snapshot, then bid from the same screen."}
-          - {src: assets/img/case_studies/gallify/p3.webp, video: assets/video/case_studies/gallify/p3.mp4, poster: assets/video/case_studies/gallify/p3.jpg, cap: "The artist side: add works, mint each as 1 of 1, publish a gallery and share its link."}
+          - {src: assets/img/case_studies/gallify/p1.webp, video: assets/video/case_studies/gallify/p1_c.mp4, poster: assets/video/case_studies/gallify/p1_c.jpg, cap: "Collector setup and discovery: pick a few styles, get a first feed built from them, then tap \"Why?\" to see and adjust what a pick is based on."}
+          - {src: assets/img/case_studies/gallify/p2.webp, video: assets/video/case_studies/gallify/p2_c.mp4, poster: assets/video/case_studies/gallify/p2_c.jpg, cap: "AR in a real room: walk around, place the piece on the wall at its real size, resize it, take a snapshot, then bid from the same screen."}
+          - {src: assets/img/case_studies/gallify/p3.webp, video: assets/video/case_studies/gallify/p3_c.mp4, poster: assets/video/case_studies/gallify/p3_c.jpg, cap: "The artist side: add works, mint each as 1 of 1, publish a gallery and share its link."}
   - id: problem
     title: Problem and research
     blocks:
