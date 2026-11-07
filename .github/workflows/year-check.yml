@@ -1,0 +1,22 @@
+name: Year check
+on:
+  push:
+    branches: ["claude/year-check"]
+permissions:
+  contents: write
+jobs:
+  years:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Look up years and candidate covers
+        run: python bin/year_check.py 2>&1 | tee year.log
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f years.json year.log cands
+          git commit -m "Year check results" && git push || echo nothing
