@@ -17,7 +17,6 @@ cover: assets/img/case_studies/goldsmith/cover.jpg
 cover_video: assets/video/case_studies/goldsmith/cover.mp4
 cover_poster: assets/video/case_studies/goldsmith/cover-poster.jpg
 pdf: assets/pdf/case_studies/Edward_Profio_Goldsmith_Case_Study.pdf
-mock_note: "Screens are concept designs. Manufacturer details are public information about real companies; no partnership or quote is implied."
 meta:
   - {k: Role, v: "Founder, CEO"}
   - {k: Status, v: "Concept, investor pitch, launched in 12 weeks"}

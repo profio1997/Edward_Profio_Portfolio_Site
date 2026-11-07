@@ -44,7 +44,7 @@ latest_posts:
 <div class="home-cta">
   <a class="cs-btn cs-btn--pri" href="#case-studies"><i class="fa-solid fa-arrow-down"></i> Case studies</a>
   <a class="cs-btn" href="{{ '/assets/pdf/Edward_Profio.pdf' | relative_url }}" target="_blank" rel="noopener"><i class="fa-solid fa-file-arrow-down"></i> Resume (PDF)</a>
-  <a class="cs-btn" href="mailto:edward@profio.us"><i class="fa-solid fa-envelope"></i> Email me</a>
+  <a class="cs-btn" href="mailto:edward@profio.us"><i class="fa-solid fa-envelope"></i> Contact me</a>
 </div>
 
 {% include case_study/featured.liquid %}

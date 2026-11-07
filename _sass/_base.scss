@@ -2209,7 +2209,7 @@ h2.book-year {
   padding: 0;
   margin: 0 0 1.5rem;
   content-visibility: auto;
-  contain-intrinsic-size: auto 1200px;
+  contain-intrinsic-size: auto 1800px;
 }
 
 .book-meta {
@@ -2395,3 +2395,5 @@ figure.cover figcaption .cover-fav { color: #7a4b00; margin-right: .25rem; }
   .book-grid figure.cover { flex-basis: var(--tile); width: var(--tile); }
 }
 .book-filter-count { text-align: center; }
+
+@media (max-width: 767px) { .book-grid { content-visibility: visible; } }

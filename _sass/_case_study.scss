@@ -704,3 +704,107 @@ pre, .post pre, .highlight pre { white-space: pre-wrap; overflow-wrap: anywhere;
 }
 .cv table.table-cv { table-layout: fixed; max-width: 100%; }
 .cv table.table-cv td, .cv table.table-cv th { overflow-wrap: anywhere; }
+
+/* ======================================================================
+   v5: designer QC fixes. Rules below win over v3 and v4.
+   ====================================================================== */
+
+/* phones: three across down to 600px, one per row below */
+@media (min-width: 600px) and (max-width: 899px) {
+  .cs-page .cs-phones > * { flex: 0 0 calc((100% - 2 * var(--g)) / 3); max-width: calc((100% - 2 * var(--g)) / 3); }
+  .cs-page .cs-phones--2 > * { flex: 0 0 calc((100% - var(--g)) / 2); max-width: calc((100% - var(--g)) / 2); }
+}
+@media (max-width: 599px) { .cs-page .cs-phones > * { flex: 0 0 100%; max-width: 100%; } }
+.cs-page .cs-phones .cs-phone img, .cs-page .cs-phones .cs-phone .cs-vid, .cs-page .cs-split .cs-phone img, .cs-page .cs-split .cs-phone .cs-vid { width: min(var(--phone-w), 100%); }
+
+/* galleries: odd counts stay three across, even counts two across, one column on phones */
+@media (min-width: 600px) and (max-width: 899px) {
+  
+}
+
+/* insight and roadmap cards: three across from 820px */
+@media (min-width: 820px) and (max-width: 899px) {
+  .cs-page :is(.cs-insights, .cs-roadmap) > * { flex: 0 0 calc((100% - 2 * var(--g)) / 3); max-width: calc((100% - 2 * var(--g)) / 3); }
+  .cs-page .cs-insights:has(> :nth-child(2):last-child) > * { flex: 0 0 calc((100% - 2 * var(--g)) / 3); max-width: calc((100% - 2 * var(--g)) / 3); }
+}
+
+/* hero info cards: 3 stay 3 across down to 640px, 4 go 2 by 2, one column on phones */
+@media (min-width: 640px) and (max-width: 991px) {
+  .cs-page .cs-meta:has(> :nth-child(3):last-child) > div { flex: 0 0 calc((100% - 2 * var(--g)) / 3); }
+}
+@media (max-width: 639px) {
+  .cs-page .cs-meta:has(> :nth-child(3):last-child) > div { flex: 0 0 100%; }
+}
+
+/* steps: grid of equal cards, never a lonely full-width bar */
+@media (min-width: 900px) {
+  .cs-page .cs-flow { display: grid; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr)); gap: var(--g); }
+  .cs-page .cs-flow > * { flex: none; max-width: none; }
+  .cs-page .cs-flow:has(> :nth-child(6)) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 1100px) {
+  .cs-page .cs-flow:has(> :nth-child(6)) { grid-template-columns: repeat(var(--n, 6), minmax(0, 1fr)); }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .cs-page .cs-flow { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--g); }
+  .cs-page .cs-flow:has(> :nth-child(6)) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cs-page .cs-flow > * { flex: none; max-width: none; }
+  .cs-page .cs-flow:has(> :nth-child(5):last-child) > :last-child { grid-column: 1 / -1; justify-self: center; width: calc((100% - var(--g)) / 2); }
+}
+@media (max-width: 599px) { .cs-page .cs-flow { display: flex; } .cs-page .cs-step { min-height: 0; padding: 1rem 1.25rem; } }
+
+/* decisions ledger: label never splits, text never squeezed */
+.cs-page .cs-dec__rej { display: block; }
+.cs-page .cs-dec__rej span { display: inline; margin-right: .4rem; white-space: nowrap; }
+@media (min-width: 900px) and (max-width: 1099px) {
+  .cs-page .cs-decisions > .cs-dec { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) minmax(12rem, 1fr); column-gap: 1.75rem; }
+}
+
+/* the five case study cards on home and projects: equal size, centered, 3 / 2 / 1 across */
+.cs-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.1rem; }
+.cs-cards > .cs-card, .cs-cards > .cs-card:last-child:nth-child(odd) { flex: 0 0 100%; max-width: 100%; width: auto; margin: 0; grid-column: auto; }
+@media (min-width: 600px) { .cs-cards > .cs-card, .cs-cards > .cs-card:last-child:nth-child(odd) { flex-basis: calc((100% - 1.1rem) / 2); max-width: calc((100% - 1.1rem) / 2); } }
+@media (min-width: 900px) { .cs-cards > .cs-card, .cs-cards > .cs-card:last-child:nth-child(odd) { flex-basis: calc((100% - 2.2rem) / 3); max-width: calc((100% - 2.2rem) / 3); } }
+.cs-card__cta { margin-top: auto; }
+
+/* on this page chips: comfortable tap size on phones */
+@media (max-width: 767px) { .cs-page .cs-toc a { min-height: 2.75rem; display: inline-flex; align-items: center; padding: 0 1rem; } }
+
+/* metrics a bit tighter on phones */
+@media (max-width: 575px) { .cs-page .cs-metric { min-height: 7rem; } .cs-page .cs-metric__n { min-height: 0; } }
+
+/* two-column tables are easier to scan at a narrower, centered width */
+.cs-page .cs-table-wrap:has(.cs-table:not(:has(th:nth-child(3)))) { max-width: 720px; }
+
+/* browser screenshots: one width */
+.cs-page .cs-browsers > .cs-browser, .cs-page .cs-media > .cs-browsers { width: 100%; max-width: none; }
+
+/* home page headings centered with the rest of the layout */
+.cs-featured__head { justify-content: center; flex-direction: column; align-items: center; text-align: center; gap: .4rem; }
+.cs-principles__intro { text-align: center; margin-left: auto; margin-right: auto; }
+article > .clearfix ~ h2 { text-align: center; }
+
+/* projects thumbnails: do not crop wordmarks */
+.projects img[src*="GOAT"] { object-fit: contain; background: #fff; }
+
+/* one gallery tile size and one phone width at every viewport */
+@media (min-width: 600px) and (max-width: 899px) {
+  .cs-page .cs-gallery > * { flex: 0 0 var(--tile); max-width: var(--tile); }
+  .cs-page .cs-gallery:is(:has(> :nth-child(2):last-child), :has(> :nth-child(4):last-child)) { max-width: calc(2 * var(--tile) + var(--g)); margin-left: auto; margin-right: auto; }
+  .cs-page { --phone-w: min(16rem, var(--tile)); }
+}
+@media (min-width: 900px) { .cs-page { --phone-w: min(16rem, var(--tile)); } }
+
+.cs-page .cs-gallery, .cs-page .cs-gallery--3 { --g: inherit; }
+
+/* narrow screens: nothing hugs the left or right edge, everything is centered */
+@media (max-width: 767px) {
+  .cs-card__m, .cs-principle__fw, .book-detail__facts, .book-detail__chips, .book-detail__links, .cs-funnel__row, .repo-user-card__stats, .gh-stats { justify-content: center; }
+  .cs-page .cs-step { align-items: center; text-align: center; }
+  .cs-funnel__row { text-align: center; flex-wrap: wrap; }
+  .book-detail__title, .book-detail__author { text-align: center; }
+  .repo-card__header, .course-title-row { justify-content: center; text-align: center; flex-wrap: wrap; }
+}
+/* enough room for two across: metrics go 2 by 2 down to 400px */
+@media (min-width: 400px) and (max-width: 575px) { .cs-page .cs-metrics { --cols: 2; } .cs-page .cs-metric { min-height: 8rem; } }
+@media (max-width: 767px) { .cs-page .cs-funnel__row { justify-content: center; } }
