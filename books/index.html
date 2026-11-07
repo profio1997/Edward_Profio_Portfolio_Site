@@ -65,10 +65,10 @@
       count.textContent = (state.fav || state.year) ? (shown + (shown === 1 ? ' book' : ' books') + (state.year ? ' from ' + state.year : '') + (state.fav ? ', favorites only' : '')) : '';
       count.style.display = count.textContent ? '' : 'none';
     }
-    if (fav) fav.addEventListener('click', function () { state.fav = !state.fav; apply(); });
+    if (fav) fav.addEventListener('click', function () { state.fav = !state.fav; if (state.fav) state.year = null; apply(); });
     years.forEach(function (b) {
       b.addEventListener('click', function () {
-        var y = b.getAttribute('data-year'); state.year = state.year === y ? null : y; apply();
+        var y = b.getAttribute('data-year'); state.year = state.year === y ? null : y; if (state.year) state.fav = false; apply();
         var top = document.querySelector('h2.book-year:not([style*="none"])');
         if (top) window.scrollTo({ top: top.getBoundingClientRect().top + window.scrollY - 130, behavior: 'smooth' });
       });
