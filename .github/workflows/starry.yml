@@ -1,0 +1,22 @@
+name: Starry
+on:
+  push:
+    branches: ["claude/starry"]
+permissions:
+  contents: write
+jobs:
+  get:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          mkdir -p starry
+          curl -sSL -A "portfolio-asset/1.0 (https://github.com/profio1997)" -o starry/starry.jpg "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+          ls -la starry
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f starry
+          git commit -m "Starry results" && git push || echo nothing
