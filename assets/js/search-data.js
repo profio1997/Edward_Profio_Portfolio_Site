@@ -5971,32 +5971,11 @@ ninja.data = [{
           window.open("https://github.com/profio1997", "_blank");
         },
       },{
-        id: 'social-instagram',
-        title: 'Instagram',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://instagram.com/ledprofio", "_blank");
-        },
-      },{
-        id: 'social-kaggle',
-        title: 'Kaggle',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.kaggle.com/lp12468", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/profio", "_blank");
-        },
-      },{
-        id: 'social-medium',
-        title: 'Medium',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://medium.com/@Profio", "_blank");
         },
       },{
         id: 'social-researchgate',
@@ -6011,13 +5990,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=xQ1hxBoAAAAJ&", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/EdProfio1", "_blank");
         },
       },{
       id: 'light-theme',
