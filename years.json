@@ -1,0 +1,3552 @@
+[
+ {
+  "file": "21 Lessons for the 21st Century.md",
+  "title": "21 Lessons for the 21st Century",
+  "author": "Yuval Noah Harari",
+  "isbn": "9780525512172",
+  "year": 2018,
+  "ol_title": "21 Lessons for the 21st Century",
+  "ol_authors": [
+   "Yuval Noah Harari"
+  ]
+ },
+ {
+  "file": "7 Powers.md",
+  "title": "7 Powers",
+  "author": "Hamilton Helmer",
+  "isbn": "9780998116310",
+  "year": 2016,
+  "ol_title": "7 Powers",
+  "ol_authors": [
+   "Hamilton Helmer"
+  ]
+ },
+ {
+  "file": "A Brief History of Intelligence.md",
+  "title": "A Brief History of Intelligence",
+  "author": "Max Bennett",
+  "isbn": "9780063286368",
+  "year": 2023,
+  "ol_title": "Brief History of Brains",
+  "ol_authors": [
+   "Max Solomon Bennett"
+  ]
+ },
+ {
+  "file": "A Brief History of Time.md",
+  "title": "A Brief History of Time",
+  "author": "Stephen Hawking",
+  "isbn": "9780553380163",
+  "year": 1988,
+  "ol_title": "A Brief History of Time",
+  "ol_authors": [
+   "Stephen Hawking"
+  ]
+ },
+ {
+  "file": "A Theory of Justice.md",
+  "title": "A Theory of Justice",
+  "author": "John Rawls",
+  "isbn": "9780674000780",
+  "year": 1971,
+  "ol_title": "A theory of justice",
+  "ol_authors": [
+   "John Rawls"
+  ]
+ },
+ {
+  "file": "A Thousand Brains.md",
+  "title": "A Thousand Brains",
+  "author": "Jeff Hawkins",
+  "isbn": "9781541675810",
+  "year": 2021,
+  "ol_title": "A Thousand Brains",
+  "ol_authors": [
+   "Jeff Hawkins"
+  ]
+ },
+ {
+  "file": "AI Engineering.md",
+  "title": "AI Engineering",
+  "author": "Chip Huyen",
+  "isbn": "9781098166304",
+  "year": 2024,
+  "ol_title": "AI Engineering",
+  "ol_authors": [
+   "Chip Huyen"
+  ]
+ },
+ {
+  "file": "AI Superpowers.md",
+  "title": "AI Superpowers",
+  "author": "Kai-Fu Lee",
+  "isbn": "9781328546395",
+  "year": 2018,
+  "ol_title": "AI superpowers",
+  "ol_authors": [
+   "Kai-Fu Lee"
+  ]
+ },
+ {
+  "file": "Accelerate.md",
+  "title": "Accelerate",
+  "author": "Nicole Forsgren, Jez Humble and Gene Kim",
+  "isbn": "9781942788331",
+  "year": 2018,
+  "ol_title": "Accelerate",
+  "ol_authors": [
+   "Nicole Forsgren",
+   "Jez Humble",
+   "Gene Kim"
+  ]
+ },
+ {
+  "file": "Algorithms of Oppression.md",
+  "title": "Algorithms of Oppression",
+  "author": "Safiya Umoja Noble",
+  "isbn": "9781479837243",
+  "year": 2018,
+  "ol_title": "Algorithms of Oppression",
+  "ol_authors": [
+   "Safiya Umoja Noble"
+  ]
+ },
+ {
+  "file": "Algorithms to Live By.md",
+  "title": "Algorithms to Live By",
+  "author": "Brian Christian, Tom Griffiths",
+  "isbn": "9781627790369",
+  "year": 2016,
+  "ol_title": "Algorithms to Live By",
+  "ol_authors": [
+   "Brian Christian",
+   "Tom Griffiths",
+   "Brian Christian"
+  ]
+ },
+ {
+  "file": "An Anthropologist on Mars.md",
+  "title": "An Anthropologist on Mars",
+  "author": "Oliver Sacks",
+  "isbn": "9780679746898",
+  "year": 1995,
+  "ol_title": "An Anthropologist on Mars",
+  "ol_authors": [
+   "Oliver Sacks"
+  ]
+ },
+ {
+  "file": "An Elegant Puzzle.md",
+  "title": "An Elegant Puzzle",
+  "author": "Will Larson",
+  "isbn": "9781732265189",
+  "year": 2019,
+  "ol_title": "An Elegant Puzzle",
+  "ol_authors": [
+   "Will Larson"
+  ]
+ },
+ {
+  "file": "An Enquiry Concerning Human Understanding.md",
+  "title": "An Enquiry Concerning Human Understanding",
+  "author": "David Hume",
+  "isbn": "9780872200906",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Antifragile.md",
+  "title": "Antifragile",
+  "author": "Nassim Nicholas Taleb",
+  "isbn": "9780812979688",
+  "year": 2012,
+  "ol_title": "Antifragile",
+  "ol_authors": [
+   "Nassim Nicholas Taleb",
+   "Gen\u00eds S\u00e1nchez Barber\u00e1n",
+   "Albino Santos Mosquera"
+  ]
+ },
+ {
+  "file": "Artificial Intelligence A Guide for Thinking Humans.md",
+  "title": "Artificial Intelligence: A Guide for Thinking Humans",
+  "author": "Melanie Mitchell",
+  "isbn": "9780374257835",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Artificial Intelligence A Modern Approach.md",
+  "title": "Artificial Intelligence: A Modern Approach",
+  "author": "Stuart Russell, Peter Norvig",
+  "isbn": "9780134610993",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Atlas of AI.md",
+  "title": "Atlas of AI",
+  "author": "Kate Crawford",
+  "isbn": "9780300264630",
+  "year": 2021,
+  "ol_title": "Atlas of AI",
+  "ol_authors": [
+   "Kate Crawford"
+  ]
+ },
+ {
+  "file": "Atomic Habits.md",
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "isbn": "9780735211292",
+  "year": 2016,
+  "ol_title": "Atomic Habits",
+  "ol_authors": [
+   "James Clear"
+  ]
+ },
+ {
+  "file": "Automating Inequality.md",
+  "title": "Automating Inequality",
+  "author": "Virginia Eubanks",
+  "isbn": "9781250074317",
+  "year": 2018,
+  "ol_title": "Automating Inequality",
+  "ol_authors": [
+   "Virginia Eubanks",
+   "Eubanks"
+  ]
+ },
+ {
+  "file": "Awakenings.md",
+  "title": "Awakenings",
+  "author": "Oliver Sacks",
+  "isbn": "9780375704055",
+  "year": 1973,
+  "ol_title": "Awakenings",
+  "ol_authors": [
+   "Oliver Sacks",
+   "Jonathan Davis"
+  ]
+ },
+ {
+  "file": "Bad Blood.md",
+  "title": "Bad Blood",
+  "author": "John Carreyrou",
+  "isbn": "9781524731656",
+  "year": 2018,
+  "ol_title": "Bad Blood",
+  "ol_authors": [
+   "John Carreyrou"
+  ]
+ },
+ {
+  "file": "Behave.md",
+  "title": "Behave",
+  "author": "Robert Sapolsky",
+  "isbn": "9780143110910",
+  "year": 2017,
+  "ol_title": "Behave",
+  "ol_authors": [
+   "Robert M. Sapolsky"
+  ]
+ },
+ {
+  "file": "Being No One.md",
+  "title": "Being No One",
+  "author": "Thomas Metzinger",
+  "isbn": "9780262633086",
+  "year": 2003,
+  "ol_title": "Being No One",
+  "ol_authors": [
+   "Thomas Metzinger"
+  ]
+ },
+ {
+  "file": "Being You.md",
+  "title": "Being You",
+  "author": "Anil Seth",
+  "isbn": "9781524742874",
+  "year": 2021,
+  "ol_title": "Being You",
+  "ol_authors": [
+   "Anil Seth"
+  ]
+ },
+ {
+  "file": "Beyond Good and Evil.md",
+  "title": "Beyond Good and Evil",
+  "author": "Friedrich Nietzsche",
+  "isbn": "9780140449235",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Blue Ocean Strategy.md",
+  "title": "Blue Ocean Strategy",
+  "author": "W. Chan Kim, Ren\u00e9e Mauborgne",
+  "isbn": "9781625274496",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Blueprint.md",
+  "title": "Blueprint",
+  "author": "Nicholas A. Christakis",
+  "isbn": "9780316230056",
+  "year": 2019,
+  "ol_title": "Blueprint",
+  "ol_authors": [
+   "Nicholas A. Christakis"
+  ]
+ },
+ {
+  "file": "Born a Crime.md",
+  "title": "Born a Crime",
+  "author": "Trevor Noah",
+  "isbn": "9780399588174",
+  "year": 2016,
+  "ol_title": "Born a Crime",
+  "ol_authors": [
+   "Trevor Noah"
+  ]
+ },
+ {
+  "file": "Brain Rules.md",
+  "title": "Brain Rules",
+  "author": "John Medina",
+  "isbn": "9780983263371",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Build a Large Language Model (From Scratch).md",
+  "title": "Build a Large Language Model (From Scratch)",
+  "author": "Sebastian Raschka",
+  "isbn": "9781633437166",
+  "year": 2024,
+  "ol_title": "Build a Large Language Model (from Scratch)",
+  "ol_authors": [
+   "Sebastian Raschka"
+  ]
+ },
+ {
+  "file": "Capital in the Twenty-First Century.md",
+  "title": "Capital in the Twenty-First Century",
+  "author": "Thomas Piketty",
+  "isbn": "9780674430006",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Chaos.md",
+  "title": "Chaos",
+  "author": "James Gleick",
+  "isbn": "9780143113454",
+  "year": 1987,
+  "ol_title": "Chaos",
+  "ol_authors": [
+   "James Gleick"
+  ]
+ },
+ {
+  "file": "Chip War.md",
+  "title": "Chip War",
+  "author": "Chris Miller",
+  "isbn": "9781982172008",
+  "year": 2022,
+  "ol_title": "Chip War",
+  "ol_authors": [
+   "Chris Miller",
+   "Chris Miller"
+  ]
+ },
+ {
+  "file": "Clear Thinking.md",
+  "title": "Clear Thinking",
+  "author": "Shane Parrish",
+  "isbn": "9780593419625",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Co-Intelligence.md",
+  "title": "Co-Intelligence",
+  "author": "Ethan Mollick",
+  "isbn": "9780593716717",
+  "year": 2024,
+  "ol_title": "Co-Intelligence",
+  "ol_authors": [
+   "Ethan Mollick"
+  ]
+ },
+ {
+  "file": "Code The Hidden Language of Computer Hardware and Software.md",
+  "title": "Code: The Hidden Language of Computer Hardware and Software",
+  "author": "Charles Petzold",
+  "isbn": "9780137909100",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Code.md",
+  "title": "Code",
+  "author": "Charles Petzold",
+  "isbn": "9780735611313",
+  "year": 1999,
+  "ol_title": "Code",
+  "ol_authors": [
+   "Charles Petzold",
+   "Charles Petzold"
+  ]
+ },
+ {
+  "file": "Cognitive Neuroscience The Biology of the Mind.md",
+  "title": "Cognitive Neuroscience: The Biology of the Mind",
+  "author": "Michael Gazzaniga, Richard Ivry, George Mangun",
+  "isbn": "9780393603170",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Cognitive Psychology.md",
+  "title": "Cognitive Psychology",
+  "author": "Robert Sternberg, Karin Sternberg",
+  "isbn": "9781337408271",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Cognitive Science An Introduction to the Study of Mind.md",
+  "title": "Cognitive Science: An Introduction to the Study of Mind",
+  "author": "Jay Friedenberg, Gordon Silverman",
+  "isbn": "9781483347363",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Competing Against Luck.md",
+  "title": "Competing Against Luck",
+  "author": "Clayton Christensen and colleagues",
+  "isbn": "9780062435613",
+  "year": 2016,
+  "ol_title": "Competing Against Luck",
+  "ol_authors": [
+   "Clayton M. Christensen"
+  ]
+ },
+ {
+  "file": "Competitive Advantage.md",
+  "title": "Competitive Advantage",
+  "author": "Michael E. Porter",
+  "isbn": "9780684841465",
+  "year": 1985,
+  "ol_title": "Competitive advantage",
+  "ol_authors": [
+   "Michael E. Porter"
+  ]
+ },
+ {
+  "file": "Competitive Strategy.md",
+  "title": "Competitive Strategy",
+  "author": "Michael Porter",
+  "isbn": "9780684841489",
+  "year": 1980,
+  "ol_title": "Competitive Strategy",
+  "ol_authors": [
+   "Michael E. Porter"
+  ]
+ },
+ {
+  "file": "Complexity A Guided Tour.md",
+  "title": "Complexity: A Guided Tour",
+  "author": "Melanie Mitchell",
+  "isbn": "9780199798100",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Computing A Concise History.md",
+  "title": "Computing: A Concise History",
+  "author": "Paul E. Ceruzzi",
+  "isbn": "9780262517683",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Consciousness Explained.md",
+  "title": "Consciousness Explained",
+  "author": "Daniel Dennett",
+  "isbn": "9780316180665",
+  "year": 1991,
+  "ol_title": "Consciousness explained",
+  "ol_authors": [
+   "Daniel C. Dennett"
+  ]
+ },
+ {
+  "file": "Consciousness and the Brain.md",
+  "title": "Consciousness and the Brain",
+  "author": "Stanislas Dehaene",
+  "isbn": "9780143126263",
+  "year": 2014,
+  "ol_title": "Consciousness and the Brain",
+  "ol_authors": [
+   "Stanislas Dehaene"
+  ]
+ },
+ {
+  "file": "Continuous Discovery Habits.md",
+  "title": "Continuous Discovery Habits",
+  "author": "Teresa Torres",
+  "isbn": "9781736633304",
+  "year": 2021,
+  "ol_title": "Continuous Discovery Habits",
+  "ol_authors": [
+   "Teresa Torres"
+  ]
+ },
+ {
+  "file": "Cosmos.md",
+  "title": "Cosmos",
+  "author": "Carl Sagan",
+  "isbn": "9780345539434",
+  "year": 1980,
+  "ol_title": "Cosmos",
+  "ol_authors": [
+   "Carl Sagan"
+  ]
+ },
+ {
+  "file": "Cracking the PM Interview.md",
+  "title": "Cracking the PM Interview",
+  "author": "Gayle Laakmann McDowell, Jackie Bavaro",
+  "isbn": "9780984782857",
+  "year": 2010,
+  "ol_title": "Cracking The Coding Interview",
+  "ol_authors": [
+   "Gayle Laakmann McDowell"
+  ]
+ },
+ {
+  "file": "Creativity, Inc..md",
+  "title": "Creativity, Inc.",
+  "author": "Ed Catmull, Amy Wallace",
+  "isbn": "9780812993011",
+  "year": 2001,
+  "ol_title": "Creativity, Inc.",
+  "ol_authors": [
+   "Ed Catmull",
+   "Amy Wallace"
+  ]
+ },
+ {
+  "file": "Critique of Pure Reason.md",
+  "title": "Critique of Pure Reason",
+  "author": "Immanuel Kant",
+  "isbn": "9780521657297",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Crossing the Chasm.md",
+  "title": "Crossing the Chasm",
+  "author": "Geoffrey A. Moore",
+  "isbn": "9780062292988",
+  "year": 1991,
+  "ol_title": "Crossing the Chasm",
+  "ol_authors": [
+   "Geoffrey A. Moore"
+  ]
+ },
+ {
+  "file": "Cybernetics.md",
+  "title": "Cybernetics",
+  "author": "Norbert Wiener",
+  "isbn": "9780262730099",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Darwin's Dangerous Idea.md",
+  "title": "Darwin's Dangerous Idea",
+  "author": "Daniel C. Dennett",
+  "isbn": "9780684824710",
+  "year": 1995,
+  "ol_title": "Darwin's dangerous idea",
+  "ol_authors": [
+   "Daniel C. Dennett"
+  ]
+ },
+ {
+  "file": "Deep Learning.md",
+  "title": "Deep Learning",
+  "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+  "isbn": "9780262035613",
+  "year": 2016,
+  "ol_title": "Deep Learning",
+  "ol_authors": [
+   "Ian Goodfellow",
+   "Yoshua Bengio",
+   "Aaron Courville",
+   "Francis Bach"
+  ]
+ },
+ {
+  "file": "Deep Medicine.md",
+  "title": "Deep Medicine",
+  "author": "Eric Topol",
+  "isbn": "9781541644632",
+  "year": 2019,
+  "ol_title": "Deep Medicine",
+  "ol_authors": [
+   "Eric J. Topol"
+  ]
+ },
+ {
+  "file": "Deep Work.md",
+  "title": "Deep Work",
+  "author": "Cal Newport",
+  "isbn": "9781455586691",
+  "year": 2016,
+  "ol_title": "Deep Work",
+  "ol_authors": [
+   "Cal Newport"
+  ]
+ },
+ {
+  "file": "Descartes' Error.md",
+  "title": "Descartes' Error",
+  "author": "Antonio Damasio",
+  "isbn": "9780143036227",
+  "year": 1995,
+  "ol_title": "Descartes' Error",
+  "ol_authors": [
+   "Antonio Damasio"
+  ]
+ },
+ {
+  "file": "Designing Data-Intensive Applications.md",
+  "title": "Designing Data-Intensive Applications",
+  "author": "Martin Kleppmann",
+  "isbn": "9781449373320",
+  "year": 2017,
+  "ol_title": "Designing Data-Intensive Applications",
+  "ol_authors": [
+   "Martin Kleppmann"
+  ]
+ },
+ {
+  "file": "Designing Machine Learning Systems.md",
+  "title": "Designing Machine Learning Systems",
+  "author": "Chip Huyen",
+  "isbn": "9781098107963",
+  "year": 2022,
+  "ol_title": "Designing Machine Learning Systems",
+  "ol_authors": [
+   "Chip Huyen"
+  ]
+ },
+ {
+  "file": "Determined.md",
+  "title": "Determined",
+  "author": "Robert M. Sapolsky",
+  "isbn": "9780525560975",
+  "year": 2023,
+  "ol_title": "Determined",
+  "ol_authors": [
+   "Robert M. Sapolsky"
+  ]
+ },
+ {
+  "file": "Discourse on Method and Meditations on First Philosophy.md",
+  "title": "Discourse on Method and Meditations on First Philosophy",
+  "author": "Rene Descartes",
+  "isbn": "9780872204201",
+  "year": 1999,
+  "ol_title": "Discourse on Method and Meditations on First Philosophy, 4th Ed",
+  "ol_authors": [
+   "Ren\u00e9 Descartes"
+  ]
+ },
+ {
+  "file": "Don't Make Me Think.md",
+  "title": "Don't Make Me Think",
+  "author": "Steve Krug",
+  "isbn": "9780321965516",
+  "year": 2000,
+  "ol_title": "Don't Make Me Think",
+  "ol_authors": [
+   "Steve Krug"
+  ]
+ },
+ {
+  "file": "Drive.md",
+  "title": "Drive",
+  "author": "Daniel H. Pink",
+  "isbn": "9781594484803",
+  "year": 2009,
+  "ol_title": "Drive",
+  "ol_authors": [
+   "Daniel H. Pink"
+  ]
+ },
+ {
+  "file": "Dune.md",
+  "title": "Dune",
+  "author": "Frank Herbert",
+  "isbn": "9780441172719",
+  "year": 1965,
+  "ol_title": "Dune",
+  "ol_authors": [
+   "Frank Herbert"
+  ]
+ },
+ {
+  "file": "EMPOWERED.md",
+  "title": "EMPOWERED",
+  "author": "Marty Cagan, Lenny Rachitsky",
+  "isbn": "9781119691297",
+  "year": 2020,
+  "ol_title": "Empowered",
+  "ol_authors": [
+   "Marty Cagan",
+   "Chris Jones"
+  ]
+ },
+ {
+  "file": "Educated.md",
+  "title": "Educated",
+  "author": "Tara Westover",
+  "isbn": "9780399590504",
+  "year": 2018,
+  "ol_title": "Educated",
+  "ol_authors": [
+   "Tara Westover",
+   "Orah Dan\u1e33ner"
+  ]
+ },
+ {
+  "file": "Elon Musk.md",
+  "title": "Elon Musk",
+  "author": "Walter Issacson",
+  "isbn": "",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Emotional Design.md",
+  "title": "Emotional Design",
+  "author": "Donald A. Norman",
+  "isbn": "9780465051366",
+  "year": 2003,
+  "ol_title": "Emotional Design",
+  "ol_authors": [
+   "Donald A. Norman"
+  ]
+ },
+ {
+  "file": "Emotional Intelligence.md",
+  "title": "Emotional Intelligence",
+  "author": "Daniel Goleman",
+  "isbn": "9780553383713",
+  "year": 1995,
+  "ol_title": "Emotional Intelligence",
+  "ol_authors": [
+   "Daniel Goleman"
+  ]
+ },
+ {
+  "file": "Ender's Game.md",
+  "title": "Ender's Game",
+  "author": "Orson Scott Card",
+  "isbn": "9780812550702",
+  "year": 1985,
+  "ol_title": "Ender's Game",
+  "ol_authors": [
+   "Orson Scott Card"
+  ]
+ },
+ {
+  "file": "Enlightenment Now.md",
+  "title": "Enlightenment Now",
+  "author": "Steven Pinker",
+  "isbn": "9780525427575",
+  "year": 2018,
+  "ol_title": "Enlightenment now",
+  "ol_authors": [
+   "Steven Pinker",
+   "Pablo Hermida Lazcano"
+  ]
+ },
+ {
+  "file": "Escaping the Build Trap.md",
+  "title": "Escaping the Build Trap",
+  "author": "Melissa Perri",
+  "isbn": "9781491973790",
+  "year": 2019,
+  "ol_title": "Escaping the Build Trap",
+  "ol_authors": [
+   "Melissa Perri"
+  ]
+ },
+ {
+  "file": "Exhalation.md",
+  "title": "Exhalation",
+  "author": "Ted Chiang",
+  "isbn": "9781101947883",
+  "year": 2014,
+  "ol_title": "Exhalation",
+  "ol_authors": [
+   "Ted Chiang"
+  ]
+ },
+ {
+  "file": "Fermat's Enigma.md",
+  "title": "Fermat's Enigma",
+  "author": "Simon Singh",
+  "isbn": "9780802713315",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Flow.md",
+  "title": "Flow",
+  "author": "Mihaly Csikszentmihalyi",
+  "isbn": "9780061339202",
+  "year": 1990,
+  "ol_title": "Flow",
+  "ol_authors": [
+   "Mihaly Csikszentmihalyi"
+  ]
+ },
+ {
+  "file": "Fooled by Randomness.md",
+  "title": "Fooled by Randomness",
+  "author": "Nassim Nicholas Taleb",
+  "isbn": "9780812975215",
+  "year": 2001,
+  "ol_title": "Fooled by randomness",
+  "ol_authors": [
+   "Nassim Nicholas Taleb"
+  ]
+ },
+ {
+  "file": "Foundation.md",
+  "title": "Foundation",
+  "author": "Isaac Asimov",
+  "isbn": "9780553293357",
+  "year": 1951,
+  "ol_title": "Foundation",
+  "ol_authors": [
+   "Isaac Asimov"
+  ]
+ },
+ {
+  "file": "Four Battlegrounds.md",
+  "title": "Four Battlegrounds",
+  "author": "Paul Scharre",
+  "isbn": "9781324050490",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Four Thousand Weeks.md",
+  "title": "Four Thousand Weeks",
+  "author": "Oliver Burkeman",
+  "isbn": "9780374159122",
+  "year": 2021,
+  "ol_title": "Four Thousand Weeks",
+  "ol_authors": [
+   "Oliver Burkeman"
+  ]
+ },
+ {
+  "file": "Fourth Wing.md",
+  "title": "Fourth Wing",
+  "author": "Rebecca Yarros",
+  "isbn": "9781649374042",
+  "year": 2023,
+  "ol_title": "Fourth Wing",
+  "ol_authors": [
+   "Rebecca Yarros"
+  ]
+ },
+ {
+  "file": "Freakonomics.md",
+  "title": "Freakonomics",
+  "author": "Steven D. Levitt, Stephen J. Dubner",
+  "isbn": "9780060731335",
+  "year": 2005,
+  "ol_title": "Freakonomics",
+  "ol_authors": [
+   "Steven D. Levitt",
+   "Stephen J. Dubner"
+  ]
+ },
+ {
+  "file": "From Bacteria to Bach and Back.md",
+  "title": "From Bacteria to Bach and Back",
+  "author": "Daniel Dennett",
+  "isbn": "9780393242072",
+  "year": 2017,
+  "ol_title": "From Bacteria to Bach and Back: The Evolution of Minds",
+  "ol_authors": [
+   "Daniel C. Dennett"
+  ]
+ },
+ {
+  "file": "Generative Deep Learning, 2nd Edition.md",
+  "title": "Generative Deep Learning, 2nd Edition",
+  "author": "David Foster",
+  "isbn": "9781098134181",
+  "year": 2022,
+  "ol_title": "Generative Deep Learning",
+  "ol_authors": [
+   "David Foster"
+  ]
+ },
+ {
+  "file": "Genius Makers.md",
+  "title": "Genius Makers",
+  "author": "Cade Metz",
+  "isbn": "9781524742676",
+  "year": 2021,
+  "ol_title": "Genius Makers",
+  "ol_authors": [
+   "Cade Metz"
+  ]
+ },
+ {
+  "file": "Genius.md",
+  "title": "Genius",
+  "author": "James Gleick",
+  "isbn": "9780679747048",
+  "year": 1992,
+  "ol_title": "Genius",
+  "ol_authors": [
+   "James Gleick"
+  ]
+ },
+ {
+  "file": "Godel's Proof.md",
+  "title": "Godel's Proof",
+  "author": "Ernest Nagel, James R. Newman",
+  "isbn": "9780814758373",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Going Infinite.md",
+  "title": "Going Infinite",
+  "author": "Michael Lewis",
+  "isbn": "9781324074335",
+  "year": 2023,
+  "ol_title": "Going Infinite",
+  "ol_authors": [
+   "Michael Lewis"
+  ]
+ },
+ {
+  "file": "Good Economics for Hard Times.md",
+  "title": "Good Economics for Hard Times",
+  "author": "Abhijit V. Banerjee, Esther Duflo",
+  "isbn": "9781610197892",
+  "year": 2019,
+  "ol_title": "Good Economics for Hard Times",
+  "ol_authors": [
+   "Abhijit Banerjee",
+   "Esther Duflo"
+  ]
+ },
+ {
+  "file": "Good Strategy Bad Strategy.md",
+  "title": "Good Strategy Bad Strategy",
+  "author": "Richard P. Rumelt",
+  "isbn": "9780307886231",
+  "year": 2011,
+  "ol_title": "Good Strategy, Bad Strategy",
+  "ol_authors": [
+   "Richard P. Rumelt"
+  ]
+ },
+ {
+  "file": "Good to Great.md",
+  "title": "Good to Great",
+  "author": "Jim Collins",
+  "isbn": "9780066620992",
+  "year": 2001,
+  "ol_title": "Good to Great",
+  "ol_authors": [
+   "Collins, James C.",
+   "Jim Collins"
+  ]
+ },
+ {
+  "file": "Grit.md",
+  "title": "Grit",
+  "author": "Angela Duckworth",
+  "isbn": "9781501111112",
+  "year": 2016,
+  "ol_title": "Grit",
+  "ol_authors": [
+   "Angela Duckworth"
+  ]
+ },
+ {
+  "file": "Guns, Germs, and Steel.md",
+  "title": "Guns, Germs, and Steel",
+  "author": "Jared Diamond",
+  "isbn": "9780393317558",
+  "year": 1997,
+  "ol_title": "Guns, Germs, and Steel",
+  "ol_authors": [
+   "Jared Diamond"
+  ]
+ },
+ {
+  "file": "G\u00f6del, Escher, Bach.md",
+  "title": "G\u00f6del, Escher, Bach",
+  "author": "Douglas Hofstadter",
+  "isbn": "9780465026562",
+  "year": 1979,
+  "ol_title": "G\u00f6del, Escher, Bach",
+  "ol_authors": [
+   "Douglas R. Hofstadter"
+  ]
+ },
+ {
+  "file": "Hackers Heroes of the Computer Revolution.md",
+  "title": "Hackers: Heroes of the Computer Revolution",
+  "author": "Steven Levy",
+  "isbn": "9781449388393",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Hands-On Large Language Models.md",
+  "title": "Hands-On Large Language Models",
+  "author": "Jay Alammar, Maarten Grootendorst",
+  "isbn": "9781098150969",
+  "year": 2024,
+  "ol_title": "Hands-On Large Language Models",
+  "ol_authors": [
+   "Jay Alammar",
+   "Maarten Grootendorst"
+  ]
+ },
+ {
+  "file": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow.md",
+  "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+  "author": "Aur\u00e9lien G\u00e9ron",
+  "isbn": "9781098125974",
+  "year": 2019,
+  "ol_title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+  "ol_authors": [
+   "Aur\u00e9lien G\u00e9ron"
+  ]
+ },
+ {
+  "file": "Happy Place.md",
+  "title": "Happy Place",
+  "author": "Emily Henry",
+  "isbn": "9780593441275",
+  "year": 2023,
+  "ol_title": "Happy Place",
+  "ol_authors": [
+   "Emily Henry"
+  ]
+ },
+ {
+  "file": "Hello World.md",
+  "title": "Hello World",
+  "author": "Hannah Fry",
+  "isbn": "9780393634990",
+  "year": 2018,
+  "ol_title": "Hello world",
+  "ol_authors": [
+   "Hannah Fry"
+  ]
+ },
+ {
+  "file": "Hidden Potential.md",
+  "title": "Hidden Potential",
+  "author": "Adam Grant",
+  "isbn": "9780593653142",
+  "year": 2023,
+  "ol_title": "Hidden Potential",
+  "ol_authors": [
+   "Adam Grant"
+  ]
+ },
+ {
+  "file": "High Output Management.md",
+  "title": "High Output Management",
+  "author": "Andrew S. Grove",
+  "isbn": "9780679762881",
+  "year": 1983,
+  "ol_title": "High Output Management",
+  "ol_authors": [
+   "Andrew S. Grove"
+  ]
+ },
+ {
+  "file": "Hit Refresh.md",
+  "title": "Hit Refresh",
+  "author": "Satya Nadella",
+  "isbn": "9780062652515",
+  "year": 2017,
+  "ol_title": "Hit Refresh",
+  "ol_authors": [
+   "Satya Nadella"
+  ]
+ },
+ {
+  "file": "Homo Deus.md",
+  "title": "Homo Deus",
+  "author": "Yuval Noah Harari",
+  "isbn": "9780062464316",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Hooked.md",
+  "title": "Hooked",
+  "author": "Nir Eyal",
+  "isbn": "9781591847786",
+  "year": 2014,
+  "ol_title": "Hooked",
+  "ol_authors": [
+   "Nir Eyal"
+  ]
+ },
+ {
+  "file": "How Big Things Get Done.md",
+  "title": "How Big Things Get Done",
+  "author": "Bent Flyvbjerg and Dan Gardner",
+  "isbn": "9780593239513",
+  "year": 2023,
+  "ol_title": "How Big Things Get Done",
+  "ol_authors": [
+   "Bent Flyvbjerg",
+   "Dan Gardner"
+  ]
+ },
+ {
+  "file": "How Emotions Are Made.md",
+  "title": "How Emotions Are Made",
+  "author": "Lisa Feldman Barrett",
+  "isbn": "9781328915429",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "How Not to Be Wrong.md",
+  "title": "How Not to Be Wrong",
+  "author": "Jordan Ellenberg",
+  "isbn": "9780143127536",
+  "year": 2014,
+  "ol_title": "How Not to Be Wrong",
+  "ol_authors": [
+   "Jordan Ellenberg"
+  ]
+ },
+ {
+  "file": "How We Learn.md",
+  "title": "How We Learn",
+  "author": "Stanislas Dehaene",
+  "isbn": "9780525559887",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "How the Mind Works.md",
+  "title": "How the Mind Works",
+  "author": "Steven Pinker",
+  "isbn": "9780393334777",
+  "year": 1997,
+  "ol_title": "How the Mind Works",
+  "ol_authors": [
+   "Steven Pinker"
+  ]
+ },
+ {
+  "file": "How to Build a Brain.md",
+  "title": "How to Build a Brain - A Neural Architecture for Biological Cognition",
+  "author": "Chris Eliasmith",
+  "isbn": "",
+  "year": 2013,
+  "ol_title": "How To Build A Brain A Neural Architecture For Biological Cognition",
+  "ol_authors": [
+   "Chris Eliasmith"
+  ]
+ },
+ {
+  "file": "Human Compatible.md",
+  "title": "Human Compatible",
+  "author": "Stuart Russell",
+  "isbn": "9780525558613",
+  "year": 2019,
+  "ol_title": "Human Compatible",
+  "ol_authors": [
+   "Stuart J. Russell"
+  ]
+ },
+ {
+  "file": "I Am a Strange Loop.md",
+  "title": "I Am a Strange Loop",
+  "author": "Douglas Hofstadter",
+  "isbn": "9780465030781",
+  "year": 2007,
+  "ol_title": "I Am a Strange Loop",
+  "ol_authors": [
+   "Douglas R. Hofstadter"
+  ]
+ },
+ {
+  "file": "I, Robot.md",
+  "title": "I, Robot",
+  "author": "Isaac Asimov",
+  "isbn": "9780553382563",
+  "year": 1950,
+  "ol_title": "I, Robot",
+  "ol_authors": [
+   "Isaac Asimov"
+  ]
+ },
+ {
+  "file": "In Search of Memory.md",
+  "title": "In Search of Memory",
+  "author": "Eric R. Kandel",
+  "isbn": "9780393329377",
+  "year": 2005,
+  "ol_title": "In Search of Memory",
+  "ol_authors": [
+   "Eric R. Kandel"
+  ]
+ },
+ {
+  "file": "Incognito.md",
+  "title": "Incognito",
+  "author": "David Eagleman",
+  "isbn": "9780307389923",
+  "year": 2011,
+  "ol_title": "Incognito",
+  "ol_authors": [
+   "David Eagleman"
+  ]
+ },
+ {
+  "file": "Influence.md",
+  "title": "Influence",
+  "author": "Robert Cialdini",
+  "isbn": "9780061241895",
+  "year": 1983,
+  "ol_title": "Influence",
+  "ol_authors": [
+   "Robert B. Cialdini"
+  ]
+ },
+ {
+  "file": "Information Theory, Inference, and Learning Algorithms.md",
+  "title": "Information Theory, Inference, and Learning Algorithms",
+  "author": "David MacKay",
+  "isbn": "9780521642989",
+  "year": 2003,
+  "ol_title": "Information Theory, Inference & Learning Algorithms",
+  "ol_authors": [
+   "David J.C. MacKay"
+  ]
+ },
+ {
+  "file": "Inspired.md",
+  "title": "INSPIRED: How to Create Tech Products Customers Love",
+  "author": "Marty Cagan",
+  "isbn": "9781119387503",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Introduction to Machine Learning with Python.md",
+  "title": "Introduction to Machine Learning with Python",
+  "author": "Andreas C. Muller; Sarah Guido",
+  "isbn": "9781449369415",
+  "year": 2016,
+  "ol_title": "Introduction to Machine Learning with Python",
+  "ol_authors": [
+   "Andreas C. Mueller",
+   "Sarah Guido"
+  ]
+ },
+ {
+  "file": "Intuition Pumps and Other Tools for Thinking.md",
+  "title": "Intuition Pumps and Other Tools for Thinking",
+  "author": "Daniel Dennett",
+  "isbn": "9780393348781",
+  "year": 2013,
+  "ol_title": "Intuition pumps and other tools for thinking",
+  "ol_authors": [
+   "Daniel C. Dennett"
+  ]
+ },
+ {
+  "file": "Iron Flame.md",
+  "title": "Iron Flame",
+  "author": "Rebecca Yarros",
+  "isbn": "9781649374172",
+  "year": 2023,
+  "ol_title": "Iron Flame",
+  "ol_authors": [
+   "Rebecca Yarros"
+  ]
+ },
+ {
+  "file": "Justice What's the Right Thing to Do.md",
+  "title": "Justice: What's the Right Thing to Do?",
+  "author": "Michael Sandel",
+  "isbn": "9780374532505",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Klara and the Sun.md",
+  "title": "Klara and the Sun",
+  "author": "Kazuo Ishiguro",
+  "isbn": "9780593318171",
+  "year": 2019,
+  "ol_title": "Klara and the Sun",
+  "ol_authors": [
+   "Kazuo Ishiguro"
+  ]
+ },
+ {
+  "file": "Lean Analytics.md",
+  "title": "Lean Analytics",
+  "author": "Alistair Croll, Benjamin Yoskovitz",
+  "isbn": "9781449335670",
+  "year": 2013,
+  "ol_title": "Lean Analytics",
+  "ol_authors": [
+   "Alistair Croll"
+  ]
+ },
+ {
+  "file": "Lean UX.md",
+  "title": "Lean UX",
+  "author": "Jeff Gothelf, Josh Seiden",
+  "isbn": "9781491911556",
+  "year": 2012,
+  "ol_title": "Lean UX",
+  "ol_authors": [
+   "Jeff Gothelf",
+   "Josh Seiden"
+  ]
+ },
+ {
+  "file": "Leviathan.md",
+  "title": "Leviathan",
+  "author": "Thomas Hobbes",
+  "isbn": "9780140431957",
+  "year": 1651,
+  "ol_title": "Leviathan",
+  "ol_authors": [
+   "Thomas Hobbes"
+  ]
+ },
+ {
+  "file": "Life 3.0.md",
+  "title": "Life 3.0",
+  "author": "Max Tegmark",
+  "isbn": "9781101946596",
+  "year": 2017,
+  "ol_title": "Life 3.0",
+  "ol_authors": [
+   "Max Tegmark"
+  ]
+ },
+ {
+  "file": "Loonshots.md",
+  "title": "Loonshots",
+  "author": "Safi Bahcall",
+  "isbn": "9781250185969",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Made to Stick.md",
+  "title": "Made to Stick",
+  "author": "Chip Heath, Dan Heath",
+  "isbn": "9781400064281",
+  "year": 1998,
+  "ol_title": "Made to stick",
+  "ol_authors": [
+   "Chip Heath",
+   "Dan Heath",
+   "\u02bbAlizah Ra\u02bbanan"
+  ]
+ },
+ {
+  "file": "Make It Stick.md",
+  "title": "Make It Stick",
+  "author": "Peter Brown, Henry Roediger, Mark McDaniel",
+  "isbn": "9780674729018",
+  "year": 2014,
+  "ol_title": "Make It Stick",
+  "ol_authors": [
+   "Peter C. Brown",
+   "Henry L. Roediger",
+   "Mark A. McDaniel"
+  ]
+ },
+ {
+  "file": "Man's Search for Meaning.md",
+  "title": "Man's Search for Meaning",
+  "author": "Viktor Frankl",
+  "isbn": "9780807014271",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Measure What Matters.md",
+  "title": "Measure What Matters",
+  "author": "John Doerr",
+  "isbn": "9780525536222",
+  "year": 2017,
+  "ol_title": "Measure what matters",
+  "ol_authors": [
+   "John Doerr"
+  ]
+ },
+ {
+  "file": "Meditations.md",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "isbn": "9780812968255",
+  "year": 1626,
+  "ol_title": "Meditations",
+  "ol_authors": [
+   "Marcus Aurelius"
+  ]
+ },
+ {
+  "file": "Metaphors We Live By.md",
+  "title": "Metaphors We Live By",
+  "author": "George Lakoff and Mark Johnson",
+  "isbn": "9780226468013",
+  "year": 1980,
+  "ol_title": "Metaphors We Live By",
+  "ol_authors": [
+   "George Lakoff",
+   "Mark Johnson"
+  ]
+ },
+ {
+  "file": "Mind in Life.md",
+  "title": "Mind in Life",
+  "author": "Evan Thompson",
+  "isbn": "9780674057517",
+  "year": 2007,
+  "ol_title": "Mind in Life",
+  "ol_authors": [
+   "Evan Thompson"
+  ]
+ },
+ {
+  "file": "Mindset.md",
+  "title": "Mindset",
+  "author": "Carol S. Dweck",
+  "isbn": "9780345472328",
+  "year": 2006,
+  "ol_title": "Mindset",
+  "ol_authors": [
+   "Carol S. Dweck"
+  ]
+ },
+ {
+  "file": "Mindstorms.md",
+  "title": "Mindstorms",
+  "author": "Seymour Papert",
+  "isbn": "9780465046744",
+  "year": 1980,
+  "ol_title": "Mindstorms",
+  "ol_authors": [
+   "Seymour Papert"
+  ]
+ },
+ {
+  "file": "Misbehaving.md",
+  "title": "Misbehaving",
+  "author": "Richard H. Thaler",
+  "isbn": "9780393352948",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Models of the Mind.md",
+  "title": "Models of the Mind",
+  "author": "Grace Lindsay",
+  "isbn": "9781472966421",
+  "year": 2021,
+  "ol_title": "Models of the Mind",
+  "ol_authors": [
+   "Grace Lindsay"
+  ]
+ },
+ {
+  "file": "Moral Tribes.md",
+  "title": "Moral Tribes",
+  "author": "Joshua Greene",
+  "isbn": "9780143126058",
+  "year": 2014,
+  "ol_title": "Moral Tribes",
+  "ol_authors": [
+   "Joshua Greene"
+  ]
+ },
+ {
+  "file": "Musicophilia.md",
+  "title": "Musicophilia",
+  "author": "Oliver Sacks",
+  "isbn": "9781400033539",
+  "year": 2007,
+  "ol_title": "Musicophilia",
+  "ol_authors": [
+   "Oliver Sacks"
+  ]
+ },
+ {
+  "file": "Naked Statistics.md",
+  "title": "Naked Statistics",
+  "author": "Charles Wheelan",
+  "isbn": "9780393347777",
+  "year": 2013,
+  "ol_title": "Naked Statistics",
+  "ol_authors": [
+   "Charles J. Wheelan"
+  ]
+ },
+ {
+  "file": "Neuromancer.md",
+  "title": "Neuromancer",
+  "author": "William Gibson",
+  "isbn": "9780441569595",
+  "year": 1984,
+  "ol_title": "Neuromancer",
+  "ol_authors": [
+   "William Gibson"
+  ]
+ },
+ {
+  "file": "Neuroscience Exploring the Brain.md",
+  "title": "Neuroscience: Exploring the Brain",
+  "author": "Mark Bear, Barry Connors, Michael Paradiso",
+  "isbn": "9781284211283",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Never Split the Difference.md",
+  "title": "Never Split the Difference",
+  "author": "Chris Voss",
+  "isbn": "9780062407801",
+  "year": 2016,
+  "ol_title": "Never Split the Difference",
+  "ol_authors": [
+   "Chris Voss",
+   "Tahl Raz"
+  ]
+ },
+ {
+  "file": "Nicomachean Ethics.md",
+  "title": "Nicomachean Ethics",
+  "author": "Aristotle",
+  "isbn": "9780140449495",
+  "year": 1558,
+  "ol_title": "Nicomachean Ethics",
+  "ol_authors": [
+   "Aristotle"
+  ]
+ },
+ {
+  "file": "Noise.md",
+  "title": "Noise",
+  "author": "Daniel Kahneman, Olivier Sibony, Cass Sunstein",
+  "isbn": "9780316451406",
+  "year": 2021,
+  "ol_title": "Noise",
+  "ol_authors": [
+   "Daniel Kahneman",
+   "Olivier Sibony",
+   "Cass R. Sunstein"
+  ]
+ },
+ {
+  "file": "Nudge.md",
+  "title": "Nudge",
+  "author": "Richard Thaler, Cass Sunstein",
+  "isbn": "9780143137009",
+  "year": 2008,
+  "ol_title": "Nudge",
+  "ol_authors": [
+   "Richard H. Thaler",
+   "Cass R. Sunstein"
+  ]
+ },
+ {
+  "file": "Obviously Awesome.md",
+  "title": "Obviously Awesome",
+  "author": "April Dunford",
+  "isbn": "9781999023003",
+  "year": 2019,
+  "ol_title": "Obviously Awesome",
+  "ol_authors": [
+   "April Dunford"
+  ]
+ },
+ {
+  "file": "On Intelligence.md",
+  "title": "On Intelligence",
+  "author": "Jeff Hawkins",
+  "isbn": "",
+  "year": 2005,
+  "ol_title": "On intelligence",
+  "ol_authors": [
+   "Jeff Hawkins",
+   "Sandra Blakeslee"
+  ]
+ },
+ {
+  "file": "On the Origin of Species.md",
+  "title": "On the Origin of Species",
+  "author": "Charles Darwin",
+  "isbn": "9780140432053",
+  "year": 1859,
+  "ol_title": "On the origin of species by means of natural selection",
+  "ol_authors": [
+   "Charles Darwin"
+  ]
+ },
+ {
+  "file": "Only the Paranoid Survive.md",
+  "title": "Only the Paranoid Survive",
+  "author": "Andrew Grove",
+  "isbn": "9780385483827",
+  "year": 1996,
+  "ol_title": "Only the paranoid survive",
+  "ol_authors": [
+   "Andrew S. Grove"
+  ]
+ },
+ {
+  "file": "Originals.md",
+  "title": "Originals",
+  "author": "Adam Grant",
+  "isbn": "9780143130857",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Other Minds.md",
+  "title": "Other Minds",
+  "author": "Peter Godfrey-Smith",
+  "isbn": "9780374537197",
+  "year": 2016,
+  "ol_title": "Other Minds",
+  "ol_authors": [
+   "Peter Godfrey-Smith"
+  ]
+ },
+ {
+  "file": "Outliers.md",
+  "title": "Outliers",
+  "author": "Malcolm Gladwell",
+  "isbn": "9780316017930",
+  "year": 2008,
+  "ol_title": "Outliers",
+  "ol_authors": [
+   "Malcolm Gladwell"
+  ]
+ },
+ {
+  "file": "Outlive.md",
+  "title": "Outlive",
+  "author": "Peter Attia",
+  "isbn": "9780593236598",
+  "year": 2023,
+  "ol_title": "Outlive",
+  "ol_authors": [
+   "Peter Attia",
+   "Bill Gifford"
+  ]
+ },
+ {
+  "file": "Pattern Recognition and Machine Learning.md",
+  "title": "Pattern Recognition and Machine Learning",
+  "author": "Christopher M. Bishop",
+  "isbn": "9780387310732",
+  "year": 2008,
+  "ol_title": "Pattern Recognition and Machine Learning (Information Science and Statistics)",
+  "ol_authors": [
+   "Christopher M. Bishop"
+  ]
+ },
+ {
+  "file": "Peak.md",
+  "title": "Peak",
+  "author": "Anders Ericsson; Robert Pool",
+  "isbn": "9780544456235",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Peopleware.md",
+  "title": "Peopleware",
+  "author": "Tom DeMarco, Timothy Lister",
+  "isbn": "9780932633439",
+  "year": 1987,
+  "ol_title": "Peopleware",
+  "ol_authors": [
+   "Tom DeMarco",
+   "Timothy Lister"
+  ]
+ },
+ {
+  "file": "Phantoms in the Brain.md",
+  "title": "Phantoms in the Brain",
+  "author": "V. S. Ramachandran",
+  "isbn": "9780688172176",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Philosophical Investigations.md",
+  "title": "Philosophical Investigations",
+  "author": "Ludwig Wittgenstein",
+  "isbn": "9781405159593",
+  "year": 1953,
+  "ol_title": "Philosophical investigations",
+  "ol_authors": [
+   "Ludwig Wittgenstein"
+  ]
+ },
+ {
+  "file": "Playing to Win.md",
+  "title": "Playing to Win",
+  "author": "A.G. Lafley, Roger L. Martin",
+  "isbn": "9781422187395",
+  "year": 2013,
+  "ol_title": "Playing to win",
+  "ol_authors": [
+   "A. G. Lafley"
+  ]
+ },
+ {
+  "file": "Poor Economics.md",
+  "title": "Poor Economics",
+  "author": "Abhijit V. Banerjee, Esther Duflo",
+  "isbn": "9781610390934",
+  "year": 2011,
+  "ol_title": "Poor Economics",
+  "ol_authors": [
+   "Abhijit Banerjee",
+   "Esther Duflo"
+  ]
+ },
+ {
+  "file": "Possible Minds.md",
+  "title": "Possible Minds",
+  "author": "John Brockman",
+  "isbn": "9780525557999",
+  "year": 2019,
+  "ol_title": "Possible Minds",
+  "ol_authors": [
+   "John Brockman"
+  ]
+ },
+ {
+  "file": "Poverty, by America.md",
+  "title": "Poverty, by America",
+  "author": "Matthew Desmond",
+  "isbn": "9780593239919",
+  "year": 2023,
+  "ol_title": "Poverty, by America",
+  "ol_authors": [
+   "Matthew Desmond"
+  ]
+ },
+ {
+  "file": "Power and Prediction.md",
+  "title": "Power and Prediction",
+  "author": "Ajay Agrawal, Joshua Gans, Avi Goldfarb",
+  "isbn": "9781647824198",
+  "year": 2022,
+  "ol_title": "Power and Prediction",
+  "ol_authors": [
+   "Ajay Agrawal",
+   "Joshua Gans",
+   "Avi Goldfarb"
+  ]
+ },
+ {
+  "file": "Power and Progress.md",
+  "title": "Power and Progress",
+  "author": "Daron Acemoglu and Simon Johnson",
+  "isbn": "9781541702530",
+  "year": 2023,
+  "ol_title": "Power and Progress",
+  "ol_authors": [
+   "Daron Acemoglu",
+   "Simon Johnson"
+  ]
+ },
+ {
+  "file": "Practical Ethics.md",
+  "title": "Practical Ethics",
+  "author": "Peter Singer",
+  "isbn": "9780521707688",
+  "year": 1993,
+  "ol_title": "Practical ethics",
+  "ol_authors": [
+   "Peter Singer"
+  ]
+ },
+ {
+  "file": "Predictably Irrational.md",
+  "title": "Predictably Irrational",
+  "author": "Dan Ariely",
+  "isbn": "9780061353246",
+  "year": 2008,
+  "ol_title": "Predictably Irrational",
+  "ol_authors": [
+   "Dan Ariely"
+  ]
+ },
+ {
+  "file": "Prediction Machines.md",
+  "title": "Prediction Machines",
+  "author": "Ajay Agrawal, Joshua Gans, Avi Goldfarb",
+  "isbn": "9781633695672",
+  "year": 2018,
+  "ol_title": "Prediction machines",
+  "ol_authors": [
+   "Ajay Agrawal"
+  ]
+ },
+ {
+  "file": "Principles of Economics.md",
+  "title": "Principles of Economics",
+  "author": "N. Gregory Mankiw",
+  "isbn": "9781305585126",
+  "year": 2012,
+  "ol_title": "Principles of Economics",
+  "ol_authors": [
+   "N. Gregory Mankiw"
+  ]
+ },
+ {
+  "file": "Principles of Neural Science.md",
+  "title": "Principles of Neural Science",
+  "author": "Eric Kandel et al.",
+  "isbn": "",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Principles.md",
+  "title": "Principles",
+  "author": "Ray Dalio",
+  "isbn": "9781501124020",
+  "year": 2017,
+  "ol_title": "Principles",
+  "ol_authors": [
+   "Ray Dalio"
+  ]
+ },
+ {
+  "file": "Probably Overthinking It.md",
+  "title": "Probably Overthinking It",
+  "author": "Allen B. Downey",
+  "isbn": "9780226822587",
+  "year": 2023,
+  "ol_title": "Probably Overthinking It",
+  "ol_authors": [
+   "Allen B. Downey"
+  ]
+ },
+ {
+  "file": "Product Leadership.md",
+  "title": "Product Leadership",
+  "author": "Richard Banfield, Martin Eriksson, Nate Walkingshaw",
+  "isbn": "9781491960608",
+  "year": 2017,
+  "ol_title": "Product leadership",
+  "ol_authors": [
+   "Richard Banfield"
+  ]
+ },
+ {
+  "file": "Project Hail Mary.md",
+  "title": "Project Hail Mary",
+  "author": "Andy Weir",
+  "isbn": "9780593135204",
+  "year": 2021,
+  "ol_title": "Project Hail Mary",
+  "ol_authors": [
+   "Andy Weir"
+  ]
+ },
+ {
+  "file": "Quiet.md",
+  "title": "Quiet",
+  "author": "Susan Cain",
+  "isbn": "9780307352156",
+  "year": 2012,
+  "ol_title": "Quiet",
+  "ol_authors": [
+   "Susan Cain"
+  ]
+ },
+ {
+  "file": "Race After Technology.md",
+  "title": "Race After Technology",
+  "author": "Ruha Benjamin",
+  "isbn": "9781509526437",
+  "year": 2019,
+  "ol_title": "Race After Technology",
+  "ol_authors": [
+   "Ruha Benjamin"
+  ]
+ },
+ {
+  "file": "Radical Candor.md",
+  "title": "Radical Candor",
+  "author": "Kim Scott",
+  "isbn": "9781250103505",
+  "year": 2017,
+  "ol_title": "Radical Candor",
+  "ol_authors": [
+   "Kim Malone Scott"
+  ]
+ },
+ {
+  "file": "Range.md",
+  "title": "Range",
+  "author": "David Epstein",
+  "isbn": "9780735214484",
+  "year": 2019,
+  "ol_title": "Range",
+  "ol_authors": [
+   "David J. Epstein"
+  ]
+ },
+ {
+  "file": "Rationality.md",
+  "title": "Rationality",
+  "author": "Steven Pinker",
+  "isbn": "9780525561996",
+  "year": 2021,
+  "ol_title": "Rationality",
+  "ol_authors": [
+   "Steven Pinker",
+   "Pablo Hermida Lazcano"
+  ]
+ },
+ {
+  "file": "Reality+.md",
+  "title": "Reality+",
+  "author": "David J. Chalmers",
+  "isbn": "9780393635805",
+  "year": 2022,
+  "ol_title": "Reality+",
+  "ol_authors": [
+   "David J. Chalmers"
+  ]
+ },
+ {
+  "file": "Reasons and Persons.md",
+  "title": "Reasons and Persons",
+  "author": "Derek Parfit",
+  "isbn": "9780198249085",
+  "year": 1984,
+  "ol_title": "Reasons and Persons",
+  "ol_authors": [
+   "Derek Parfit"
+  ]
+ },
+ {
+  "file": "Rebooting AI.md",
+  "title": "Rebooting AI",
+  "author": "Gary Marcus, Ernest Davis",
+  "isbn": "9781524748258",
+  "year": 2019,
+  "ol_title": "Rebooting AI",
+  "ol_authors": [
+   "Gary Marcus",
+   "Ernest Davis"
+  ]
+ },
+ {
+  "file": "Reinforcement Learning An Introduction.md",
+  "title": "Reinforcement Learning: An Introduction",
+  "author": "Richard Sutton, Andrew Barto",
+  "isbn": "9780262039246",
+  "year": 1992,
+  "ol_title": "Reinforcement Learning",
+  "ol_authors": [
+   "Richard S. Sutton"
+  ]
+ },
+ {
+  "file": "Rhythms of the Brain.md",
+  "title": "Rhythms of the Brain",
+  "author": "Gyorgy Buzsaki",
+  "isbn": "",
+  "year": 2006,
+  "ol_title": "Rhythms of the Brain",
+  "ol_authors": [
+   "Gyorgy Buzsaki"
+  ]
+ },
+ {
+  "file": "Risk Savvy.md",
+  "title": "Risk Savvy",
+  "author": "Gerd Gigerenzer",
+  "isbn": "9780143127109",
+  "year": 2014,
+  "ol_title": "Risk savvy",
+  "ol_authors": [
+   "Gerd Gigerenzer"
+  ]
+ },
+ {
+  "file": "Same as Ever.md",
+  "title": "Same as Ever",
+  "author": "Morgan Housel",
+  "isbn": "9780593332702",
+  "year": 2023,
+  "ol_title": "Same as Ever",
+  "ol_authors": [
+   "Morgan Housel"
+  ]
+ },
+ {
+  "file": "Sapiens.md",
+  "title": "Sapiens",
+  "author": "Yuval Noah Harari",
+  "isbn": "9780062316110",
+  "year": 2011,
+  "ol_title": "Sapiens",
+  "ol_authors": [
+   "Yuval Noah Harari"
+  ]
+ },
+ {
+  "file": "Seven and a Half Lessons About the Brain.md",
+  "title": "Seven and a Half Lessons About the Brain",
+  "author": "Lisa Feldman Barrett",
+  "isbn": "9780358157151",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Shoe Dog.md",
+  "title": "Shoe Dog",
+  "author": "Phil Knight",
+  "isbn": "9781501135910",
+  "year": 2014,
+  "ol_title": "Shoe Dog",
+  "ol_authors": [
+   "Phil Knight"
+  ]
+ },
+ {
+  "file": "Skin in the Game.md",
+  "title": "Skin in the Game",
+  "author": "Nassim Nicholas Taleb",
+  "isbn": "9780425284629",
+  "year": 2017,
+  "ol_title": "Skin in the Game",
+  "ol_authors": [
+   "Nassim Nicholas Taleb"
+  ]
+ },
+ {
+  "file": "Snow Crash.md",
+  "title": "Snow Crash",
+  "author": "Neal Stephenson",
+  "isbn": "9780553380958",
+  "year": 1992,
+  "ol_title": "Snow Crash",
+  "ol_authors": [
+   "Neal Stephenson"
+  ]
+ },
+ {
+  "file": "Spare.md",
+  "title": "Spare",
+  "author": "Prince Harry",
+  "isbn": "9780593593806",
+  "year": 2023,
+  "ol_title": "Spare",
+  "ol_authors": [
+   "Prince Harry, Duke of Sussex"
+  ]
+ },
+ {
+  "file": "Sprint.md",
+  "title": "Sprint",
+  "author": "Jake Knapp",
+  "isbn": "9781501121746",
+  "year": 2001,
+  "ol_title": "Sprint",
+  "ol_authors": [
+   "Jake Knapp",
+   "John Zeratsky",
+   "Braden Kowitz"
+  ]
+ },
+ {
+  "file": "Start with Why.md",
+  "title": "Start with Why",
+  "author": "Simon Sinek",
+  "isbn": "9781591846444",
+  "year": 2009,
+  "ol_title": "Start with why",
+  "ol_authors": [
+   "Simon Sinek"
+  ]
+ },
+ {
+  "file": "Steve Jobs.md",
+  "title": "Steve Jobs",
+  "author": "Walter Issacson",
+  "isbn": "",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Stories of Your Life and Others.md",
+  "title": "Stories of Your Life and Others",
+  "author": "Ted Chiang",
+  "isbn": "9781101972120",
+  "year": 2002,
+  "ol_title": "Stories of Your Life and Others",
+  "ol_authors": [
+   "Ted Chiang"
+  ]
+ },
+ {
+  "file": "Stumbling on Happiness.md",
+  "title": "Stumbling on Happiness",
+  "author": "Daniel Gilbert",
+  "isbn": "9781400077427",
+  "year": 2006,
+  "ol_title": "Stumbling on happiness",
+  "ol_authors": [
+   "Daniel T. Gilbert"
+  ]
+ },
+ {
+  "file": "Superforecasting.md",
+  "title": "Superforecasting",
+  "author": "Philip E. Tetlock and Dan Gardner",
+  "isbn": "9780804136716",
+  "year": 2015,
+  "ol_title": "Superforecasting",
+  "ol_authors": [
+   "Philip E. Tetlock",
+   "Dan Gardner",
+   "Santiago Foz (argentino)"
+  ]
+ },
+ {
+  "file": "Superintelligence.md",
+  "title": "Superintelligence",
+  "author": "Nick Bostrom",
+  "isbn": "9780198739838",
+  "year": 2014,
+  "ol_title": "Superintelligence",
+  "ol_authors": [
+   "Nick Bostrom"
+  ]
+ },
+ {
+  "file": "Surely You're Joking, Mr. Feynman!.md",
+  "title": "Surely You're Joking, Mr. Feynman!",
+  "author": "Richard P. Feynman",
+  "isbn": "9780393316049",
+  "year": 1984,
+  "ol_title": "\"Surely You're Joking, Mr. Feynman\"",
+  "ol_authors": [
+   "Richard Phillips Feynman",
+   "Ralph Leighton"
+  ]
+ },
+ {
+  "file": "Surfing Uncertainty.md",
+  "title": "Surfing Uncertainty",
+  "author": "Andy Clark",
+  "isbn": "9780190217013",
+  "year": 2016,
+  "ol_title": "Surfing uncertainty",
+  "ol_authors": [
+   "Clark, Andy"
+  ]
+ },
+ {
+  "file": "TRANSFORMED.md",
+  "title": "TRANSFORMED",
+  "author": "Marty Cagan",
+  "isbn": "9781119697336",
+  "year": 2024,
+  "ol_title": "Transformed",
+  "ol_authors": [
+   "Marty Cagan"
+  ]
+ },
+ {
+  "file": "Talking to Strangers.md",
+  "title": "Talking to Strangers",
+  "author": "Malcolm Gladwell",
+  "isbn": "9780316478526",
+  "year": 2019,
+  "ol_title": "Talking to Strangers",
+  "ol_authors": [
+   "Malcolm Gladwell",
+   "Gai Herling"
+  ]
+ },
+ {
+  "file": "Team Topologies.md",
+  "title": "Team Topologies",
+  "author": "Matthew Skelton, Manuel Pais",
+  "isbn": "9781942788812",
+  "year": 2019,
+  "ol_title": "Team Topologies",
+  "ol_authors": [
+   "Matthew Skelton",
+   "Manuel Pais",
+   "Ruth Malan"
+  ]
+ },
+ {
+  "file": "The Age of Surveillance Capitalism.md",
+  "title": "The Age of Surveillance Capitalism",
+  "author": "Shoshana Zuboff",
+  "isbn": "9781610395694",
+  "year": 2018,
+  "ol_title": "The Age of Surveillance Capitalism",
+  "ol_authors": [
+   "Shoshana Zuboff"
+  ]
+ },
+ {
+  "file": "The Alignment Problem.md",
+  "title": "The Alignment Problem",
+  "author": "Brian Christian",
+  "isbn": "9780393635829",
+  "year": 2020,
+  "ol_title": "The Alignment Problem",
+  "ol_authors": [
+   "Brian Christian"
+  ]
+ },
+ {
+  "file": "The Almanack of Naval Ravikant.md",
+  "title": "The Almanack of Naval Ravikant",
+  "author": "Eric Jorgenson",
+  "isbn": "9781544514208",
+  "year": 2020,
+  "ol_title": "The Almanack of Naval Ravikant",
+  "ol_authors": [
+   "Eric Jorgenson"
+  ]
+ },
+ {
+  "file": "The Annotated Turing.md",
+  "title": "The Annotated Turing",
+  "author": "Charles Petzold",
+  "isbn": "9780470229057",
+  "year": 2008,
+  "ol_title": "The Annotated Turing",
+  "ol_authors": [
+   "Charles Petzold"
+  ]
+ },
+ {
+  "file": "The Anxious Generation.md",
+  "title": "The Anxious Generation",
+  "author": "Jonathan Haidt",
+  "isbn": "9780593655030",
+  "year": 2024,
+  "ol_title": "The Anxious Generation",
+  "ol_authors": [
+   "Jonathan Haidt"
+  ]
+ },
+ {
+  "file": "The Battle for Your Brain.md",
+  "title": "The Battle for Your Brain",
+  "author": "Nita A. Farahany",
+  "isbn": "9781250272959",
+  "year": 2023,
+  "ol_title": "Battle for Your Brain",
+  "ol_authors": [
+   "Nita Farahany"
+  ]
+ },
+ {
+  "file": "The Beginning of Infinity.md",
+  "title": "The Beginning of Infinity",
+  "author": "David Deutsch",
+  "isbn": "9780143121350",
+  "year": 2008,
+  "ol_title": "The Beginning of Infinity",
+  "ol_authors": [
+   "David Deutsch"
+  ]
+ },
+ {
+  "file": "The Better Angels of Our Nature.md",
+  "title": "The Better Angels of Our Nature",
+  "author": "Steven Pinker",
+  "isbn": "9780143122012",
+  "year": 2011,
+  "ol_title": "The better angels of our nature",
+  "ol_authors": [
+   "Steven Pinker"
+  ]
+ },
+ {
+  "file": "The Black Swan.md",
+  "title": "The Black Swan",
+  "author": "Nassim Nicholas Taleb",
+  "isbn": "9780812973815",
+  "year": 2005,
+  "ol_title": "The Black Swan",
+  "ol_authors": [
+   "Nassim Nicholas Taleb",
+   "David Chandler"
+  ]
+ },
+ {
+  "file": "The Blank Slate.md",
+  "title": "The Blank Slate",
+  "author": "Steven Pinker",
+  "isbn": "9780142003343",
+  "year": 2002,
+  "ol_title": "The Blank Slate",
+  "ol_authors": [
+   "Steven Pinker"
+  ]
+ },
+ {
+  "file": "The Body Keeps the Score.md",
+  "title": "The Body Keeps the Score",
+  "author": "Bessel van der Kolk",
+  "isbn": "9780143127741",
+  "year": 2014,
+  "ol_title": "The Body Keeps the Score",
+  "ol_authors": [
+   "Bessel van der Kolk"
+  ]
+ },
+ {
+  "file": "The Book of Why.md",
+  "title": "The Book of Why",
+  "author": "Judea Pearl and Dana Mackenzie",
+  "isbn": "9781541698963",
+  "year": 2018,
+  "ol_title": "The Book of Why",
+  "ol_authors": [
+   "Judea Pearl",
+   "Dana Mackenzie",
+   "Dana Mackenzie Judea Pearl",
+   "Mel Foster"
+  ]
+ },
+ {
+  "file": "The Brain That Changes Itself.md",
+  "title": "The Brain That Changes Itself",
+  "author": "Norman Doidge",
+  "isbn": "9780143113102",
+  "year": 2007,
+  "ol_title": "The Brain That Changes Itself",
+  "ol_authors": [
+   "Norman Doidge"
+  ]
+ },
+ {
+  "file": "The Brain The Story of You.md",
+  "title": "The Brain: The Story of You",
+  "author": "David Eagleman",
+  "isbn": "9781101970294",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Cathedral and the Bazaar.md",
+  "title": "The Cathedral and the Bazaar",
+  "author": "Eric S. Raymond",
+  "isbn": "9780596001087",
+  "year": 1999,
+  "ol_title": "The Cathedral and the Bazaar",
+  "ol_authors": [
+   "Eric S. Raymond"
+  ]
+ },
+ {
+  "file": "The Code Breaker.md",
+  "title": "The Code Breaker",
+  "author": "Walter Isaacson",
+  "isbn": "9781982115852",
+  "year": 2001,
+  "ol_title": "The Code Breaker",
+  "ol_authors": [
+   "Walter Isaacson",
+   "Kathe Mazur",
+   "Sarah Durand"
+  ]
+ },
+ {
+  "file": "The Coming Wave.md",
+  "title": "The Coming Wave",
+  "author": "Mustafa Suleyman",
+  "isbn": "9780593593950",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Conscious Mind.md",
+  "title": "The Conscious Mind",
+  "author": "David Chalmers",
+  "isbn": "9780195117899",
+  "year": 1996,
+  "ol_title": "The Conscious Mind",
+  "ol_authors": [
+   "David J. Chalmers"
+  ]
+ },
+ {
+  "file": "The Covenant of Water.md",
+  "title": "The Covenant of Water",
+  "author": "Abraham Verghese",
+  "isbn": "9780802162175",
+  "year": 2023,
+  "ol_title": "The Covenant of Water",
+  "ol_authors": [
+   "Abraham Verghese"
+  ]
+ },
+ {
+  "file": "The Creative Act A Way of Being.md",
+  "title": "The Creative Act: A Way of Being",
+  "author": "Rick Rubin",
+  "isbn": "9780593652886",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Culture Map.md",
+  "title": "The Culture Map",
+  "author": "Erin Meyer",
+  "isbn": "9781610392761",
+  "year": 2014,
+  "ol_title": "The Culture Map",
+  "ol_authors": [
+   "Erin Meyer"
+  ]
+ },
+ {
+  "file": "The Dawn of Everything.md",
+  "title": "The Dawn of Everything",
+  "author": "David Graeber; David Wengrow",
+  "isbn": "9780374157357",
+  "year": 2021,
+  "ol_title": "The Dawn of Everything",
+  "ol_authors": [
+   "David Graeber",
+   "David Wengrow"
+  ]
+ },
+ {
+  "file": "The Demon-Haunted World.md",
+  "title": "The Demon-Haunted World",
+  "author": "Carl Sagan",
+  "isbn": "9780345409461",
+  "year": 1995,
+  "ol_title": "The Demon-Haunted World",
+  "ol_authors": [
+   "Carl Sagan"
+  ]
+ },
+ {
+  "file": "The Design of Everyday Things.md",
+  "title": "The Design of Everyday Things",
+  "author": "Don Norman",
+  "isbn": "9780465050659",
+  "year": 1988,
+  "ol_title": "The Psychology of Everyday Things",
+  "ol_authors": [
+   "Donald A. Norman"
+  ]
+ },
+ {
+  "file": "The Dream Machine.md",
+  "title": "The Dream Machine",
+  "author": "M. Mitchell Waldrop",
+  "isbn": "9780142001356",
+  "year": 2001,
+  "ol_title": "The Dream Machine",
+  "ol_authors": [
+   "M. Mitchell Waldrop"
+  ]
+ },
+ {
+  "file": "The Ego Tunnel.md",
+  "title": "The Ego Tunnel",
+  "author": "Thomas Metzinger",
+  "isbn": "9780465045679",
+  "year": 2009,
+  "ol_title": "The ego tunnel",
+  "ol_authors": [
+   "Thomas Metzinger"
+  ]
+ },
+ {
+  "file": "The Elegant Universe.md",
+  "title": "The Elegant Universe",
+  "author": "Brian Greene",
+  "isbn": "9780393058581",
+  "year": 1999,
+  "ol_title": "The Elegant Universe",
+  "ol_authors": [
+   "Brian Greene"
+  ]
+ },
+ {
+  "file": "The Elements of Moral Philosophy.md",
+  "title": "The Elements of Moral Philosophy",
+  "author": "James Rachels, Stuart Rachels",
+  "isbn": "9781259914256",
+  "year": 1986,
+  "ol_title": "The Elements of Moral Philosophy",
+  "ol_authors": [
+   "James Rachels",
+   "Stuart Rachels"
+  ]
+ },
+ {
+  "file": "The Elements of Statistical Learning.md",
+  "title": "The Elements of Statistical Learning",
+  "author": "Trevor Hastie, Robert Tibshirani, Jerome Friedman",
+  "isbn": "9780387848570",
+  "year": 2001,
+  "ol_title": "The Elements of Statistical Learning",
+  "ol_authors": [
+   "Trevor Hastie",
+   "Robert Tibshirani",
+   "Jerome Friedman"
+  ]
+ },
+ {
+  "file": "The Elephant in the Brain.md",
+  "title": "The Elephant in the Brain",
+  "author": "Kevin Simler, Robin Hanson",
+  "isbn": "9780190495992",
+  "year": 2018,
+  "ol_title": "The elephant in the brain",
+  "ol_authors": [
+   "Kevin Simler",
+   "Robin Hanson"
+  ]
+ },
+ {
+  "file": "The Embodied Mind.md",
+  "title": "The Embodied Mind",
+  "author": "Francisco Varela, Evan Thompson, Eleanor Rosch",
+  "isbn": "9780262529365",
+  "year": 2016,
+  "ol_title": "The embodied mind",
+  "ol_authors": [
+   "Francisco J. Varela"
+  ]
+ },
+ {
+  "file": "The Emotion Machine.md",
+  "title": "The Emotion Machine",
+  "author": "Marvin Minsky",
+  "isbn": "9780743276634",
+  "year": 2006,
+  "ol_title": "The emotion machine",
+  "ol_authors": [
+   "Marvin Minsky",
+   "Mercedes Garc\u00eda Garmilla"
+  ]
+ },
+ {
+  "file": "The Emperor of All Maladies.md",
+  "title": "The Emperor of All Maladies",
+  "author": "Siddhartha Mukherjee",
+  "isbn": "9781439170915",
+  "year": 2010,
+  "ol_title": "The Emperor of All Maladies",
+  "ol_authors": [
+   "Siddhartha Mukherjee",
+   "Nessa Carey"
+  ]
+ },
+ {
+  "file": "The Emperor's New Mind.md",
+  "title": "The Emperor's New Mind",
+  "author": "Roger Penrose",
+  "isbn": "9780198784920",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Evolution of Cooperation.md",
+  "title": "The Evolution of Cooperation",
+  "author": "Robert Axelrod",
+  "isbn": "9780465005642",
+  "year": 1984,
+  "ol_title": "The evolution of cooperation",
+  "ol_authors": [
+   "Robert M. Axelrod"
+  ]
+ },
+ {
+  "file": "The Fearless Organization.md",
+  "title": "The Fearless Organization",
+  "author": "Amy C. Edmondson",
+  "isbn": "9781119477242",
+  "year": 2018,
+  "ol_title": "The Fearless Organization",
+  "ol_authors": [
+   "Amy C. Edmondson"
+  ]
+ },
+ {
+  "file": "The Feeling of Life Itself.md",
+  "title": "The Feeling of Life Itself",
+  "author": "Christof Koch",
+  "isbn": "9780262539555",
+  "year": 2019,
+  "ol_title": "The Feeling of Life Itself",
+  "ol_authors": [
+   "Christof Koch"
+  ]
+ },
+ {
+  "file": "The Feeling of What Happens.md",
+  "title": "The Feeling of What Happens",
+  "author": "Antonio Damasio",
+  "isbn": "9780156010757",
+  "year": 2000,
+  "ol_title": "The feeling of what happens",
+  "ol_authors": [
+   "Antonio R Damasio"
+  ]
+ },
+ {
+  "file": "The Fifth Discipline.md",
+  "title": "The Fifth Discipline",
+  "author": "Peter M. Senge",
+  "isbn": "9780385517256",
+  "year": 1990,
+  "ol_title": "The Fifth Discipline",
+  "ol_authors": [
+   "Peter Senge",
+   "Peter M. Senge"
+  ]
+ },
+ {
+  "file": "The Gene.md",
+  "title": "The Gene",
+  "author": "Siddhartha Mukherjee",
+  "isbn": "9781476733524",
+  "year": 2016,
+  "ol_title": "The Gene",
+  "ol_authors": [
+   "Siddhartha Mukherjee",
+   "Dennis Boutsikaris"
+  ]
+ },
+ {
+  "file": "The Good Life.md",
+  "title": "The Good Life",
+  "author": "Robert Waldinger and Marc Schulz",
+  "isbn": "9781982166694",
+  "year": 2022,
+  "ol_title": "Good Life",
+  "ol_authors": [
+   "Robert Waldinger",
+   "Marc Schulz"
+  ]
+ },
+ {
+  "file": "The Happiness Hypothesis.md",
+  "title": "The Happiness Hypothesis",
+  "author": "Jonathan Haidt",
+  "isbn": "9780465028023",
+  "year": 2005,
+  "ol_title": "The Happiness Hypothesis",
+  "ol_authors": [
+   "Jonathan Haidt"
+  ]
+ },
+ {
+  "file": "The Hard Thing About Hard Things.md",
+  "title": "The Hard Thing About Hard Things",
+  "author": "Ben Horowitz",
+  "isbn": "9780062273208",
+  "year": 2014,
+  "ol_title": "The Hard Thing About Hard Things",
+  "ol_authors": [
+   "Ben Horowitz"
+  ]
+ },
+ {
+  "file": "The Heaven & Earth Grocery Store.md",
+  "title": "The Heaven & Earth Grocery Store",
+  "author": "James McBride",
+  "isbn": "9780593422946",
+  "year": 2023,
+  "ol_title": "The Heaven & Earth Grocery Store",
+  "ol_authors": [
+   "James McBride"
+  ]
+ },
+ {
+  "file": "The Hundred-Page Machine Learning Book.md",
+  "title": "The Hundred-Page Machine Learning Book",
+  "author": "Andriy Burkov",
+  "isbn": "9781999579517",
+  "year": 2019,
+  "ol_title": "The Hundred-Page Machine Learning Book",
+  "ol_authors": [
+   "Andriy Burkov"
+  ]
+ },
+ {
+  "file": "The Idea Factory.md",
+  "title": "The Idea Factory",
+  "author": "Jon Gertner",
+  "isbn": "9780143122791",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Idea of the Brain.md",
+  "title": "The Idea of the Brain",
+  "author": "Matthew Cobb",
+  "isbn": "9781541646865",
+  "year": 2020,
+  "ol_title": "The Idea of the Brain: The Past and Future of Neuroscience",
+  "ol_authors": [
+   "Matthew Cobb"
+  ]
+ },
+ {
+  "file": "The Immortal Life of Henrietta Lacks.md",
+  "title": "The Immortal Life of Henrietta Lacks",
+  "author": "Rebecca Skloot",
+  "isbn": "9781400052189",
+  "year": 2009,
+  "ol_title": "The Immortal Life of Henrietta Lacks",
+  "ol_authors": [
+   "Rebecca Skloot"
+  ]
+ },
+ {
+  "file": "The Information.md",
+  "title": "The Information",
+  "author": "James Gleick",
+  "isbn": "9781400096237",
+  "year": 2011,
+  "ol_title": "The Information",
+  "ol_authors": [
+   "James Gleick"
+  ]
+ },
+ {
+  "file": "The Innovator's Dilemma.md",
+  "title": "The Innovator's Dilemma",
+  "author": "Clayton M. Christensen",
+  "isbn": "9781422197585",
+  "year": 1997,
+  "ol_title": "The Innovator's Dilemma",
+  "ol_authors": [
+   "Clayton M. Christensen",
+   "L J Ganser",
+   "Don Leslie"
+  ]
+ },
+ {
+  "file": "The Innovators.md",
+  "title": "The Innovators",
+  "author": "Walter Isaacson",
+  "isbn": "9781476708706",
+  "year": 2014,
+  "ol_title": "The Innovators",
+  "ol_authors": [
+   "Walter Isaacson",
+   "Francisco Jos\u00e9 Ramos Mena",
+   "Marcos P\u00e9rez S\u00e1nchez",
+   "Inga Pellisa D\u00edaz"
+  ]
+ },
+ {
+  "file": "The Language Instinct.md",
+  "title": "The Language Instinct",
+  "author": "Steven Pinker",
+  "isbn": "9780061336461",
+  "year": 1994,
+  "ol_title": "The Language Instinct",
+  "ol_authors": [
+   "Steven Pinker"
+  ]
+ },
+ {
+  "file": "The Lean Product Playbook.md",
+  "title": "The Lean Product Playbook",
+  "author": "Dan Olsen",
+  "isbn": "9781118960875",
+  "year": 2015,
+  "ol_title": "The lean product playbook",
+  "ol_authors": [
+   "Dan Olsen"
+  ]
+ },
+ {
+  "file": "The Lean Startup.md",
+  "title": "The Lean Startup",
+  "author": "Eric Ries",
+  "isbn": "9780307887894",
+  "year": 2011,
+  "ol_title": "The Lean Startup",
+  "ol_authors": [
+   "Eric Ries"
+  ]
+ },
+ {
+  "file": "The Left Hand of Darkness.md",
+  "title": "The Left Hand of Darkness",
+  "author": "Ursula K. Le Guin",
+  "isbn": "9780441478125",
+  "year": 1969,
+  "ol_title": "The Left Hand of Darkness",
+  "ol_authors": [
+   "Ursula K. Le Guin"
+  ]
+ },
+ {
+  "file": "The Logic of Scientific Discovery.md",
+  "title": "The Logic of Scientific Discovery",
+  "author": "Karl Popper",
+  "isbn": "9780415278447",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Making of a Manager.md",
+  "title": "The Making of a Manager",
+  "author": "Julie Zhuo",
+  "isbn": "9780735219564",
+  "year": 2019,
+  "ol_title": "The Making of a Manager",
+  "ol_authors": [
+   "Julie Zhuo"
+  ]
+ },
+ {
+  "file": "The Making of the Atomic Bomb.md",
+  "title": "The Making of the Atomic Bomb",
+  "author": "Richard Rhodes",
+  "isbn": "9781451677614",
+  "year": 1986,
+  "ol_title": "The making of the atomic bomb",
+  "ol_authors": [
+   "Richard Rhodes"
+  ]
+ },
+ {
+  "file": "The Man Who Knew Infinity.md",
+  "title": "The Man Who Knew Infinity",
+  "author": "Robert Kanigel",
+  "isbn": "9780671750619",
+  "year": 1991,
+  "ol_title": "The Man Who Knew Infinity",
+  "ol_authors": [
+   "Robert Kanigel"
+  ]
+ },
+ {
+  "file": "The Man Who Mistook His Wife for a Hat.md",
+  "title": "The Man Who Mistook His Wife for a Hat",
+  "author": "Oliver Sacks",
+  "isbn": "9781501147913",
+  "year": 1980,
+  "ol_title": "The Man Who Mistook His Wife for a Hat",
+  "ol_authors": [
+   "Oliver Sacks"
+  ]
+ },
+ {
+  "file": "The Master Algorithm.md",
+  "title": "The Master Algorithm",
+  "author": "Pedro Domingos",
+  "isbn": "9780465094271",
+  "year": 2015,
+  "ol_title": "The Master Algorithm",
+  "ol_authors": [
+   "Pedro Domingos"
+  ]
+ },
+ {
+  "file": "The Master and His Emissary.md",
+  "title": "The Master and His Emissary",
+  "author": "Iain McGilchrist",
+  "isbn": "9780300188370",
+  "year": 2009,
+  "ol_title": "The master and his emissary",
+  "ol_authors": [
+   "Iain McGilchrist"
+  ]
+ },
+ {
+  "file": "The Mind's I.md",
+  "title": "The Mind's I",
+  "author": "Douglas Hofstadter, Daniel Dennett",
+  "isbn": "9780465030910",
+  "year": 1962,
+  "ol_title": "The Mind's I",
+  "ol_authors": [
+   "Douglas R. Hofstadter",
+   "Daniel C. Dennett"
+  ]
+ },
+ {
+  "file": "The Ministry for the Future.md",
+  "title": "The Ministry for the Future",
+  "author": "Kim Stanley Robinson",
+  "isbn": "9780316300131",
+  "year": 2020,
+  "ol_title": "The Ministry for the Future",
+  "ol_authors": [
+   "Kim Stanley Robinson",
+   "Simon Saito"
+  ]
+ },
+ {
+  "file": "The Mom Test.md",
+  "title": "The Mom Test",
+  "author": "Rob Fitzpatrick",
+  "isbn": "9781492180746",
+  "year": 2014,
+  "ol_title": "The mom test",
+  "ol_authors": [
+   " Rob Fitzpatrick"
+  ]
+ },
+ {
+  "file": "The Mountain Is You.md",
+  "title": "The Mountain is You",
+  "author": "Brianna Wiest",
+  "isbn": "",
+  "year": 2020,
+  "ol_title": "The Mountain Is You",
+  "ol_authors": [
+   "Brianna Wiest"
+  ]
+ },
+ {
+  "file": "The Mythical Man-Month.md",
+  "title": "The Mythical Man-Month",
+  "author": "Frederick P. Brooks Jr.",
+  "isbn": "9780201835953",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Nvidia Way.md",
+  "title": "The Nvidia Way - Jensen Huang and the Making of a Tech Giant",
+  "author": "Tae Kim",
+  "isbn": "",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Order of Time.md",
+  "title": "The Order of Time",
+  "author": "Carlo Rovelli",
+  "isbn": "9780735216105",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Organized Mind.md",
+  "title": "The Organized Mind",
+  "author": "Daniel Levitin",
+  "isbn": "9780147516312",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Origin of Consciousness in the Breakdown of the Bicameral Mind.md",
+  "title": "The Origin of Consciousness in the Breakdown of the Bicameral Mind",
+  "author": "Julian Jaynes",
+  "isbn": "9780618057078",
+  "year": 1976,
+  "ol_title": "The origin of consciousness in the breakdown of the bicameral mind",
+  "ol_authors": [
+   "Julian Jaynes"
+  ]
+ },
+ {
+  "file": "The Phoenix Project.md",
+  "title": "The Phoenix Project",
+  "author": "Gene Kim, Kevin Behr, George Spafford",
+  "isbn": "9781942788294",
+  "year": 2013,
+  "ol_title": "The Phoenix Project",
+  "ol_authors": [
+   "Gene Kim",
+   "Kevin Behr",
+   "George Spafford"
+  ]
+ },
+ {
+  "file": "The Power of Habit.md",
+  "title": "The Power of Habit",
+  "author": "Charles Duhigg",
+  "isbn": "9780812981605",
+  "year": 2012,
+  "ol_title": "The Power of Habit",
+  "ol_authors": [
+   "Charles Duhigg"
+  ]
+ },
+ {
+  "file": "The Pragmatic Programmer.md",
+  "title": "The Pragmatic Programmer",
+  "author": "David Thomas and Andrew Hunt",
+  "isbn": "9780135957059",
+  "year": 1999,
+  "ol_title": "The Pragmatic Programmer",
+  "ol_authors": [
+   "Andy Hunt",
+   "Dave Thomas"
+  ]
+ },
+ {
+  "file": "The Prince.md",
+  "title": "The Prince",
+  "author": "Niccolo Machiavelli",
+  "isbn": "9780140449150",
+  "year": 1515,
+  "ol_title": "The Prince",
+  "ol_authors": [
+   "Niccol\u00f2 Machiavelli"
+  ]
+ },
+ {
+  "file": "The Problems of Philosophy.md",
+  "title": "The Problems of Philosophy",
+  "author": "Bertrand Russell",
+  "isbn": "9780195115529",
+  "year": 1900,
+  "ol_title": "The Problems of Philosophy",
+  "ol_authors": [
+   "Bertrand Russell"
+  ]
+ },
+ {
+  "file": "The Psychology of Money.md",
+  "title": "The Psychology of Money",
+  "author": "Morgan Housel",
+  "isbn": "9780857197689",
+  "year": 2020,
+  "ol_title": "The Psychology of Money",
+  "ol_authors": [
+   "Morgan Housel"
+  ]
+ },
+ {
+  "file": "The Republic.md",
+  "title": "The Republic",
+  "author": "Plato",
+  "isbn": "9780140455113",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Righteous Mind.md",
+  "title": "The Righteous Mind",
+  "author": "Jonathan Haidt",
+  "isbn": "9780307455772",
+  "year": 2012,
+  "ol_title": "The Righteous Mind",
+  "ol_authors": [
+   "Jonathan Haidt"
+  ]
+ },
+ {
+  "file": "The Road to Reality.md",
+  "title": "The Road to Reality",
+  "author": "Roger Penrose",
+  "isbn": "9780679776314",
+  "year": 2004,
+  "ol_title": "The Road to Reality",
+  "ol_authors": [
+   "Roger Penrose"
+  ]
+ },
+ {
+  "file": "The Sciences of the Artificial.md",
+  "title": "The Sciences of the Artificial",
+  "author": "Herbert A. Simon",
+  "isbn": "9780262691918",
+  "year": 1969,
+  "ol_title": "The sciences of the artificial",
+  "ol_authors": [
+   "Herbert Alexander Simon"
+  ]
+ },
+ {
+  "file": "The Scout Mindset.md",
+  "title": "The Scout Mindset",
+  "author": "Julia Galef",
+  "isbn": "9780735217553",
+  "year": 2021,
+  "ol_title": "Scout Mindset",
+  "ol_authors": [
+   "Julia Galef"
+  ]
+ },
+ {
+  "file": "The Second Machine Age.md",
+  "title": "The Second Machine Age",
+  "author": "Erik Brynjolfsson and Andrew McAfee",
+  "isbn": "9780393350647",
+  "year": 2014,
+  "ol_title": "The Second Machine Age",
+  "ol_authors": [
+   "Erik Brynjolfsson",
+   "Andrew McAfee"
+  ]
+ },
+ {
+  "file": "The Selfish Gene.md",
+  "title": "The Selfish Gene",
+  "author": "Richard Dawkins",
+  "isbn": "9780198788607",
+  "year": 1976,
+  "ol_title": "The Selfish Gene",
+  "ol_authors": [
+   "Richard Dawkins"
+  ]
+ },
+ {
+  "file": "The Signal and the Noise.md",
+  "title": "The Signal and the Noise",
+  "author": "Nate Silver",
+  "isbn": "9780143125082",
+  "year": 2012,
+  "ol_title": "The Signal and the Noise",
+  "ol_authors": [
+   "Nate Silver"
+  ]
+ },
+ {
+  "file": "The Society of Mind.md",
+  "title": "The Society of Mind",
+  "author": "Marvin Minsky",
+  "isbn": "9780671657130",
+  "year": 1986,
+  "ol_title": "The society of mind",
+  "ol_authors": [
+   "Marvin Minsky"
+  ]
+ },
+ {
+  "file": "The Soul of a New Machine.md",
+  "title": "The Soul of a New Machine",
+  "author": "Tracy Kidder",
+  "isbn": "9780316491976",
+  "year": 1981,
+  "ol_title": "The Soul of a New Machine",
+  "ol_authors": [
+   "Tracy Kidder"
+  ]
+ },
+ {
+  "file": "The Structure of Scientific Revolutions.md",
+  "title": "The Structure of Scientific Revolutions",
+  "author": "Thomas Kuhn",
+  "isbn": "9780226458120",
+  "year": 1955,
+  "ol_title": "The Structure of Scientific Revolutions",
+  "ol_authors": [
+   "Thomas S. Kuhn",
+   "Dennis Holland"
+  ]
+ },
+ {
+  "file": "The Stuff of Thought.md",
+  "title": "The Stuff of Thought",
+  "author": "Steven Pinker",
+  "isbn": "9780143114246",
+  "year": 2007,
+  "ol_title": "The Stuff of Thought",
+  "ol_authors": [
+   "Steven Pinker"
+  ]
+ },
+ {
+  "file": "The Tell-Tale Brain.md",
+  "title": "The Tell-Tale Brain",
+  "author": "V. S. Ramachandran",
+  "isbn": "9780393340624",
+  "year": 2011,
+  "ol_title": "The Tell-Tale Brain",
+  "ol_authors": [
+   "V. S. Ramachandran"
+  ]
+ },
+ {
+  "file": "The Three-Body Problem.md",
+  "title": "The Three-Body Problem",
+  "author": "Liu Cixin",
+  "isbn": "9780765382030",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Tipping Point.md",
+  "title": "The Tipping Point",
+  "author": "Malcolm Gladwell",
+  "isbn": "9780316346627",
+  "year": 2000,
+  "ol_title": "The Tipping Point",
+  "ol_authors": [
+   "Malcolm Gladwell"
+  ]
+ },
+ {
+  "file": "The Undoing Project.md",
+  "title": "The Undoing Project",
+  "author": "Michael Lewis",
+  "isbn": "9780393354775",
+  "year": 2016,
+  "ol_title": "The undoing project",
+  "ol_authors": [
+   "Michael Lewis",
+   "Dennis Boutsikaris",
+   "Michael Lewis"
+  ]
+ },
+ {
+  "file": "The Visual Display of Quantitative Information.md",
+  "title": "The Visual Display of Quantitative Information",
+  "author": "Edward R. Tufte",
+  "isbn": "9780961392147",
+  "year": 1983,
+  "ol_title": "The Visual Display of Quantitative Information",
+  "ol_authors": [
+   "Edward R. Tufte"
+  ]
+ },
+ {
+  "file": "The Wager.md",
+  "title": "The Wager",
+  "author": "David Grann",
+  "isbn": "9780385534260",
+  "year": 2023,
+  "ol_title": "Wager",
+  "ol_authors": [
+   "David Grann"
+  ]
+ },
+ {
+  "file": "The Wealth of Nations.md",
+  "title": "The Wealth of Nations",
+  "author": "Adam Smith",
+  "isbn": "9780553585971",
+  "year": 2003,
+  "ol_title": "Wealth of nations",
+  "ol_authors": [
+   "Adam Smith"
+  ]
+ },
+ {
+  "file": "The Wisdom of Crowds.md",
+  "title": "The Wisdom of Crowds",
+  "author": "James Surowiecki",
+  "isbn": "9780385721707",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "The Worlds I See.md",
+  "title": "The Worlds I See",
+  "author": "Fei-Fei Li",
+  "isbn": "9781250897930",
+  "year": 2023,
+  "ol_title": "Worlds I See",
+  "ol_authors": [
+   "Fei-Fei Li"
+  ]
+ },
+ {
+  "file": "Theoretical Neuroscience.md",
+  "title": "Theoretical Neuroscience",
+  "author": "Peter Dayan & L.F. Abbott",
+  "isbn": "",
+  "year": null,
+  "ol_title": null,
+  "ol_authors": null
+ },
+ {
+  "file": "Think Again.md",
+  "title": "Think Again",
+  "author": "Adam Grant",
+  "isbn": "9781984878106",
+  "year": 2021,
+  "ol_title": "Think Again",
+  "ol_authors": [
+   "Adam Grant"
+  ]
+ },
+ {
+  "file": "Thinking in Bets.md",
+  "title": "Thinking in Bets",
+  "author": "Annie Duke",
+  "isbn": "9780735216372",
+  "year": 2018,
+  "ol_title": "Thinking in Bets",
+  "ol_authors": [
+   "Annie Duke"
+  ]
+ },
+ {
+  "file": "Thinking in Systems.md",
+  "title": "Thinking in Systems",
+  "author": "Donella H. Meadows",
+  "isbn": "9781603580557",
+  "year": 2008,
+  "ol_title": "Thinking in systems",
+  "ol_authors": [
+   "Donella H. Meadows",
+   "Diana Wright"
+  ]
+ },
+ {
+  "file": "Thinking, Fast and Slow.md",
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "isbn": "9780374533557",
+  "year": 2011,
+  "ol_title": "Thinking, Fast and Slow",
+  "ol_authors": [
+   "Daniel Kahneman"
+  ]
+ },
+ {
+  "file": "Tom Lake.md",
+  "title": "Tom Lake",
+  "author": "Ann Patchett",
+  "isbn": "9780063327498",
+  "year": 2023,
+  "ol_title": "Tom Lake",
+  "ol_authors": [
+   "Ann Patchett"
+  ]
+ },
+ {
+  "file": "Tractatus Logico-Philosophicus.md",
+  "title": "Tractatus Logico-Philosophicus",
+  "author": "Ludwig Wittgenstein",
+  "isbn": "9780415254083",
+  "year": 1921,
+  "ol_title": "Tractatus Logico-Philosophicus",
+  "ol_authors": [
+   "Ludwig Wittgenstein"
+  ]
+ },
+ {
+  "file": "Unmasking AI.md",
+  "title": "Unmasking AI",
+  "author": "Joy Buolamwini",
+  "isbn": "9780593241837",
+  "year": 2023,
+  "ol_title": "Unmasking AI",
+  "ol_authors": [
+   "Joy Buolamwini"
+  ]
+ },
+ {
+  "file": "Weapons of Math Destruction.md",
+  "title": "Weapons of Math Destruction",
+  "author": "Cathy O'Neil",
+  "isbn": "9780553418835",
+  "year": 2016,
+  "ol_title": "Weapons of Math Destruction",
+  "ol_authors": [
+   "Cathy O'Neil"
+  ]
+ },
+ {
+  "file": "Where Wizards Stay Up Late.md",
+  "title": "Where Wizards Stay Up Late",
+  "author": "Katie Hafner and Matthew Lyon",
+  "isbn": "9780684832678",
+  "year": 1996,
+  "ol_title": "Where wizards stay up late",
+  "ol_authors": [
+   "Katie Hafner",
+   "Katie Hefner",
+   "Matthew Lyon"
+  ]
+ },
+ {
+  "file": "Why Buddhism Is True.md",
+  "title": "Why Buddhism Is True",
+  "author": "Robert Wright",
+  "isbn": "9781439195468",
+  "year": 2017,
+  "ol_title": "Why Buddhism is True",
+  "ol_authors": [
+   "Robert Wright"
+  ]
+ },
+ {
+  "file": "Why Nations Fail.md",
+  "title": "Why Nations Fail",
+  "author": "Daron Acemoglu and James A. Robinson",
+  "isbn": "9780307719225",
+  "year": 2012,
+  "ol_title": "Why Nations Fail",
+  "ol_authors": [
+   "Daron Acemoglu",
+   "James A. Robinson"
+  ]
+ },
+ {
+  "file": "Why We Sleep.md",
+  "title": "Why We Sleep",
+  "author": "Matthew Walker",
+  "isbn": "9781501144318",
+  "year": 2017,
+  "ol_title": "Why We Sleep",
+  "ol_authors": [
+   "Matthew P. Walker"
+  ]
+ },
+ {
+  "file": "Why Zebras Don't Get Ulcers.md",
+  "title": "Why Zebras Don't Get Ulcers",
+  "author": "Robert Sapolsky",
+  "isbn": "9780805073690",
+  "year": 2004,
+  "ol_title": "Why Zebras Don't Get Ulcers",
+  "ol_authors": [
+   "Robert M. Sapolsky"
+  ]
+ },
+ {
+  "file": "Working Backwards.md",
+  "title": "Working Backwards",
+  "author": "Colin Bryar, Bill Carr",
+  "isbn": "9781250267597",
+  "year": 2021,
+  "ol_title": "Working Backwards",
+  "ol_authors": [
+   "Colin Bryar",
+   "Bill Carr"
+  ]
+ },
+ {
+  "file": "Yellowface.md",
+  "title": "Yellowface",
+  "author": "R. F. Kuang",
+  "isbn": "9780063250833",
+  "year": 2023,
+  "ol_title": "Yellowface",
+  "ol_authors": [
+   "R. F. Kuang"
+  ]
+ },
+ {
+  "file": "Zen and the Art of Motorcycle Maintenance.md",
+  "title": "Zen and the Art of Motorcycle Maintenance",
+  "author": "Robert M. Pirsig",
+  "isbn": "9780060839871",
+  "year": 1974,
+  "ol_title": "Zen and the Art of Motorcycle Maintenance",
+  "ol_authors": [
+   "Robert M. Pirsig"
+  ]
+ },
+ {
+  "file": "Zero to One.md",
+  "title": "Zero to One",
+  "author": "Peter Thiel",
+  "isbn": "9780804139298",
+  "year": 2001,
+  "ol_title": "Zero to One",
+  "ol_authors": [
+   "Peter A. Thiel",
+   "Blake Masters"
+  ]
+ }
+]
