@@ -13,9 +13,9 @@ lede: >-
   got wrong until it sticks. I started it and do the product work myself, including the research, the design, the AI decisions and the launch
   plan. It isn't released yet, so this case study covers the thinking and decisions so far. There are no results yet.
 cover: assets/img/case_studies/veritas/cover.jpg
-film: assets/video/case_studies/veritas/pitch-film.mp4
-film_poster: assets/video/case_studies/veritas/film-poster.jpg
-film_cap: "The Veritas pitch film, 2 minutes 27 seconds, with sound. More at"
+film: assets/video/case_studies/veritas/pitch-film_b.mp4
+film_poster: assets/video/case_studies/veritas/film-poster_b.jpg
+film_cap: "The Veritas pitch film, 2 minutes 32 seconds, with sound. More at"
 film_link: "https://profio1997.github.io/Veritas_Website/"
 cover_video: assets/video/case_studies/veritas/cover.mp4
 cover_poster: assets/video/case_studies/veritas/cover-poster.jpg
@@ -200,11 +200,11 @@ sections:
         text: "Launching"
       - type: p
         text: |
-          I'm building the launch in public stages. A pre-release website explains the product, with a 2 minute 27 second film that walks through the whole loop in seven chapters, from "why we forget" to "one platform and why now," and a waitlist for early access. The first audience is students with an exam ahead, because the need is urgent and the habit is easiest to form when there's a date. Pricing will be announced before launch, and people on the waitlist hear first. Public launch comes after the waitlist and a first pilot.
+          I'm building the launch in public stages. A pre-release website explains the product, with a 2 minute 32 second film that walks through the whole loop in seven chapters, from "why we forget" to "one platform and why now," and a waitlist for early access. The first audience is students with an exam ahead, because the need is urgent and the habit is easiest to form when there's a date. Pricing will be announced before launch, and people on the waitlist hear first. Public launch comes after the waitlist and a first pilot.
       - type: table
         head: [Milestone, Status]
         rows:
-          - ["Pre-release site, 2:27 film and waitlist", "Live"]
+          - ["Pre-release site, 2:32 film and waitlist", "Live"]
           - ["Designed screens for all three steps", "Done"]
           - ["Pre-release build", "In progress"]
           - ["Offline evaluation set and launch gates", "In progress"]

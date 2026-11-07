@@ -13,9 +13,9 @@ lede: >-
   Carnegie Mellon Lean Entrepreneurship course project and owned the product, the research plan, the business model and the financial model behind
   an investor pitch in December 2024, then took it from concept to launch in 12 weeks. This page shows the thinking, the plan and what I would test next.
   I have not published usage or revenue numbers here, and the plan figures below are targets, not results.
-cover: assets/img/case_studies/goldsmith/cover.jpg
-cover_video: assets/video/case_studies/goldsmith/cover.mp4
-cover_poster: assets/video/case_studies/goldsmith/cover-poster.jpg
+cover: assets/img/case_studies/goldsmith/cover_b.jpg
+cover_video: assets/video/case_studies/goldsmith/cover_b.mp4
+cover_poster: assets/video/case_studies/goldsmith/cover-poster_b.jpg
 pdf: assets/pdf/case_studies/Edward_Profio_Goldsmith_Case_Study.pdf
 meta:
   - {k: Role, v: "Founder, CEO"}
@@ -41,9 +41,9 @@ sections:
 
           Figures marked as targets come from the plan. Figures marked as research come from public sources.
         figure:
-          src: assets/img/case_studies/goldsmith/tool.webp
-          video: assets/video/case_studies/goldsmith/tool.mp4
-          poster: assets/video/case_studies/goldsmith/tool.jpg
+          src: assets/img/case_studies/goldsmith/tool_b.webp
+          video: assets/video/case_studies/goldsmith/tool_b.mp4
+          poster: assets/video/case_studies/goldsmith/tool_b.jpg
           cap: "**Design tool (concept).** Type a description, generate candidates, pick one and turn it in 3D."
   - id: problem
     title: Problem and research
@@ -112,16 +112,16 @@ sections:
           - {tag: "6", t: "Order", d: "The buyer picks a final design and expects the finished piece in about three weeks. That is the plan, not a measured time."}
       - type: browser
         items:
-          - {src: assets/img/case_studies/goldsmith/refine.webp, video: assets/video/case_studies/goldsmith/refine.mp4, poster: assets/video/case_studies/goldsmith/refine.jpg, cap: "**Refine (concept).** Stone size, band thickness and prong height change the piece while it turns."}
-          - {src: assets/img/case_studies/goldsmith/rfq.webp, video: assets/video/case_studies/goldsmith/rfq.mp4, poster: assets/video/case_studies/goldsmith/rfq.jpg, cap: "**Compare quotes (concept).** Filter manufacturers, see where they are and how the three weeks would run."}
+          - {src: assets/img/case_studies/goldsmith/refine_b.webp, video: assets/video/case_studies/goldsmith/refine_b.mp4, poster: assets/video/case_studies/goldsmith/refine_b.jpg, cap: "**Refine (concept).** Stone size, band thickness and prong height change the piece while it turns."}
+          - {src: assets/img/case_studies/goldsmith/rfq_b.webp, video: assets/video/case_studies/goldsmith/rfq_b.mp4, poster: assets/video/case_studies/goldsmith/rfq_b.jpg, cap: "**Compare quotes (concept).** Filter manufacturers, see where they are and how the three weeks would run."}
       - type: browser
         items:
-          - {src: assets/img/case_studies/goldsmith/order.webp, video: assets/video/case_studies/goldsmith/order.mp4, poster: assets/video/case_studies/goldsmith/order.jpg, cap: "**Order progress (concept).** Milestones, messages and the planned ship window for a sample order."}
-          - {src: assets/img/case_studies/goldsmith/workspace.webp, video: assets/video/case_studies/goldsmith/workspace.mp4, poster: assets/video/case_studies/goldsmith/workspace.jpg, cap: "**Jeweler workspace (concept).** Measure, check manufacturing readiness, queue renders and export a file."}
+          - {src: assets/img/case_studies/goldsmith/order_b.webp, video: assets/video/case_studies/goldsmith/order_b.mp4, poster: assets/video/case_studies/goldsmith/order_b.jpg, cap: "**Order progress (concept).** Milestones, messages and the planned ship window for a sample order."}
+          - {src: assets/img/case_studies/goldsmith/workspace_b.webp, video: assets/video/case_studies/goldsmith/workspace_b.mp4, poster: assets/video/case_studies/goldsmith/workspace_b.jpg, cap: "**Jeweler workspace (concept).** Measure, check manufacturing readiness, queue renders and export a file."}
       - type: browser
         items:
-          - {src: assets/img/case_studies/goldsmith/landing.webp, cap: "**Storefront (concept).** The buyer's front door, with the reference tools one click away."}
-          - {src: assets/img/case_studies/goldsmith/detail.webp, cap: "**Design detail (concept).** Specifications, a fit checker and the try-on model that ships first."}
+          - {src: assets/img/case_studies/goldsmith/landing_b.webp, cap: "**Storefront (concept).** The buyer's front door, with the reference tools one click away."}
+          - {src: assets/img/case_studies/goldsmith/detail_b.webp, cap: "**Design detail (concept).** Specifications, a fit checker and the try-on model that ships first."}
       - type: h
         text: "Built in reference tools"
       - type: p

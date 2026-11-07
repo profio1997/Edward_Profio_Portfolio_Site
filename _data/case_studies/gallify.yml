@@ -13,10 +13,9 @@ lede: >-
   own wall in AR before buying it. I joined early, became Chief Product and Operating Officer, and ran product and engineering until
   we closed the company.
 cover: assets/img/case_studies/gallify/cover.jpg
-cover_video: assets/video/case_studies/gallify/cover_b.mp4
-cover_poster: assets/video/case_studies/gallify/cover-poster_b.jpg
+cover_video: assets/video/case_studies/gallify/cover_c.mp4
+cover_poster: assets/video/case_studies/gallify/cover-poster_c.jpg
 pdf: assets/pdf/case_studies/Edward_Profio_Gallify_Case_Study.pdf
-mock_note: "The polished screens on this page are recreations. Artist names and artwork are made up. The wireframes, AR capture and wallet screen are from the original build, shown in the same phone frame."
 links:
   - {label: "Code on GitHub", url: "https://github.com/profio1997/Gallify_App"}
 meta:
@@ -42,7 +41,7 @@ sections:
       - type: phones
         items:
           - {src: assets/img/case_studies/gallify/p1.webp, video: assets/video/case_studies/gallify/p1_c.mp4, poster: assets/video/case_studies/gallify/p1_c.jpg, cap: "Collector setup and discovery: pick a few styles, get a first feed built from them, then tap \"Why?\" to see and adjust what a pick is based on."}
-          - {src: assets/img/case_studies/gallify/p2.webp, video: assets/video/case_studies/gallify/p2_c.mp4, poster: assets/video/case_studies/gallify/p2_c.jpg, cap: "AR in a real room: walk around, place the piece on the wall at its real size, resize it, take a snapshot, then bid from the same screen."}
+          - {src: assets/img/case_studies/gallify/p2.webp, video: assets/video/case_studies/gallify/p2_d.mp4, poster: assets/video/case_studies/gallify/p2_d.jpg, cap: "AR in a real room: walk around, place the piece on the wall at its real size, resize it, take a snapshot, then bid from the same screen."}
           - {src: assets/img/case_studies/gallify/p3.webp, video: assets/video/case_studies/gallify/p3_c.mp4, poster: assets/video/case_studies/gallify/p3_c.jpg, cap: "The artist side: add works, mint each as 1 of 1, publish a gallery and share its link."}
   - id: problem
     title: Problem and research
@@ -63,7 +62,7 @@ sections:
           The sketches cover what mattered at the start: how an artist creates a gallery, how a collector builds a library of favourites, and how playlists let people share taste. A few of those ideas survived and a lot of them didn't. Starting on paper meant changing our minds cost us nothing.
 
           The beta page said "Create a gallery and share, instantly," and we used that sentence to test every feature. Did it make the first gallery faster to create, or easier to share?
-        figure: {src: assets/img/case_studies/gallify/real-wireframes.webp, cap: "From the original build: early flow wireframes for sign-up, library, playlists and search."}
+        figure: {src: assets/img/case_studies/gallify/real-wireframes.webp, cap: "Early flow sketches for sign-up, library, playlists and search."}
   - id: solution
     title: Solution
     blocks:
@@ -85,8 +84,8 @@ sections:
           - {h: "Wallet", t: "The collector approves every bid and purchase in their own wallet"}
       - type: phones
         items:
-          - {src: assets/img/case_studies/gallify/real-ar.webp, cap: "From the original build: a real AR capture in a bedroom."}
-          - {src: assets/img/case_studies/gallify/real-wallet.webp, cap: "From the original build: connecting a Polygon wallet."}
+          - {src: assets/img/case_studies/gallify/real-ar.webp, cap: "AR in a bedroom: the piece hangs above the bed at its real size."}
+          - {src: assets/img/case_studies/gallify/real-wallet.webp, cap: "Connecting a Polygon wallet before the first bid."}
           - {src: assets/img/case_studies/gallify/bid.webp, cap: "A bid, approved in the collector's own wallet."}
       - type: h
         text: "The recommender"
