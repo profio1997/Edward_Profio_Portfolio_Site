@@ -7,6 +7,7 @@ categories: artificial-intelligence textbook
 status: Finished
 shelf_group: more
 shelf_rank: 19
+released: 1995
 date: 2026-06-23
 ---
 

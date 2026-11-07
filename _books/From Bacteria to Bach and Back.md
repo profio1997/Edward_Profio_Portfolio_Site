@@ -7,6 +7,7 @@ categories: philosophy cognitive-science evolution
 status: Finished
 shelf_group: more
 shelf_rank: 54
+released: 2017
 date: 2026-10-17
 ---
 

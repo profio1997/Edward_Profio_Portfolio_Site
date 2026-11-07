@@ -5,6 +5,7 @@ author: "Allen B. Downey"
 isbn: "9780226822587"
 categories: statistics mathematics data-science nonfiction
 status: Finished
+released: 2023
 date: 2023-10-13
 ---
 

@@ -5,6 +5,7 @@ author: "Shoshana Zuboff"
 isbn: "9781610395694"
 categories: technology economics ethics
 status: Finished
+released: 2019
 date: 2022-10-07
 ---
 

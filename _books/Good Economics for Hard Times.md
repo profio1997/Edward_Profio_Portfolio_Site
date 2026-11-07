@@ -5,6 +5,7 @@ author: "Abhijit V. Banerjee, Esther Duflo"
 isbn: "9781610197892"
 categories: economics policy
 status: Finished
+released: 2019
 date: 2022-06-16
 ---
 

@@ -5,6 +5,7 @@ author: "Jonathan Haidt"
 isbn: "9780593655030"
 categories: psychology technology society
 status: Finished
+released: 2024
 date: 2024-11-20
 ---
 

@@ -5,6 +5,7 @@ author: "James Gleick"
 isbn: "9780679747048"
 categories: biography physics science-writing
 status: Finished
+released: 1992
 date: 2022-04-08
 ---
 

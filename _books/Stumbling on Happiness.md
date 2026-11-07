@@ -5,6 +5,7 @@ author: "Daniel Gilbert"
 isbn: "9781400077427"
 categories: psychology cognitive-science happiness
 status: Finished
+released: 2006
 date: 2024-08-20
 ---
 

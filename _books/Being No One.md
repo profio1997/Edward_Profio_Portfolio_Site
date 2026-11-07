@@ -5,6 +5,7 @@ author: "Thomas Metzinger"
 isbn: "9780262633086"
 categories: philosophy consciousness neuroscience
 status: Finished
+released: 2003
 date: 2024-07-12
 ---
 

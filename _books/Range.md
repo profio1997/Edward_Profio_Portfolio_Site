@@ -5,6 +5,7 @@ author: "David Epstein"
 isbn: "9780735214484"
 categories: psychology learning science-writing
 status: Finished
+released: 2019
 date: 2022-02-16
 ---
 

@@ -5,6 +5,7 @@ author: "Rebecca Skloot"
 isbn: "9781400052189"
 categories: science-writing biology ethics
 status: Finished
+released: 2010
 date: 2022-08-02
 ---
 

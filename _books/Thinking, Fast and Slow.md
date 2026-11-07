@@ -7,6 +7,7 @@ categories: psychology decision-making
 status: Finished
 shelf_group: more
 shelf_rank: 23
+released: 2011
 date: 2026-05-16
 ---
 

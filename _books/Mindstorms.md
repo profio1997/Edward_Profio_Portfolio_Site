@@ -5,6 +5,7 @@ author: "Seymour Papert"
 isbn: "9780465046744"
 categories: education computer-science psychology
 status: Finished
+released: 1980
 date: 2023-12-22
 ---
 

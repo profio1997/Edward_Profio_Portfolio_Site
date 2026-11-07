@@ -5,6 +5,7 @@ author: "Jon Gertner"
 isbn: "9780143122791"
 categories: technology history innovation
 status: Finished
+released: 2012
 date: 2022-08-30
 ---
 

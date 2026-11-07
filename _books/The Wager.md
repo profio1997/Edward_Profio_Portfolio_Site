@@ -5,6 +5,7 @@ author: "David Grann"
 isbn: "9780385534260"
 categories: history biography adventure nonfiction
 status: Finished
+released: 2023
 date: 2023-04-04
 ---
 

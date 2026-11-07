@@ -5,6 +5,7 @@ author: "Andy Weir"
 isbn: "9780593135204"
 categories: science-fiction fiction space
 status: Finished
+released: 2021
 date: 2022-08-07
 ---
 

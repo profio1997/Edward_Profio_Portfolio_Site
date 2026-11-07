@@ -5,6 +5,7 @@ author: "Safiya Umoja Noble"
 isbn: "9781479837243"
 categories: technology ethics society
 status: Finished
+released: 2018
 date: 2022-02-12
 ---
 

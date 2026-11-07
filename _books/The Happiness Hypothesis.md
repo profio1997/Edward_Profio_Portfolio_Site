@@ -5,6 +5,7 @@ author: "Jonathan Haidt"
 isbn: "9780465028023"
 categories: psychology philosophy ethics
 status: Finished
+released: 2006
 date: 2024-02-20
 ---
 

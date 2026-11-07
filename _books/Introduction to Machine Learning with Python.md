@@ -5,6 +5,7 @@ author: "Andreas C. Muller; Sarah Guido"
 isbn: "9781449369415"
 categories: machine-learning programming data-science
 status: Finished
+released: 2016
 date: 2022-08-22
 ---
 

@@ -5,6 +5,7 @@ author: "Edward R. Tufte"
 isbn: "9780961392147"
 categories: design statistics data-visualization
 status: Finished
+released: 1983
 date: 2024-03-20
 ---
 

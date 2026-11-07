@@ -7,6 +7,7 @@ categories: artificial-intelligence ethics
 status: Finished
 shelf_group: more
 shelf_rank: 16
+released: 2019
 date: 2026-02-17
 ---
 

@@ -5,6 +5,7 @@ author: "Steven Pinker"
 isbn: "9780142003343"
 categories: psychology cognitive-science philosophy
 status: Finished
+released: 2002
 date: 2024-04-20
 ---
 

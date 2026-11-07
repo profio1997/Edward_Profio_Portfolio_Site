@@ -5,6 +5,7 @@ author: "Oliver Sacks"
 isbn: "9780375704055"
 categories: neuroscience medicine
 status: Finished
+released: 1973
 date: 2023-04-23
 ---
 

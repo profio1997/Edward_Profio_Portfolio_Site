@@ -5,6 +5,7 @@ author: "Ted Chiang"
 isbn: "9781101947883"
 categories: science-fiction fiction philosophy
 status: Finished
+released: 2019
 date: 2022-04-27
 ---
 

@@ -5,6 +5,7 @@ author: "Richard Rhodes"
 isbn: "9781451677614"
 categories: history physics technology
 status: Finished
+released: 1986
 date: 2022-07-07
 ---
 

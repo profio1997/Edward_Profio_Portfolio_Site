@@ -5,6 +5,7 @@ author: "Ruha Benjamin"
 isbn: "9781509526437"
 categories: technology ethics society
 status: Finished
+released: 2019
 date: 2022-05-25
 ---
 

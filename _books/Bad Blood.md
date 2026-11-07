@@ -5,6 +5,7 @@ author: "John Carreyrou"
 isbn: "9781524731656"
 categories: business biography technology
 status: Finished
+released: 2018
 date: 2022-07-04
 ---
 

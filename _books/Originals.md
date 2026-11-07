@@ -5,6 +5,7 @@ author: "Adam Grant"
 isbn: "9780143130857"
 categories: psychology creativity business
 status: Finished
+released: 2016
 date: 2022-04-03
 ---
 

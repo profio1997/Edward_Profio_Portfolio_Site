@@ -5,6 +5,7 @@ author: "Carlo Rovelli"
 isbn: "9780735216105"
 categories: physics philosophy science-writing
 status: Finished
+released: 2017
 date: 2022-05-11
 ---
 

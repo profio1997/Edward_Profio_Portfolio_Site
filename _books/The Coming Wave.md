@@ -7,6 +7,7 @@ categories: artificial-intelligence future
 status: Finished
 shelf_group: more
 shelf_rank: 90
+released: 2023
 date: 2025-03-04
 ---
 

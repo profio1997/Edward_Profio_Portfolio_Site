@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Neural_Science.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+released: 1981
 date: 2026-03-05
 ---
 

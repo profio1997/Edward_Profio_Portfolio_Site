@@ -7,6 +7,7 @@ categories: neuroscience cognitive-science textbook
 status: Finished
 shelf_group: more
 shelf_rank: 45
+released: 1998
 date: 2024-01-26
 ---
 

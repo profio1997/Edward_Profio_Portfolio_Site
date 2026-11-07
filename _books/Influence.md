@@ -7,6 +7,7 @@ categories: business psychology
 status: Finished
 shelf_group: more
 shelf_rank: 110
+released: 1984
 date: 2025-08-18
 ---
 

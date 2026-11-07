@@ -7,6 +7,7 @@ categories: philosophy psychology
 status: Finished
 shelf_group: more
 shelf_rank: 74
+released: 1946
 date: 2025-08-05
 ---
 

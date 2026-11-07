@@ -5,6 +5,7 @@ author: "Michael Lewis"
 isbn: "9781324074335"
 categories: business biography technology finance nonfiction
 status: Finished
+released: 2023
 date: 2023-03-05
 ---
 

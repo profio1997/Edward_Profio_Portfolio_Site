@@ -7,6 +7,7 @@ categories: artificial-intelligence history
 status: Finished
 shelf_group: more
 shelf_rank: 84
+released: 2021
 date: 2026-10-24
 ---
 

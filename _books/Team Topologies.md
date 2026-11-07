@@ -5,6 +5,7 @@ author: "Matthew Skelton, Manuel Pais"
 isbn: "9781942788812"
 categories: technology organization leadership
 status: Finished
+released: 2019
 date: 2022-01-21
 ---
 

@@ -7,6 +7,7 @@ categories: business decision-making
 status: Finished
 shelf_group: more
 shelf_rank: 105
+released: 2018
 date: 2025-11-10
 ---
 

@@ -7,6 +7,7 @@ categories: product-management research
 status: Finished
 shelf_group: more
 shelf_rank: 115
+released: 2021
 date: 2026-09-09
 ---
 

@@ -46,7 +46,7 @@
 {%- when 'domains' -%}
 <div class="cs-domains">{% for d in b.items %}<div class="cs-domain"><div class="cs-domain__h">{{ d.h }}</div><p class="cs-domain__job">{{ d.job }}</p><p class="cs-domain__who">{{ d.who }}</p><div class="cs-domain__v">{% for v in d.vendors %}<span>{{ v }}</span>{% endfor %}</div></div>{% endfor %}</div>{% if b.note %}<p class="cs-cap" >{{ b.note }}</p>{% endif %}
 {%- when 'table' -%}
-<div class="cs-table-wrap{% if b.center %} cs-table-wrap--matrix{% endif %}"><table class="cs-table{% if b.center %} cs-table--center{% endif %}"><thead><tr>{% for h in b.head %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>
+<div class="cs-table-wrap cs-cols-{{ b.head.size }}{% if b.center %} cs-table-wrap--matrix{% endif %}"><table class="cs-table{% if b.center %} cs-table--center{% endif %}"><thead><tr>{% for h in b.head %}<th>{{ h }}</th>{% endfor %}</tr></thead><tbody>
 {%- for row in b.rows -%}<tr>{%- for c in row -%}{%- assign ci = forloop.index0 -%}<td data-label="{{ b.head[ci] | escape }}" class="{% if b.emph and ci == b.emph %}{% if c.size < 34 %}cs-em{% else %}cs-em-soft{% endif %}{% endif %}{% if b.center %}{% if c == 'Yes' %} cs-yes{% elsif ci > 0 %} cs-no{% endif %}{% endif %}">{% include case_study/md.liquid t=c %}</td>{%- endfor -%}</tr>{%- endfor -%}
 </tbody></table></div>
 {%- when 'roadmap' -%}

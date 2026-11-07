@@ -5,6 +5,7 @@ author: "Isaac Asimov"
 isbn: "9780553293357"
 categories: science-fiction fiction classics
 status: Finished
+released: 1951
 date: 2022-10-26
 ---
 

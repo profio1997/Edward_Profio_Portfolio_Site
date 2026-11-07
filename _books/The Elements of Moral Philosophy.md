@@ -7,6 +7,7 @@ categories: philosophy ethics textbook
 status: Finished
 shelf_group: more
 shelf_rank: 82
+released: 1986
 date: 2020-08-06
 ---
 

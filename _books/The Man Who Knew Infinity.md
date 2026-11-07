@@ -5,6 +5,7 @@ author: "Robert Kanigel"
 isbn: "9780671750619"
 categories: biography mathematics history
 status: Finished
+released: 1991
 date: 2022-11-22
 ---
 

@@ -5,6 +5,7 @@ author: "Carl Sagan"
 isbn: "9780345409461"
 categories: science philosophy
 status: Finished
+released: 1995
 date: 2023-07-23
 ---
 

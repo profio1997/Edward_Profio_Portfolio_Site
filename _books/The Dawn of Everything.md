@@ -5,6 +5,7 @@ author: "David Graeber; David Wengrow"
 isbn: "9780374157357"
 categories: history anthropology economics
 status: Finished
+released: 2021
 date: 2022-03-23
 ---
 

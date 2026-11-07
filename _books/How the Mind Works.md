@@ -7,6 +7,7 @@ categories: cognitive-science psychology
 status: Finished
 shelf_group: more
 shelf_rank: 60
+released: 1997
 date: 2025-05-01
 ---
 

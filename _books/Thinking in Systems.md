@@ -5,6 +5,7 @@ author: "Donella H. Meadows"
 isbn: "9781603580557"
 categories: systems-thinking science leadership
 status: Finished
+released: 2008
 date: 2024-01-04
 ---
 

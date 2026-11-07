@@ -7,6 +7,7 @@ categories: philosophy classics
 status: Finished
 shelf_group: more
 shelf_rank: 67
+released: "c. 375 BC"
 date: 2025-11-16
 ---
 

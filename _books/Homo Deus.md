@@ -5,6 +5,7 @@ author: "Yuval Noah Harari"
 isbn: "9780062464316"
 categories: technology history philosophy
 status: Finished
+released: 2015
 date: 2024-09-27
 ---
 

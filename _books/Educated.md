@@ -5,6 +5,7 @@ author: "Tara Westover"
 isbn: "9780399590504"
 categories: memoir biography education
 status: Finished
+released: 2018
 date: 2022-03-02
 ---
 

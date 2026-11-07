@@ -5,6 +5,7 @@ author: Peter Thiel
 isbn: "9780804139298"
 categories: entrepreneurship startups
 status: Reading
+released: 2014
 date: 2026-11-02
 ---
 

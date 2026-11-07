@@ -5,6 +5,7 @@ author: "Carol S. Dweck"
 isbn: "9780345472328"
 categories: psychology leadership
 status: Finished
+released: 2006
 date: 2023-09-12
 ---
 

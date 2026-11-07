@@ -5,6 +5,7 @@ author: "Angela Duckworth"
 isbn: "9781501111112"
 categories: psychology motivation performance
 status: Finished
+released: 2016
 date: 2022-09-15
 ---
 

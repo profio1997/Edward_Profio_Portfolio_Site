@@ -5,6 +5,7 @@ author: "Robert M. Sapolsky"
 isbn: "9780525560975"
 categories: neuroscience philosophy free-will
 status: Finished
+released: 2023
 date: 2024-02-22
 ---
 

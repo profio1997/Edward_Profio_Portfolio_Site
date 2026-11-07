@@ -5,6 +5,7 @@ author: "David Foster"
 isbn: "9781098134181"
 categories: artificial-intelligence machine-learning programming technology
 status: Finished
+released: 2023
 date: 2023-08-23
 favorite: true
 ---

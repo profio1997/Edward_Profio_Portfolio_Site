@@ -5,6 +5,7 @@ author: "Carl Sagan"
 isbn: "9780345539434"
 categories: science astronomy
 status: Finished
+released: 1980
 date: 2023-12-19
 ---
 

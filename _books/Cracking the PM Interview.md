@@ -7,6 +7,7 @@ categories: product-management careers
 status: Finished
 shelf_group: more
 shelf_rank: 119
+released: 2013
 date: 2026-09-16
 ---
 

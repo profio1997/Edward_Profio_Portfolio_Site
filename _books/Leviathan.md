@@ -5,6 +5,7 @@ author: "Thomas Hobbes"
 isbn: "9780140431957"
 categories: philosophy politics
 status: Finished
+released: 1651
 date: 2024-10-16
 ---
 

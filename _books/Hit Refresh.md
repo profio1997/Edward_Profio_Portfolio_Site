@@ -5,6 +5,7 @@ author: "Satya Nadella"
 isbn: "9780062652515"
 categories: business leadership technology
 status: Finished
+released: 2017
 date: 2022-11-14
 ---
 

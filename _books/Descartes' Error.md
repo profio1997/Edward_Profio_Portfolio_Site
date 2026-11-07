@@ -7,6 +7,7 @@ categories: neuroscience philosophy
 status: Finished
 shelf_group: more
 shelf_rank: 37
+released: 1994
 date: 2026-07-19
 ---
 

@@ -5,6 +5,7 @@ author: "Robert Wright"
 isbn: "9781439195468"
 categories: psychology neuroscience philosophy
 status: Finished
+released: 2017
 date: 2022-10-31
 ---
 

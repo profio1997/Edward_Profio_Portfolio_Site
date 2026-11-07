@@ -5,6 +5,7 @@ author: "Daron Acemoglu and Simon Johnson"
 isbn: "9781541702530"
 categories: economics technology history artificial-intelligence nonfiction
 status: Finished
+released: 2023
 date: 2023-09-23
 ---
 

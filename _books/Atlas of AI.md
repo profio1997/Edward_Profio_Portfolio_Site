@@ -5,6 +5,7 @@ author: "Kate Crawford"
 isbn: "9780300264630"
 categories: artificial-intelligence ethics politics
 status: Finished
+released: 2021
 date: 2024-04-11
 favorite: true
 ---

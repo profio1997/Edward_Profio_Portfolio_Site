@@ -5,6 +5,7 @@ author: "Steven Pinker"
 isbn: "9780143122012"
 categories: psychology history science
 status: Finished
+released: 2011
 date: 2024-03-11
 ---
 

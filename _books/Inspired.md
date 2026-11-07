@@ -5,6 +5,7 @@ author: Marty Cagan
 isbn: "9781119387503"
 categories: product-management technology
 status: Reading
+released: 2008
 date: 2026-11-01
 ---
 

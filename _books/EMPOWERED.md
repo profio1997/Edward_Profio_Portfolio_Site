@@ -7,6 +7,7 @@ categories: product-management leadership
 status: Finished
 shelf_group: more
 shelf_rank: 1
+released: 2020
 date: 2026-01-02
 ---
 

@@ -7,6 +7,7 @@ categories: cognitive-science psychology textbook
 status: Finished
 shelf_group: more
 shelf_rank: 65
+released: 1996
 date: 2022-02-04
 ---
 

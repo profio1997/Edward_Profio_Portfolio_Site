@@ -5,6 +5,7 @@ author: "Morgan Housel"
 isbn: "9780593332702"
 categories: economics psychology business nonfiction
 status: Finished
+released: 2023
 date: 2023-01-31
 ---
 

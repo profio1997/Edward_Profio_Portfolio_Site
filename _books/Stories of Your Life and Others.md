@@ -5,6 +5,7 @@ author: "Ted Chiang"
 isbn: "9781101972120"
 categories: science-fiction fiction linguistics
 status: Finished
+released: 2002
 date: 2022-09-26
 ---
 

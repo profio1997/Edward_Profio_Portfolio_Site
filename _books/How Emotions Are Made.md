@@ -5,6 +5,7 @@ author: "Lisa Feldman Barrett"
 isbn: "9781328915429"
 categories: neuroscience psychology emotion
 status: Finished
+released: 2017
 date: 2024-11-07
 ---
 

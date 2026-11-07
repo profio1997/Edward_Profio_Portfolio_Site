@@ -7,6 +7,7 @@ categories: philosophy ethics
 status: Finished
 shelf_group: more
 shelf_rank: 72
+released: 1984
 date: 2025-09-14
 ---
 

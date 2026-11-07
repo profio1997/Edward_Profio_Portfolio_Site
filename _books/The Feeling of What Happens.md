@@ -7,6 +7,7 @@ categories: neuroscience consciousness
 status: Finished
 shelf_group: more
 shelf_rank: 38
+released: 1999
 date: 2025-03-25
 ---
 

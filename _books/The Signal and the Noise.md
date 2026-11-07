@@ -5,6 +5,7 @@ author: "Nate Silver"
 isbn: "9780143125082"
 categories: statistics forecasting decision-making
 status: Finished
+released: 2012
 date: 2024-01-18
 ---
 

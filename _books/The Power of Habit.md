@@ -5,6 +5,7 @@ author: "Charles Duhigg"
 isbn: "9780812981605"
 categories: psychology business
 status: Finished
+released: 2012
 date: 2023-04-29
 ---
 

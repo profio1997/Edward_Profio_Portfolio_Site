@@ -5,6 +5,7 @@ author: "Nassim Nicholas Taleb"
 isbn: "9780812975215"
 categories: statistics economics psychology
 status: Finished
+released: 2001
 date: 2024-07-24
 ---
 

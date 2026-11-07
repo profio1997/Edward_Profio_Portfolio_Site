@@ -5,6 +5,7 @@ author: "Brian Greene"
 isbn: "9780393058581"
 categories: physics science
 status: Finished
+released: 1999
 date: 2023-07-26
 ---
 

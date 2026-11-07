@@ -7,6 +7,7 @@ categories: psychology philosophy
 status: Finished
 shelf_group: more
 shelf_rank: 63
+released: 2012
 date: 2025-11-23
 ---
 

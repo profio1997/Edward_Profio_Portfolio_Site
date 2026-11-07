@@ -5,6 +5,7 @@ author: "Mihaly Csikszentmihalyi"
 isbn: "9780061339202"
 categories: psychology
 status: Finished
+released: 1990
 date: 2023-09-04
 ---
 

@@ -5,6 +5,7 @@ author: "Neal Stephenson"
 isbn: "9780553380958"
 categories: science-fiction fiction cyberpunk
 status: Finished
+released: 1992
 date: 2022-01-12
 ---
 

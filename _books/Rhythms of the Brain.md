@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Rhythms_Brain.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+released: 2006
 date: 2026-03-12
 ---
 

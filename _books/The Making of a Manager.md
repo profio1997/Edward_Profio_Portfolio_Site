@@ -7,6 +7,7 @@ categories: management leadership
 status: Finished
 shelf_group: more
 shelf_rank: 126
+released: 2019
 date: 2025-12-25
 ---
 

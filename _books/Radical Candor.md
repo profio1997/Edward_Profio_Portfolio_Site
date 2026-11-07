@@ -5,6 +5,7 @@ author: "Kim Scott"
 isbn: "9781250103505"
 categories: leadership management product-management
 status: Finished
+released: 2017
 date: 2022-09-09
 favorite: true
 ---

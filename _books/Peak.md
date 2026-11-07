@@ -5,6 +5,7 @@ author: "Anders Ericsson; Robert Pool"
 isbn: "9780544456235"
 categories: psychology expertise learning
 status: Finished
+released: 2016
 date: 2022-10-03
 ---
 

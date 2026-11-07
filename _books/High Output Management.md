@@ -7,6 +7,7 @@ categories: management leadership
 status: Finished
 shelf_group: more
 shelf_rank: 7
+released: 1983
 date: 2026-02-23
 ---
 

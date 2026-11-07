@@ -7,6 +7,7 @@ categories: cognitive-science philosophy artificial-intelligence
 status: Finished
 shelf_group: more
 shelf_rank: 49
+released: 1979
 date: 2026-06-03
 favorite: true
 ---

@@ -5,6 +5,7 @@ author: "Robert Waldinger and Marc Schulz"
 isbn: "9781982166694"
 categories: psychology happiness relationships science nonfiction
 status: Finished
+released: 2023
 date: 2023-01-17
 ---
 

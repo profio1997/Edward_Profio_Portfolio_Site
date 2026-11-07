@@ -5,6 +5,7 @@ author: "Steven Levy"
 isbn: "9781449388393"
 categories: technology-history computer-science culture
 status: Finished
+released: 1984
 date: 2024-11-03
 ---
 

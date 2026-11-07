@@ -5,6 +5,7 @@ author: "R. F. Kuang"
 isbn: "9780063250833"
 categories: fiction literary satire novel
 status: Finished
+released: 2023
 date: 2023-05-18
 ---
 

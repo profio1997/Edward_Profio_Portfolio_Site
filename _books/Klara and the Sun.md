@@ -5,6 +5,7 @@ author: "Kazuo Ishiguro"
 isbn: "9780593318171"
 categories: fiction literary artificial-intelligence
 status: Finished
+released: 2021
 date: 2022-11-07
 ---
 

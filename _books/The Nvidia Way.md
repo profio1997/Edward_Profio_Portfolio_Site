@@ -6,6 +6,7 @@ cover: assets/img/book_covers/The_Nvidia_Way.jpg
 categories: autobiography technology
 stars: 5
 status: Finished
+released: 2024
 date: 2026-05-22
 ---
 

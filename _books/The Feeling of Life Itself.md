@@ -5,6 +5,7 @@ author: "Christof Koch"
 isbn: "9780262539555"
 categories: neuroscience consciousness philosophy
 status: Finished
+released: 2019
 date: 2024-11-29
 ---
 

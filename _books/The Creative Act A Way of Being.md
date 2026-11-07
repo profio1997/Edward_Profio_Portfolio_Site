@@ -5,6 +5,7 @@ author: "Rick Rubin"
 isbn: "9780593652886"
 categories: creativity psychology design nonfiction
 status: Finished
+released: 2023
 date: 2023-01-27
 ---
 

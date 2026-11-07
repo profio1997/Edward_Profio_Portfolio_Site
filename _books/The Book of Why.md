@@ -5,6 +5,7 @@ author: "Judea Pearl and Dana Mackenzie"
 isbn: "9781541698963"
 categories: causal-inference statistics artificial-intelligence
 status: Finished
+released: 2018
 date: 2024-06-26
 ---
 

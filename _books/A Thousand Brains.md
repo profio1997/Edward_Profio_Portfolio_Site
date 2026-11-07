@@ -7,6 +7,7 @@ categories: neuroscience artificial-intelligence
 status: Finished
 shelf_group: more
 shelf_rank: 39
+released: 2021
 date: 2026-05-23
 favorite: true
 ---

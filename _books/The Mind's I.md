@@ -7,6 +7,7 @@ categories: cognitive-science philosophy
 status: Finished
 shelf_group: more
 shelf_rank: 51
+released: 1981
 date: 2025-04-26
 ---
 

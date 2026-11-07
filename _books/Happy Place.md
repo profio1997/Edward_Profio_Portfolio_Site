@@ -5,6 +5,7 @@ author: "Emily Henry"
 isbn: "9780593441275"
 categories: fiction romance novel
 status: Finished
+released: 2023
 date: 2023-02-10
 ---
 

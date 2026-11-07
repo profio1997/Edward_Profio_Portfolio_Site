@@ -5,6 +5,7 @@ author: "William Gibson"
 isbn: "9780441569595"
 categories: science-fiction fiction cyberpunk
 status: Finished
+released: 1984
 date: 2022-06-29
 ---
 

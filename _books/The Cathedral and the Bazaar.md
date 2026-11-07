@@ -5,6 +5,7 @@ author: "Eric S. Raymond"
 isbn: "9780596001087"
 categories: software technology-history
 status: Finished
+released: 1999
 date: 2023-03-11
 ---
 

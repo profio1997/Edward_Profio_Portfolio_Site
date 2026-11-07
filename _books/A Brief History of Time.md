@@ -5,6 +5,7 @@ author: "Stephen Hawking"
 isbn: "9780553380163"
 categories: physics science
 status: Finished
+released: 1988
 date: 2023-10-04
 ---
 

@@ -5,6 +5,7 @@ author: "James Clear"
 isbn: "9780735211292"
 categories: psychology productivity self-improvement
 status: Finished
+released: 2018
 date: 2022-12-05
 ---
 

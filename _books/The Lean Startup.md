@@ -7,6 +7,7 @@ categories: entrepreneurship startups
 status: Finished
 shelf_group: more
 shelf_rank: 3
+released: 2011
 date: 2026-04-01
 ---
 

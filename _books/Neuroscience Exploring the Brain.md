@@ -7,6 +7,7 @@ categories: neuroscience textbook
 status: Finished
 shelf_group: more
 shelf_rank: 46
+released: 1996
 date: 2023-11-11
 ---
 

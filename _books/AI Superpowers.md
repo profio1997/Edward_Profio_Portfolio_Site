@@ -5,6 +5,7 @@ author: "Kai-Fu Lee"
 isbn: "9781328546395"
 categories: artificial-intelligence business geopolitics
 status: Finished
+released: 2018
 date: 2024-01-31
 ---
 

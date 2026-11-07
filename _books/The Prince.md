@@ -5,6 +5,7 @@ author: "Niccolo Machiavelli"
 isbn: "9780140449150"
 categories: politics leadership classic
 status: Finished
+released: 1532
 date: 2023-07-31
 ---
 

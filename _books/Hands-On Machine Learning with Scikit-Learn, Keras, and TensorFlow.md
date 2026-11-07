@@ -7,6 +7,7 @@ categories: artificial-intelligence machine-learning textbook
 status: Finished
 shelf_group: more
 shelf_rank: 96
+released: 2017
 date: 2025-04-14
 ---
 

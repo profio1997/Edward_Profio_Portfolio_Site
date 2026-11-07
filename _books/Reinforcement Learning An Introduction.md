@@ -7,6 +7,7 @@ categories: artificial-intelligence machine-learning textbook
 status: Finished
 shelf_group: more
 shelf_rank: 97
+released: 1998
 date: 2024-04-28
 ---
 

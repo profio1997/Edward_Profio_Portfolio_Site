@@ -5,6 +5,7 @@ author: "Fei-Fei Li"
 isbn: "9781250897930"
 categories: artificial-intelligence memoir biography technology
 status: Finished
+released: 2023
 date: 2023-10-06
 ---
 

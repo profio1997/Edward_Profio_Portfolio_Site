@@ -7,6 +7,7 @@ categories: philosophy ethics
 status: Finished
 shelf_group: more
 shelf_rank: 73
+released: 1971
 date: 2025-06-23
 ---
 

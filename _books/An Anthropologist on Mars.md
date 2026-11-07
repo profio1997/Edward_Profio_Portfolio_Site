@@ -5,6 +5,7 @@ author: "Oliver Sacks"
 isbn: "9780679746898"
 categories: neuroscience psychology
 status: Finished
+released: 1995
 date: 2023-11-19
 ---
 

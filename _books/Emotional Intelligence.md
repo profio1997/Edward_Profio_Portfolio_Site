@@ -5,6 +5,7 @@ author: "Daniel Goleman"
 isbn: "9780553383713"
 categories: psychology leadership
 status: Finished
+released: 1995
 date: 2023-07-06
 ---
 

@@ -5,6 +5,7 @@ author: "John Medina"
 isbn: "9780983263371"
 categories: neuroscience psychology
 status: Finished
+released: 2008
 date: 2023-10-17
 ---
 

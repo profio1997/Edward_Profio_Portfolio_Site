@@ -5,6 +5,7 @@ author: "Oliver Burkeman"
 isbn: "9780374159122"
 categories: productivity philosophy time-management
 status: Finished
+released: 2021
 date: 2022-08-25
 ---
 

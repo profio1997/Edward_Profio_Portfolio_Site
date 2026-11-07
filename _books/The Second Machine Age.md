@@ -5,6 +5,7 @@ author: "Erik Brynjolfsson and Andrew McAfee"
 isbn: "9780393350647"
 categories: economics technology business
 status: Finished
+released: 2014
 date: 2024-12-15
 ---
 

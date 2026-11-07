@@ -5,6 +5,7 @@ author: "Yuval Noah Harari"
 isbn: "9780062316110"
 categories: history anthropology
 status: Finished
+released: 2011
 date: 2023-02-04
 ---
 

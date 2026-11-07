@@ -5,6 +5,7 @@ author: "Paul Scharre"
 isbn: "9781324050490"
 categories: artificial-intelligence technology geopolitics nonfiction
 status: Finished
+released: 2023
 date: 2023-02-19
 favorite: true
 ---

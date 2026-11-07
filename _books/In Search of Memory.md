@@ -5,6 +5,7 @@ author: "Eric R. Kandel"
 isbn: "9780393329377"
 categories: neuroscience memory biography
 status: Finished
+released: 2006
 date: 2024-08-14
 ---
 

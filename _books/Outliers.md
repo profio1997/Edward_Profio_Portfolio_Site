@@ -5,6 +5,7 @@ author: "Malcolm Gladwell"
 isbn: "9780316017930"
 categories: psychology business
 status: Finished
+released: 2008
 date: 2023-08-14
 ---
 

@@ -7,6 +7,7 @@ categories: philosophy cognitive-science
 status: Finished
 shelf_group: more
 shelf_rank: 53
+released: 2013
 date: 2026-10-25
 ---
 

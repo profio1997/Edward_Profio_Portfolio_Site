@@ -7,6 +7,7 @@ categories: philosophy ethics
 status: Finished
 shelf_group: more
 shelf_rank: 77
+released: 2009
 date: 2025-08-25
 ---
 

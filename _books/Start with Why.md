@@ -5,6 +5,7 @@ author: "Simon Sinek"
 isbn: "9781591846444"
 categories: business leadership
 status: Finished
+released: 2009
 date: 2022-04-15
 ---
 

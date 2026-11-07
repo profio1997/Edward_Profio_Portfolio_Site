@@ -5,6 +5,7 @@ author: "Ludwig Wittgenstein"
 isbn: "9781405159593"
 categories: philosophy language classic
 status: Finished
+released: 1953
 date: 2023-06-20
 ---
 

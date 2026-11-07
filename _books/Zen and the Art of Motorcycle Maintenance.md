@@ -5,6 +5,7 @@ author: "Robert M. Pirsig"
 isbn: "9780060839871"
 categories: philosophy
 status: Finished
+released: 1974
 date: 2023-05-09
 ---
 

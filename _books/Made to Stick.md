@@ -5,6 +5,7 @@ author: "Chip Heath, Dan Heath"
 isbn: "9781400064281"
 categories: business psychology communication
 status: Finished
+released: 2007
 date: 2022-05-22
 ---
 

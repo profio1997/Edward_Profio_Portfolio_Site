@@ -5,6 +5,7 @@ author: "Ed Catmull, Amy Wallace"
 isbn: "9780812993011"
 categories: business leadership design
 status: Finished
+released: 2014
 date: 2022-07-23
 ---
 

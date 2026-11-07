@@ -7,6 +7,7 @@ categories: business strategy
 status: Finished
 shelf_group: more
 shelf_rank: 103
+released: 2005
 date: 2025-07-10
 ---
 

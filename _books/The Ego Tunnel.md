@@ -5,6 +5,7 @@ author: "Thomas Metzinger"
 isbn: "9780465045679"
 categories: neuroscience philosophy consciousness
 status: Finished
+released: 2009
 date: 2022-01-04
 favorite: true
 ---

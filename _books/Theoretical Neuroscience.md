@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Theoretical_Neuroscience.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+released: 2001
 date: 2026-05-09
 ---
 

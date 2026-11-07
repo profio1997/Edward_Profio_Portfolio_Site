@@ -5,6 +5,7 @@ author: "Katie Hafner and Matthew Lyon"
 isbn: "9780684832678"
 categories: technology-history networking
 status: Finished
+released: 1996
 date: 2024-06-22
 ---
 

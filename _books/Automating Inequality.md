@@ -5,6 +5,7 @@ author: "Virginia Eubanks"
 isbn: "9781250074317"
 categories: technology ethics society
 status: Finished
+released: 2018
 date: 2022-09-02
 ---
 

@@ -7,6 +7,7 @@ categories: strategy leadership
 status: Finished
 shelf_group: more
 shelf_rank: 5
+released: 2011
 date: 2026-01-16
 ---
 

@@ -5,6 +5,7 @@ author: "Daniel H. Pink"
 isbn: "9781594484803"
 categories: psychology business leadership
 status: Finished
+released: 2009
 date: 2023-11-11
 ---
 

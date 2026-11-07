@@ -5,6 +5,7 @@ author: "Michael Lewis"
 isbn: "9780393354775"
 categories: psychology economics biography
 status: Finished
+released: 2016
 date: 2024-02-16
 ---
 

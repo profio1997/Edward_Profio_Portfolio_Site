@@ -5,6 +5,7 @@ author: "Steven Pinker"
 isbn: "9780525427575"
 categories: history philosophy science-writing
 status: Finished
+released: 2018
 date: 2022-03-26
 ---
 

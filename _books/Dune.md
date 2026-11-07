@@ -5,6 +5,7 @@ author: "Frank Herbert"
 isbn: "9780441172719"
 categories: science-fiction fiction classics
 status: Finished
+released: 1965
 date: 2022-06-21
 ---
 

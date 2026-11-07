@@ -5,6 +5,7 @@ author: "Brian Christian, Tom Griffiths"
 isbn: "9781627790369"
 categories: computer-science decision-making cognitive-science
 status: Finished
+released: 2016
 date: 2022-10-13
 ---
 

@@ -5,6 +5,7 @@ author: "Max Bennett"
 isbn: "9780063286368"
 categories: neuroscience artificial-intelligence evolution cognitive-science nonfiction
 status: Finished
+released: 2023
 date: 2023-03-03
 favorite: true
 ---

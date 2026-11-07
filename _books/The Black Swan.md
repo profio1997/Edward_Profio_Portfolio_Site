@@ -7,6 +7,7 @@ categories: philosophy risk
 status: Finished
 shelf_group: more
 shelf_rank: 80
+released: 2007
 date: 2025-10-01
 ---
 

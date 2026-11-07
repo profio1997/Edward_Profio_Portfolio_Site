@@ -7,6 +7,7 @@ categories: cognitive-science textbook
 status: Finished
 shelf_group: more
 shelf_rank: 64
+released: 2005
 date: 2023-10-18
 ---
 

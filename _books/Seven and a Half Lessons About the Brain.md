@@ -5,6 +5,7 @@ author: "Lisa Feldman Barrett"
 isbn: "9780358157151"
 categories: neuroscience psychology science-writing
 status: Finished
+released: 2020
 date: 2024-06-15
 ---
 

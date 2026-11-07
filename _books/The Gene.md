@@ -5,6 +5,7 @@ author: "Siddhartha Mukherjee"
 isbn: "9781476733524"
 categories: biology history science-writing
 status: Finished
+released: 2016
 date: 2022-10-23
 ---
 

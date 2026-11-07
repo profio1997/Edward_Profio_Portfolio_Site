@@ -5,6 +5,7 @@ author: "Adam Grant"
 isbn: "9781984878106"
 categories: psychology decision-making cognitive-science
 status: Finished
+released: 2021
 date: 2022-06-06
 ---
 

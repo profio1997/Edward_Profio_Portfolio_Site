@@ -5,6 +5,7 @@ author: "Safi Bahcall"
 isbn: "9781250185969"
 categories: business innovation science
 status: Finished
+released: 2019
 date: 2022-12-24
 ---
 

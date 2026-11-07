@@ -7,6 +7,7 @@ categories: entrepreneurship leadership
 status: Finished
 shelf_group: more
 shelf_rank: 6
+released: 2014
 date: 2026-04-07
 ---
 

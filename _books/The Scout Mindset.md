@@ -5,6 +5,7 @@ author: "Julia Galef"
 isbn: "9780735217553"
 categories: psychology decision-making rationality
 status: Finished
+released: 2021
 date: 2022-06-02
 ---
 

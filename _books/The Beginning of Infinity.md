@@ -7,6 +7,7 @@ categories: philosophy science
 status: Finished
 shelf_group: more
 shelf_rank: 78
+released: 2011
 date: 2025-10-21
 ---
 

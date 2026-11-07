@@ -7,6 +7,7 @@ categories: management strategy
 status: Finished
 shelf_group: more
 shelf_rank: 10
+released: 2018
 date: 2026-02-04
 ---
 

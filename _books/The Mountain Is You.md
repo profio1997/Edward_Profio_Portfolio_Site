@@ -6,6 +6,7 @@ cover: assets/img/book_covers/The_Mountain_Is_You.jpg
 categories: self-transformation emotional-intelligence
 stars: 5
 status: Finished
+released: 2020
 date: 2026-05-15
 ---
 

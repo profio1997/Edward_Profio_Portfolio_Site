@@ -5,6 +5,7 @@ author: "Matthew Desmond"
 isbn: "9780593239919"
 categories: economics sociology politics nonfiction
 status: Finished
+released: 2023
 date: 2023-03-28
 ---
 

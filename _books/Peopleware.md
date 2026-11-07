@@ -5,6 +5,7 @@ author: "Tom DeMarco, Timothy Lister"
 isbn: "9780932633439"
 categories: software management leadership
 status: Finished
+released: 1987
 date: 2023-02-22
 ---
 

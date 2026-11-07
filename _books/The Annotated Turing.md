@@ -5,6 +5,7 @@ author: "Charles Petzold"
 isbn: "9780470229057"
 categories: technology-history computer-science mathematics
 status: Finished
+released: 2008
 date: 2024-09-21
 ---
 

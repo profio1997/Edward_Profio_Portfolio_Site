@@ -5,6 +5,7 @@ author: "Frederick P. Brooks Jr."
 isbn: "9780201835953"
 categories: technology software product-management
 status: Finished
+released: 1975
 date: 2024-10-23
 ---
 

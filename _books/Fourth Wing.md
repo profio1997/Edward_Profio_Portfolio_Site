@@ -5,6 +5,7 @@ author: "Rebecca Yarros"
 isbn: "9781649374042"
 categories: fiction fantasy novel
 status: Finished
+released: 2023
 date: 2023-11-07
 ---
 

@@ -5,6 +5,7 @@ author: "Hannah Fry"
 isbn: "9780393634990"
 categories: artificial-intelligence mathematics society
 status: Finished
+released: 2018
 date: 2022-02-06
 ---
 

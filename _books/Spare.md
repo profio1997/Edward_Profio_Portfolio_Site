@@ -5,6 +5,7 @@ author: "Prince Harry"
 isbn: "9780593593806"
 categories: biography memoir nonfiction
 status: Finished
+released: 2023
 date: 2023-06-08
 ---
 

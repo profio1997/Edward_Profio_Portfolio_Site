@@ -7,6 +7,7 @@ categories: philosophy stoicism
 status: Finished
 shelf_group: more
 shelf_rank: 66
+released: "c. 180"
 date: 2025-08-19
 ---
 

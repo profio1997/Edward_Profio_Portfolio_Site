@@ -7,6 +7,7 @@ categories: business strategy
 status: Finished
 shelf_group: more
 shelf_rank: 104
+released: 1980
 date: 2025-07-17
 ---
 

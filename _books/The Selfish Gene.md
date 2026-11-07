@@ -5,6 +5,7 @@ author: "Richard Dawkins"
 isbn: "9780198788607"
 categories: science evolution biology
 status: Finished
+released: 1976
 date: 2024-07-03
 ---
 

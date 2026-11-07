@@ -5,6 +5,7 @@ author: "Thomas Piketty"
 isbn: "9780674430006"
 categories: economics history
 status: Finished
+released: 2013
 date: 2023-06-30
 ---
 

@@ -7,6 +7,7 @@ categories: biography entrepreneurship
 status: Finished
 shelf_group: more
 shelf_rank: 12
+released: 2016
 date: 2026-03-19
 ---
 

@@ -5,6 +5,7 @@ author: "Nita A. Farahany"
 isbn: "9781250272959"
 categories: neuroscience ethics technology law nonfiction
 status: Finished
+released: 2023
 date: 2023-04-14
 ---
 

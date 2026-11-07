@@ -6,6 +6,7 @@ cover: assets/img/book_covers/On_Intelligence.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+released: 2004
 date: 2026-02-11
 ---
 

@@ -5,6 +5,7 @@ author: Marvin Minsky
 isbn: "9780743276634"
 categories: artificial-intelligence cognitive-science
 status: Finished
+released: 2006
 date: 2026-04-27
 favorite: true
 ---

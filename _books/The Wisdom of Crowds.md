@@ -5,6 +5,7 @@ author: "James Surowiecki"
 isbn: "9780385721707"
 categories: business psychology economics
 status: Finished
+released: 2004
 date: 2023-12-27
 ---
 

@@ -5,6 +5,7 @@ author: "Peter Attia"
 isbn: "9780593236598"
 categories: medicine health longevity science nonfiction
 status: Finished
+released: 2023
 date: 2023-06-26
 ---
 

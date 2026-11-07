@@ -5,6 +5,7 @@ author: "Isaac Asimov"
 isbn: "9780553382563"
 categories: science-fiction fiction artificial-intelligence
 status: Finished
+released: 1950
 date: 2022-08-19
 ---
 

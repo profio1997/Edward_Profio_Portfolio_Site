@@ -5,6 +5,7 @@ author: "Ann Patchett"
 isbn: "9780063327498"
 categories: fiction literary novel
 status: Finished
+released: 2023
 date: 2023-06-15
 ---
 

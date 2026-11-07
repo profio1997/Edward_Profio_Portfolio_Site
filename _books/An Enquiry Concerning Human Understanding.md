@@ -5,6 +5,7 @@ author: "David Hume"
 isbn: "9780872200906"
 categories: philosophy classic
 status: Finished
+released: 1748
 date: 2023-10-27
 ---
 

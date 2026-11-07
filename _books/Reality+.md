@@ -5,6 +5,7 @@ author: "David J. Chalmers"
 isbn: "9780393635805"
 categories: philosophy technology virtual-reality
 status: Finished
+released: 2022
 date: 2024-12-09
 ---
 

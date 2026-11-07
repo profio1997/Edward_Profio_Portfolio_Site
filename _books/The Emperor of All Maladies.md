@@ -5,6 +5,7 @@ author: "Siddhartha Mukherjee"
 isbn: "9781439170915"
 categories: medicine history science-writing
 status: Finished
+released: 2010
 date: 2022-03-13
 ---
 

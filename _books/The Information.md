@@ -5,6 +5,7 @@ author: "James Gleick"
 isbn: "9781400096237"
 categories: technology-history information-theory science
 status: Finished
+released: 2011
 date: 2024-07-30
 ---
 

@@ -7,6 +7,7 @@ categories: product-management startups
 status: Finished
 shelf_group: more
 shelf_rank: 122
+released: 2013
 date: 2025-01-01
 favorite: true
 ---

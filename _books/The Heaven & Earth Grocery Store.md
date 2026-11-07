@@ -5,6 +5,7 @@ author: "James McBride"
 isbn: "9780593422946"
 categories: fiction literary historical-fiction novel
 status: Finished
+released: 2023
 date: 2023-06-03
 ---
 

@@ -7,6 +7,7 @@ categories: management engineering
 status: Finished
 shelf_group: more
 shelf_rank: 127
+released: 2019
 date: 2025-11-17
 ---
 

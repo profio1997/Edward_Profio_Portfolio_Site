@@ -7,6 +7,7 @@ categories: philosophy consciousness
 status: Finished
 shelf_group: more
 shelf_rank: 75
+released: 1996
 date: 2025-10-08
 ---
 

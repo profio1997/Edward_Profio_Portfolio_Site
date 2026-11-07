@@ -7,6 +7,7 @@ categories: philosophy cognitive-science consciousness
 status: Finished
 shelf_group: more
 shelf_rank: 52
+released: 1991
 date: 2026-09-22
 ---
 

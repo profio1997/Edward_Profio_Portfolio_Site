@@ -5,6 +5,7 @@ author: "Liu Cixin"
 isbn: "9780765382030"
 categories: science-fiction fiction physics
 status: Finished
+released: 2008
 date: 2022-05-16
 ---
 

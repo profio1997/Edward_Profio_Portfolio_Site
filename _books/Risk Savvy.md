@@ -5,6 +5,7 @@ author: "Gerd Gigerenzer"
 isbn: "9780143127109"
 categories: psychology statistics decision-making
 status: Finished
+released: 2014
 date: 2024-01-16
 ---
 

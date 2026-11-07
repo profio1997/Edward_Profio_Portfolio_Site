@@ -8,6 +8,7 @@ categories: strategy innovation
 status: Finished
 shelf_group: more
 shelf_rank: 4
+released: 1997
 date: 2026-04-14
 ---
 

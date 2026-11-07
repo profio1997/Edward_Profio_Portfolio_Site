@@ -5,6 +5,7 @@ author: "Daniel C. Dennett"
 isbn: "9780684824710"
 categories: philosophy evolution cognitive-science
 status: Finished
+released: 1995
 date: 2024-01-10
 ---
 

@@ -5,6 +5,7 @@ author: "Susan Cain"
 isbn: "9780307352156"
 categories: psychology leadership
 status: Finished
+released: 2012
 date: 2022-12-08
 ---
 

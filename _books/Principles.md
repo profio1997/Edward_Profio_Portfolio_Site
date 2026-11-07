@@ -7,6 +7,7 @@ categories: business management
 status: Finished
 shelf_group: more
 shelf_rank: 106
+released: 2017
 date: 2025-09-07
 ---
 

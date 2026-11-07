@@ -5,6 +5,7 @@ author: "Richard P. Feynman"
 isbn: "9780393316049"
 categories: science physics
 status: Finished
+released: 1985
 date: 2023-11-03
 ---
 

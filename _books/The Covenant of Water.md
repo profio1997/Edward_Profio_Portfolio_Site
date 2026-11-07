@@ -5,6 +5,7 @@ author: "Abraham Verghese"
 isbn: "9780802162175"
 categories: fiction literary historical-fiction medicine novel
 status: Finished
+released: 2023
 date: 2023-08-24
 ---
 

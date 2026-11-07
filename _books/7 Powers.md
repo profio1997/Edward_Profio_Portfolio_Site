@@ -5,6 +5,7 @@ author: "Hamilton Helmer"
 isbn: "9780998116310"
 categories: business strategy
 status: Finished
+released: 2016
 date: 2024-04-08
 ---
 

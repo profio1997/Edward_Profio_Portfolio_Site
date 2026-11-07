@@ -5,6 +5,7 @@ author: "Nassim Nicholas Taleb"
 isbn: "9780425284629"
 categories: economics philosophy
 status: Finished
+released: 2018
 date: 2023-09-27
 ---
 

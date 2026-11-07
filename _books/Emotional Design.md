@@ -5,6 +5,7 @@ author: "Donald A. Norman"
 isbn: "9780465051366"
 categories: design psychology
 status: Finished
+released: 2003
 date: 2022-10-09
 ---
 

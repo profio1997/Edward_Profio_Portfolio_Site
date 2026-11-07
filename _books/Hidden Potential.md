@@ -5,6 +5,7 @@ author: "Adam Grant"
 isbn: "9780593653142"
 categories: psychology leadership learning nonfiction
 status: Finished
+released: 2023
 date: 2023-05-19
 ---
 

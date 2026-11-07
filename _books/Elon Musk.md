@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Elon_Musk.jpg
 categories: autobiography technology
 stars: 5
 status: Finished
+released: 2023
 date: 2026-01-09
 ---
 

@@ -5,6 +5,7 @@ author: "M. Mitchell Waldrop"
 isbn: "9780142001356"
 categories: technology-history artificial-intelligence
 status: Finished
+released: 2001
 date: 2023-04-02
 ---
 

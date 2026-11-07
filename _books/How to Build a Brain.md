@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Build_Brain.jpg
 categories: biosciences technology
 stars: 5
 status: Finished
+released: 2013
 date: 2026-02-10
 ---
 

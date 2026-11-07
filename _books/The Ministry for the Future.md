@@ -5,6 +5,7 @@ author: "Kim Stanley Robinson"
 isbn: "9780316300131"
 categories: science-fiction fiction climate
 status: Finished
+released: 2020
 date: 2022-06-10
 ---
 

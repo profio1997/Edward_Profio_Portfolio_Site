@@ -5,6 +5,7 @@ author: "Charles Petzold"
 isbn: "9780735611313"
 categories: computer-science technology
 status: Finished
+released: 2000
 date: 2023-03-20
 ---
 

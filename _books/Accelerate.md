@@ -5,6 +5,7 @@ author: "Nicole Forsgren, Jez Humble and Gene Kim"
 isbn: "9781942788331"
 categories: technology product-management engineering
 status: Finished
+released: 2018
 date: 2024-08-06
 ---
 

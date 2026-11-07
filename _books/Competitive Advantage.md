@@ -5,6 +5,7 @@ author: "Michael E. Porter"
 isbn: "9780684841465"
 categories: business strategy
 status: Finished
+released: 1985
 date: 2022-09-28
 ---
 

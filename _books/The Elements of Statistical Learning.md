@@ -7,6 +7,7 @@ categories: machine-learning statistics textbook
 status: Finished
 shelf_group: more
 shelf_rank: 98
+released: 2001
 date: 2021-09-19
 ---
 

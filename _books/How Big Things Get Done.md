@@ -5,6 +5,7 @@ author: "Bent Flyvbjerg and Dan Gardner"
 isbn: "9780593239513"
 categories: business project-management leadership nonfiction
 status: Finished
+released: 2023
 date: 2023-03-25
 ---
 

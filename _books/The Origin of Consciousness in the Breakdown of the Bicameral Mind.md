@@ -5,6 +5,7 @@ author: "Julian Jaynes"
 isbn: "9780618057078"
 categories: psychology philosophy neuroscience
 status: Finished
+released: 1976
 date: 2023-02-27
 ---
 

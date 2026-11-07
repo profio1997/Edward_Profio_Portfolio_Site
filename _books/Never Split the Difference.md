@@ -7,6 +7,7 @@ categories: business negotiation
 status: Finished
 shelf_group: more
 shelf_rank: 109
+released: 2016
 date: 2025-09-06
 ---
 

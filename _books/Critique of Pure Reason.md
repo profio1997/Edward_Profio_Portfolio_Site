@@ -7,6 +7,7 @@ categories: philosophy classics
 status: Finished
 shelf_group: more
 shelf_rank: 69
+released: 1781
 date: 2025-07-24
 ---
 

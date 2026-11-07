@@ -5,6 +5,7 @@ author: "Orson Scott Card"
 isbn: "9780812550702"
 categories: science-fiction fiction classics
 status: Finished
+released: 1985
 date: 2022-11-02
 ---
 

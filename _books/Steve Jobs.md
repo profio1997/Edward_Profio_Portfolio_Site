@@ -6,6 +6,7 @@ cover: assets/img/book_covers/Steve_Jobs.jpg
 categories: autobiography technology
 stars: 5
 status: Finished
+released: 2011
 date: 2026-03-26
 ---
 

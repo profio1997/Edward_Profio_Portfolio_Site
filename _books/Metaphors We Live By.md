@@ -5,6 +5,7 @@ author: "George Lakoff and Mark Johnson"
 isbn: "9780226468013"
 categories: cognitive-science linguistics philosophy
 status: Finished
+released: 1980
 date: 2024-09-07
 ---
 

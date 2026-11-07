@@ -5,6 +5,7 @@ author: "Walter Isaacson"
 isbn: "9781982115852"
 categories: science biography biotechnology
 status: Finished
+released: 2021
 date: 2024-12-02
 ---
 

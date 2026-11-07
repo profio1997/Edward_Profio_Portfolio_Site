@@ -5,6 +5,7 @@ author: "Roger Penrose"
 isbn: "9780198784920"
 categories: physics philosophy artificial-intelligence
 status: Finished
+released: 1989
 date: 2023-12-11
 favorite: true
 ---

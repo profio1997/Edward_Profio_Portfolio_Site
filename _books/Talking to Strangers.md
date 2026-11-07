@@ -5,6 +5,7 @@ author: "Malcolm Gladwell"
 isbn: "9780316478526"
 categories: psychology sociology
 status: Finished
+released: 2019
 date: 2022-01-18
 ---
 

@@ -5,6 +5,7 @@ author: "Philip E. Tetlock and Dan Gardner"
 isbn: "9780804136716"
 categories: psychology decision-making forecasting
 status: Finished
+released: 2015
 date: 2024-05-09
 ---
 

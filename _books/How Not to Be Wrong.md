@@ -5,6 +5,7 @@ author: "Jordan Ellenberg"
 isbn: "9780143127536"
 categories: math statistics science-writing
 status: Finished
+released: 2014
 date: 2022-05-05
 ---
 
